@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9044473ed09a8984ea2ad5bf5ec41c6e, type: 3}
+  m_Name: 300-TM14ItemData
+  m_EditorClassIdentifier: 
+  ID: 301
+  name: TM14
+  internalName: TM14
+  description: A howling blizzard is summoned to strike the opposing team. It may
+    also freeze them solid.
+  sprite: {fileID: 21300000, guid: be72483021211464d9529afb8a26bd1e, type: 3}
+  price: 5500
+  itemType: 4
+  overworldUsabilityID: 3
+  battleUsabilityID: 0
+  specialItemID: 0
+  TMmoveToLearn: {fileID: 11400000, guid: 0b5b2f067e0415d4eb1cc6bed7acb216, type: 2}

@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 055-MankeyPokemonData
+  m_EditorClassIdentifier: 
+  number: 56
+  name: Mankey
+  internalName: MANKEY
+  kind: Pig Monkey
+  height: 0.5
+  weight: 28
+  dexEntry: When it starts shaking and its nasal breathing turns rough, it's a sure
+    sign of anger. However, since this happens instantly, there is no time to flee.
+  sprite: {fileID: 21300000, guid: 13032505c5751d148b03aec3f5129940, type: 3}
+  backSprite: {fileID: 21300000, guid: c96367c0294464343b55f49c3c46d371, type: 3}
+  shinySprite: {fileID: 21300000, guid: c20eaab0be214e94bb748c71df2e81ea, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 79c83d2bd224e9946aa0575012d4a872, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 4b54eebc761aa3747b9f5ebe7a671ea0, type: 3}
+  type1: {fileID: 11400000, guid: 60bba5c3467446d45a479ab6b6a6e82e, type: 2}
+  type2: {fileID: 11400000, guid: 26317c5bb6f4d8746a0567db42a1e986, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 3
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: f8dec785d7a360d409453f053e4df669, type: 2}
+  - {fileID: 11400000, guid: 7663fe84806cec94194b661e535528eb, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 74915f4da259ce54eb8e58d25ee8206c, type: 2}
+  baseHP: 40
+  baseAttack: 80
+  baseDefense: 35
+  baseSpeed: 70
+  baseSpecialAttack: 35
+  baseSpecialDefense: 45
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 61
+  rareness: 190
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 2e86f8b66ff2a0d49bf10bb549cce28b, type: 2}
+    levelToEvolve: 28
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 25715ff9d86145e49af8551488430004, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 43e204c593e71c448b5b31e61ae8084c, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 51366bde715984443b1654808f2d67c2, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bf6504692a555504684e3a54adf1a98a, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4dda0649bba3a9540a998a0a84b835fa, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 37d8a669930477b45bbdd5d1f05ce447, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 3e1cb5e9d266b23468e43dd2421150aa, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 31437bdadb2e6c74fbeaaedc59fe77c6, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 097cc0b905dba264ca9cf995c8f6812b, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 106122197252cf148bdd1b0520a9ad93, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 5fc379df5e2f565468aad4ca011f3b27, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 84828352f498a064691c3da77150372c, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 8d3552ffe5a99de4d8e69bb5af0d3074, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 0902f9f645c8b7b43b6c4beca512456a, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: fb08f52e963b5c84683c66e4c2786f37, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: cff5750768e953449b7528710fa4d121, type: 2}
+    level: 53
+  eggMoves:
+  - {fileID: 11400000, guid: 9f9c532b68d07fc4a9766d176df9f7f5, type: 2}
+  - {fileID: 11400000, guid: fb08f52e963b5c84683c66e4c2786f37, type: 2}
+  - {fileID: 11400000, guid: a621546634534114eb4216014729f2e1, type: 2}
+  - {fileID: 11400000, guid: cf2a21915fd439b45af00b80f413ad89, type: 2}
+  - {fileID: 11400000, guid: bc6a5246a6e3e024e934f0ca6b265f8b, type: 2}
+  - {fileID: 11400000, guid: fca190ed8ac5644488bbf89db93cced9, type: 2}
+  - {fileID: 11400000, guid: 3b86caa38c3bce648adff8eb80bb5ff6, type: 2}
+  - {fileID: 11400000, guid: 57a6c939992fdf447b2cee5b38d22bec, type: 2}
+  - {fileID: 11400000, guid: 8922e78a6405c94418b3b7aac0e6ffd4, type: 2}
+  - {fileID: 11400000, guid: b120d7eb3b9a4b24f9fd8cfd9b77e5ec, type: 2}
+  - {fileID: 11400000, guid: 2e07c09137460ff48a5953ea43a400a3, type: 2}

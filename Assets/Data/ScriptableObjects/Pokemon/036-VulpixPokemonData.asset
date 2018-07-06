@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 036-VulpixPokemonData
+  m_EditorClassIdentifier: 
+  number: 37
+  name: Vulpix
+  internalName: VULPIX
+  kind: Fox
+  height: 0.6
+  weight: 9.9
+  dexEntry: It can freely control fire, making fiery orbs fly like will-o'-the-wisps.
+    Just before evolution, its six tails grow hot as if on fire.
+  sprite: {fileID: 21300000, guid: 70b8f20931e5bb044b1e9bdb8999ee00, type: 3}
+  backSprite: {fileID: 21300000, guid: 3279d579007f49140ba7947663ebd30c, type: 3}
+  shinySprite: {fileID: 21300000, guid: f20f2a8f65d338f47b70337a4f224972, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: b1cd44dfc61657e49b7083ae695bf02f, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 1061dfb16d49fae438867fec65bf5aa8, type: 3}
+  type1: {fileID: 11400000, guid: e29da51f60183e2428c5da1f4d31481e, type: 2}
+  type2: {fileID: 11400000, guid: 26317c5bb6f4d8746a0567db42a1e986, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 2
+  femaleRatio: 0.75
+  standardAbilities:
+  - {fileID: 11400000, guid: ffd50ba5154587645829951ce18921b1, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 9c1c9c77ca34b534fa4b936ae1f0e2e4, type: 2}
+  baseHP: 38
+  baseAttack: 41
+  baseDefense: 40
+  baseSpeed: 65
+  baseSpecialAttack: 50
+  baseSpecialDefense: 65
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 1
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 60
+  rareness: 190
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 2ecec4d3601b3c54783f3a49bee06b5c, type: 2}
+    levelToEvolve: 0
+    itemToEvolve: {fileID: 11400000, guid: ec71de149ae0eef40bfd6ecc71a05055, type: 2}
+    evolutionType: 1
+  learnedMoves:
+  - move: {fileID: 11400000, guid: bddb253ef7152ea4c9045c1677c0eedd, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b52538b0cff73444eb903ce3621e56cb, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 670ef876447694149b2bd75239e950a3, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 06f5c51886e35304ea1b16d809fcb2b0, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 73b9d1c045f51014090042972f23cd5a, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: dd110feb9a3bcc245978b8209c802b91, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 4f99ae84ff8a9df44917dda50ec73bce, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: 74475dd468b74dc478583b8cb7fb75eb, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 9f9fd07bffe2cca43ba0ca98c043c838, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: bd113f1b6216ce74ab1e42021db334f3, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: e1892e68475b7b746bb9062e835841c9, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 98c25e7450c5ebd498c1f188c7c66950, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 108a1be3a4d85bc4ca4e0837665ac39e, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: 94db5ec792c9249419ba4f7349ceebcd, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: a86593e33db25714da2b620aa515e5d2, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: 17e5d15555e47474fb75850bc4567ae7, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: b744ca0fbae51da419b1124500ed04ba, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: 744ac0695a2083d499792ee672b20057, type: 2}
+    level: 47
+  - move: {fileID: 11400000, guid: da76a2d257837284b96cca69a6d7bfa4, type: 2}
+    level: 50
+  eggMoves:
+  - {fileID: 11400000, guid: d8b48209d2479c34092c394dd8f1186d, type: 2}
+  - {fileID: 11400000, guid: a86593e33db25714da2b620aa515e5d2, type: 2}
+  - {fileID: 11400000, guid: 74475dd468b74dc478583b8cb7fb75eb, type: 2}
+  - {fileID: 11400000, guid: 1e068dd08d60376468b716a9552e8624, type: 2}
+  - {fileID: 11400000, guid: 79b15855591b685429761a0d5e9690ec, type: 2}
+  - {fileID: 11400000, guid: 9aef343ccde12be42a3b62cb7d6e80ba, type: 2}
+  - {fileID: 11400000, guid: e1892e68475b7b746bb9062e835841c9, type: 2}
+  - {fileID: 11400000, guid: daf017dfcab0ee64f842ac7dc11e8623, type: 2}
+  - {fileID: 11400000, guid: 87008cebc39ca8b408e3abcca38673e4, type: 2}
+  - {fileID: 11400000, guid: 2f5436c77ffa0b345a2851ee25a68d0d, type: 2}
+  - {fileID: 11400000, guid: 8d71515d07e9d5b4ea1fe8c614ccad06, type: 2}
+  - {fileID: 11400000, guid: bdc773ed0937e8b4eb96bb53e560844d, type: 2}
+  - {fileID: 11400000, guid: 46969f9b35682474b815bfac46ad9fcc, type: 2}

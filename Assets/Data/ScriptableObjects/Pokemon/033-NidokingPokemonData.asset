@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 033-NidokingPokemonData
+  m_EditorClassIdentifier: 
+  number: 34
+  name: Nidoking
+  internalName: NIDOKING
+  kind: Drill
+  height: 1.4
+  weight: 62
+  dexEntry: A Nidoking's thick tail packs enormously destructive power capable of
+    toppling a metal transmission tower. Once it goes on a rampage, there is no stopping
+    it.
+  sprite: {fileID: 21300000, guid: c1d70d1baf3b38344aa414b738325bdb, type: 3}
+  backSprite: {fileID: 21300000, guid: 892b81ff35ee4d949a939b5532af6583, type: 3}
+  shinySprite: {fileID: 21300000, guid: 650e58f032580fd4ead646bccdb48f61, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: b41f8230b22fe9346aa87c9556a80a14, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 8d2ef837f5e74ed4c98e0045c8ffd121, type: 3}
+  type1: {fileID: 11400000, guid: 5c263d07fc626544cae866e79835f9fd, type: 2}
+  type2: {fileID: 11400000, guid: 2aef90cd8ab7add4ead9fdc156318a32, type: 2}
+  eggGroup1: 1
+  eggGroup2: 5
+  growthRate: 3
+  habitat: 2
+  femaleRatio: 0
+  standardAbilities:
+  - {fileID: 11400000, guid: b816b766895bd0e4d96fb3ce71d0e129, type: 2}
+  - {fileID: 11400000, guid: 59e83391d5caa694b9d8f6fa72626806, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 5bb558c2ff23ba84889b117286928c3c, type: 2}
+  baseHP: 81
+  baseAttack: 92
+  baseDefense: 77
+  baseSpeed: 85
+  baseSpecialAttack: 85
+  baseSpecialDefense: 75
+  EV_HP: 0
+  EV_Attack: 3
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 223
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 264925760e68bcb498d0de36a54a82a1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4dda0649bba3a9540a998a0a84b835fa, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 56298606bae99214cb54f2d3cc6c0745, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 1971798c31d0c6c49bcb6964f461504c, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 1bed5971e1640624f88a2a8e4471ea15, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: 8d3552ffe5a99de4d8e69bb5af0d3074, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: 24c5788c06ea90541a1fd52ebc1162b5, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: 61e620f0b65cb9845b8e85b8e128bdff, type: 2}
+    level: 58
+  eggMoves: []

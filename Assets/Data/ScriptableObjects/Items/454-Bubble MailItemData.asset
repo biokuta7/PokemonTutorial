@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9044473ed09a8984ea2ad5bf5ec41c6e, type: 3}
+  m_Name: 454-Bubble MailItemData
+  m_EditorClassIdentifier: 
+  ID: 455
+  name: Bubble Mail
+  internalName: BUBBLEMAIL
+  description: "Stationery featuring a print of a blue world underwater. Let a Pok\xE9mon
+    hold it for delivery."
+  sprite: {fileID: 21300000, guid: e6f170ee09a5e7f4fb483d5560fb3b81, type: 3}
+  price: 50
+  itemType: 6
+  overworldUsabilityID: 0
+  battleUsabilityID: 0
+  specialItemID: 2
+  TMmoveToLearn: {fileID: 0}

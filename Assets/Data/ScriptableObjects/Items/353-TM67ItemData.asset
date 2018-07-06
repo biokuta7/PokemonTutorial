@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9044473ed09a8984ea2ad5bf5ec41c6e, type: 3}
+  m_Name: 353-TM67ItemData
+  m_EditorClassIdentifier: 
+  ID: 354
+  name: TM67
+  internalName: TM67
+  description: The user gets revenge for a fainted ally. If an ally fainted in the
+    previous turn, this attack's damage increases.
+  sprite: {fileID: 21300000, guid: 47b547a6989e7c644a73602dd30df053, type: 3}
+  price: 1000
+  itemType: 4
+  overworldUsabilityID: 3
+  battleUsabilityID: 0
+  specialItemID: 0
+  TMmoveToLearn: {fileID: 11400000, guid: 6aeff0cb22878d446be9e268c0b97536, type: 2}

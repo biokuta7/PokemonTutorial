@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 119-StaryuPokemonData
+  m_EditorClassIdentifier: 
+  number: 120
+  name: Staryu
+  internalName: STARYU
+  kind: Star Shape
+  height: 0.8
+  weight: 34.5
+  dexEntry: It gathers with others in the night and makes its red core glow on and
+    off with the twinkling stars. It can regenerate limbs if they are severed from
+    its body.
+  sprite: {fileID: 21300000, guid: 7c228e056fe2d8848a4be293bbc7f1e9, type: 3}
+  backSprite: {fileID: 21300000, guid: 0115878d3c7ab0846b7ead5bd6bdadb6, type: 3}
+  shinySprite: {fileID: 21300000, guid: daf8aa5c2ae35af48923911efbd8a7ff, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 0173b0a2689ee8f43a5719ab1778eee8, type: 3}
+  footprintSprite: {fileID: 21300000, guid: ac319731d311e554daf1cadd26209319, type: 3}
+  type1: {fileID: 11400000, guid: 4436bc7397ddc2342ae364d8dadc3e39, type: 2}
+  type2: {fileID: 11400000, guid: 26317c5bb6f4d8746a0567db42a1e986, type: 2}
+  eggGroup1: 9
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 6
+  femaleRatio: -1
+  standardAbilities:
+  - {fileID: 11400000, guid: 2c1b070cfa0ea8c4f96fa821f9118f76, type: 2}
+  - {fileID: 11400000, guid: d50870952bbfa5348a3edecfee28f564, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: d0d2e20276fdcc3428acd02f70f4e2f2, type: 2}
+  baseHP: 30
+  baseAttack: 45
+  baseDefense: 55
+  baseSpeed: 85
+  baseSpecialAttack: 70
+  baseSpecialDefense: 55
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 1
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 68
+  rareness: 225
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: a8a3bf82233fbeb4caf6a077e484cc94, type: 2}
+    levelToEvolve: 0
+    itemToEvolve: {fileID: 11400000, guid: 400c8eff58254194198a5035a28b1528, type: 2}
+    evolutionType: 1
+  learnedMoves:
+  - move: {fileID: 11400000, guid: a347a47023c98104a9b91b22b6915649, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 5841efc3a5903d4469d2a705c67b9e50, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 2211308ad274db34ea8dca54107c8521, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: 91a36c898538a3e45affa65057cb8df3, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: e7992d906e53caa4c98d8e154e9b1151, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: 36bcba01cc4a7324fa00abc273b1d35d, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: a192be2631581584c971f04163bd2f4e, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: 2c6ae6e02679bfd4ab360cadb228ea6d, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 9e4171cebb6d24d489fe49dcda38ceb0, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 4451f1ee09de9a24c8ad4c337d80011d, type: 2}
+    level: 30
+  - move: {fileID: 11400000, guid: a8a84d1581e244d4ab086932e6179c58, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: c41442279ace78e43bb4fbf254106a1a, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 26b496a0151694e46a21bd654e6b664b, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: eba549d4f6b0f4e4895b451d273d55ed, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: 2749600fd8830334c91cd7171442bff0, type: 2}
+    level: 48
+  - move: {fileID: 11400000, guid: 8b46060d2f2a2304bb8be60073b5e90f, type: 2}
+    level: 52
+  eggMoves: []

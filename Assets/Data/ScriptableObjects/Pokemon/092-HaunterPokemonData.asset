@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 092-HaunterPokemonData
+  m_EditorClassIdentifier: 
+  number: 93
+  name: Haunter
+  internalName: HAUNTER
+  kind: Gas
+  height: 1.6
+  weight: 0.1
+  dexEntry: "If a Haunter beckons you while it is floating in darkness, don't approach
+    it. This Pok\xE9mon will try to lick you with its tongue and steal your life away."
+  sprite: {fileID: 21300000, guid: 5d4bceed12a16314ca492a105d6f89a8, type: 3}
+  backSprite: {fileID: 21300000, guid: ccf4d9cf291c07d49a7d65892ff26219, type: 3}
+  shinySprite: {fileID: 21300000, guid: 7a88effbb4accd443b343c62ea442869, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: f21a57a93bd8aaf448b8be1c87e859a0, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 0b682c79a774de14db4de6a0d56afe42, type: 3}
+  type1: {fileID: 11400000, guid: 5eb27c1d76b3cc2439c818ac7325a0e5, type: 2}
+  type2: {fileID: 11400000, guid: 5c263d07fc626544cae866e79835f9fd, type: 2}
+  eggGroup1: 11
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 0d3357c8b4ef7f94a856b51588264b35, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 45
+  baseAttack: 50
+  baseDefense: 45
+  baseSpeed: 95
+  baseSpecialAttack: 115
+  baseSpecialDefense: 55
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 2
+  EV_SpecialDefense: 0
+  baseEXP: 142
+  rareness: 90
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 756b3c246543bd34e85eb5f1c8afd98a, type: 2}
+    levelToEvolve: 38
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 87008cebc39ca8b408e3abcca38673e4, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 282dc51f0a3e2734cad329bde9424566, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bdc773ed0937e8b4eb96bb53e560844d, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bdc773ed0937e8b4eb96bb53e560844d, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: d432f4d4df975244da2a46330573ce55, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: a6b14a9fb6b0f524b9ee30824a8c0c74, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: 1ebff803ec0174b4987733d70ab10413, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: dd110feb9a3bcc245978b8209c802b91, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 13bee49c300638b4aaf9ed5c5b22251e, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 5a4ac018dd0b22b40bf7860418937bff, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 98c25e7450c5ebd498c1f188c7c66950, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 8e8702eecf38c0849a129f5892c17ce5, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 0671564f3815b244890698982d063396, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: 4ccf63be49132fa47a3a2a596fe3092d, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: 07b46db4f6666214093886621ad190bc, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: e1892e68475b7b746bb9062e835841c9, type: 2}
+    level: 55
+  - move: {fileID: 11400000, guid: 83aa4804de54899429cfc88e180a696e, type: 2}
+    level: 61
+  eggMoves: []

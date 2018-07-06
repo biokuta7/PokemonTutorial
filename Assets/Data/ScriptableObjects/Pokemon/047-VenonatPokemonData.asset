@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 047-VenonatPokemonData
+  m_EditorClassIdentifier: 
+  number: 48
+  name: Venonat
+  internalName: VENONAT
+  kind: Insect
+  height: 1
+  weight: 30
+  dexEntry: Its coat of thin, stiff hair that covers its entire body is said to have
+    evolved for protection. Its large eyes never fail to spot even miniscule prey.
+  sprite: {fileID: 21300000, guid: 01e0558ceaaa0354694deef68081cabb, type: 3}
+  backSprite: {fileID: 21300000, guid: f2e98eaadd046a44492d2fd69fc373d0, type: 3}
+  shinySprite: {fileID: 21300000, guid: 856fb3fab092945488fd57cd88c616ff, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: fba5cfb9dad95364d95a0bb54f3347ae, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 8fd1098112d8d374c80f4d0a6eee90d3, type: 3}
+  type1: {fileID: 11400000, guid: 79eb8f30cbe188e4f8a36dafd71ebdee, type: 2}
+  type2: {fileID: 11400000, guid: 5c263d07fc626544cae866e79835f9fd, type: 2}
+  eggGroup1: 3
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 1
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 640db73bb939e1b4e82155cdec44434b, type: 2}
+  - {fileID: 11400000, guid: 663731bc6754cc14a8c61a60a5a1f230, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 9cfbcbfefcb3e7c4e8cbc8fcac297894, type: 2}
+  baseHP: 60
+  baseAttack: 55
+  baseDefense: 50
+  baseSpeed: 45
+  baseSpecialAttack: 40
+  baseSpecialDefense: 55
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 1
+  baseEXP: 61
+  rareness: 190
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: c6e88ce634c8c5342b822f64f71bbbd6, type: 2}
+    levelToEvolve: 31
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: a347a47023c98104a9b91b22b6915649, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d8b48209d2479c34092c394dd8f1186d, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: fca190ed8ac5644488bbf89db93cced9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 12eed21716573ba46b629d1325af8c5a, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 159d586103c995a45b1f71823a5b2d82, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 18b297dee69233e439e3d91d3fcb0631, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: cbc9182990f6477489d10a7411cc17b3, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 98a5a39534f50e24298715d7010f250e, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: 42f663ece04b0c948aa15bfd1cc8fc72, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 03d0749356f56c44e8d3046a42e0d444, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: f1235656dcf133a4583c9b8e32dc26cd, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: 877f64b03b9b2ee43aca7662a63419e5, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 7bfb1a29bc8069a44a6b9879087d0b86, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: c7302a4cdc064ad4287d6a10c609847d, type: 2}
+    level: 47
+  eggMoves:
+  - {fileID: 11400000, guid: cfb64af79f5b8724f88d45eae50b5273, type: 2}
+  - {fileID: 11400000, guid: 79e0b2b49e108ae4cb11b3df5d8464bd, type: 2}
+  - {fileID: 11400000, guid: c6fdbee4368ca7445945fbf219ebf1af, type: 2}
+  - {fileID: 11400000, guid: 8cb4514425f4c5844a1c8a1a432381f4, type: 2}
+  - {fileID: 11400000, guid: d8b7eb9a8cf51c845993956ba2a66290, type: 2}
+  - {fileID: 11400000, guid: 9bfd47ebcafec6b418cfc40231c4802c, type: 2}
+  - {fileID: 11400000, guid: 097cc0b905dba264ca9cf995c8f6812b, type: 2}
+  - {fileID: 11400000, guid: 8d71515d07e9d5b4ea1fe8c614ccad06, type: 2}
+  - {fileID: 11400000, guid: f1235656dcf133a4583c9b8e32dc26cd, type: 2}
+  - {fileID: 11400000, guid: cd8a790fa9332e843812e0e2d0105836, type: 2}
+  - {fileID: 11400000, guid: 24839cef79aad694798bf0488436f778, type: 2}

@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 065-MachopPokemonData
+  m_EditorClassIdentifier: 
+  number: 66
+  name: Machop
+  internalName: MACHOP
+  kind: Superpower
+  height: 0.8
+  weight: 19.5
+  dexEntry: It continually undertakes strenuous training to master all forms of martial
+    arts. Its strength lets it easily hoist a sumo wrestler onto its shoulders.
+  sprite: {fileID: 21300000, guid: a03d9250e4015dd47846e84772dcba93, type: 3}
+  backSprite: {fileID: 21300000, guid: 9c88936466d39a54ca2baa4111856068, type: 3}
+  shinySprite: {fileID: 21300000, guid: 86f4f63f7087b0d4ea933cb32d78467c, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: d37708a6be2040940b630fb0f69f8f24, type: 3}
+  footprintSprite: {fileID: 21300000, guid: c02628fb8d1bdbf4984d03cab9c29c8b, type: 3}
+  type1: {fileID: 11400000, guid: 60bba5c3467446d45a479ab6b6a6e82e, type: 2}
+  type2: {fileID: 11400000, guid: 26317c5bb6f4d8746a0567db42a1e986, type: 2}
+  eggGroup1: 8
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 3
+  femaleRatio: 0.25
+  standardAbilities:
+  - {fileID: 11400000, guid: 3ebc970b509c7e24a9dea92f96160465, type: 2}
+  - {fileID: 11400000, guid: b05c85f4609b1ed4b8da89ca29abf8bb, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 0866c0ff235fce7498401d1cad01975f, type: 2}
+  baseHP: 70
+  baseAttack: 80
+  baseDefense: 50
+  baseSpeed: 35
+  baseSpecialAttack: 35
+  baseSpecialDefense: 35
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 61
+  rareness: 180
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 25765d88842790048a3db676ecfd399d, type: 2}
+    levelToEvolve: 28
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 51366bde715984443b1654808f2d67c2, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bf6504692a555504684e3a54adf1a98a, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4dda0649bba3a9540a998a0a84b835fa, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 3e1cb5e9d266b23468e43dd2421150aa, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: a819ae9c370783842843bd2fbe84fb2c, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: fca190ed8ac5644488bbf89db93cced9, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 31437bdadb2e6c74fbeaaedc59fe77c6, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 57a6c939992fdf447b2cee5b38d22bec, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: e2e9c207ab3999f43a3522a2368fe4aa, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 8fa900da871b05644a3fba9b659b0d52, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: 16ba77779a134324e8e66a117ec28767, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 84828352f498a064691c3da77150372c, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: 70edc699f538d724a8af8f77f938a7bc, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: b678a35955a763541802c9350bca741c, type: 2}
+    level: 49
+  eggMoves:
+  - {fileID: 11400000, guid: 5bfec5a5b6f875d4e92788dfbaf06a48, type: 2}
+  - {fileID: 11400000, guid: fb08f52e963b5c84683c66e4c2786f37, type: 2}
+  - {fileID: 11400000, guid: a621546634534114eb4216014729f2e1, type: 2}
+  - {fileID: 11400000, guid: cf2a21915fd439b45af00b80f413ad89, type: 2}
+  - {fileID: 11400000, guid: c750d29d9cab6404aafd88ee5fb07a80, type: 2}
+  - {fileID: 11400000, guid: 2e25019dee34d414492074bff19ec780, type: 2}
+  - {fileID: 11400000, guid: 4680efc0b78290e409e0bb591860ec2e, type: 2}
+  - {fileID: 11400000, guid: 835fbce7e2a2d6242acd411cf80f5780, type: 2}
+  - {fileID: 11400000, guid: 3b86caa38c3bce648adff8eb80bb5ff6, type: 2}
+  - {fileID: 11400000, guid: 29fe37d12d934b54d9d319fb6be725ea, type: 2}
+  - {fileID: 11400000, guid: 91a1ed7f066b7a9478f911713a621e53, type: 2}
+  - {fileID: 11400000, guid: 2e07c09137460ff48a5953ea43a400a3, type: 2}
+  - {fileID: 11400000, guid: 6decc9c7e54c6204d83011ad67167dcb, type: 2}
+  - {fileID: 11400000, guid: 935a029690bb0324f9fc21b44c2d5a54, type: 2}

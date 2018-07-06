@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 115-HorseaPokemonData
+  m_EditorClassIdentifier: 
+  number: 116
+  name: Horsea
+  internalName: HORSEA
+  kind: Dragon
+  height: 0.4
+  weight: 8
+  dexEntry: By cleverly flicking the fins on its back side to side, it moves in any
+    direction while facing forward. It spits ink to escape if it senses danger.
+  sprite: {fileID: 21300000, guid: 657ce3ce52d0cfa49907f60873ee82ab, type: 3}
+  backSprite: {fileID: 21300000, guid: 6668758bd06e0254ebd88cbc19816b8e, type: 3}
+  shinySprite: {fileID: 21300000, guid: f04ed88c31f128b499ca4c89ae4ab02f, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 1648ec22189635b4db95ae86ae4f5d04, type: 3}
+  footprintSprite: {fileID: 21300000, guid: c9fddc5b466fd84489ddb1ce0ff8305f, type: 3}
+  type1: {fileID: 11400000, guid: 4436bc7397ddc2342ae364d8dadc3e39, type: 2}
+  type2: {fileID: 11400000, guid: 26317c5bb6f4d8746a0567db42a1e986, type: 2}
+  eggGroup1: 2
+  eggGroup2: 14
+  growthRate: 2
+  habitat: 6
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 233810631c911cd49b8ae55d8c7ee6b2, type: 2}
+  - {fileID: 11400000, guid: 16d9265417085e148a04e39943d12152, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 77d60fc442abe3741bd47230324afc81, type: 2}
+  baseHP: 30
+  baseAttack: 40
+  baseDefense: 70
+  baseSpeed: 60
+  baseSpecialAttack: 70
+  baseSpecialDefense: 25
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 1
+  EV_SpecialDefense: 0
+  baseEXP: 59
+  rareness: 225
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 234ef0c93fab55f4d90146877cd125be, type: 2}
+    levelToEvolve: 32
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 1a35e647c98b6194a99122d30df7c714, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 87b98cf3fc6664c4faf20d0b6524268d, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: bf6504692a555504684e3a54adf1a98a, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 2211308ad274db34ea8dca54107c8521, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 4dda0649bba3a9540a998a0a84b835fa, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: 2c6ae6e02679bfd4ab360cadb228ea6d, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: cfb64af79f5b8724f88d45eae50b5273, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: 2d57182de08432546a5fb1f7996cc538, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: c41442279ace78e43bb4fbf254106a1a, type: 2}
+    level: 30
+  - move: {fileID: 11400000, guid: 8b46060d2f2a2304bb8be60073b5e90f, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: 4b457438d173b1543bfcd8482d2fba3b, type: 2}
+    level: 38
+  - move: {fileID: 11400000, guid: 5338b5c573372164c9dc0543210d7349, type: 2}
+    level: 42
+  eggMoves:
+  - {fileID: 11400000, guid: 9ca06db543be2e042b95c0981217b71b, type: 2}
+  - {fileID: 11400000, guid: 0c68d784410855042b029312233aee47, type: 2}
+  - {fileID: 11400000, guid: d8b48209d2479c34092c394dd8f1186d, type: 2}
+  - {fileID: 11400000, guid: 625fc14e6f8fe334daa5b0e3b30a8f85, type: 2}
+  - {fileID: 11400000, guid: ca6dbeef436eaed48a6fcdd9a186aa69, type: 2}
+  - {fileID: 11400000, guid: 1e068dd08d60376468b716a9552e8624, type: 2}
+  - {fileID: 11400000, guid: 2bbbe676fefee4d4c9453ec1dab507bf, type: 2}
+  - {fileID: 11400000, guid: ef5f910a542aded439744922cc7c7863, type: 2}
+  - {fileID: 11400000, guid: 343eb206439eb9f4580515a9ce017ac4, type: 2}
+  - {fileID: 11400000, guid: f3957880a4bba3740829ca24893cf9ea, type: 2}
+  - {fileID: 11400000, guid: f1235656dcf133a4583c9b8e32dc26cd, type: 2}
+  - {fileID: 11400000, guid: fb21d9d4141b6ea4ebf8caedeea3aa33, type: 2}
+  - {fileID: 11400000, guid: b9cc1e37307569d41a508a61ac4023fe, type: 2}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9044473ed09a8984ea2ad5bf5ec41c6e, type: 3}
+  m_Name: 295-TM09ItemData
+  m_EditorClassIdentifier: 
+  ID: 296
+  name: TM09
+  internalName: TM09
+  description: The user drenches the target in a special poisonous liquid. Its power
+    is doubled if the target is poisoned.
+  sprite: {fileID: 21300000, guid: b293b8b9b0c2e1f43acb24fa58affa8c, type: 3}
+  price: 2000
+  itemType: 4
+  overworldUsabilityID: 3
+  battleUsabilityID: 0
+  specialItemID: 0
+  TMmoveToLearn: {fileID: 11400000, guid: b2546e14e2fce114eaa4aabee42422f1, type: 2}

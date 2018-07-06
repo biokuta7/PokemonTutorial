@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeeacdf889dfc2a4f93193475ed815da, type: 3}
+  m_Name: 513-Stealth RockMoveData
+  m_EditorClassIdentifier: 
+  ID: 514
+  name: Stealth Rock
+  internalName: STEALTHROCK
+  description: The user lays a trap of levitating stones around the foe. The trap
+    hurts foes that switch into battle.
+  functionCode: 105
+  target: 80
+  flags: 6300
+  isSpecial: 0
+  basePower: 0
+  accuracy: 0
+  totalPP: 20
+  additionalEffectChance: 0
+  priority: 0
+  type: {fileID: 11400000, guid: 865c5118b1a0e3b4d895cfe37b3b2aa9, type: 2}

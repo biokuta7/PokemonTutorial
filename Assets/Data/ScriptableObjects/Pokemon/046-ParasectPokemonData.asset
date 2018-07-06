@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 046-ParasectPokemonData
+  m_EditorClassIdentifier: 
+  number: 47
+  name: Parasect
+  internalName: PARASECT
+  kind: Mushroom
+  height: 1
+  weight: 29.5
+  dexEntry: Parasect are known to infest the roots of large trees en masse and drain
+    nutrients. When an infested tree dies, they move onto another tree all at once.
+  sprite: {fileID: 21300000, guid: 93ed1a3cb2962b949bc050ea05002fdc, type: 3}
+  backSprite: {fileID: 21300000, guid: a8fe77a1f5e9aa44ca1468e5f564ba6d, type: 3}
+  shinySprite: {fileID: 21300000, guid: a693678ddd40e0d4aa3812c24ffb1383, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 2c661d94d7189b84c8fdbff4ffd66e54, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 73832ca613d4bc84c91a0ab13d6b37c8, type: 3}
+  type1: {fileID: 11400000, guid: 79eb8f30cbe188e4f8a36dafd71ebdee, type: 2}
+  type2: {fileID: 11400000, guid: 0fe0aaa7940cd5b4a8de75cef966e991, type: 2}
+  eggGroup1: 3
+  eggGroup2: 7
+  growthRate: 2
+  habitat: 1
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 417365ed9e35dfe4e81732888ec884ba, type: 2}
+  - {fileID: 11400000, guid: afb0a7e27a5ad054fb3f4a9240fc86d5, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 77d60fc442abe3741bd47230324afc81, type: 2}
+  baseHP: 60
+  baseAttack: 95
+  baseDefense: 80
+  baseSpeed: 30
+  baseSpecialAttack: 60
+  baseSpecialDefense: 80
+  EV_HP: 0
+  EV_Attack: 2
+  EV_Defense: 1
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 142
+  rareness: 75
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: d0572f673445fc346a18e19b6541c4cf, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 43e204c593e71c448b5b31e61ae8084c, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 98a5a39534f50e24298715d7010f250e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 18b297dee69233e439e3d91d3fcb0631, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: cbc9182990f6477489d10a7411cc17b3, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 98a5a39534f50e24298715d7010f250e, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: 18b297dee69233e439e3d91d3fcb0631, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: cbc9182990f6477489d10a7411cc17b3, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: c29ded42491caf34c87223dbe52f71f6, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: d03d35f0c2c18ef4ebe7651f6ac66771, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: c4711ec8a533840419a1c387ff313385, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 5773d6a4d162391499886150e2a65b31, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 8cb4514425f4c5844a1c8a1a432381f4, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: 623bb4ebf7840b6478f1f0bae05732a7, type: 2}
+    level: 51
+  - move: {fileID: 11400000, guid: 9bfd47ebcafec6b418cfc40231c4802c, type: 2}
+    level: 59
+  - move: {fileID: 11400000, guid: 5cf70e03dd1cfce4db2fedc9dbb2b65d, type: 2}
+    level: 66
+  eggMoves: []

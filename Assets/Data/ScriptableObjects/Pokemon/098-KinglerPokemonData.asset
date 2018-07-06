@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 098-KinglerPokemonData
+  m_EditorClassIdentifier: 
+  number: 99
+  name: Kingler
+  internalName: KINGLER
+  kind: Pincer
+  height: 1.3
+  weight: 60
+  dexEntry: "It waves its huge, oversized claw in the air to communicate with others.
+    But since the claw is so heavy, this Pok\xE9mon quickly tires."
+  sprite: {fileID: 21300000, guid: 21405d7df2192fe42817df444b106475, type: 3}
+  backSprite: {fileID: 21300000, guid: 0af7454f9d005724fa17d65940949bf6, type: 3}
+  shinySprite: {fileID: 21300000, guid: 4c7212899c2125b4f90309956ac0010c, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 9ea89eeaffe6dd8499750df6e1771a17, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 442c1586ad1439245b52ba2bbbc4e9b9, type: 3}
+  type1: {fileID: 11400000, guid: 4436bc7397ddc2342ae364d8dadc3e39, type: 2}
+  type2: {fileID: 11400000, guid: 26317c5bb6f4d8746a0567db42a1e986, type: 2}
+  eggGroup1: 9
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 8
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 53ae8bf84f8e637459c14a0e0e8df22f, type: 2}
+  - {fileID: 11400000, guid: 9dbfed1859741374e94d37507836ae13, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 5bb558c2ff23ba84889b117286928c3c, type: 2}
+  baseHP: 55
+  baseAttack: 130
+  baseDefense: 115
+  baseSpeed: 75
+  baseSpecialAttack: 50
+  baseSpecialDefense: 50
+  EV_HP: 0
+  EV_Attack: 2
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 166
+  rareness: 60
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: cbce21250c1559a42bb0f977f0c0144f, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 1e210b22ceaee9948b6decf539e8861e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 1a35e647c98b6194a99122d30df7c714, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6460877c75ccb7b45b9a1ff5a1a790b2, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bf6504692a555504684e3a54adf1a98a, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6460877c75ccb7b45b9a1ff5a1a790b2, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: bf6504692a555504684e3a54adf1a98a, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 5841efc3a5903d4469d2a705c67b9e50, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 2c6ae6e02679bfd4ab360cadb228ea6d, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 9eaf49bedd1ff0540a2c928e1133ffb0, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 87a424fc06326f747ade727f21b43b63, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 81150867ce896f849b310051f045b4fe, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 324ce5d95552e204aab518e6d0299446, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: 5b9914cadd3ea1940abe0773a7ecac4b, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 1c4b2c2d13b06f848b74034a44e8b9cc, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: c41442279ace78e43bb4fbf254106a1a, type: 2}
+    level: 51
+  - move: {fileID: 11400000, guid: e6b538141bece2a4d81e968cf4ea8900, type: 2}
+    level: 56
+  - move: {fileID: 11400000, guid: 1e068dd08d60376468b716a9552e8624, type: 2}
+    level: 63
+  eggMoves: []

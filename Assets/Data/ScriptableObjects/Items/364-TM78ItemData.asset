@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9044473ed09a8984ea2ad5bf5ec41c6e, type: 3}
+  m_Name: 364-TM78ItemData
+  m_EditorClassIdentifier: 
+  ID: 365
+  name: TM78
+  internalName: TM78
+  description: The user stomps down on the ground and attacks everything in the area.
+    The targets' Speed stat is reduced.
+  sprite: {fileID: 21300000, guid: 2ab332c03526999409690dfa49896292, type: 3}
+  price: 1500
+  itemType: 4
+  overworldUsabilityID: 3
+  battleUsabilityID: 0
+  specialItemID: 0
+  TMmoveToLearn: {fileID: 11400000, guid: d1a7a8b8ec7181240a927c09bc6e0307, type: 2}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9044473ed09a8984ea2ad5bf5ec41c6e, type: 3}
+  m_Name: 367-TM81ItemData
+  m_EditorClassIdentifier: 
+  ID: 368
+  name: TM81
+  internalName: TM81
+  description: The user slashes at the target by crossing its scythes or claws as
+    if they were a pair of scissors.
+  sprite: {fileID: 21300000, guid: 4c79b6339940ac241b4058c2274bba10, type: 3}
+  price: 3000
+  itemType: 4
+  overworldUsabilityID: 3
+  battleUsabilityID: 0
+  specialItemID: 0
+  TMmoveToLearn: {fileID: 11400000, guid: 5cf70e03dd1cfce4db2fedc9dbb2b65d, type: 2}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9044473ed09a8984ea2ad5bf5ec41c6e, type: 3}
+  m_Name: 237-Soda PopItemData
+  m_EditorClassIdentifier: 
+  ID: 238
+  name: Soda Pop
+  internalName: SODAPOP
+  description: "A fizzy soda drink. It restores the HP of one Pok\xE9mon by 60 points."
+  sprite: {fileID: 21300000, guid: 32ef668ebb4d123489516c465ec3e8c0, type: 3}
+  price: 300
+  itemType: 2
+  overworldUsabilityID: 1
+  battleUsabilityID: 1
+  specialItemID: 0
+  TMmoveToLearn: {fileID: 0}

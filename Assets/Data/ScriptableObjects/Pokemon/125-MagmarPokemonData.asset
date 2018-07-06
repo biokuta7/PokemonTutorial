@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 125-MagmarPokemonData
+  m_EditorClassIdentifier: 
+  number: 126
+  name: Magmar
+  internalName: MAGMAR
+  kind: Spitfire
+  height: 1.3
+  weight: 44.5
+  dexEntry: In battle, it blows out intense flames from all over its body to intimidate
+    its foe. These fiery bursts create heat waves that ignite grass and trees in the
+    area.
+  sprite: {fileID: 21300000, guid: 5456246528a5eda42ac9a36db8b4a92c, type: 3}
+  backSprite: {fileID: 21300000, guid: 7801fd513d3789b44b457d77d49b5a43, type: 3}
+  shinySprite: {fileID: 21300000, guid: 08cc3acaf88813f48a719739b9d34e98, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 90c922c6646f16643999202201a78750, type: 3}
+  footprintSprite: {fileID: 21300000, guid: a88364534a736984bb73d36098a7c5d1, type: 3}
+  type1: {fileID: 11400000, guid: e29da51f60183e2428c5da1f4d31481e, type: 2}
+  type2: {fileID: 11400000, guid: 26317c5bb6f4d8746a0567db42a1e986, type: 2}
+  eggGroup1: 8
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 3
+  femaleRatio: 0.25
+  standardAbilities:
+  - {fileID: 11400000, guid: c81c0628279c3754a8550712d43cd7a9, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: f8dec785d7a360d409453f053e4df669, type: 2}
+  baseHP: 65
+  baseAttack: 95
+  baseDefense: 57
+  baseSpeed: 93
+  baseSpecialAttack: 100
+  baseSpecialDefense: 85
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 2
+  EV_SpecialDefense: 0
+  baseEXP: 173
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 6630
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 59ac0e6c11dbd504eb04ea577e0e454d, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bf6504692a555504684e3a54adf1a98a, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bddb253ef7152ea4c9045c1677c0eedd, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bddb253ef7152ea4c9045c1677c0eedd, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 87b98cf3fc6664c4faf20d0b6524268d, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 74475dd468b74dc478583b8cb7fb75eb, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: 73b9d1c045f51014090042972f23cd5a, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 0c68d784410855042b029312233aee47, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 9f9fd07bffe2cca43ba0ca98c043c838, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: dd110feb9a3bcc245978b8209c802b91, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: c750d29d9cab6404aafd88ee5fb07a80, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: a2c4d5de6b2f3de448ab0d6cb57189cf, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 526b33dcd9c4b5d47b1bcb9ada4d7e73, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: 108a1be3a4d85bc4ca4e0837665ac39e, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 17e5d15555e47474fb75850bc4567ae7, type: 2}
+    level: 55
+  eggMoves: []

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeeacdf889dfc2a4f93193475ed815da, type: 3}
+  m_Name: 166-GustMoveData
+  m_EditorClassIdentifier: 
+  ID: 167
+  name: Gust
+  internalName: GUST
+  description: A gust of wind is whipped up by wings and launched at the target to
+    inflict damage.
+  functionCode: 077
+  target: 00
+  flags: 620065006600
+  isSpecial: 1
+  basePower: 40
+  accuracy: 100
+  totalPP: 35
+  additionalEffectChance: 0
+  priority: 0
+  type: {fileID: 11400000, guid: 90bb1a57d841315478a74baa52e40ba4, type: 2}

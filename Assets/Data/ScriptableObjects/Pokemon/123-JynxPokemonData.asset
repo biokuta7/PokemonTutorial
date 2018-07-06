@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 123-JynxPokemonData
+  m_EditorClassIdentifier: 
+  number: 124
+  name: Jynx
+  internalName: JYNX
+  kind: Human Shape
+  height: 1.4
+  weight: 40.6
+  dexEntry: A Jynx sashays rhythmically as if it were dancing. Its motions are so
+    bouncingly alluring, people seeing it are compelled to shake their hips without
+    noticing.
+  sprite: {fileID: 21300000, guid: c84bb346c4b34a044886da76a84b5f65, type: 3}
+  backSprite: {fileID: 21300000, guid: cf2e3ef1143fe0c4faf0e7a48e86a3a6, type: 3}
+  shinySprite: {fileID: 21300000, guid: 5ebc9dc1562d5374184d4b4ba81d2d8f, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 8795ab50803546f45aecd37cb3aa70a9, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 69c2b88634611734a977b4e48b22da12, type: 3}
+  type1: {fileID: 11400000, guid: 4963f2aa307feef4398c60cebd48934c, type: 2}
+  type2: {fileID: 11400000, guid: 8a60f9e36b8e1a04e88890b5a3d000cb, type: 2}
+  eggGroup1: 8
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 7
+  femaleRatio: 1
+  standardAbilities:
+  - {fileID: 11400000, guid: 634fcc761a4a4e141bd21af18c013397, type: 2}
+  - {fileID: 11400000, guid: d993180e8ee872345b323b2d2e7b2bc9, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: afb0a7e27a5ad054fb3f4a9240fc86d5, type: 2}
+  baseHP: 65
+  baseAttack: 50
+  baseDefense: 35
+  baseSpeed: 95
+  baseSpecialAttack: 115
+  baseSpecialDefense: 95
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 2
+  EV_SpecialDefense: 0
+  baseEXP: 159
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 6630
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 35b89914503702344bcb3c84d63414a4, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 282dc51f0a3e2734cad329bde9424566, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4d9279f6fe9d2a2468b376665b355f87, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 628c646bd4e103c4cac2f9574bf00ad2, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 282dc51f0a3e2734cad329bde9424566, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 4d9279f6fe9d2a2468b376665b355f87, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 628c646bd4e103c4cac2f9574bf00ad2, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: d03418bfd94dca64c83c5ce9c0fe775b, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 4680efc0b78290e409e0bb591860ec2e, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: 641294bc049de5a4eabfbf2850bbe7c9, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: d432f4d4df975244da2a46330573ce55, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: d6f1ef9e40ddd534894d5d3e9dc3577c, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 16ba77779a134324e8e66a117ec28767, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 51d018c46aac8b742874f2ed986a4ab8, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: d8971f2423bd64e4fa39c3310351ca5d, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: 7831cc421d097e34e8d139337f752cb1, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: d616ea1312b44074b834e8002b142f50, type: 2}
+    level: 55
+  - move: {fileID: 11400000, guid: 0b5b2f067e0415d4eb1cc6bed7acb216, type: 2}
+    level: 60
+  eggMoves: []

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeeacdf889dfc2a4f93193475ed815da, type: 3}
+  m_Name: 185-Destiny BondMoveData
+  m_EditorClassIdentifier: 
+  ID: 186
+  name: Destiny Bond
+  internalName: DESTINYBOND
+  description: When this move is used, if the user faints, the foe that landed the
+    knockout hit also faints.
+  functionCode: 0E7
+  target: 10
+  flags: 
+  isSpecial: 0
+  basePower: 0
+  accuracy: 0
+  totalPP: 5
+  additionalEffectChance: 0
+  priority: 0
+  type: {fileID: 11400000, guid: 5eb27c1d76b3cc2439c818ac7325a0e5, type: 2}

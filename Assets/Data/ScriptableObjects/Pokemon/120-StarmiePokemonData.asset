@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 120-StarmiePokemonData
+  m_EditorClassIdentifier: 
+  number: 121
+  name: Starmie
+  internalName: STARMIE
+  kind: Mysterious
+  height: 1.1
+  weight: 80
+  dexEntry: People in ancient times imagined that Starmie were transformed from the
+    reflections of stars that twinkled on gentle waves at night.
+  sprite: {fileID: 21300000, guid: 2999cd114d66f8a46a1d14fb181fad58, type: 3}
+  backSprite: {fileID: 21300000, guid: 7301cc1e8b60dff4dba20300614f92bd, type: 3}
+  shinySprite: {fileID: 21300000, guid: eb34c20c748d6794eb96af667f1e084f, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: d9311fdd06cceb34e82f72415c321688, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 5e4ba6b5da6527849b1b512f8de15e36, type: 3}
+  type1: {fileID: 11400000, guid: 4436bc7397ddc2342ae364d8dadc3e39, type: 2}
+  type2: {fileID: 11400000, guid: 8a60f9e36b8e1a04e88890b5a3d000cb, type: 2}
+  eggGroup1: 9
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 6
+  femaleRatio: -1
+  standardAbilities:
+  - {fileID: 11400000, guid: 2c1b070cfa0ea8c4f96fa821f9118f76, type: 2}
+  - {fileID: 11400000, guid: d50870952bbfa5348a3edecfee28f564, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: d0d2e20276fdcc3428acd02f70f4e2f2, type: 2}
+  baseHP: 60
+  baseAttack: 75
+  baseDefense: 85
+  baseSpeed: 115
+  baseSpecialAttack: 100
+  baseSpecialDefense: 85
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 2
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 182
+  rareness: 60
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 2211308ad274db34ea8dca54107c8521, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 91a36c898538a3e45affa65057cb8df3, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e7992d906e53caa4c98d8e154e9b1151, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: a192be2631581584c971f04163bd2f4e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: dd110feb9a3bcc245978b8209c802b91, type: 2}
+    level: 22
+  eggMoves: []

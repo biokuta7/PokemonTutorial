@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeeacdf889dfc2a4f93193475ed815da, type: 3}
+  m_Name: 175-Shadow ClawMoveData
+  m_EditorClassIdentifier: 
+  ID: 176
+  name: Shadow Claw
+  internalName: SHADOWCLAW
+  description: The user slashes with a sharp claw made from shadows. Critical hits
+    land more easily.
+  functionCode: 000
+  target: 00
+  flags: 61006200650066006800
+  isSpecial: 0
+  basePower: 70
+  accuracy: 100
+  totalPP: 15
+  additionalEffectChance: 0
+  priority: 0
+  type: {fileID: 11400000, guid: 5eb27c1d76b3cc2439c818ac7325a0e5, type: 2}

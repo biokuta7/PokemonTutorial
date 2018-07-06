@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 082-Farfetch'dPokemonData
+  m_EditorClassIdentifier: 
+  number: 83
+  name: Farfetch'd
+  internalName: FARFETCHD
+  kind: Wild Duck
+  height: 0.8
+  weight: 15
+  dexEntry: "It is always seen with a stick from a plant. Apparently, there are good
+    sticks and bad sticks. This Pok\xE9mon occasionally fights with others over choice
+    sticks."
+  sprite: {fileID: 21300000, guid: 013e9e98545d751468cc18d9007ca5d1, type: 3}
+  backSprite: {fileID: 21300000, guid: e0fee63ccd29f7f439b0c886ead68738, type: 3}
+  shinySprite: {fileID: 21300000, guid: 37ccc9e2afadf984b8944d5e2192ad9e, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: bf0176811a6083640ae209cb0ceac3fa, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 57832cddb9dcb3d4494533ed21264326, type: 3}
+  type1: {fileID: 11400000, guid: de3693b16b9150146a68b455abcf327a, type: 2}
+  type2: {fileID: 11400000, guid: 90bb1a57d841315478a74baa52e40ba4, type: 2}
+  eggGroup1: 4
+  eggGroup2: 5
+  growthRate: 2
+  habitat: 2
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 753bfd0fe11b3a64baef194592d445ae, type: 2}
+  - {fileID: 11400000, guid: a2d1d6cbb501d994098afc64117cdb6f, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 74915f4da259ce54eb8e58d25ee8206c, type: 2}
+  baseHP: 52
+  baseAttack: 65
+  baseDefense: 55
+  baseSpeed: 60
+  baseSpecialAttack: 58
+  baseSpecialDefense: 62
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 123
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 819d3261746338b48b76ebc0d58f4cd3, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 264925760e68bcb498d0de36a54a82a1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: de43179c21b67784babc148276dfafc6, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bf6504692a555504684e3a54adf1a98a, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: c29ded42491caf34c87223dbe52f71f6, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b1a3c8ba1c1eee249bdf3070c1ec8af2, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 835fbce7e2a2d6242acd411cf80f5780, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 7317c777ebf09aa4696b9bfcc0741811, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: c4711ec8a533840419a1c387ff313385, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: d4dd94de41f4aed4fa4cb1aaab64b2e2, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 28b12d749ca1b8f43bc7cc43e5b7e991, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: cfb64af79f5b8724f88d45eae50b5273, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 47cf6b4e911db71478cc05fba88088a7, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 4166edef70e4d2844827d001e028b961, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: c57d58d301f3f1e418a8fe13d4de175d, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: ea07888df4106514fa6ed45e3b52b46a, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: 2fb4ac79087b4dc4883f5cd658efdd2d, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 9608a4687a07f0e44bd663df5a757f0a, type: 2}
+    level: 55
+  eggMoves:
+  - {fileID: 11400000, guid: 25715ff9d86145e49af8551488430004, type: 2}
+  - {fileID: 11400000, guid: a6b14a9fb6b0f524b9ee30824a8c0c74, type: 2}
+  - {fileID: 11400000, guid: 1ac2afd5b0461914298ee82cf8dc2e19, type: 2}
+  - {fileID: 11400000, guid: 1e068dd08d60376468b716a9552e8624, type: 2}
+  - {fileID: 11400000, guid: fca190ed8ac5644488bbf89db93cced9, type: 2}
+  - {fileID: 11400000, guid: d4c8be8fa0c5bda4db7747d2b0498751, type: 2}
+  - {fileID: 11400000, guid: a91868ca6d2b74043ab87148b23a9902, type: 2}
+  - {fileID: 11400000, guid: 07c51504f08b1e746b57cea6aa367190, type: 2}
+  - {fileID: 11400000, guid: f696eda31d627d34d87c21e9412ff695, type: 2}
+  - {fileID: 11400000, guid: 47cf6b4e911db71478cc05fba88088a7, type: 2}
+  - {fileID: 11400000, guid: 06f5c51886e35304ea1b16d809fcb2b0, type: 2}
+  - {fileID: 11400000, guid: 57a6c939992fdf447b2cee5b38d22bec, type: 2}
+  - {fileID: 11400000, guid: 1e06801f4ccaa554b8907ecef14679ed, type: 2}
+  - {fileID: 11400000, guid: 5e21023b0cee02b418c00c806c2ac24c, type: 2}
+  - {fileID: 11400000, guid: 0761cdd08543cf9428b7b3348ac58163, type: 2}

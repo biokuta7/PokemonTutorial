@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeeacdf889dfc2a4f93193475ed815da, type: 3}
+  m_Name: 520-Steel WingMoveData
+  m_EditorClassIdentifier: 
+  ID: 521
+  name: Steel Wing
+  internalName: STEELWING
+  description: The target is hit with wings of steel. It may also raise the user's
+    Defense stat.
+  functionCode: 01D
+  target: 00
+  flags: 6100620065006600
+  isSpecial: 0
+  basePower: 70
+  accuracy: 90
+  totalPP: 25
+  additionalEffectChance: 10
+  priority: 0
+  type: {fileID: 11400000, guid: e19d9d0db9bfb304f86f2be1b2cbcd6e, type: 2}

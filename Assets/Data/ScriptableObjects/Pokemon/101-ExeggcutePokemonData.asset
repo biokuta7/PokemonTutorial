@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 101-ExeggcutePokemonData
+  m_EditorClassIdentifier: 
+  number: 102
+  name: Exeggcute
+  internalName: EXEGGCUTE
+  kind: Egg
+  height: 0.4
+  weight: 2.5
+  dexEntry: It consists of six eggs that care for each other. The eggs attract each
+    other and spin around. When cracks increasingly appear, it is close to evolution.
+  sprite: {fileID: 21300000, guid: 3da79a4515f6e404c927a67477566867, type: 3}
+  backSprite: {fileID: 21300000, guid: 503b249b76bea3a4f9c64550d3a71957, type: 3}
+  shinySprite: {fileID: 21300000, guid: 786eabfddf2b81949958c070b5c22c15, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: c786bef1c6bb8424185448a7e7ef45fb, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 9ce991be359faa74ba6c0367bbd2600c, type: 3}
+  type1: {fileID: 11400000, guid: 0fe0aaa7940cd5b4a8de75cef966e991, type: 2}
+  type2: {fileID: 11400000, guid: 8a60f9e36b8e1a04e88890b5a3d000cb, type: 2}
+  eggGroup1: 7
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 1
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 7ffc16821ae46584ca4ef54c1526f1ee, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 7aeb0bd8e4893d14db64715a99091d57, type: 2}
+  baseHP: 60
+  baseAttack: 40
+  baseDefense: 80
+  baseSpeed: 40
+  baseSpecialAttack: 60
+  baseSpecialDefense: 45
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 1
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 65
+  rareness: 90
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: dd6e90c1e96e51747a686490ee6cf8a3, type: 2}
+    levelToEvolve: 0
+    itemToEvolve: {fileID: 11400000, guid: eaf0161f2b593864db2f65408da7e15b, type: 2}
+    evolutionType: 1
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 9942a3e33b104bf4191a788caa1b2ddf, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: a1ed76a435576d14fada469846080714, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 87008cebc39ca8b408e3abcca38673e4, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 969a98feaf0b6b74c86c1293c40d213e, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 64ed1d3963e5ebd45b27f8e20ff2a86c, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 9f59ffb3719d1bb4ba748e4437665b7b, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 98a5a39534f50e24298715d7010f250e, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 18b297dee69233e439e3d91d3fcb0631, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 03d0749356f56c44e8d3046a42e0d444, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: 159d586103c995a45b1f71823a5b2d82, type: 2}
+    level: 27
+  - move: {fileID: 11400000, guid: ef5f0abfca237b249b1c64c58df3014b, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 97324a913aed7344893d19f88a7462a3, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: c30dbfcc74217394c8e039f8f2a710bc, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: a86593e33db25714da2b620aa515e5d2, type: 2}
+    level: 47
+  - move: {fileID: 11400000, guid: 14218a1f13bdb2c4b9c9d0694f92bb0d, type: 2}
+    level: 53
+  eggMoves:
+  - {fileID: 11400000, guid: 0792363360934c64b916c97bb5633f10, type: 2}
+  - {fileID: 11400000, guid: 3860011efc876d548a49a016f5c4e7c0, type: 2}
+  - {fileID: 11400000, guid: a6b14a9fb6b0f524b9ee30824a8c0c74, type: 2}
+  - {fileID: 11400000, guid: 8cb4514425f4c5844a1c8a1a432381f4, type: 2}
+  - {fileID: 11400000, guid: 089384a530655954b8796602a0e9ff5b, type: 2}
+  - {fileID: 11400000, guid: 4a0cab34a7c0f774c8f76311a36935f2, type: 2}
+  - {fileID: 11400000, guid: 0ca6af338c8fd474295d2bd083ffe464, type: 2}
+  - {fileID: 11400000, guid: 7d7122338ef988443bfdb23752f58477, type: 2}
+  - {fileID: 11400000, guid: 97324a913aed7344893d19f88a7462a3, type: 2}
+  - {fileID: 11400000, guid: a341ece742ddbd64f8ec8f67b3b2203c, type: 2}
+  - {fileID: 11400000, guid: 2f5436c77ffa0b345a2851ee25a68d0d, type: 2}
+  - {fileID: 11400000, guid: cd8a790fa9332e843812e0e2d0105836, type: 2}
+  - {fileID: 11400000, guid: a992cc876808e714299c1535f5c61c71, type: 2}

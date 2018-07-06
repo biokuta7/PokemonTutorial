@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 135-FlareonPokemonData
+  m_EditorClassIdentifier: 
+  number: 136
+  name: Flareon
+  internalName: FLAREON
+  kind: Flame
+  height: 0.9
+  weight: 25
+  dexEntry: Flareon's fluffy fur releases heat into the air so that its body does
+    not get excessively hot. Its body temperature can rise to a maximum of 1,650 degrees
+    F.
+  sprite: {fileID: 21300000, guid: 27605f5d1ba70f149b9d3d05e50206eb, type: 3}
+  backSprite: {fileID: 21300000, guid: 6ecb7b8dae8998f4392436897f1971a6, type: 3}
+  shinySprite: {fileID: 21300000, guid: 6ea6380d3460de645a11a2a03003d5a3, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: fb35b5109cbc4964ba0224dcff798d19, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 06a28b56ac2376242ab92d15466ef5d6, type: 3}
+  type1: {fileID: 11400000, guid: e29da51f60183e2428c5da1f4d31481e, type: 2}
+  type2: {fileID: 11400000, guid: 26317c5bb6f4d8746a0567db42a1e986, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 7
+  femaleRatio: 0.125
+  standardAbilities:
+  - {fileID: 11400000, guid: ffd50ba5154587645829951ce18921b1, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 3ebc970b509c7e24a9dea92f96160465, type: 2}
+  baseHP: 65
+  baseAttack: 130
+  baseDefense: 60
+  baseSpeed: 65
+  baseSpecialAttack: 95
+  baseSpecialDefense: 110
+  EV_HP: 0
+  EV_Attack: 2
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 184
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 9180
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 3490794aaf4dd254f890617fdef5ffe8, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: a347a47023c98104a9b91b22b6915649, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b52538b0cff73444eb903ce3621e56cb, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: de43179c21b67784babc148276dfafc6, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: bddb253ef7152ea4c9045c1677c0eedd, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 06f5c51886e35304ea1b16d809fcb2b0, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: dba04a8065232a34dbeb2ee462ccb606, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 1c02205d107211b4593f2baf98fb5bb2, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 73b9d1c045f51014090042972f23cd5a, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 70edc699f538d724a8af8f77f938a7bc, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 59ac0e6c11dbd504eb04ea577e0e454d, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: a2c4d5de6b2f3de448ab0d6cb57189cf, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 8e925aa0ca268254db87093a67ded1fa, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 17e5d15555e47474fb75850bc4567ae7, type: 2}
+    level: 45
+  eggMoves: []

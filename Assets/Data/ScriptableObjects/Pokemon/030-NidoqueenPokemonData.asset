@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 030-NidoqueenPokemonData
+  m_EditorClassIdentifier: 
+  number: 31
+  name: Nidoqueen
+  internalName: NIDOQUEEN
+  kind: Drill
+  height: 1.3
+  weight: 60
+  dexEntry: "It is adept at sending foes flying with harsh tackles using its tough,
+    scaly body. This Pok\xE9mon is at its strongest when it is defending its young."
+  sprite: {fileID: 21300000, guid: 330281f157f958c49bc840e490ece92c, type: 3}
+  backSprite: {fileID: 21300000, guid: 167c45415f8d79d4e827145bc4848c73, type: 3}
+  shinySprite: {fileID: 21300000, guid: 16885442061a3bf49900b3f4d91065ad, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 66d7358d88d082a4db131e92316de06e, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 7ede155c702b05c49be6986abb5219dc, type: 3}
+  type1: {fileID: 11400000, guid: 5c263d07fc626544cae866e79835f9fd, type: 2}
+  type2: {fileID: 11400000, guid: 2aef90cd8ab7add4ead9fdc156318a32, type: 2}
+  eggGroup1: 1
+  eggGroup2: 5
+  growthRate: 3
+  habitat: 2
+  femaleRatio: 1
+  standardAbilities:
+  - {fileID: 11400000, guid: b816b766895bd0e4d96fb3ce71d0e129, type: 2}
+  - {fileID: 11400000, guid: 59e83391d5caa694b9d8f6fa72626806, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 5bb558c2ff23ba84889b117286928c3c, type: 2}
+  baseHP: 90
+  baseAttack: 82
+  baseDefense: 87
+  baseSpeed: 76
+  baseSpecialAttack: 75
+  baseSpecialDefense: 85
+  EV_HP: 3
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 223
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 43e204c593e71c448b5b31e61ae8084c, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b52538b0cff73444eb903ce3621e56cb, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 56298606bae99214cb54f2d3cc6c0745, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 1971798c31d0c6c49bcb6964f461504c, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 1bed5971e1640624f88a2a8e4471ea15, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: d8971f2423bd64e4fa39c3310351ca5d, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: 24c5788c06ea90541a1fd52ebc1162b5, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: f5376a67b8c8203418ea972b6a237a46, type: 2}
+    level: 58
+  eggMoves: []

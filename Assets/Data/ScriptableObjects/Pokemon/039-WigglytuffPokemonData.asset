@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 039-WigglytuffPokemonData
+  m_EditorClassIdentifier: 
+  number: 40
+  name: Wigglytuff
+  internalName: WIGGLYTUFF
+  kind: Balloon
+  height: 1
+  weight: 12
+  dexEntry: Its fur is the ultimate in luxuriousness. Sleeping alongside a Wigglytuff
+    is simply divine. Its body expands seemingly without end when it inhales.
+  sprite: {fileID: 21300000, guid: bf76a08c43a33434ca275fb523e67f12, type: 3}
+  backSprite: {fileID: 21300000, guid: 037d9fb94b7a6de46890ebfe974f7f7a, type: 3}
+  shinySprite: {fileID: 21300000, guid: dc73cf76cf7a4b944a935be84497ca1b, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: c319d19f3380a274fa9c26c224aa281a, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 720a4de57a5b44d43ae53b91c0fe6eeb, type: 3}
+  type1: {fileID: 11400000, guid: de3693b16b9150146a68b455abcf327a, type: 2}
+  type2: {fileID: 11400000, guid: 26317c5bb6f4d8746a0567db42a1e986, type: 2}
+  eggGroup1: 6
+  eggGroup2: 0
+  growthRate: 1
+  habitat: 2
+  femaleRatio: 0.75
+  standardAbilities:
+  - {fileID: 11400000, guid: fa3ba21b66a321d4bb07d81f3af2b45f, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: df5374afe55b88a4f82329e66c5d8ce2, type: 2}
+  baseHP: 140
+  baseAttack: 70
+  baseDefense: 45
+  baseSpeed: 45
+  baseSpecialAttack: 75
+  baseSpecialDefense: 50
+  EV_HP: 3
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 191
+  rareness: 50
+  baseHappiness: 70
+  stepsToHatch: 2805
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: aea43cb5e83ed344787b58efe06440da, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d8b48209d2479c34092c394dd8f1186d, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e84ca13ff82cd0046a8a71f421158604, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d03418bfd94dca64c83c5ce9c0fe775b, type: 2}
+    level: 1
+  eggMoves: []
