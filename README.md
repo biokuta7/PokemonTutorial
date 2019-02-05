@@ -1,2 +1,2 @@
-# PokemonTutorial
-Tutorial for asset serialization and such in Unity
+# PokemonInUnity
+Pokemon in Unity3D
