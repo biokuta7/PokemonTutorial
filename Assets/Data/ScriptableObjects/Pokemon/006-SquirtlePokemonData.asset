@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 006-SquirtlePokemonData
+  m_EditorClassIdentifier: 
+  number: 7
+  name: Squirtle
+  internalName: SQUIRTLE
+  kind: Tiny Turtle
+  height: 0.5
+  weight: 9
+  dexEntry: Its shell is not just for protection. Its rounded shape and the grooves
+    on its surface minimize resistance in water, enabling Squirtle to swim at high
+    speeds.
+  sprite: {fileID: 21300000, guid: 70f9db54429bccc42bed3bd8548ea6b8, type: 3}
+  backSprite: {fileID: 21300000, guid: 4b4d18a934a20d84eb213a2e31a9e828, type: 3}
+  shinySprite: {fileID: 21300000, guid: 9c520aed8144d554da6165a828aee770, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 9d9521614597d4e4bab192fda7afa991, type: 3}
+  footprintSprite: {fileID: 21300000, guid: f108933b2fa116e40b065aa29a8d570b, type: 3}
+  type1: {fileID: 11400000, guid: 4436bc7397ddc2342ae364d8dadc3e39, type: 2}
+  type2: {fileID: 11400000, guid: 26317c5bb6f4d8746a0567db42a1e986, type: 2}
+  eggGroup1: 1
+  eggGroup2: 2
+  growthRate: 3
+  habitat: 8
+  femaleRatio: 0.125
+  standardAbilities:
+  - {fileID: 11400000, guid: 1c3eb3bb1b6602341a6d4bf2af920afc, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 230c10a841f77304ca93335ed8604ba0, type: 2}
+  baseHP: 44
+  baseAttack: 48
+  baseDefense: 65
+  baseSpeed: 43
+  baseSpecialAttack: 50
+  baseSpecialDefense: 64
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 1
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 63
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 4721ff260eecda94ab2b83bc5340bbce, type: 2}
+    levelToEvolve: 16
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: a347a47023c98104a9b91b22b6915649, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b52538b0cff73444eb903ce3621e56cb, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 1a35e647c98b6194a99122d30df7c714, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 063a8e828289d5942a808dc30e8f0076, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 2211308ad274db34ea8dca54107c8521, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: dba04a8065232a34dbeb2ee462ccb606, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: 91a36c898538a3e45affa65057cb8df3, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 324ce5d95552e204aab518e6d0299446, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: b9cc1e37307569d41a508a61ac4023fe, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 91810f8fe4ebf17448003c482af926f8, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 094e1e4ef1f3f5d4f95c725192812978, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: cd7c9f58a1cc6dc4796d0feb9ba24720, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: fb03d1fba26f7da4998af84e8bd50416, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 8b46060d2f2a2304bb8be60073b5e90f, type: 2}
+    level: 40
+  eggMoves:
+  - {fileID: 11400000, guid: 2a27580fa3e6f9a4f90a254482b05e04, type: 2}
+  - {fileID: 11400000, guid: 6fc26056933d0644e818203af6447136, type: 2}
+  - {fileID: 11400000, guid: c41442279ace78e43bb4fbf254106a1a, type: 2}
+  - {fileID: 11400000, guid: 024e30bc96be06648be0cea3c5deda85, type: 2}
+  - {fileID: 11400000, guid: 1e068dd08d60376468b716a9552e8624, type: 2}
+  - {fileID: 11400000, guid: fca190ed8ac5644488bbf89db93cced9, type: 2}
+  - {fileID: 11400000, guid: fcdc8eefaf90d484e943c0be8425041e, type: 2}
+  - {fileID: 11400000, guid: 7385fb8bf27cea34ba1b7c67fb1a92d2, type: 2}
+  - {fileID: 11400000, guid: 773cd144d27be2447bb8bc19af29237f, type: 2}
+  - {fileID: 11400000, guid: 1e210b22ceaee9948b6decf539e8861e, type: 2}
+  - {fileID: 11400000, guid: 2bbbe676fefee4d4c9453ec1dab507bf, type: 2}
+  - {fileID: 11400000, guid: d8b25ea2ec5264346a9b5be76e09289c, type: 2}
+  - {fileID: 11400000, guid: 71ff9eb00e1ecb74cabfde6d40c7217f, type: 2}
+  - {fileID: 11400000, guid: 9ee89e14202b6fd47916bfb92f5721f3, type: 2}

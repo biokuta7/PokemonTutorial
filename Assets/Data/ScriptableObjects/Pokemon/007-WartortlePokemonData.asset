@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 007-WartortlePokemonData
+  m_EditorClassIdentifier: 
+  number: 8
+  name: Wartortle
+  internalName: WARTORTLE
+  kind: Turtle
+  height: 1
+  weight: 22.5
+  dexEntry: "Its large tail is covered with rich, thick fur that deepens in color
+    with age. The scratches on its shell are evidence of this Pok\xE9mon's toughness
+    in battle."
+  sprite: {fileID: 21300000, guid: d5ce0d56d52ed944da66cd0d07a31cc6, type: 3}
+  backSprite: {fileID: 21300000, guid: e7581f33929f6524280f5bf2dba02c34, type: 3}
+  shinySprite: {fileID: 21300000, guid: 127c576601af233419fe7b1a834705e6, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 24267283438c96342ab056b431a42fc7, type: 3}
+  footprintSprite: {fileID: 21300000, guid: c27ad06dd03b4be459996f03996bd5b4, type: 3}
+  type1: {fileID: 11400000, guid: 4436bc7397ddc2342ae364d8dadc3e39, type: 2}
+  type2: {fileID: 11400000, guid: 26317c5bb6f4d8746a0567db42a1e986, type: 2}
+  eggGroup1: 1
+  eggGroup2: 2
+  growthRate: 3
+  habitat: 8
+  femaleRatio: 0.125
+  standardAbilities:
+  - {fileID: 11400000, guid: 1c3eb3bb1b6602341a6d4bf2af920afc, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 230c10a841f77304ca93335ed8604ba0, type: 2}
+  baseHP: 59
+  baseAttack: 63
+  baseDefense: 80
+  baseSpeed: 58
+  baseSpecialAttack: 65
+  baseSpecialDefense: 80
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 1
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 1
+  baseEXP: 142
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: cc32f7709eb115f45bfa892c338a0ee9, type: 2}
+    levelToEvolve: 36
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: a347a47023c98104a9b91b22b6915649, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b52538b0cff73444eb903ce3621e56cb, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 1a35e647c98b6194a99122d30df7c714, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b52538b0cff73444eb903ce3621e56cb, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 1a35e647c98b6194a99122d30df7c714, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 063a8e828289d5942a808dc30e8f0076, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 2211308ad274db34ea8dca54107c8521, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: dba04a8065232a34dbeb2ee462ccb606, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: 91a36c898538a3e45affa65057cb8df3, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 324ce5d95552e204aab518e6d0299446, type: 2}
+    level: 24
+  - move: {fileID: 11400000, guid: b9cc1e37307569d41a508a61ac4023fe, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 91810f8fe4ebf17448003c482af926f8, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: 094e1e4ef1f3f5d4f95c725192812978, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: cd7c9f58a1cc6dc4796d0feb9ba24720, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: fb03d1fba26f7da4998af84e8bd50416, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: 8b46060d2f2a2304bb8be60073b5e90f, type: 2}
+    level: 48
+  eggMoves: []

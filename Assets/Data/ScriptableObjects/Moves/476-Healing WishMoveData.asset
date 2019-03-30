@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeeacdf889dfc2a4f93193475ed815da, type: 3}
+  m_Name: 476-Healing WishMoveData
+  m_EditorClassIdentifier: 
+  ID: 477
+  name: Healing Wish
+  internalName: HEALINGWISH
+  description: "The user faints. In return, the Pok\xE9mon taking its place will have
+    its HP restored and status cured."
+  functionCode: 0E3
+  target: 10
+  flags: 64006900
+  isSpecial: 0
+  basePower: 0
+  accuracy: 0
+  totalPP: 10
+  additionalEffectChance: 0
+  priority: 0
+  type: {fileID: 11400000, guid: 8a60f9e36b8e1a04e88890b5a3d000cb, type: 2}

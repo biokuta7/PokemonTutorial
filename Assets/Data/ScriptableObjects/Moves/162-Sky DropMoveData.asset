@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeeacdf889dfc2a4f93193475ed815da, type: 3}
+  m_Name: 162-Sky DropMoveData
+  m_EditorClassIdentifier: 
+  ID: 163
+  name: Sky Drop
+  internalName: SKYDROP
+  description: The user takes the foe into the sky, then drops it on the next turn.
+    The foe cannot attack while airborne.
+  functionCode: 0CE
+  target: 00
+  flags: 61006200650066006c00
+  isSpecial: 0
+  basePower: 60
+  accuracy: 100
+  totalPP: 10
+  additionalEffectChance: 0
+  priority: 0
+  type: {fileID: 11400000, guid: 90bb1a57d841315478a74baa52e40ba4, type: 2}

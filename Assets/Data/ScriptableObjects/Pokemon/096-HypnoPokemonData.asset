@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 096-HypnoPokemonData
+  m_EditorClassIdentifier: 
+  number: 97
+  name: Hypno
+  internalName: HYPNO
+  kind: Hypnosis
+  height: 1.6
+  weight: 75.6
+  dexEntry: The arcing movement and glitter of the pendulum in a Hypno's hand lull
+    the foe into deep hypnosis. While searching for prey, it polishes the pendulum.
+  sprite: {fileID: 21300000, guid: 7114ee2d95b331c44a21ad8afe8b37f8, type: 3}
+  backSprite: {fileID: 21300000, guid: 617049d047cc0244187a8785e13b1a2b, type: 3}
+  shinySprite: {fileID: 21300000, guid: 80787d370d468014f80b1e76cb1888a7, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 18eb717378544664383cb5657a4bbf14, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 9028a4e6c13d2804c8b31b1c106ba4f3, type: 3}
+  type1: {fileID: 11400000, guid: 8a60f9e36b8e1a04e88890b5a3d000cb, type: 2}
+  type2: {fileID: 11400000, guid: 26317c5bb6f4d8746a0567db42a1e986, type: 2}
+  eggGroup1: 8
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 2
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 25b30b39d33b6374fac09d109e92de71, type: 2}
+  - {fileID: 11400000, guid: d993180e8ee872345b323b2d2e7b2bc9, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: a2d1d6cbb501d994098afc64117cdb6f, type: 2}
+  baseHP: 85
+  baseAttack: 73
+  baseDefense: 70
+  baseSpeed: 67
+  baseSpecialAttack: 73
+  baseSpecialDefense: 115
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 2
+  baseEXP: 169
+  rareness: 75
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 83aa4804de54899429cfc88e180a696e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3aadb007e8487194790ecf03fedb560d, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 35b89914503702344bcb3c84d63414a4, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 87008cebc39ca8b408e3abcca38673e4, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d8b48209d2479c34092c394dd8f1186d, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 159d586103c995a45b1f71823a5b2d82, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d8b48209d2479c34092c394dd8f1186d, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 159d586103c995a45b1f71823a5b2d82, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 798405ce66612f542bf3457eb32c6982, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: d281471c5cabb014b9671e734cafbba0, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 3b86caa38c3bce648adff8eb80bb5ff6, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 42f663ece04b0c948aa15bfd1cc8fc72, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 798405ce66612f542bf3457eb32c6982, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 8440345bdce402e45b7bb74c0fbdd972, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: be35d9f7236b37345ab56abb4b2fee90, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 877f64b03b9b2ee43aca7662a63419e5, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 5fc379df5e2f565468aad4ca011f3b27, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: c7302a4cdc064ad4287d6a10c609847d, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: e7f373519b1d1b144b72576f6af48c87, type: 2}
+    level: 53
+  - move: {fileID: 11400000, guid: e34597c050513bb42bc96946170b78f3, type: 2}
+    level: 57
+  - move: {fileID: 11400000, guid: 1057a0da9f128c34091ea2a7bfd14359, type: 2}
+    level: 61
+  eggMoves: []

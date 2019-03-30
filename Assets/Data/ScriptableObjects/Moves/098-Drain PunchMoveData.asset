@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeeacdf889dfc2a4f93193475ed815da, type: 3}
+  m_Name: 098-Drain PunchMoveData
+  m_EditorClassIdentifier: 
+  ID: 99
+  name: Drain Punch
+  internalName: DRAINPUNCH
+  description: An energy-draining punch. The user's HP is restored by half the damage
+    taken by the target.
+  functionCode: 0DD
+  target: 00
+  flags: 61006200650066006a00
+  isSpecial: 0
+  basePower: 75
+  accuracy: 100
+  totalPP: 10
+  additionalEffectChance: 0
+  priority: 0
+  type: {fileID: 11400000, guid: 60bba5c3467446d45a479ab6b6a6e82e, type: 2}

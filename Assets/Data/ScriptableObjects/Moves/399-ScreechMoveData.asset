@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeeacdf889dfc2a4f93193475ed815da, type: 3}
+  m_Name: 399-ScreechMoveData
+  m_EditorClassIdentifier: 
+  ID: 400
+  name: Screech
+  internalName: SCREECH
+  description: An earsplitting screech harshly reduces the target's Defense stat.
+  functionCode: 04C
+  target: 00
+  flags: 6200630065006b00
+  isSpecial: 0
+  basePower: 0
+  accuracy: 85
+  totalPP: 40
+  additionalEffectChance: 0
+  priority: 0
+  type: {fileID: 11400000, guid: de3693b16b9150146a68b455abcf327a, type: 2}

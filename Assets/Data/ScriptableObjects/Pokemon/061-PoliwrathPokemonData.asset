@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 061-PoliwrathPokemonData
+  m_EditorClassIdentifier: 
+  number: 62
+  name: Poliwrath
+  internalName: POLIWRATH
+  kind: Tadpole
+  height: 1.3
+  weight: 54
+  dexEntry: "Its highly developed muscles never grow fatigued, however much it exercises.
+    This Pok\xE9mon can swim back and forth across the Pacific Ocean without effort."
+  sprite: {fileID: 21300000, guid: 5e091ad4311e4f74997ff6bb442148ea, type: 3}
+  backSprite: {fileID: 21300000, guid: 924e06bb11ef05a44af0efa09c0bed45, type: 3}
+  shinySprite: {fileID: 21300000, guid: ef01346b4a5d44a409bc8bdbbb7938dc, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 703dab9de69378a49897dbff230ac055, type: 3}
+  footprintSprite: {fileID: 21300000, guid: a88a95b21abe8eb4bae3edceeeda7942, type: 3}
+  type1: {fileID: 11400000, guid: 4436bc7397ddc2342ae364d8dadc3e39, type: 2}
+  type2: {fileID: 11400000, guid: 60bba5c3467446d45a479ab6b6a6e82e, type: 2}
+  eggGroup1: 2
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 8
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: f46543b36a364c940864b5ac6577cf2f, type: 2}
+  - {fileID: 11400000, guid: 77d60fc442abe3741bd47230324afc81, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 233810631c911cd49b8ae55d8c7ee6b2, type: 2}
+  baseHP: 90
+  baseAttack: 85
+  baseDefense: 95
+  baseSpeed: 70
+  baseSpecialAttack: 70
+  baseSpecialDefense: 90
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 3
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 225
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 2c6ae6e02679bfd4ab360cadb228ea6d, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 87008cebc39ca8b408e3abcca38673e4, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d03418bfd94dca64c83c5ce9c0fe775b, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 8fa900da871b05644a3fba9b659b0d52, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b678a35955a763541802c9350bca741c, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: 38189c2cc96c78f4dab35ed3177dace6, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: 1d14af6e4f4a90e4cbedce6979dba86a, type: 2}
+    level: 53
+  eggMoves: []

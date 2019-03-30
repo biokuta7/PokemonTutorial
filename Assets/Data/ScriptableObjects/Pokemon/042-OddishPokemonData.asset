@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 042-OddishPokemonData
+  m_EditorClassIdentifier: 
+  number: 43
+  name: Oddish
+  internalName: ODDISH
+  kind: Weed
+  height: 0.5
+  weight: 5.4
+  dexEntry: "This Pok\xE9mon grows by absorbing moonlight. During the daytime, it
+    buries itself in the ground, leaving only its leaves exposed to avoid detection
+    by its enemies."
+  sprite: {fileID: 21300000, guid: a9b3d3f64dd487f43999e88ccf977b11, type: 3}
+  backSprite: {fileID: 21300000, guid: dd10a40cc3e37544fb90cf035dde3e3c, type: 3}
+  shinySprite: {fileID: 21300000, guid: 4d303d3561d3f5046940bf114e2e1999, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 7bdf201a9dc4d034aa30000fd103c02a, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 4f18213bfbb13cc48a81ceec40d43de3, type: 3}
+  type1: {fileID: 11400000, guid: 0fe0aaa7940cd5b4a8de75cef966e991, type: 2}
+  type2: {fileID: 11400000, guid: 5c263d07fc626544cae866e79835f9fd, type: 2}
+  eggGroup1: 7
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 2
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 7ffc16821ae46584ca4ef54c1526f1ee, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 9cfbcbfefcb3e7c4e8cbc8fcac297894, type: 2}
+  baseHP: 45
+  baseAttack: 50
+  baseDefense: 55
+  baseSpeed: 30
+  baseSpecialAttack: 75
+  baseSpecialDefense: 65
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 1
+  EV_SpecialDefense: 0
+  baseEXP: 64
+  rareness: 255
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: e5bde41bcaabd934ca70550a70e362ad, type: 2}
+    levelToEvolve: 21
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4c2409a6e94e0624ba9dd148c14ec43f, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 721f633d1766c0f40b50cda588d4ed35, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 892cb6b66b9fc344d9464c69b49a75aa, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 18b297dee69233e439e3d91d3fcb0631, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 98a5a39534f50e24298715d7010f250e, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 03d0749356f56c44e8d3046a42e0d444, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 2594045b4529b5c428c7ec2327015df0, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 0ca6af338c8fd474295d2bd083ffe464, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 97324a913aed7344893d19f88a7462a3, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 7d7122338ef988443bfdb23752f58477, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 8cb4514425f4c5844a1c8a1a432381f4, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: db5d233f18f03154bbc98fe8479d8c38, type: 2}
+    level: 41
+  eggMoves:
+  - {fileID: 11400000, guid: 0a304e12faabc544fa88c455fa8f2a50, type: 2}
+  - {fileID: 11400000, guid: 6e8f6bcbab89d374580103b3c615a8e2, type: 2}
+  - {fileID: 11400000, guid: 1e068dd08d60376468b716a9552e8624, type: 2}
+  - {fileID: 11400000, guid: 089384a530655954b8796602a0e9ff5b, type: 2}
+  - {fileID: 11400000, guid: a341ece742ddbd64f8ec8f67b3b2203c, type: 2}
+  - {fileID: 11400000, guid: a78b60dae016cb943b07c930f82d2034, type: 2}
+  - {fileID: 11400000, guid: 8d71515d07e9d5b4ea1fe8c614ccad06, type: 2}
+  - {fileID: 11400000, guid: a992cc876808e714299c1535f5c61c71, type: 2}
+  - {fileID: 11400000, guid: c1d8637426f0f1643be54c2fe98f3dff, type: 2}
+  - {fileID: 11400000, guid: 935a029690bb0324f9fc21b44c2d5a54, type: 2}

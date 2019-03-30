@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeeacdf889dfc2a4f93193475ed815da, type: 3}
+  m_Name: 517-Meteor MashMoveData
+  m_EditorClassIdentifier: 
+  ID: 518
+  name: Meteor Mash
+  internalName: METEORMASH
+  description: The target is hit with a hard punch fired like a meteor. It may also
+    raise the user's Attack.
+  functionCode: 01C
+  target: 00
+  flags: 61006200650066006a00
+  isSpecial: 0
+  basePower: 100
+  accuracy: 85
+  totalPP: 10
+  additionalEffectChance: 20
+  priority: 0
+  type: {fileID: 11400000, guid: e19d9d0db9bfb304f86f2be1b2cbcd6e, type: 2}

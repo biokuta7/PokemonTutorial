@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 029-NidorinaPokemonData
+  m_EditorClassIdentifier: 
+  number: 30
+  name: Nidorina
+  internalName: NIDORINA
+  kind: Poison Pin
+  height: 0.8
+  weight: 20
+  dexEntry: When it is with its friends or family, its barbs are tucked away to prevent
+    injury. It appears to become nervous if separated from the others.
+  sprite: {fileID: 21300000, guid: 303b9dd4ab4318948a25d4707faf51a8, type: 3}
+  backSprite: {fileID: 21300000, guid: d7e2bd7b5f7149547974bc53b14ba15c, type: 3}
+  shinySprite: {fileID: 21300000, guid: c7c752dc681fb894c93e6638234227d9, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: aa29ec6379a531c4f825eef191b642e5, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 7fdd534fc02d9d0409534567d6227c79, type: 3}
+  type1: {fileID: 11400000, guid: 5c263d07fc626544cae866e79835f9fd, type: 2}
+  type2: {fileID: 11400000, guid: 26317c5bb6f4d8746a0567db42a1e986, type: 2}
+  eggGroup1: 1
+  eggGroup2: 5
+  growthRate: 3
+  habitat: 2
+  femaleRatio: 1
+  standardAbilities:
+  - {fileID: 11400000, guid: b816b766895bd0e4d96fb3ce71d0e129, type: 2}
+  - {fileID: 11400000, guid: 59e83391d5caa694b9d8f6fa72626806, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 19818810e27235c44b89aec4ebd05a66, type: 2}
+  baseHP: 70
+  baseAttack: 62
+  baseDefense: 67
+  baseSpeed: 56
+  baseSpecialAttack: 55
+  baseSpecialDefense: 55
+  EV_HP: 2
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 128
+  rareness: 120
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 1dc1f0e0d33ab7848bb268ac6b94e0f1, type: 2}
+    levelToEvolve: 0
+    itemToEvolve: {fileID: 11400000, guid: 053678ad4fd5d6f4fab0861ad156a235, type: 2}
+    evolutionType: 1
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 749211626dd472a42a6e14e64487496e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 43e204c593e71c448b5b31e61ae8084c, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b52538b0cff73444eb903ce3621e56cb, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 56298606bae99214cb54f2d3cc6c0745, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 1971798c31d0c6c49bcb6964f461504c, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 37d8a669930477b45bbdd5d1f05ce447, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: dba04a8065232a34dbeb2ee462ccb606, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: 3490794aaf4dd254f890617fdef5ffe8, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 24839cef79aad694798bf0488436f778, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: f8e43b8f5035eff46827e54c9e8b888c, type: 2}
+    level: 38
+  - move: {fileID: 11400000, guid: 8198743c5efbba2458725c8f125bd2fe, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: 744ac0695a2083d499792ee672b20057, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: 7bfb1a29bc8069a44a6b9879087d0b86, type: 2}
+    level: 58
+  eggMoves: []

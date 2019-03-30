@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 069-WeepinbellPokemonData
+  m_EditorClassIdentifier: 
+  number: 70
+  name: Weepinbell
+  internalName: WEEPINBELL
+  kind: Flycatcher
+  height: 1
+  weight: 6.4
+  dexEntry: At night, a Weepinbell hangs on to a tree branch with its hooked rear
+    and sleeps. If it moves around in its sleep, it may wake up to find itself on
+    the ground.
+  sprite: {fileID: 21300000, guid: 5eaf89753a04b76498f44a2cb96c9a20, type: 3}
+  backSprite: {fileID: 21300000, guid: 06f7c8e0d7ccaa04cb138931e1482c4c, type: 3}
+  shinySprite: {fileID: 21300000, guid: 49086b33b3c1a4548b655c58bdb5e7a0, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: d57c2bc4787d1684ab4523e9c911a4c5, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 954def92eff745340979f02471a19df2, type: 3}
+  type1: {fileID: 11400000, guid: 0fe0aaa7940cd5b4a8de75cef966e991, type: 2}
+  type2: {fileID: 11400000, guid: 5c263d07fc626544cae866e79835f9fd, type: 2}
+  eggGroup1: 7
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 1
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 7ffc16821ae46584ca4ef54c1526f1ee, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: ed4240dff8f66b44c82738aab091f088, type: 2}
+  baseHP: 65
+  baseAttack: 90
+  baseDefense: 50
+  baseSpeed: 55
+  baseSpecialAttack: 85
+  baseSpecialDefense: 45
+  EV_HP: 0
+  EV_Attack: 2
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 137
+  rareness: 120
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: c7f5273d27312114c85250d8c0040f03, type: 2}
+    levelToEvolve: 0
+    itemToEvolve: {fileID: 11400000, guid: eaf0161f2b593864db2f65408da7e15b, type: 2}
+    evolutionType: 1
+  learnedMoves:
+  - move: {fileID: 11400000, guid: eeb7e7fadb8c2ab43910228223680b54, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 5773d6a4d162391499886150e2a65b31, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 8303335133a8ada4f885e487234fd930, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 5773d6a4d162391499886150e2a65b31, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 8303335133a8ada4f885e487234fd930, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 03d0749356f56c44e8d3046a42e0d444, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 18b297dee69233e439e3d91d3fcb0631, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 98a5a39534f50e24298715d7010f250e, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 892cb6b66b9fc344d9464c69b49a75aa, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: 835fbce7e2a2d6242acd411cf80f5780, type: 2}
+    level: 27
+  - move: {fileID: 11400000, guid: 721f633d1766c0f40b50cda588d4ed35, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 813a440f72da40f419721e7bd0892086, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: a78b60dae016cb943b07c930f82d2034, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: 1c4b2c2d13b06f848b74034a44e8b9cc, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 7831cc421d097e34e8d139337f752cb1, type: 2}
+    level: 47
+  eggMoves: []

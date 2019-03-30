@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeeacdf889dfc2a4f93193475ed815da, type: 3}
+  m_Name: 146-Fire SpinMoveData
+  m_EditorClassIdentifier: 
+  ID: 147
+  name: Fire Spin
+  internalName: FIRESPIN
+  description: The target becomes trapped within a fierce vortex of fire that rages
+    for four to five turns.
+  functionCode: 0CF
+  target: 00
+  flags: 620065006600
+  isSpecial: 1
+  basePower: 35
+  accuracy: 85
+  totalPP: 15
+  additionalEffectChance: 0
+  priority: 0
+  type: {fileID: 11400000, guid: e29da51f60183e2428c5da1f4d31481e, type: 2}

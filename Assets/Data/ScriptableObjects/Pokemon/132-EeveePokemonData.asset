@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 132-EeveePokemonData
+  m_EditorClassIdentifier: 
+  number: 133
+  name: Eevee
+  internalName: EEVEE
+  kind: Evolution
+  height: 0.3
+  weight: 6.5
+  dexEntry: "An Eevee has an unstable genetic makeup that suddenly mutates due to
+    its environment. Radiation from various stones causes this Pok\xE9mon to evolve."
+  sprite: {fileID: 21300000, guid: f9ab2ad14286eb24c889f414ff89b1e7, type: 3}
+  backSprite: {fileID: 21300000, guid: ae973d47e70232042aab0775145d399e, type: 3}
+  shinySprite: {fileID: 21300000, guid: 21aadb8ed26bd7c43995d41c6e58c491, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 56b85ce9a1a932d438d14d3df82aab67, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 14e5160b79193ed458faf1f7ba348837, type: 3}
+  type1: {fileID: 11400000, guid: de3693b16b9150146a68b455abcf327a, type: 2}
+  type2: {fileID: 11400000, guid: 26317c5bb6f4d8746a0567db42a1e986, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 7
+  femaleRatio: 0.125
+  standardAbilities:
+  - {fileID: 11400000, guid: 9cfbcbfefcb3e7c4e8cbc8fcac297894, type: 2}
+  - {fileID: 11400000, guid: 6899bc2b6bacdda49b5fb9ce75c22a38, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: f4b920dc9584c2a479a351084519bc0e, type: 2}
+  baseHP: 55
+  baseAttack: 55
+  baseDefense: 50
+  baseSpeed: 55
+  baseSpecialAttack: 45
+  baseSpecialDefense: 65
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 1
+  baseEXP: 65
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 9180
+  evolutions:
+  - resultant: {fileID: 11400000, guid: a28400e39303dd94e940dae5dd55608a, type: 2}
+    levelToEvolve: 0
+    itemToEvolve: {fileID: 11400000, guid: 400c8eff58254194198a5035a28b1528, type: 2}
+    evolutionType: 1
+  - resultant: {fileID: 11400000, guid: 4c91e454d619ae749b4aafe4f4994662, type: 2}
+    levelToEvolve: 0
+    itemToEvolve: {fileID: 11400000, guid: 845d3edecac451a4eb6d82827c4838f1, type: 2}
+    evolutionType: 1
+  - resultant: {fileID: 11400000, guid: 79a90b0813bc8bf489761685942bc0f7, type: 2}
+    levelToEvolve: 0
+    itemToEvolve: {fileID: 11400000, guid: ec71de149ae0eef40bfd6ecc71a05055, type: 2}
+    evolutionType: 1
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 3490794aaf4dd254f890617fdef5ffe8, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: a347a47023c98104a9b91b22b6915649, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b52538b0cff73444eb903ce3621e56cb, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: de43179c21b67784babc148276dfafc6, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 749211626dd472a42a6e14e64487496e, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 06f5c51886e35304ea1b16d809fcb2b0, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: dba04a8065232a34dbeb2ee462ccb606, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 25715ff9d86145e49af8551488430004, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 326f6582ea99f304794dc0e84cdab7b2, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 6e8f6bcbab89d374580103b3c615a8e2, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 79e0b2b49e108ae4cb11b3df5d8464bd, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 52e370b858c7f7d438275166a3b9ff29, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 8e925aa0ca268254db87093a67ded1fa, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 0761cdd08543cf9428b7b3348ac58163, type: 2}
+    level: 45
+  eggMoves:
+  - {fileID: 11400000, guid: 6e8f6bcbab89d374580103b3c615a8e2, type: 2}
+  - {fileID: 11400000, guid: 25715ff9d86145e49af8551488430004, type: 2}
+  - {fileID: 11400000, guid: a6b14a9fb6b0f524b9ee30824a8c0c74, type: 2}
+  - {fileID: 11400000, guid: 8f4bec25569258a41be32f6b6aad3bfc, type: 2}
+  - {fileID: 11400000, guid: 22c0fa3f95784844480ed16441f354f7, type: 2}
+  - {fileID: 11400000, guid: d6f1ef9e40ddd534894d5d3e9dc3577c, type: 2}
+  - {fileID: 11400000, guid: 1e068dd08d60376468b716a9552e8624, type: 2}
+  - {fileID: 11400000, guid: 97324a913aed7344893d19f88a7462a3, type: 2}
+  - {fileID: 11400000, guid: ae1bc1e585e906b41a8e26e8ccc54a98, type: 2}
+  - {fileID: 11400000, guid: be35d9f7236b37345ab56abb4b2fee90, type: 2}
+  - {fileID: 11400000, guid: 935a029690bb0324f9fc21b44c2d5a54, type: 2}
+  - {fileID: 11400000, guid: 0528f12327847034a83335011ee5df7c, type: 2}
+  - {fileID: 11400000, guid: 9ee89e14202b6fd47916bfb92f5721f3, type: 2}

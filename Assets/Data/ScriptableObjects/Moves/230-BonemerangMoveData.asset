@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeeacdf889dfc2a4f93193475ed815da, type: 3}
+  m_Name: 230-BonemerangMoveData
+  m_EditorClassIdentifier: 
+  ID: 231
+  name: Bonemerang
+  internalName: BONEMERANG
+  description: The user throws the bone it holds. The bone loops to hit the target
+    twice, coming and going.
+  functionCode: 0BD
+  target: 00
+  flags: 620065006600
+  isSpecial: 0
+  basePower: 50
+  accuracy: 90
+  totalPP: 10
+  additionalEffectChance: 0
+  priority: 0
+  type: {fileID: 11400000, guid: 2aef90cd8ab7add4ead9fdc156318a32, type: 2}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9044473ed09a8984ea2ad5bf5ec41c6e, type: 3}
+  m_Name: 017-Dusk StoneItemData
+  m_EditorClassIdentifier: 
+  ID: 18
+  name: Dusk Stone
+  internalName: DUSKSTONE
+  description: "A peculiar stone that makes certain species of Pok\xE9mon evolve.
+    It is as dark as dark can be."
+  sprite: {fileID: 21300000, guid: f76b5362d861bc54b919f3cde1ee09b5, type: 3}
+  price: 2100
+  itemType: 1
+  overworldUsabilityID: 1
+  battleUsabilityID: 0
+  specialItemID: 0
+  TMmoveToLearn: {fileID: 0}

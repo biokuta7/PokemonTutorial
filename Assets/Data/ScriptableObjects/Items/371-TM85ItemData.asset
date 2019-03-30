@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9044473ed09a8984ea2ad5bf5ec41c6e, type: 3}
+  m_Name: 371-TM85ItemData
+  m_EditorClassIdentifier: 
+  ID: 372
+  name: TM85
+  internalName: TM85
+  description: The user eats the dreams of a sleeping target. It absorbs half the
+    damage caused to heal the user's HP.
+  sprite: {fileID: 21300000, guid: c168c1e86803817429747cabf0e9c665, type: 3}
+  price: 3000
+  itemType: 4
+  overworldUsabilityID: 3
+  battleUsabilityID: 0
+  specialItemID: 0
+  TMmoveToLearn: {fileID: 11400000, guid: 0671564f3815b244890698982d063396, type: 2}

@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 147-DragonairPokemonData
+  m_EditorClassIdentifier: 
+  number: 148
+  name: Dragonair
+  internalName: DRAGONAIR
+  kind: Dragon
+  height: 4
+  weight: 16.5
+  dexEntry: A Dragonair stores an enormous amount of energy inside its body. It is
+    said to alter the weather around it by loosing energy from the crystals on its
+    neck and tail.
+  sprite: {fileID: 21300000, guid: 1688df193e50a1f449b4d7fe96a8d31c, type: 3}
+  backSprite: {fileID: 21300000, guid: 38deda085cb88614fbdbba45d404ffc2, type: 3}
+  shinySprite: {fileID: 21300000, guid: 4371d11940c43eb42886dc1322917fe3, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 6085546df0d035346be0b3546ea75328, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 7bfcc8d2ebc0445469479c7f09e7a87e, type: 3}
+  type1: {fileID: 11400000, guid: 355178e54b5c8544dabadc0bbe674360, type: 2}
+  type2: {fileID: 11400000, guid: 26317c5bb6f4d8746a0567db42a1e986, type: 2}
+  eggGroup1: 2
+  eggGroup2: 14
+  growthRate: 4
+  habitat: 8
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: c228fbb0f3612934aabc56038e74ccdc, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 8d3ee123c71bc814f8fa7c0c91ec1fab, type: 2}
+  baseHP: 61
+  baseAttack: 84
+  baseDefense: 65
+  baseSpeed: 70
+  baseSpecialAttack: 70
+  baseSpecialDefense: 70
+  EV_HP: 0
+  EV_Attack: 2
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 147
+  rareness: 45
+  baseHappiness: 35
+  stepsToHatch: 10455
+  evolutions:
+  - resultant: {fileID: 11400000, guid: c3e627624b1fbcb459fab9b8c810a79e, type: 2}
+    levelToEvolve: 55
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 8303335133a8ada4f885e487234fd930, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bf6504692a555504684e3a54adf1a98a, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 96c31cbe37cf36c49a59ac0aca071c1d, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 2d57182de08432546a5fb1f7996cc538, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 96c31cbe37cf36c49a59ac0aca071c1d, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 2d57182de08432546a5fb1f7996cc538, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 625fc14e6f8fe334daa5b0e3b30a8f85, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 1c4b2c2d13b06f848b74034a44e8b9cc, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: cfb64af79f5b8724f88d45eae50b5273, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: be2684774a8b97e40af8b270acb36644, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 91810f8fe4ebf17448003c482af926f8, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: bfb0324ffe159d643a8d3d9d5322cad7, type: 2}
+    level: 47
+  - move: {fileID: 11400000, guid: 94db5ec792c9249419ba4f7349ceebcd, type: 2}
+    level: 53
+  - move: {fileID: 11400000, guid: 4b457438d173b1543bfcd8482d2fba3b, type: 2}
+    level: 61
+  - move: {fileID: 11400000, guid: 343eb206439eb9f4580515a9ce017ac4, type: 2}
+    level: 67
+  - move: {fileID: 11400000, guid: eea31dc586c95a94ea7ab3d5e24742b1, type: 2}
+    level: 75
+  eggMoves: []

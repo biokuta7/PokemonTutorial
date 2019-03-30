@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 035-ClefablePokemonData
+  m_EditorClassIdentifier: 
+  number: 36
+  name: Clefable
+  internalName: CLEFABLE
+  kind: Fairy
+  height: 1.3
+  weight: 40
+  dexEntry: A Clefable uses its wings to skip lightly as if it were flying. Its bouncy
+    step lets it even walk on water. On quiet, moonlit nights, it strolls on lakes.
+  sprite: {fileID: 21300000, guid: 03580043a84768747a8ea004661cf340, type: 3}
+  backSprite: {fileID: 21300000, guid: 6771f738871b87948af699a8dac84de0, type: 3}
+  shinySprite: {fileID: 21300000, guid: e5561cc684f2e2d43a33aa008327c464, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 26e95e7e946c5ac49ae2b01ae439df7b, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 18ff1c10c3e6e644eaeb1e7927d574bb, type: 3}
+  type1: {fileID: 11400000, guid: de3693b16b9150146a68b455abcf327a, type: 2}
+  type2: {fileID: 11400000, guid: 26317c5bb6f4d8746a0567db42a1e986, type: 2}
+  eggGroup1: 6
+  eggGroup2: 0
+  growthRate: 1
+  habitat: 3
+  femaleRatio: 0.75
+  standardAbilities:
+  - {fileID: 11400000, guid: fa3ba21b66a321d4bb07d81f3af2b45f, type: 2}
+  - {fileID: 11400000, guid: 0063ed874f03df04dbb8234289e9c11c, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 52bdf3aa361d45d4e9c71abf8a1d473e, type: 2}
+  baseHP: 95
+  baseAttack: 70
+  baseDefense: 73
+  baseSpeed: 60
+  baseSpecialAttack: 85
+  baseSpecialDefense: 90
+  EV_HP: 3
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 213
+  rareness: 25
+  baseHappiness: 140
+  stepsToHatch: 2805
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: aea43cb5e83ed344787b58efe06440da, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d03418bfd94dca64c83c5ce9c0fe775b, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9e4171cebb6d24d489fe49dcda38ceb0, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 020e1b0daa025a24c9157e4ee559b640, type: 2}
+    level: 1
+  eggMoves: []

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9044473ed09a8984ea2ad5bf5ec41c6e, type: 3}
+  m_Name: 246-ElixirItemData
+  m_EditorClassIdentifier: 
+  ID: 247
+  name: Elixir
+  internalName: ELIXIR
+  description: "It restores the PP of all the moves learned by the targeted Pok\xE9mon
+    by 10 points each."
+  sprite: {fileID: 21300000, guid: 9f2816b8e110f6f43bf37f8b232feb52, type: 3}
+  price: 3000
+  itemType: 2
+  overworldUsabilityID: 1
+  battleUsabilityID: 1
+  specialItemID: 0
+  TMmoveToLearn: {fileID: 0}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9044473ed09a8984ea2ad5bf5ec41c6e, type: 3}
+  m_Name: 286-Moon BallItemData
+  m_EditorClassIdentifier: 
+  ID: 287
+  name: Moon Ball
+  internalName: MOONBALL
+  description: "A Pok\xE9 Ball for catching Pok\xE9mon that evolve using the Moon
+    Stone."
+  sprite: {fileID: 21300000, guid: fd89edcdd3222b94da2ab8e99032833b, type: 3}
+  price: 300
+  itemType: 3
+  overworldUsabilityID: 0
+  battleUsabilityID: 2
+  specialItemID: 4
+  TMmoveToLearn: {fileID: 0}

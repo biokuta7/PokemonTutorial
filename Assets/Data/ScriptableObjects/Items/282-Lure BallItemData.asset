@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9044473ed09a8984ea2ad5bf5ec41c6e, type: 3}
+  m_Name: 282-Lure BallItemData
+  m_EditorClassIdentifier: 
+  ID: 283
+  name: Lure Ball
+  internalName: LUREBALL
+  description: "A Pok\xE9 Ball for catching Pok\xE9mon hooked by a Rod when fishing."
+  sprite: {fileID: 21300000, guid: 79f216a18c8573a40895f928354414bd, type: 3}
+  price: 300
+  itemType: 3
+  overworldUsabilityID: 0
+  battleUsabilityID: 2
+  specialItemID: 4
+  TMmoveToLearn: {fileID: 0}

@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 020-SpearowPokemonData
+  m_EditorClassIdentifier: 
+  number: 21
+  name: Spearow
+  internalName: SPEAROW
+  kind: Tiny Bird
+  height: 0.3
+  weight: 2
+  dexEntry: Its loud cry can be heard over half a mile away. If its high, keening
+    cry is heard echoing all around, it is a sign that they are warning each other
+    of danger.
+  sprite: {fileID: 21300000, guid: 98f0fb301c125e048b434da56b281e51, type: 3}
+  backSprite: {fileID: 21300000, guid: a0b230c94979f86469bcacaea1b83bb6, type: 3}
+  shinySprite: {fileID: 21300000, guid: 72bd80afbbdd6cc40b371398e5f20367, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 63609a53278d5e1438691d611244a3ef, type: 3}
+  footprintSprite: {fileID: 21300000, guid: cdc1674a3800e0a4cadb4c798815005e, type: 3}
+  type1: {fileID: 11400000, guid: de3693b16b9150146a68b455abcf327a, type: 2}
+  type2: {fileID: 11400000, guid: 90bb1a57d841315478a74baa52e40ba4, type: 2}
+  eggGroup1: 4
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 5
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 753bfd0fe11b3a64baef194592d445ae, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 16d9265417085e148a04e39943d12152, type: 2}
+  baseHP: 40
+  baseAttack: 60
+  baseDefense: 30
+  baseSpeed: 70
+  baseSpecialAttack: 31
+  baseSpecialDefense: 31
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 1
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 52
+  rareness: 255
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions:
+  - resultant: {fileID: 11400000, guid: cb2dcec553e64234cb87858ec4177ee4, type: 2}
+    levelToEvolve: 20
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 264925760e68bcb498d0de36a54a82a1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 749211626dd472a42a6e14e64487496e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bf6504692a555504684e3a54adf1a98a, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: b1a3c8ba1c1eee249bdf3070c1ec8af2, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 408abc3bd1f008b46844d5b6da887f5c, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 7317c777ebf09aa4696b9bfcc0741811, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 07c51504f08b1e746b57cea6aa367190, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: cfb64af79f5b8724f88d45eae50b5273, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 106122197252cf148bdd1b0520a9ad93, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 1e06801f4ccaa554b8907ecef14679ed, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: b5e765ef5f890554c909fe1fdb482d83, type: 2}
+    level: 37
+  eggMoves:
+  - {fileID: 11400000, guid: e9d7f4dbb520bc24bbafdc904c9419ef, type: 2}
+  - {fileID: 11400000, guid: 74475dd468b74dc478583b8cb7fb75eb, type: 2}
+  - {fileID: 11400000, guid: 1ac2afd5b0461914298ee82cf8dc2e19, type: 2}
+  - {fileID: 11400000, guid: 06f5c51886e35304ea1b16d809fcb2b0, type: 2}
+  - {fileID: 11400000, guid: f3957880a4bba3740829ca24893cf9ea, type: 2}
+  - {fileID: 11400000, guid: 70edc699f538d724a8af8f77f938a7bc, type: 2}
+  - {fileID: 11400000, guid: 54ace686a00282a4b8f1822a66001398, type: 2}
+  - {fileID: 11400000, guid: 5e21023b0cee02b418c00c806c2ac24c, type: 2}
+  - {fileID: 11400000, guid: 12030bbae21cfbc4b8dbc4e5b12fa4db, type: 2}
+  - {fileID: 11400000, guid: a1ed76a435576d14fada469846080714, type: 2}
+  - {fileID: 11400000, guid: 743cd0c2e0b60dd428c3b5234fe0bcd7, type: 2}

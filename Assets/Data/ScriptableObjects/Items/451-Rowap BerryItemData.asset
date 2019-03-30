@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9044473ed09a8984ea2ad5bf5ec41c6e, type: 3}
+  m_Name: 451-Rowap BerryItemData
+  m_EditorClassIdentifier: 
+  ID: 452
+  name: Rowap Berry
+  internalName: ROWAPBERRY
+  description: "If held by a Pok\xE9mon and a special attack lands, the attacker also
+    takes damage."
+  sprite: {fileID: 21300000, guid: 2eee79136f1a5634481d550cb558508c, type: 3}
+  price: 20
+  itemType: 5
+  overworldUsabilityID: 0
+  battleUsabilityID: 0
+  specialItemID: 5
+  TMmoveToLearn: {fileID: 0}

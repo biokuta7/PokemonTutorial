@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 068-BellsproutPokemonData
+  m_EditorClassIdentifier: 
+  number: 69
+  name: Bellsprout
+  internalName: BELLSPROUT
+  kind: Flower
+  height: 0.7
+  weight: 4
+  dexEntry: A Bellsprout's thin and flexible body lets it bend and sway to avoid any
+    attack, however strong it may be. From its mouth, it leaks a fluid that melts
+    even iron.
+  sprite: {fileID: 21300000, guid: d82fa97540accae49b97721eeb7872d3, type: 3}
+  backSprite: {fileID: 21300000, guid: 0a722918917898749b28f1a7208edce6, type: 3}
+  shinySprite: {fileID: 21300000, guid: 7373adb893773914fb3d1b31b24f1a70, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: ef297ca8a4f2ec249a07562eb6582d08, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 477476244dd41954488f2d3e4bcf872b, type: 3}
+  type1: {fileID: 11400000, guid: 0fe0aaa7940cd5b4a8de75cef966e991, type: 2}
+  type2: {fileID: 11400000, guid: 5c263d07fc626544cae866e79835f9fd, type: 2}
+  eggGroup1: 7
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 1
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 7ffc16821ae46584ca4ef54c1526f1ee, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: ed4240dff8f66b44c82738aab091f088, type: 2}
+  baseHP: 50
+  baseAttack: 75
+  baseDefense: 35
+  baseSpeed: 40
+  baseSpecialAttack: 70
+  baseSpecialDefense: 30
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 60
+  rareness: 255
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: d1972173077cf614b97abe815c0ef45d, type: 2}
+    levelToEvolve: 21
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: eeb7e7fadb8c2ab43910228223680b54, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 5773d6a4d162391499886150e2a65b31, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 8303335133a8ada4f885e487234fd930, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 03d0749356f56c44e8d3046a42e0d444, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 18b297dee69233e439e3d91d3fcb0631, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 98a5a39534f50e24298715d7010f250e, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 892cb6b66b9fc344d9464c69b49a75aa, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: 835fbce7e2a2d6242acd411cf80f5780, type: 2}
+    level: 27
+  - move: {fileID: 11400000, guid: 721f633d1766c0f40b50cda588d4ed35, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 813a440f72da40f419721e7bd0892086, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: a78b60dae016cb943b07c930f82d2034, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: 1c4b2c2d13b06f848b74034a44e8b9cc, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 7831cc421d097e34e8d139337f752cb1, type: 2}
+    level: 47
+  eggMoves:
+  - {fileID: 11400000, guid: 9f59ffb3719d1bb4ba748e4437665b7b, type: 2}
+  - {fileID: 11400000, guid: 0c68d784410855042b029312233aee47, type: 2}
+  - {fileID: 11400000, guid: cf2a21915fd439b45af00b80f413ad89, type: 2}
+  - {fileID: 11400000, guid: 8cb4514425f4c5844a1c8a1a432381f4, type: 2}
+  - {fileID: 11400000, guid: 089384a530655954b8796602a0e9ff5b, type: 2}
+  - {fileID: 11400000, guid: cbc9182990f6477489d10a7411cc17b3, type: 2}
+  - {fileID: 11400000, guid: b42f1997d38a40f4cae761942a0c7a1d, type: 2}
+  - {fileID: 11400000, guid: 97324a913aed7344893d19f88a7462a3, type: 2}
+  - {fileID: 11400000, guid: 58b4dc14438798a4189f7254116c1883, type: 2}
+  - {fileID: 11400000, guid: a992cc876808e714299c1535f5c61c71, type: 2}
+  - {fileID: 11400000, guid: 935a029690bb0324f9fc21b44c2d5a54, type: 2}
+  - {fileID: 11400000, guid: 1d3e003c05ba22b4792653ab3994bee9, type: 2}
+  - {fileID: 11400000, guid: ef5f0abfca237b249b1c64c58df3014b, type: 2}

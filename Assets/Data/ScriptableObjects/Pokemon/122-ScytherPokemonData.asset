@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 122-ScytherPokemonData
+  m_EditorClassIdentifier: 
+  number: 123
+  name: Scyther
+  internalName: SCYTHER
+  kind: Mantis
+  height: 1.5
+  weight: 56
+  dexEntry: Its blindingly fast speed adds to the sharpness of its twin forearm scythes.
+    The scythes can slice through thick logs in one wicked stroke.
+  sprite: {fileID: 21300000, guid: db712bf2cc421ba4aa658af4d435a89c, type: 3}
+  backSprite: {fileID: 21300000, guid: de382897cbece974ca6da4f8660b056a, type: 3}
+  shinySprite: {fileID: 21300000, guid: 4d5dc3a28fa7c8c4c84433d51eb1dc47, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: e43ef1d2634f4574799f60b398432dfb, type: 3}
+  footprintSprite: {fileID: 21300000, guid: c9962a8580eb5bf4ca8610d4e23971a2, type: 3}
+  type1: {fileID: 11400000, guid: 79eb8f30cbe188e4f8a36dafd71ebdee, type: 2}
+  type2: {fileID: 11400000, guid: 90bb1a57d841315478a74baa52e40ba4, type: 2}
+  eggGroup1: 3
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 2
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 3fb1e779f31a9eb4090b7c3bd84e307c, type: 2}
+  - {fileID: 11400000, guid: 3445127fdf202764f9100cc0b9c617b2, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 0866c0ff235fce7498401d1cad01975f, type: 2}
+  baseHP: 70
+  baseAttack: 110
+  baseDefense: 80
+  baseSpeed: 105
+  baseSpecialAttack: 55
+  baseSpecialDefense: 80
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 100
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 6630
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 7322616b2e1e54742a15984b8bd9b7ca, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 06f5c51886e35304ea1b16d809fcb2b0, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bf6504692a555504684e3a54adf1a98a, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4dda0649bba3a9540a998a0a84b835fa, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 408abc3bd1f008b46844d5b6da887f5c, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: ea07888df4106514fa6ed45e3b52b46a, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: cfb64af79f5b8724f88d45eae50b5273, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 52eb566500af87548954d2943ea4258c, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: c29ded42491caf34c87223dbe52f71f6, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: c4711ec8a533840419a1c387ff313385, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: f3957880a4bba3740829ca24893cf9ea, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: b49dfdb02447b174c972cb9853ad5223, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 5cf70e03dd1cfce4db2fedc9dbb2b65d, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 47cf6b4e911db71478cc05fba88088a7, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: a0f7a09fd5da0f7478fa05d8dcfac417, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 2fb4ac79087b4dc4883f5cd658efdd2d, type: 2}
+    level: 53
+  - move: {fileID: 11400000, guid: 28b12d749ca1b8f43bc7cc43e5b7e991, type: 2}
+    level: 57
+  - move: {fileID: 11400000, guid: c57d58d301f3f1e418a8fe13d4de175d, type: 2}
+    level: 61
+  eggMoves:
+  - {fileID: 11400000, guid: 79e0b2b49e108ae4cb11b3df5d8464bd, type: 2}
+  - {fileID: 11400000, guid: c5cedbdfb6a1bf549af4199279de5201, type: 2}
+  - {fileID: 11400000, guid: a621546634534114eb4216014729f2e1, type: 2}
+  - {fileID: 11400000, guid: bc202a46f0dae514a85234276fb53bcd, type: 2}
+  - {fileID: 11400000, guid: 22c0fa3f95784844480ed16441f354f7, type: 2}
+  - {fileID: 11400000, guid: 47cf6b4e911db71478cc05fba88088a7, type: 2}
+  - {fileID: 11400000, guid: f3957880a4bba3740829ca24893cf9ea, type: 2}
+  - {fileID: 11400000, guid: 8922e78a6405c94418b3b7aac0e6ffd4, type: 2}
+  - {fileID: 11400000, guid: ee321fbfdce1a6b439a1ef748069fc7c, type: 2}
+  - {fileID: 11400000, guid: 5e21023b0cee02b418c00c806c2ac24c, type: 2}

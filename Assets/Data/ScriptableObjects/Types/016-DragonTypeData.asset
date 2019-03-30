@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 466c5fcfbc0369749adae7475d792ca6, type: 3}
+  m_Name: 016-DragonTypeData
+  m_EditorClassIdentifier: 
+  name: Dragon
+  internalName: DRAGON
+  isSpecial: 1
+  weaknesses:
+  - {fileID: 11400000, guid: 4963f2aa307feef4398c60cebd48934c, type: 2}
+  - {fileID: 11400000}
+  immunities: []
+  resistances:
+  - {fileID: 11400000, guid: e29da51f60183e2428c5da1f4d31481e, type: 2}
+  - {fileID: 11400000, guid: 4436bc7397ddc2342ae364d8dadc3e39, type: 2}
+  - {fileID: 11400000, guid: 0fe0aaa7940cd5b4a8de75cef966e991, type: 2}
+  - {fileID: 11400000, guid: b116a2460c92a4c40a7dd42122987a37, type: 2}
+  color: {r: 0.03137255, g: 0, b: 1, a: 1}

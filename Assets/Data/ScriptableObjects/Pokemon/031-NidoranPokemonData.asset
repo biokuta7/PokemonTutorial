@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 031-NidoranPokemonData
+  m_EditorClassIdentifier: 
+  number: 32
+  name: Nidoran
+  internalName: NIDORANmA
+  kind: Poison Pin
+  height: 0.5
+  weight: 9
+  dexEntry: "The male Nidoran has developed muscles that freely move its ears in any
+    direction. Even the slightest sound does not escape this Pok\xE9mon's notice."
+  sprite: {fileID: 21300000, guid: 6af20697a26f09d4e829cfe33182eba5, type: 3}
+  backSprite: {fileID: 21300000, guid: 74a97f1dd16b08f4b8795d3e917e4ecd, type: 3}
+  shinySprite: {fileID: 21300000, guid: da358950e3ca5454ca419516d3b36879, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 181c4c971c559ab4d91cc1d61b2cf106, type: 3}
+  footprintSprite: {fileID: 21300000, guid: ed59b48bf1582984e9ba96a0289a1ead, type: 3}
+  type1: {fileID: 11400000, guid: 5c263d07fc626544cae866e79835f9fd, type: 2}
+  type2: {fileID: 11400000, guid: 26317c5bb6f4d8746a0567db42a1e986, type: 2}
+  eggGroup1: 1
+  eggGroup2: 5
+  growthRate: 3
+  habitat: 2
+  femaleRatio: 0
+  standardAbilities:
+  - {fileID: 11400000, guid: b816b766895bd0e4d96fb3ce71d0e129, type: 2}
+  - {fileID: 11400000, guid: 59e83391d5caa694b9d8f6fa72626806, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 19818810e27235c44b89aec4ebd05a66, type: 2}
+  baseHP: 46
+  baseAttack: 57
+  baseDefense: 40
+  baseSpeed: 50
+  baseSpecialAttack: 40
+  baseSpecialDefense: 40
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 55
+  rareness: 235
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: d2046d91018f78f46967a5c734a0c3fb, type: 2}
+    levelToEvolve: 16
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: bf6504692a555504684e3a54adf1a98a, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 264925760e68bcb498d0de36a54a82a1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4dda0649bba3a9540a998a0a84b835fa, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 56298606bae99214cb54f2d3cc6c0745, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 1971798c31d0c6c49bcb6964f461504c, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: b1a3c8ba1c1eee249bdf3070c1ec8af2, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: fb86af1f6b80e474999c44943f350094, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 3490794aaf4dd254f890617fdef5ffe8, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 24839cef79aad694798bf0488436f778, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: f8e43b8f5035eff46827e54c9e8b888c, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 819d3261746338b48b76ebc0d58f4cd3, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 744ac0695a2083d499792ee672b20057, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: 0c1f15a6435cd99409b0d2842ddb73e7, type: 2}
+    level: 45
+  eggMoves:
+  - {fileID: 11400000, guid: bc5a985b20815f24ea14070fd02a7275, type: 2}
+  - {fileID: 11400000, guid: 9f9c532b68d07fc4a9766d176df9f7f5, type: 2}
+  - {fileID: 11400000, guid: 1bed5971e1640624f88a2a8e4471ea15, type: 2}
+  - {fileID: 11400000, guid: 159d586103c995a45b1f71823a5b2d82, type: 2}
+  - {fileID: 11400000, guid: a621546634534114eb4216014729f2e1, type: 2}
+  - {fileID: 11400000, guid: d8b48209d2479c34092c394dd8f1186d, type: 2}
+  - {fileID: 11400000, guid: 22c0fa3f95784844480ed16441f354f7, type: 2}
+  - {fileID: 11400000, guid: 115bb45ed9ee0014abb7a095d9972edc, type: 2}
+  - {fileID: 11400000, guid: 26cb3972d02a06e468e349c9ec32588b, type: 2}
+  - {fileID: 11400000, guid: dd060488e4ecd3040bb6d4e23aeed591, type: 2}
+  - {fileID: 11400000, guid: 13bee49c300638b4aaf9ed5c5b22251e, type: 2}
+  - {fileID: 11400000, guid: 12eed21716573ba46b629d1325af8c5a, type: 2}
+  - {fileID: 11400000, guid: 326f6582ea99f304794dc0e84cdab7b2, type: 2}

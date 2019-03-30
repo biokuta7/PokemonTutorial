@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 041-GolbatPokemonData
+  m_EditorClassIdentifier: 
+  number: 42
+  name: Golbat
+  internalName: GOLBAT
+  kind: Bat
+  height: 1.6
+  weight: 55
+  dexEntry: "Its fangs easily puncture even thick animal hide. It loves to feast on
+    the blood of people and Pok\xE9mon. It flits about in darkness and strikes from
+    behind."
+  sprite: {fileID: 21300000, guid: 8a2f5d1fd04c9a74dbd325e61e6e7683, type: 3}
+  backSprite: {fileID: 21300000, guid: 5cec97b06886d9b46a3e64aba5bda3fc, type: 3}
+  shinySprite: {fileID: 21300000, guid: 1e80824d049ff5b4590e37d6a6ef6068, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 1b2028b7c2ac37f4eb203b7522eb51e4, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 47b0409c2632fe243a4187dd9997afaa, type: 3}
+  type1: {fileID: 11400000, guid: 5c263d07fc626544cae866e79835f9fd, type: 2}
+  type2: {fileID: 11400000, guid: 90bb1a57d841315478a74baa52e40ba4, type: 2}
+  eggGroup1: 4
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: a2d1d6cbb501d994098afc64117cdb6f, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 982c80935fb1d1b4a9269f38fbe623a5, type: 2}
+  baseHP: 75
+  baseAttack: 80
+  baseDefense: 70
+  baseSpeed: 90
+  baseSpecialAttack: 65
+  baseSpecialDefense: 75
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 2
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 159
+  rareness: 90
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 097cc0b905dba264ca9cf995c8f6812b, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: cbc9182990f6477489d10a7411cc17b3, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 12eed21716573ba46b629d1325af8c5a, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9d7f4dbb520bc24bbafdc904c9419ef, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 12eed21716573ba46b629d1325af8c5a, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: e9d7f4dbb520bc24bbafdc904c9419ef, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: dba04a8065232a34dbeb2ee462ccb606, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: 52eb566500af87548954d2943ea4258c, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: dd110feb9a3bcc245978b8209c802b91, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: a192be2631581584c971f04163bd2f4e, type: 2}
+    level: 24
+  - move: {fileID: 11400000, guid: d4dd94de41f4aed4fa4cb1aaab64b2e2, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 4166edef70e4d2844827d001e028b961, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: d432f4d4df975244da2a46330573ce55, type: 2}
+    level: 38
+  - move: {fileID: 11400000, guid: 7bfb1a29bc8069a44a6b9879087d0b86, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: fcdc8eefaf90d484e943c0be8425041e, type: 2}
+    level: 47
+  - move: {fileID: 11400000, guid: 2fb4ac79087b4dc4883f5cd658efdd2d, type: 2}
+    level: 52
+  eggMoves: []

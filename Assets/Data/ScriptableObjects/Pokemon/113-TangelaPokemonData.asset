@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 113-TangelaPokemonData
+  m_EditorClassIdentifier: 
+  number: 114
+  name: Tangela
+  internalName: TANGELA
+  kind: Vine
+  height: 1
+  weight: 35
+  dexEntry: Its vines snap off easily and painlessly if they are grabbed, allowing
+    it to make a quick getaway. The lost vines are replaced by new growth the very
+    next day.
+  sprite: {fileID: 21300000, guid: 5553514d72884834c8f4309940b0d13d, type: 3}
+  backSprite: {fileID: 21300000, guid: 4c36d3445743c8b40b68a717d1c5916d, type: 3}
+  shinySprite: {fileID: 21300000, guid: 594d857d844f2994d9243fb726c7b5cb, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 6dcbfba2431ea824aad4c9234cbcfcfc, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 683018463e72a664d8cc31da41b99a3f, type: 3}
+  type1: {fileID: 11400000, guid: 0fe0aaa7940cd5b4a8de75cef966e991, type: 2}
+  type2: {fileID: 11400000, guid: 26317c5bb6f4d8746a0567db42a1e986, type: 2}
+  eggGroup1: 7
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 2
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 7ffc16821ae46584ca4ef54c1526f1ee, type: 2}
+  - {fileID: 11400000, guid: bda37dfec1446c2488af920ed889ff2f, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: bac0c831a29c2f94683d2f2c790c05e5, type: 2}
+  baseHP: 65
+  baseAttack: 55
+  baseDefense: 115
+  baseSpeed: 60
+  baseSpecialAttack: 100
+  baseSpecialDefense: 40
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 1
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 87
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 089384a530655954b8796602a0e9ff5b, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 905f9de58d1d43f44a6230b0690af510, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 03d0749356f56c44e8d3046a42e0d444, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: eeb7e7fadb8c2ab43910228223680b54, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 4c2409a6e94e0624ba9dd148c14ec43f, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 18b297dee69233e439e3d91d3fcb0631, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: d0b47c0f51ff47243bb8a16e2221d237, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 5773d6a4d162391499886150e2a65b31, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 2594045b4529b5c428c7ec2327015df0, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: 835fbce7e2a2d6242acd411cf80f5780, type: 2}
+    level: 27
+  - move: {fileID: 11400000, guid: 98a5a39534f50e24298715d7010f250e, type: 2}
+    level: 30
+  - move: {fileID: 11400000, guid: 97324a913aed7344893d19f88a7462a3, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 8cb4514425f4c5844a1c8a1a432381f4, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 0792363360934c64b916c97bb5633f10, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: 1c4b2c2d13b06f848b74034a44e8b9cc, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: 935a029690bb0324f9fc21b44c2d5a54, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: 7831cc421d097e34e8d139337f752cb1, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 58b4dc14438798a4189f7254116c1883, type: 2}
+    level: 53
+  eggMoves:
+  - {fileID: 11400000, guid: bc5a985b20815f24ea14070fd02a7275, type: 2}
+  - {fileID: 11400000, guid: 159d586103c995a45b1f71823a5b2d82, type: 2}
+  - {fileID: 11400000, guid: c77479a66a85e564a98c7f12abe93087, type: 2}
+  - {fileID: 11400000, guid: 1e068dd08d60376468b716a9552e8624, type: 2}
+  - {fileID: 11400000, guid: 8cb4514425f4c5844a1c8a1a432381f4, type: 2}
+  - {fileID: 11400000, guid: 4a0cab34a7c0f774c8f76311a36935f2, type: 2}
+  - {fileID: 11400000, guid: 64ed1d3963e5ebd45b27f8e20ff2a86c, type: 2}
+  - {fileID: 11400000, guid: 2594045b4529b5c428c7ec2327015df0, type: 2}
+  - {fileID: 11400000, guid: 97324a913aed7344893d19f88a7462a3, type: 2}
+  - {fileID: 11400000, guid: a341ece742ddbd64f8ec8f67b3b2203c, type: 2}
+  - {fileID: 11400000, guid: 2f5436c77ffa0b345a2851ee25a68d0d, type: 2}
+  - {fileID: 11400000, guid: 9bfd47ebcafec6b418cfc40231c4802c, type: 2}

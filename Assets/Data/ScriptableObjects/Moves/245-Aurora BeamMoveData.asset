@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeeacdf889dfc2a4f93193475ed815da, type: 3}
+  m_Name: 245-Aurora BeamMoveData
+  m_EditorClassIdentifier: 
+  ID: 246
+  name: Aurora Beam
+  internalName: AURORABEAM
+  description: The target is hit with a rainbow-colored beam. This may also lower
+    the target's Attack stat.
+  functionCode: 042
+  target: 00
+  flags: 62006500
+  isSpecial: 1
+  basePower: 65
+  accuracy: 100
+  totalPP: 20
+  additionalEffectChance: 10
+  priority: 0
+  type: {fileID: 11400000, guid: 4963f2aa307feef4398c60cebd48934c, type: 2}

@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 051-MeowthPokemonData
+  m_EditorClassIdentifier: 
+  number: 52
+  name: Meowth
+  internalName: MEOWTH
+  kind: Scratch Cat
+  height: 0.4
+  weight: 4.2
+  dexEntry: "Meowth withdraw their sharp claws into their paws to silently sneak about.
+    For some reason, this Pok\xE9mon loves shiny coins that glitter with light."
+  sprite: {fileID: 21300000, guid: 37fb9b6e600b35644ae6b09abe5ed97a, type: 3}
+  backSprite: {fileID: 21300000, guid: 5a51eb22e016a2246848e719063bca27, type: 3}
+  shinySprite: {fileID: 21300000, guid: 313c1b9e52bb4d74eb7f5068566155d1, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: cbf35801b09e81f4ebb522cc77a11189, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 23063e82a346101408e3efaecc6d557d, type: 3}
+  type1: {fileID: 11400000, guid: de3693b16b9150146a68b455abcf327a, type: 2}
+  type2: {fileID: 11400000, guid: 26317c5bb6f4d8746a0567db42a1e986, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 7
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 4aeb6e954c1a6d4489a9a0afedfb3011, type: 2}
+  - {fileID: 11400000, guid: 3445127fdf202764f9100cc0b9c617b2, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 8666c4bb66fe66046a767f7045941671, type: 2}
+  baseHP: 40
+  baseAttack: 45
+  baseDefense: 35
+  baseSpeed: 90
+  baseSpecialAttack: 40
+  baseSpecialDefense: 40
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 1
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 58
+  rareness: 255
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: eb64150b47e13fa4299d739f8b3ae50b, type: 2}
+    levelToEvolve: 28
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 43e204c593e71c448b5b31e61ae8084c, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 749211626dd472a42a6e14e64487496e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: dba04a8065232a34dbeb2ee462ccb606, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: 024e30bc96be06648be0cea3c5deda85, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 37d8a669930477b45bbdd5d1f05ce447, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: 097cc0b905dba264ca9cf995c8f6812b, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 74475dd468b74dc478583b8cb7fb75eb, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: c819cce6889d05a47ae81d7e87604b51, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 439282d11fb22824ca8ce4e001e0a481, type: 2}
+    level: 30
+  - move: {fileID: 11400000, guid: c4711ec8a533840419a1c387ff313385, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: e7f373519b1d1b144b72576f6af48c87, type: 2}
+    level: 38
+  - move: {fileID: 11400000, guid: 106122197252cf148bdd1b0520a9ad93, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 744ac0695a2083d499792ee672b20057, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: 47cf6b4e911db71478cc05fba88088a7, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: c57d58d301f3f1e418a8fe13d4de175d, type: 2}
+    level: 54
+  eggMoves:
+  - {fileID: 11400000, guid: bc5a985b20815f24ea14070fd02a7275, type: 2}
+  - {fileID: 11400000, guid: 57927cff9eaf9fb4189c8a8b99fa737a, type: 2}
+  - {fileID: 11400000, guid: 6e8f6bcbab89d374580103b3c615a8e2, type: 2}
+  - {fileID: 11400000, guid: 1e068dd08d60376468b716a9552e8624, type: 2}
+  - {fileID: 11400000, guid: 5e75e71c0c5c95c4c8da83f31fadc806, type: 2}
+  - {fileID: 11400000, guid: 87008cebc39ca8b408e3abcca38673e4, type: 2}
+  - {fileID: 11400000, guid: 26cb3972d02a06e468e349c9ec32588b, type: 2}
+  - {fileID: 11400000, guid: 8e925aa0ca268254db87093a67ded1fa, type: 2}
+  - {fileID: 11400000, guid: 9d1326b03d37de64d82bbf64cb170308, type: 2}
+  - {fileID: 11400000, guid: 0902f9f645c8b7b43b6c4beca512456a, type: 2}
+  - {fileID: 11400000, guid: 591a5fea45850a249896df0b9a80cd12, type: 2}
+  - {fileID: 11400000, guid: bdc773ed0937e8b4eb96bb53e560844d, type: 2}
+  - {fileID: 11400000, guid: b52538b0cff73444eb903ce3621e56cb, type: 2}

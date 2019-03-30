@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 095-DrowzeePokemonData
+  m_EditorClassIdentifier: 
+  number: 96
+  name: Drowzee
+  internalName: DROWZEE
+  kind: Hypnosis
+  height: 1
+  weight: 32.4
+  dexEntry: If your nose becomes itchy while you are sleeping, it's a sure sign that
+    a Drowzee is standing above your pillow and trying to eat your dream through your
+    nostrils.
+  sprite: {fileID: 21300000, guid: 4046dc343fa115e41a6bce10704fd22c, type: 3}
+  backSprite: {fileID: 21300000, guid: 3a8e4428cca3b5b4daf83ed5b8be69ec, type: 3}
+  shinySprite: {fileID: 21300000, guid: f0236cfd82d829a48b1ff79c8d9ebcde, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 5b5fe3878937ce845906aeee01d3c7f1, type: 3}
+  footprintSprite: {fileID: 21300000, guid: bb0e58567bd774e4f84baa752de3c8d0, type: 3}
+  type1: {fileID: 11400000, guid: 8a60f9e36b8e1a04e88890b5a3d000cb, type: 2}
+  type2: {fileID: 11400000, guid: 26317c5bb6f4d8746a0567db42a1e986, type: 2}
+  eggGroup1: 8
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 2
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 25b30b39d33b6374fac09d109e92de71, type: 2}
+  - {fileID: 11400000, guid: d993180e8ee872345b323b2d2e7b2bc9, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: a2d1d6cbb501d994098afc64117cdb6f, type: 2}
+  baseHP: 60
+  baseAttack: 48
+  baseDefense: 45
+  baseSpeed: 42
+  baseSpecialAttack: 43
+  baseSpecialDefense: 90
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 1
+  baseEXP: 66
+  rareness: 190
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 4490da790373f9044979feff0e8317fe, type: 2}
+    levelToEvolve: 26
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 35b89914503702344bcb3c84d63414a4, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 87008cebc39ca8b408e3abcca38673e4, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d8b48209d2479c34092c394dd8f1186d, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 159d586103c995a45b1f71823a5b2d82, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 798405ce66612f542bf3457eb32c6982, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: d281471c5cabb014b9671e734cafbba0, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 3b86caa38c3bce648adff8eb80bb5ff6, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 42f663ece04b0c948aa15bfd1cc8fc72, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 798405ce66612f542bf3457eb32c6982, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 8440345bdce402e45b7bb74c0fbdd972, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: be35d9f7236b37345ab56abb4b2fee90, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 877f64b03b9b2ee43aca7662a63419e5, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 5fc379df5e2f565468aad4ca011f3b27, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: c7302a4cdc064ad4287d6a10c609847d, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: e7f373519b1d1b144b72576f6af48c87, type: 2}
+    level: 53
+  - move: {fileID: 11400000, guid: e34597c050513bb42bc96946170b78f3, type: 2}
+    level: 57
+  - move: {fileID: 11400000, guid: 1057a0da9f128c34091ea2a7bfd14359, type: 2}
+    level: 61
+  eggMoves:
+  - {fileID: 11400000, guid: 57927cff9eaf9fb4189c8a8b99fa737a, type: 2}
+  - {fileID: 11400000, guid: b354d50e76e2af148a648d02482f23f3, type: 2}
+  - {fileID: 11400000, guid: c750d29d9cab6404aafd88ee5fb07a80, type: 2}
+  - {fileID: 11400000, guid: f8e43b8f5035eff46827e54c9e8b888c, type: 2}
+  - {fileID: 11400000, guid: 2199999e651b15644a524bdcc472ab76, type: 2}
+  - {fileID: 11400000, guid: 4680efc0b78290e409e0bb591860ec2e, type: 2}
+  - {fileID: 11400000, guid: e7f373519b1d1b144b72576f6af48c87, type: 2}
+  - {fileID: 11400000, guid: d9fbbc62f8d9e3f449f6277ce1cfafe3, type: 2}
+  - {fileID: 11400000, guid: 74259ffb757e3a44e9033fb78a92fbb2, type: 2}
+  - {fileID: 11400000, guid: 8d71515d07e9d5b4ea1fe8c614ccad06, type: 2}
+  - {fileID: 11400000, guid: cd8a790fa9332e843812e0e2d0105836, type: 2}
+  - {fileID: 11400000, guid: 6decc9c7e54c6204d83011ad67167dcb, type: 2}

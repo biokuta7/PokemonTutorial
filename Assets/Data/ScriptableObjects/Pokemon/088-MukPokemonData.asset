@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 088-MukPokemonData
+  m_EditorClassIdentifier: 
+  number: 89
+  name: Muk
+  internalName: MUK
+  kind: Sludge
+  height: 1.2
+  weight: 30
+  dexEntry: It prefers warm and humid habitats. In the summertime, the toxic substances
+    in its body intensify, making Muk reek like putrid kitchen garbage.
+  sprite: {fileID: 21300000, guid: 8768a7e2e0ebf504ca37051da3eddaea, type: 3}
+  backSprite: {fileID: 21300000, guid: 33daad81814efe745986651a1830fd66, type: 3}
+  shinySprite: {fileID: 21300000, guid: 3d35c1f05dd82f14b8c7ec0ca68adbcb, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 894c4ea1afd00204f8ae993bbc05347c, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 3b2ed966c7a56ee4d830c195c81bb7b9, type: 3}
+  type1: {fileID: 11400000, guid: 5c263d07fc626544cae866e79835f9fd, type: 2}
+  type2: {fileID: 11400000, guid: 26317c5bb6f4d8746a0567db42a1e986, type: 2}
+  eggGroup1: 11
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 7
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 97747e7acf84f9b4cb4623b1582873bb, type: 2}
+  - {fileID: 11400000, guid: e75022ca0331af04e86c848838cba37c, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 791fdb981c79f7247a8f65c5ce6cdf27, type: 2}
+  baseHP: 105
+  baseAttack: 105
+  baseDefense: 75
+  baseSpeed: 50
+  baseSpecialAttack: 65
+  baseSpecialDefense: 100
+  EV_HP: 1
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 175
+  rareness: 75
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: d281471c5cabb014b9671e734cafbba0, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 35b89914503702344bcb3c84d63414a4, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 5841efc3a5903d4469d2a705c67b9e50, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: f696eda31d627d34d87c21e9412ff695, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 5841efc3a5903d4469d2a705c67b9e50, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: f696eda31d627d34d87c21e9412ff695, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: d8b48209d2479c34092c394dd8f1186d, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: 1736a9734560f0849894b3931f588051, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 9e4171cebb6d24d489fe49dcda38ceb0, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: de5a714c1cbc1834eb111aea6ae0f55a, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: a4ecd355ad4d247429c70923394d387c, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: 9d41237a33ac98c42afd605804a7d891, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 097cc0b905dba264ca9cf995c8f6812b, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: 3370e20e492f7ed428e06f6fe280b4e0, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: bb7b80cbc212f974997cde51267aa99b, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: 76c8a66d6200c5140aff17bded1a5c8c, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: fbd9161d268f59d48805224e14e40785, type: 2}
+    level: 57
+  eggMoves: []

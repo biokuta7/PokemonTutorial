@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9044473ed09a8984ea2ad5bf5ec41c6e, type: 3}
+  m_Name: 500-Fluffy TailItemData
+  m_EditorClassIdentifier: 
+  ID: 501
+  name: Fluffy Tail
+  internalName: FLUFFYTAIL
+  description: "An item that attracts Pok\xE9mon. Use it to flee from any battle with
+    a wild Pok\xE9mon."
+  sprite: {fileID: 21300000, guid: ff1b5488ed8316046b70be5af045435b, type: 3}
+  price: 1000
+  itemType: 7
+  overworldUsabilityID: 0
+  battleUsabilityID: 2
+  specialItemID: 0
+  TMmoveToLearn: {fileID: 0}

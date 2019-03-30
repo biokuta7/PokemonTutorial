@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 074-GravelerPokemonData
+  m_EditorClassIdentifier: 
+  number: 75
+  name: Graveler
+  internalName: GRAVELER
+  kind: Rock
+  height: 1
+  weight: 105
+  dexEntry: They descend from mountains by tumbling down steep slopes. They are so
+    brutal, they smash aside obstructing trees and massive boulders with thunderous
+    tackles.
+  sprite: {fileID: 21300000, guid: 4f0c4a3c4e25f004fa29b44cb7fc9be4, type: 3}
+  backSprite: {fileID: 21300000, guid: 336f1a930413f3c41b533b19993dca70, type: 3}
+  shinySprite: {fileID: 21300000, guid: a29e9949ce24e09469baad69c1cada7f, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: fc7e07c1f0e98cb4db513a22b80360ed, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 448f9e8bb80590540840cebbc6450c08, type: 3}
+  type1: {fileID: 11400000, guid: 865c5118b1a0e3b4d895cfe37b3b2aa9, type: 2}
+  type2: {fileID: 11400000, guid: 2aef90cd8ab7add4ead9fdc156318a32, type: 2}
+  eggGroup1: 10
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 3
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 00e1f10d9cffccb4ab8c323ea3e99ec7, type: 2}
+  - {fileID: 11400000, guid: 27b667b235a8b9d4ba798e109a4ee552, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: b1644e4c8eac42d47ad94acc7fb51c74, type: 2}
+  baseHP: 55
+  baseAttack: 95
+  baseDefense: 115
+  baseSpeed: 35
+  baseSpecialAttack: 45
+  baseSpecialDefense: 45
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 2
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 137
+  rareness: 120
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 79794a65d76f95145ae0dbdaf347bc8d, type: 2}
+    levelToEvolve: 36
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: a347a47023c98104a9b91b22b6915649, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e84ca13ff82cd0046a8a71f421158604, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 1e210b22ceaee9948b6decf539e8861e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 7378ea1b548a6124cb7a40089d185302, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 1e210b22ceaee9948b6decf539e8861e, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 7378ea1b548a6124cb7a40089d185302, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 5c74eb4e36d6ac44d8e9cb4f1c013828, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 71a92c576037ec644aec35a444b3aa90, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 8972526332a5b3a4681f553f7e9ebcbe, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: 41c0ef7e9322c0c41a81a0ed70689985, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 56e335d5820d1ef47bf4ea3b782076ed, type: 2}
+    level: 27
+  - move: {fileID: 11400000, guid: 8153fe7434e65be46a4fb33b4eba30b4, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: d1a7a8b8ec7181240a927c09bc6e0307, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: d41088472d0ea8c4f89a43b255023857, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: a542b17a0872d5042947e118f8276fb6, type: 2}
+    level: 47
+  - move: {fileID: 11400000, guid: 87a3d6716eed15146bb18d460354321b, type: 2}
+    level: 53
+  - move: {fileID: 11400000, guid: 52e370b858c7f7d438275166a3b9ff29, type: 2}
+    level: 58
+  - move: {fileID: 11400000, guid: cd7571602d978d14dbb315327fc25969, type: 2}
+    level: 64
+  eggMoves: []

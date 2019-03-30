@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 016-PidgeottoPokemonData
+  m_EditorClassIdentifier: 
+  number: 17
+  name: Pidgeotto
+  internalName: PIDGEOTTO
+  kind: Bird
+  height: 1.1
+  weight: 30
+  dexEntry: "This Pok\xE9mon flies around, patrolling its large territory. If its
+    living space is violated, it shows no mercy in thoroughly punishing the foe with
+    its sharp claws."
+  sprite: {fileID: 21300000, guid: 540e9893db07191448c48921de56abb1, type: 3}
+  backSprite: {fileID: 21300000, guid: 96d4dc19425c6f14881654ba6287dcb2, type: 3}
+  shinySprite: {fileID: 21300000, guid: d03b080e86f8eda47a886ff3c31c8be6, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: e4054d3d17c525d43a1d6bb775171d39, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 877b40f55dd4b4042bd00b8dc98e388d, type: 3}
+  type1: {fileID: 11400000, guid: de3693b16b9150146a68b455abcf327a, type: 2}
+  type2: {fileID: 11400000, guid: 90bb1a57d841315478a74baa52e40ba4, type: 2}
+  eggGroup1: 4
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 1
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 753bfd0fe11b3a64baef194592d445ae, type: 2}
+  - {fileID: 11400000, guid: 0226c5e192a0add42a083434e7f32fdc, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 7f6505ed8a5030f428924d737bd13c2a, type: 2}
+  baseHP: 63
+  baseAttack: 60
+  baseDefense: 55
+  baseSpeed: 71
+  baseSpecialAttack: 50
+  baseSpecialDefense: 50
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 2
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 122
+  rareness: 120
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 23bfe19ff4a147342b6b7e3574b954db, type: 2}
+    levelToEvolve: 36
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: a347a47023c98104a9b91b22b6915649, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: de43179c21b67784babc148276dfafc6, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d4c8be8fa0c5bda4db7747d2b0498751, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: de43179c21b67784babc148276dfafc6, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: d4c8be8fa0c5bda4db7747d2b0498751, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 06f5c51886e35304ea1b16d809fcb2b0, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 743cd0c2e0b60dd428c3b5234fe0bcd7, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 2d57182de08432546a5fb1f7996cc538, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 1ac2afd5b0461914298ee82cf8dc2e19, type: 2}
+    level: 27
+  - move: {fileID: 11400000, guid: cfb64af79f5b8724f88d45eae50b5273, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: 52eb566500af87548954d2943ea4258c, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 1e06801f4ccaa554b8907ecef14679ed, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: 36f2d2e5c7c4ebe479b5a5ea4124409b, type: 2}
+    level: 47
+  - move: {fileID: 11400000, guid: 07c51504f08b1e746b57cea6aa367190, type: 2}
+    level: 52
+  - move: {fileID: 11400000, guid: 2fb4ac79087b4dc4883f5cd658efdd2d, type: 2}
+    level: 57
+  - move: {fileID: 11400000, guid: bf6ba82407ffd754bbf0b29fcda9ce69, type: 2}
+    level: 62
+  eggMoves: []

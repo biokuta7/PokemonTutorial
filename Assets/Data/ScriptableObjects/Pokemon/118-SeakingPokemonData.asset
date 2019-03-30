@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 118-SeakingPokemonData
+  m_EditorClassIdentifier: 
+  number: 119
+  name: Seaking
+  internalName: SEAKING
+  kind: Goldfish
+  height: 1.3
+  weight: 39
+  dexEntry: It punches holes in boulders on stream- beds. This is a clever innovation
+    that prevents its eggs from being attacked or washed away by the current.
+  sprite: {fileID: 21300000, guid: 3d31e8cacee287140aba4b6b3e56a6f9, type: 3}
+  backSprite: {fileID: 21300000, guid: 4d445ec205de8e04e9f6264c51d10c25, type: 3}
+  shinySprite: {fileID: 21300000, guid: 86aa5ff9aa7c1e8489d5b7a7c7d70e55, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: c4dd4231b4bf82245a07a711af93d7f5, type: 3}
+  footprintSprite: {fileID: 21300000, guid: ea81e04f07a0f8346a0b3aa4d63e1856, type: 3}
+  type1: {fileID: 11400000, guid: 4436bc7397ddc2342ae364d8dadc3e39, type: 2}
+  type2: {fileID: 11400000, guid: 26317c5bb6f4d8746a0567db42a1e986, type: 2}
+  eggGroup1: 12
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 8
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 233810631c911cd49b8ae55d8c7ee6b2, type: 2}
+  - {fileID: 11400000, guid: f0946c3d3afcada4f882465b2e1e3ee6, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 437a8561b871dc0458095af65e7df71b, type: 2}
+  baseHP: 80
+  baseAttack: 92
+  baseDefense: 65
+  baseSpeed: 68
+  baseSpecialAttack: 65
+  baseSpecialDefense: 80
+  EV_HP: 0
+  EV_Attack: 2
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 158
+  rareness: 60
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 819d3261746338b48b76ebc0d58f4cd3, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 264925760e68bcb498d0de36a54a82a1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b52538b0cff73444eb903ce3621e56cb, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 891f58d607c1d0f43890ef38dc926880, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 12eed21716573ba46b629d1325af8c5a, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 12eed21716573ba46b629d1325af8c5a, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: fb86af1f6b80e474999c44943f350094, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: b9cc1e37307569d41a508a61ac4023fe, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 1e068dd08d60376468b716a9552e8624, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 6fc26056933d0644e818203af6447136, type: 2}
+    level: 27
+  - move: {fileID: 11400000, guid: b1a3c8ba1c1eee249bdf3070c1ec8af2, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 493f910849e7f734592ef0360032ecfb, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: 0c1f15a6435cd99409b0d2842ddb73e7, type: 2}
+    level: 47
+  - move: {fileID: 11400000, guid: cfb64af79f5b8724f88d45eae50b5273, type: 2}
+    level: 56
+  - move: {fileID: 11400000, guid: 330dd69a8c5559d4b885f1f0942cec57, type: 2}
+    level: 63
+  - move: {fileID: 11400000, guid: 61e620f0b65cb9845b8e85b8e128bdff, type: 2}
+    level: 72
+  eggMoves: []
