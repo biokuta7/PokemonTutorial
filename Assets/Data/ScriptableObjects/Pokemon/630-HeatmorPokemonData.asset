@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 630-HeatmorPokemonData
+  m_EditorClassIdentifier: 
+  number: 631
+  name: Heatmor
+  internalName: HEATMOR
+  kind: Anteater
+  height: 1.4
+  weight: 58
+  dexEntry: Using their very hot, flame-covered tongues, they burn through Durant's
+    steel bodies and consume their insides.
+  sprite: {fileID: 21300000, guid: 73be759860716024495ddf0f8bef85b9, type: 3}
+  backSprite: {fileID: 21300000, guid: 4df741568b59a664f912dcafbadf7e14, type: 3}
+  shinySprite: {fileID: 21300000, guid: 50826cfb6ff74a84abce029782fdb8b3, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 47e6a9b308178474282e9da70cee92d9, type: 3}
+  footprintSprite: {fileID: 21300000, guid: cef3298e8a8c91d48a5b74118aba1fc3, type: 3}
+  type1: {fileID: 11400000, guid: e120886a2aede3b4089e217b177a6111, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 0d8dec51d6d249449a421504145b2a85, type: 2}
+  - {fileID: 11400000, guid: 06bd162fe9018664b8c322bdd5564793, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: a43a7fb1a9b1a8b4abc269980d764560, type: 2}
+  baseHP: 85
+  baseAttack: 97
+  baseDefense: 66
+  baseSpeed: 65
+  baseSpecialAttack: 105
+  baseSpecialDefense: 66
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 2
+  EV_SpecialDefense: 0
+  baseEXP: 169
+  rareness: 90
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 396c9981614864c4b8acec9eaaac4387, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: dcd976db8573291419557ed6b9d18e1f, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: f8e0359e915e43e4abfa7d0500c94d43, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: c272b86c2496cdb4e894635816948c2d, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 483f4b439f7e8854bb1f26f6dfd32857, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: fb9cbbcc0dcb76f4a8254e7141042569, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: dd5f72087eedb9d44a2ba78fc7f6569b, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: bf4aeedaebd961648b2a1d639d517a4e, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 29fbd58668c00724ba080e3514e4e713, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: b5cb4834e72f9064abecca08c734899b, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: b54451c499c3fc24aade1add5a757d05, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: d64bedf5e2f4a984eb292a639e253040, type: 2}
+    level: 51
+  - move: {fileID: 11400000, guid: ff3913788b628f54baa7ca440e7aca98, type: 2}
+    level: 56
+  - move: {fileID: 11400000, guid: 896336ca57ccd0a478ad94a85479e278, type: 2}
+    level: 56
+  - move: {fileID: 11400000, guid: b3b0dd4dfe9ef9d4ba5dd8a6a2378381, type: 2}
+    level: 56
+  - move: {fileID: 11400000, guid: 7ba7b62010793334ea3c22704bdc66a5, type: 2}
+    level: 61
+  eggMoves:
+  - {fileID: 11400000, guid: 903b5ee462226ab47b3026d6ace38c5d, type: 2}
+  - {fileID: 11400000, guid: fd48eadb1eda86c45b74371631ca93dd, type: 2}
+  - {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+  - {fileID: 11400000, guid: 416f32e47c994ef4c96231fcc1564e92, type: 2}
+  - {fileID: 11400000, guid: c106b7df995223443800dc9dd1494144, type: 2}
+  - {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+  - {fileID: 11400000, guid: e00c2e5151380af4f86149e04650bb42, type: 2}
+  - {fileID: 11400000, guid: 18d2b07fd9a5ed740902b65b48c67a90, type: 2}
+  - {fileID: 11400000, guid: 075cd6d6634b5004b8f3602896f27620, type: 2}
+  - {fileID: 11400000, guid: e3c505701482f0141bc8931909022060, type: 2}

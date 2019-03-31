@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 507-StoutlandPokemonData
+  m_EditorClassIdentifier: 
+  number: 508
+  name: Stoutland
+  internalName: STOUTLAND
+  kind: Big-Hearted
+  height: 1.2
+  weight: 61
+  dexEntry: "This extremely wise Pok\xE9mon excels at rescuing people stranded at
+    sea or in the mountains."
+  sprite: {fileID: 21300000, guid: 136f4360906049d4b9dabf3b2026d0cc, type: 3}
+  backSprite: {fileID: 21300000, guid: 994d772800c635445be51ec3901650f8, type: 3}
+  shinySprite: {fileID: 21300000, guid: b7d95ca0751f94f419f8c72665001249, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 8836ca47b4179e34a9fee9636cdab85d, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 478101e3024d0424cad895b3f5811f53, type: 3}
+  type1: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 4d2c363492d6553449a69e6b63a750e6, type: 2}
+  - {fileID: 11400000, guid: caef24a3641fd3e45830048b0db1eb89, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: f4cf64a67a40d9046810b2856341091f, type: 2}
+  baseHP: 85
+  baseAttack: 100
+  baseDefense: 90
+  baseSpeed: 80
+  baseSpecialAttack: 45
+  baseSpecialDefense: 90
+  EV_HP: 0
+  EV_Attack: 3
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 221
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: babc9d06ca5ac9e45bc97f25fd964b7a, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 10a9a26754b7e8b44ba441e49bd4f099, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: f7a872a200b369f4595344bb39526604, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: f8e0359e915e43e4abfa7d0500c94d43, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: f8e0359e915e43e4abfa7d0500c94d43, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: f277acd4ff10f914a97ec332c912d36c, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: eef52d6b86c13c64aa26776c3453fe3b, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+    level: 24
+  - move: {fileID: 11400000, guid: c4e8c740e55faed46ab0712cbaa03682, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 947b0dcc26e24574086cf7ec4b0e080d, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 8880b7ca31d4f794da5ad4a591a4d876, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: 02e8c45cbeaa8f645b9a919d8d8efc87, type: 2}
+    level: 51
+  - move: {fileID: 11400000, guid: 60f60ea14d80ad84ebd80005abbc42a5, type: 2}
+    level: 59
+  eggMoves: []

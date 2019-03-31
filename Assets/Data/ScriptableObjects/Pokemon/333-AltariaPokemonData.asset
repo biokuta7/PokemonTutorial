@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 333-AltariaPokemonData
+  m_EditorClassIdentifier: 
+  number: 334
+  name: Altaria
+  internalName: ALTARIA
+  kind: Humming
+  height: 1.1
+  weight: 20.6
+  dexEntry: It hums in a beautiful soprano voice. It flies among white clouds in the
+    blue sky. It launches intensely hot fireballs from its mouth.
+  sprite: {fileID: 21300000, guid: 9265b378660c1224e9e517f28a9d3b25, type: 3}
+  backSprite: {fileID: 21300000, guid: 1a3bb2aa024b5be48915fc8c749b2f4e, type: 3}
+  shinySprite: {fileID: 21300000, guid: 6f76f2a156e29a8479dc1dc2b122ea43, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 658557d5d701cfd4d82f38e1f05aea4a, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 9e50eaef4fb2e07418931547d717decf, type: 3}
+  type1: {fileID: 11400000, guid: a50e8df2c05bf734c9f408b06361f74e, type: 2}
+  type2: {fileID: 11400000, guid: 90bb1a57d841315478a74baa52e40ba4, type: 2}
+  eggGroup1: 4
+  eggGroup2: 14
+  growthRate: 0
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: b5db5834bd2343441a26e1e130053781, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 1afe4c34a7995184caf6bd34fbae8609, type: 2}
+  baseHP: 75
+  baseAttack: 70
+  baseDefense: 90
+  baseSpeed: 80
+  baseSpecialAttack: 70
+  baseSpecialDefense: 105
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 2
+  baseEXP: 172
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: ae2ce2f91d2fd0643a37256161132eb1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9d2a9ce13673a634e89077573467ca18, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 49df1d5643c16e94e8a7607e0d4cb127, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 58279d1ca978c0748ba4fc660d97d9ed, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 58279d1ca978c0748ba4fc660d97d9ed, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 5fb64fe0f8fdcfe43a99d697942c9356, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: c96d683e0383c194caa33e1ccf960d38, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 424e9656e1d9e8a40b980b3111eb709e, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 3b66f179cf005884794cce99d9e44197, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: 9d4a14f02a117a44b9913b77b6f91470, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: a253a6a569c46a748ad69bf73eefba7a, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 6a19de109a1bddf4d99a984783c518a3, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: f1751b5ec96b0424e90af98f8405703d, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: 41f3351bc2e0f3749bc59218fc41ad3b, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: 36ac6fad3c69dfa4ea764d608a2a1212, type: 2}
+    level: 48
+  - move: {fileID: 11400000, guid: 1c402614e7b43184b9278d150ad7f687, type: 2}
+    level: 57
+  - move: {fileID: 11400000, guid: 58f2705acbbde2e48a7469e2fdc1a588, type: 2}
+    level: 64
+  eggMoves: []

@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -18,11 +19,11 @@ MonoBehaviour:
     stronger each time it hits.
   functionCode: 0D3
   target: 00
-  flags: 6100620065006600
+  flags: 61006200650066006e00
   isSpecial: 0
   basePower: 30
   accuracy: 90
   totalPP: 20
   additionalEffectChance: 0
   priority: 0
-  type: {fileID: 11400000, guid: 4963f2aa307feef4398c60cebd48934c, type: 2}
+  type: {fileID: 11400000, guid: 38a14f4c97dc09046a4a4f9f7bdade6e, type: 2}

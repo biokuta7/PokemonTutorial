@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 599-KlangPokemonData
+  m_EditorClassIdentifier: 
+  number: 600
+  name: Klang
+  internalName: KLANG
+  kind: Gear
+  height: 0.6
+  weight: 51
+  dexEntry: Spinning minigears are rotated at high speed and repeatedly fired away.
+    It is dangerous if the gears don't return.
+  sprite: {fileID: 21300000, guid: f6d0b4299e7dd3b4b9db75467be67a5a, type: 3}
+  backSprite: {fileID: 21300000, guid: 8df4ffbb0353eae4a969dfbfdede73d1, type: 3}
+  shinySprite: {fileID: 21300000, guid: e636cabf60ad9934d9afcdb611f70cb2, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: d2aac8aa0d2a8724ea54d96d987ae9b8, type: 3}
+  footprintSprite: {fileID: 21300000, guid: ee41eb83c28283d42bfd3df0a25841a9, type: 3}
+  type1: {fileID: 11400000, guid: e19d9d0db9bfb304f86f2be1b2cbcd6e, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 10
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: -1
+  standardAbilities:
+  - {fileID: 11400000, guid: 592d10e5db3b39d4a99a48f4626f55e6, type: 2}
+  - {fileID: 11400000, guid: 94813200f74c05146ba1648fc81f29ae, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 0d405b7112150654b82b08b766ecc938, type: 2}
+  baseHP: 60
+  baseAttack: 80
+  baseDefense: 95
+  baseSpeed: 50
+  baseSpecialAttack: 70
+  baseSpecialDefense: 85
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 2
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 154
+  rareness: 60
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 9b20c64bbef989d4c9f41e2cbabd1e63, type: 2}
+    levelToEvolve: 49
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 559b4415730b8cb47a952877dc8bcb6f, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 75e21a4edea0b024bbc8676017f9a5fe, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b38abe15a5a03c344b556ae4ef7c99ea, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3b7cdb3cafd194e4196c47c280efa807, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 75e21a4edea0b024bbc8676017f9a5fe, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: b38abe15a5a03c344b556ae4ef7c99ea, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 3b7cdb3cafd194e4196c47c280efa807, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: c272b86c2496cdb4e894635816948c2d, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: d7d0314a15b8bfd4da4dbf6da5bc35e8, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: 4798cf9b23b79124f96b077d9864d83e, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: c7dabb21d70139444bd904d1e47f66a3, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: bb3904f7307498445959529de2390f9f, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: 9064c27f2e3736249bec03fe438c3daf, type: 2}
+    level: 48
+  - move: {fileID: 11400000, guid: 2ab2a455b63697347b3559803192474a, type: 2}
+    level: 52
+  - move: {fileID: 11400000, guid: 348a733884d7e6943acc894872975359, type: 2}
+    level: 56
+  - move: {fileID: 11400000, guid: e99899b1534140e47a270201d1684d22, type: 2}
+    level: 60
+  - move: {fileID: 11400000, guid: 931a6239501d867458263239c17a188b, type: 2}
+    level: 64
+  eggMoves: []

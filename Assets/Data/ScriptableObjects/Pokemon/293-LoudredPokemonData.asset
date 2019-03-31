@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 293-LoudredPokemonData
+  m_EditorClassIdentifier: 
+  number: 294
+  name: Loudred
+  internalName: LOUDRED
+  kind: Big Voice
+  height: 1
+  weight: 40.5
+  dexEntry: It positions the round speakers on its head to assail foes with ultrasonic
+    waves at massive volume. It builds power by stomping the ground.
+  sprite: {fileID: 21300000, guid: f00b5b8a4d1fbc547af1170591ae2bfb, type: 3}
+  backSprite: {fileID: 21300000, guid: c1eeeab03aa8e344ea7be8040799020a, type: 3}
+  shinySprite: {fileID: 21300000, guid: 5b833116a3a34be4fa4d02a5aa69a9c2, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 62e35316c7dca3a40acfaf737908e7c1, type: 3}
+  footprintSprite: {fileID: 21300000, guid: ddbe4768ec52f5d43b0bceedba74a507, type: 3}
+  type1: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 1
+  eggGroup2: 5
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 89e1705cde9d4994f8012e815a5e2c4d, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: f4cf64a67a40d9046810b2856341091f, type: 2}
+  baseHP: 84
+  baseAttack: 71
+  baseDefense: 43
+  baseSpeed: 48
+  baseSpecialAttack: 71
+  baseSpecialDefense: 43
+  EV_HP: 2
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 126
+  rareness: 120
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: fff6a11a0cadfc54b816a739d222e5e5, type: 2}
+    levelToEvolve: 40
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: c16d454899509064aa753b3499b92b83, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: feef32ab21b065f4aae9bbf151f180c9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 123685018af87ba42b579038dda50a29, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: feef32ab21b065f4aae9bbf151f180c9, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 123685018af87ba42b579038dda50a29, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 3bbb861f40413cc49ba63bbc7d2599a8, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: 2f7d6ab7cd0e52442adcc2fa35de98c8, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: c4e8c740e55faed46ab0712cbaa03682, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: 9a2ac98a1803c3948b268e42577196a6, type: 2}
+    level: 51
+  - move: {fileID: 11400000, guid: 6ca000a6aa650d243b1e634a9044d765, type: 2}
+    level: 57
+  - move: {fileID: 11400000, guid: e00c2e5151380af4f86149e04650bb42, type: 2}
+    level: 57
+  - move: {fileID: 11400000, guid: 742025f9f24a09946bae3d0cdb215512, type: 2}
+    level: 65
+  eggMoves: []

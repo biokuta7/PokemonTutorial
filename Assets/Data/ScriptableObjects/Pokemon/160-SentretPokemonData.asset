@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 160-SentretPokemonData
+  m_EditorClassIdentifier: 
+  number: 161
+  name: Sentret
+  internalName: SENTRET
+  kind: Scout
+  height: 0.8
+  weight: 6
+  dexEntry: They take turns standing guard when it is time to sleep. The sentry awakens
+    the others if it senses danger. If one becomes separated, it turns sleepless with
+    fear.
+  sprite: {fileID: 21300000, guid: 1a3fb66db3e1a6941af30f7700f576fc, type: 3}
+  backSprite: {fileID: 21300000, guid: f6e8ae1cf6400cb47a5614b263126158, type: 3}
+  shinySprite: {fileID: 21300000, guid: dc0e7bef3d270324080bede4749aaf85, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 6d16eb9dadd32c141b66e8117c987858, type: 3}
+  footprintSprite: {fileID: 21300000, guid: cc553bed03c8b7949a2677aea360933c, type: 3}
+  type1: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: f0cedf399fe0ab54eaf74b1308628228, type: 2}
+  - {fileID: 11400000, guid: 532e9762ac38a2a4886c9d8d093afc68, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: f2de2423ca550594aade218885cbb0ff, type: 2}
+  baseHP: 35
+  baseAttack: 46
+  baseDefense: 34
+  baseSpeed: 20
+  baseSpecialAttack: 35
+  baseSpecialDefense: 45
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 43
+  rareness: 255
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 836bf3c318676be49a1baa5655385679, type: 2}
+    levelToEvolve: 15
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: c8ad6b6cc523bd940b14ff75aa9ba40e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: cfd93b7c0d975cb4d8630d561a4ffe21, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9718332accb9dd4438b46ad9a022602e, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: d5f2e90bd85630a43bdd31934847cdc5, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: fb9cbbcc0dcb76f4a8254e7141042569, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: f277acd4ff10f914a97ec332c912d36c, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: 3ad7323f7e54d8f4badcb6c0ca178e6b, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 1a0603d08aec3344bb06836eb047c05c, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 6ca000a6aa650d243b1e634a9044d765, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 18d2b07fd9a5ed740902b65b48c67a90, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: b54451c499c3fc24aade1add5a757d05, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: c93cc4f4568f0084b9fb39e135243cd5, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: 2c040a557e68a68468efd8b0c07b7758, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: 742025f9f24a09946bae3d0cdb215512, type: 2}
+    level: 47
+  eggMoves:
+  - {fileID: 11400000, guid: a6ce236ee90cd8648853fe63ca90ce11, type: 2}
+  - {fileID: 11400000, guid: cc97392f8c47d6d43a7fe744875dfd4d, type: 2}
+  - {fileID: 11400000, guid: 742c70de3a7643945a25b26139959535, type: 2}
+  - {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+  - {fileID: 11400000, guid: 4abf7d172bbaeba4293580ddddb47f6f, type: 2}
+  - {fileID: 11400000, guid: 840bfbc637572204e89aa45543ac969b, type: 2}
+  - {fileID: 11400000, guid: 02e8c45cbeaa8f645b9a919d8d8efc87, type: 2}
+  - {fileID: 11400000, guid: 9d4a14f02a117a44b9913b77b6f91470, type: 2}
+  - {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+  - {fileID: 11400000, guid: 8880b7ca31d4f794da5ad4a591a4d876, type: 2}
+  - {fileID: 11400000, guid: b5cb4834e72f9064abecca08c734899b, type: 2}
+  - {fileID: 11400000, guid: 0597bcb9d5189764ea172472f3603923, type: 2}

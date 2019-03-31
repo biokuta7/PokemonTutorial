@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 550-SandilePokemonData
+  m_EditorClassIdentifier: 
+  number: 551
+  name: Sandile
+  internalName: SANDILE
+  kind: Desert Croc
+  height: 0.7
+  weight: 15.2
+  dexEntry: It moves along below the sand's surface, except for its nose and eyes.
+    A dark membrane shields its eyes from the sun.
+  sprite: {fileID: 21300000, guid: 88510fb65ab27ed4dac115694adb81ce, type: 3}
+  backSprite: {fileID: 21300000, guid: fdd9f0c6b83e2f34393e8183d8102250, type: 3}
+  shinySprite: {fileID: 21300000, guid: d3e70b86fb9cdd94cbdae31a132c05cb, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: e85dc5849e6ec554d9cbd926022a57aa, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 4c2ad01cc2530224a868d159f8b96d65, type: 3}
+  type1: {fileID: 11400000, guid: 2aef90cd8ab7add4ead9fdc156318a32, type: 2}
+  type2: {fileID: 11400000, guid: 5a37c1bbebd881b42bd5fab995e54689, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 4d2c363492d6553449a69e6b63a750e6, type: 2}
+  - {fileID: 11400000, guid: 425dd3aa2f93551499ffcf0fd44faf50, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: a5feeccb121b1304584074018fe30cae, type: 2}
+  baseHP: 50
+  baseAttack: 72
+  baseDefense: 35
+  baseSpeed: 65
+  baseSpecialAttack: 35
+  baseSpecialDefense: 35
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 58
+  rareness: 180
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: d5692c1fd12b6124fb74f35c96dc323a, type: 2}
+    levelToEvolve: 29
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 51cd5e9f281e33f4b92b77f2c727e4b1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 9f99cdcaa64669e41a2a8da39f981b55, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 43015e5620b3d8847ad87e35a52bd6e1, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: f1659f14b4256c24b841abb2a7c91606, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 41cf6d21b7400bd449aa635fccdb09d0, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: 6a425af601896ff48bd142db36a82669, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 6b122730c79780648a197ae9c6d76e78, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 2da8c21f08cbc164da993e01dc3a0391, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 0aad7ec6cb4a92745a61b010d146746b, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 206d073f613428f428074167c47c813d, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: 777fd3747c8934a44834a8d6288486b0, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 7f3e701f581e25848b130cae41131378, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: 5d28992b9be13a341b391f0dd3d4a986, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: 5a170aa8024c80246991a18e353e044f, type: 2}
+    level: 46
+  eggMoves:
+  - {fileID: 11400000, guid: b6a288baf04435947a335691653026fb, type: 2}
+  - {fileID: 11400000, guid: 886cc954c2a8d6546abe10ac0f64a80c, type: 2}
+  - {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+  - {fileID: 11400000, guid: 10a9a26754b7e8b44ba441e49bd4f099, type: 2}
+  - {fileID: 11400000, guid: 4abf7d172bbaeba4293580ddddb47f6f, type: 2}
+  - {fileID: 11400000, guid: fff48c8136c20ac47af2c21033804cfe, type: 2}
+  - {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+  - {fileID: 11400000, guid: 8fa8b734d4bf3c648b9af24365b29712, type: 2}
+  - {fileID: 11400000, guid: f7a872a200b369f4595344bb39526604, type: 2}
+  - {fileID: 11400000, guid: feef32ab21b065f4aae9bbf151f180c9, type: 2}

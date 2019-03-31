@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 213-HeracrossPokemonData
+  m_EditorClassIdentifier: 
+  number: 214
+  name: Heracross
+  internalName: HERACROSS
+  kind: Single Horn
+  height: 1.5
+  weight: 54
+  dexEntry: They gather in forests seeking the sweet sap of trees. It is completely
+    clad in a steel-hard shell. It is proud of its horn, which it uses to fling foes.
+  sprite: {fileID: 21300000, guid: bf938f287ffb9ef4ba8da4bc3b2faa63, type: 3}
+  backSprite: {fileID: 21300000, guid: 266b7500f91838e45bfb25e0ec91a4fa, type: 3}
+  shinySprite: {fileID: 21300000, guid: 0886ffc34c8500c4bb4a76d9272f0b68, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: b648d4a481da1ab4eb17fe14e54abdd6, type: 3}
+  footprintSprite: {fileID: 21300000, guid: a27e89004f0c12d4f8b57759b50666df, type: 3}
+  type1: {fileID: 11400000, guid: 79eb8f30cbe188e4f8a36dafd71ebdee, type: 2}
+  type2: {fileID: 11400000, guid: 60bba5c3467446d45a479ab6b6a6e82e, type: 2}
+  eggGroup1: 3
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 3061775df8197ad4c8e4d3bc7de08339, type: 2}
+  - {fileID: 11400000, guid: a15e373cc28781245b053d50213487b7, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 425dd3aa2f93551499ffcf0fd44faf50, type: 2}
+  baseHP: 80
+  baseAttack: 125
+  baseDefense: 75
+  baseSpeed: 85
+  baseSpecialAttack: 40
+  baseSpecialDefense: 95
+  EV_HP: 0
+  EV_Attack: 2
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 175
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 6630
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: c106b7df995223443800dc9dd1494144, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6ea1ea1718089a2419960b477b387030, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9f44f4d05fd57b74b9b026bf9776c7e7, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 5fb64fe0f8fdcfe43a99d697942c9356, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: af5a2b748d68229489843727ebe55f58, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 3206b805bebe41a479e48d61149567c3, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: 886cc954c2a8d6546abe10ac0f64a80c, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 87e77352da264dc46a1998053b28a1c2, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: fe31ce936c3024c41aec13270912f9b2, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: efce0155d8efb2e4d846129c30b3961f, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 8880b7ca31d4f794da5ad4a591a4d876, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: 40a181bb9cf1356459195f93d4b5f8d6, type: 2}
+    level: 46
+  eggMoves:
+  - {fileID: 11400000, guid: 33d96fe56c3fefd4abee4fdd115ab776, type: 2}
+  - {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+  - {fileID: 11400000, guid: ab4b503440591f742bf63c1693c6ee27, type: 2}
+  - {fileID: 11400000, guid: fba2738cccebc354e8a6c90b07df60f5, type: 2}
+  - {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
+  - {fileID: 11400000, guid: 40a181bb9cf1356459195f93d4b5f8d6, type: 2}
+  - {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+  - {fileID: 11400000, guid: b0c5817ec469b4f44a3f7ef399a96c62, type: 2}
+  - {fileID: 11400000, guid: 3409a556f97cfb0449a264d3e09129af, type: 2}

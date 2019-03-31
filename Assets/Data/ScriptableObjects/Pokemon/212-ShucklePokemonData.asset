@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 212-ShucklePokemonData
+  m_EditorClassIdentifier: 
+  number: 213
+  name: Shuckle
+  internalName: SHUCKLE
+  kind: Mold
+  height: 0.6
+  weight: 20.5
+  dexEntry: A Shuckle hides under rocks, keeping its body concealed inside its shell
+    while eating stored berries. The berries mix with its body fluids to become a
+    juice.
+  sprite: {fileID: 21300000, guid: 8bf78e329a97070498ff7d98c7fd05d0, type: 3}
+  backSprite: {fileID: 21300000, guid: 701c13e5ee62452458a8c94c65960215, type: 3}
+  shinySprite: {fileID: 21300000, guid: c44a6845f02a8f94e84173801b637eb9, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 27438e909107be14bbb10585627f0392, type: 3}
+  footprintSprite: {fileID: 21300000, guid: c2840477da00fd54c928e3f4d5b13acf, type: 3}
+  type1: {fileID: 11400000, guid: 79eb8f30cbe188e4f8a36dafd71ebdee, type: 2}
+  type2: {fileID: 11400000, guid: 865c5118b1a0e3b4d895cfe37b3b2aa9, type: 2}
+  eggGroup1: 3
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 8822aaa86cfc2f0408aaabea80029644, type: 2}
+  - {fileID: 11400000, guid: 0d8dec51d6d249449a421504145b2a85, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 6619f3f61f9847641818c10783d491a7, type: 2}
+  baseHP: 20
+  baseAttack: 10
+  baseDefense: 230
+  baseSpeed: 5
+  baseSpecialAttack: 10
+  baseSpecialDefense: 230
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 1
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 1
+  baseEXP: 177
+  rareness: 190
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: bd3bc6a39eb464442816bc9f731ee5c1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: fff44a669961e0b4fb6e9a98cd61b6b8, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 33d96fe56c3fefd4abee4fdd115ab776, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: ec6769bc96a317247a6a1bbb153f90ec, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 135034a951a65894fb86a5f232b51764, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: e3c505701482f0141bc8931909022060, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: d4e3c2858df8b774aa64db5ab9266926, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: c96d683e0383c194caa33e1ccf960d38, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: 6ca000a6aa650d243b1e634a9044d765, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: e867937231e5b964385d7ad80fb74704, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: 91e572bc284c7594bafa80c0c257783d, type: 2}
+    level: 27
+  - move: {fileID: 11400000, guid: 34fdd3d043eac614fb337c29055c6442, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: ef486201c14d4d847b99d8f8c4fd9b53, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: 3e74825e213db2f46aa158ecff87166a, type: 2}
+    level: 38
+  - move: {fileID: 11400000, guid: 29fbd58668c00724ba080e3514e4e713, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: f4bb7753cc8e94d43a635a750049544a, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: bd44bd562f149df4fa3912f09c1de438, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: ff0c05434e0850d4b88635587821b7f9, type: 2}
+    level: 49
+  eggMoves:
+  - {fileID: 11400000, guid: a9cb34e1f0983c24aa63b6ee303bb1ed, type: 2}
+  - {fileID: 11400000, guid: 52f95a60cbe0aa944a8e85ae1b4ee274, type: 2}
+  - {fileID: 11400000, guid: 4cba1d219317e214ba3d8d80e0e25f09, type: 2}
+  - {fileID: 11400000, guid: f277acd4ff10f914a97ec332c912d36c, type: 2}
+  - {fileID: 11400000, guid: aa3899441c43934478c93384796e9a8c, type: 2}
+  - {fileID: 11400000, guid: 6a425af601896ff48bd142db36a82669, type: 2}
+  - {fileID: 11400000, guid: 49d5da56e08edc84bbd0872e20b1d121, type: 2}
+  - {fileID: 11400000, guid: f1659f14b4256c24b841abb2a7c91606, type: 2}
+  - {fileID: 11400000, guid: 05690026fb024824db2ad77c5245df16, type: 2}

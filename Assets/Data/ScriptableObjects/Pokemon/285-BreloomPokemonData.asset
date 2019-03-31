@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 285-BreloomPokemonData
+  m_EditorClassIdentifier: 
+  number: 286
+  name: Breloom
+  internalName: BRELOOM
+  kind: Mushroom
+  height: 1.2
+  weight: 39.2
+  dexEntry: It scatters spores from holes in the cap on its head. It loves warm and
+    humid climates. It feeds on trees and plants in fields and forests.
+  sprite: {fileID: 21300000, guid: 8dd53d2a1438e8b4a9ce519408522917, type: 3}
+  backSprite: {fileID: 21300000, guid: a8867f212509bab4181e3e3cbb61397b, type: 3}
+  shinySprite: {fileID: 21300000, guid: 856ce213339133344a07214bd3549167, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: a93d4427db524b944a80ec815d30a375, type: 3}
+  footprintSprite: {fileID: 21300000, guid: afc5fda1fffab234597fe4a1bdfbf287, type: 3}
+  type1: {fileID: 11400000, guid: 9ed7dc1c4ee6bf747b182dc2eaf16337, type: 2}
+  type2: {fileID: 11400000, guid: 60bba5c3467446d45a479ab6b6a6e82e, type: 2}
+  eggGroup1: 6
+  eggGroup2: 7
+  growthRate: 5
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: d6d27629da2276148924f2197f990445, type: 2}
+  - {fileID: 11400000, guid: 0a9b57cc48e89994d81e548ca34e08f6, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: a7c5ad8c7b11d4f44bcfd155bfd7f55f, type: 2}
+  baseHP: 60
+  baseAttack: 130
+  baseDefense: 80
+  baseSpeed: 70
+  baseSpecialAttack: 60
+  baseSpecialDefense: 60
+  EV_HP: 0
+  EV_Attack: 2
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 161
+  rareness: 90
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 51676f5ca5c33f3488bef6bd69f42876, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 821e4ffa6d02b364b88e8bf9bc74093c, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: a348e0502b2529145aaaa410f8e3880f, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 821e4ffa6d02b364b88e8bf9bc74093c, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: a348e0502b2529145aaaa410f8e3880f, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: cf3b125d2a3a19f4db9c549d9d557481, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: f3d560a7d1edced43965433b7691eaf1, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: c50aacc569ba46c4ea2c0f37c4d3c394, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: 886cc954c2a8d6546abe10ac0f64a80c, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 178dabe2d75a1d64a8035b206f54b0d8, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: c028274b977641b409c91d92818cee19, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 719d19365328016478a76a6cc3115cbb, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 083b88c1c4fcefc44895457f1cd93622, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: a7ea53f3523a6d641b05ae0de95e20c6, type: 2}
+    level: 45
+  eggMoves: []

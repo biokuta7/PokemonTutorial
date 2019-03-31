@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 622-GolurkPokemonData
+  m_EditorClassIdentifier: 
+  number: 623
+  name: Golurk
+  internalName: GOLURK
+  kind: Automaton
+  height: 2.8
+  weight: 330
+  dexEntry: "It is said that Golurk were ordered to protect people and Pok\xE9mon
+    by the ancient people who made them."
+  sprite: {fileID: 21300000, guid: e30e9d3c0815d9c43981cd4da28a8d0c, type: 3}
+  backSprite: {fileID: 21300000, guid: 7f4111d07b5b75641bb02482a176b3bd, type: 3}
+  shinySprite: {fileID: 21300000, guid: 60fb25720021b86498406de7f8422698, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: bbeb247cc3e25fd48b4eb52e5218c434, type: 3}
+  footprintSprite: {fileID: 21300000, guid: b3725c615c291bb4ab1bceb2977a1259, type: 3}
+  type1: {fileID: 11400000, guid: 2aef90cd8ab7add4ead9fdc156318a32, type: 2}
+  type2: {fileID: 11400000, guid: 5eb27c1d76b3cc2439c818ac7325a0e5, type: 2}
+  eggGroup1: 10
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: -1
+  standardAbilities:
+  - {fileID: 11400000, guid: fcd29837e8c55e54d96615738d51a988, type: 2}
+  - {fileID: 11400000, guid: 85a6f5d816d107e4ab01a0a7002e5886, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: dd8f2789cfb59bb40a8b56b04764ce17, type: 2}
+  baseHP: 89
+  baseAttack: 124
+  baseDefense: 80
+  baseSpeed: 55
+  baseSpecialAttack: 55
+  baseSpecialDefense: 80
+  EV_HP: 0
+  EV_Attack: 2
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 169
+  rareness: 90
+  baseHappiness: 70
+  stepsToHatch: 6630
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: c16d454899509064aa753b3499b92b83, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9718332accb9dd4438b46ad9a022602e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6a425af601896ff48bd142db36a82669, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6a425af601896ff48bd142db36a82669, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: ec6769bc96a317247a6a1bbb153f90ec, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 353e2b2d80bef60499fe7f897c311d0e, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: a5bdded8b500614418098e7d3258784b, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 286a1d1127c55174baa443c77592c6f4, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 929dd1fa550cc024f9a5897d6685bdcf, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: a7ea53f3523a6d641b05ae0de95e20c6, type: 2}
+    level: 30
+  - move: {fileID: 11400000, guid: a62334014ffe32f47b6cd09cbe7059c4, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: fd48eadb1eda86c45b74371631ca93dd, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: c24e608ede5552044974bb1114a3af17, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: 5d28992b9be13a341b391f0dd3d4a986, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: 7b14c654ccf062a45b54aa55c85ac600, type: 2}
+    level: 60
+  - move: {fileID: 11400000, guid: fba2738cccebc354e8a6c90b07df60f5, type: 2}
+    level: 70
+  eggMoves: []

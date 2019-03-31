@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 416-PachirisuPokemonData
+  m_EditorClassIdentifier: 
+  number: 417
+  name: Pachirisu
+  internalName: PACHIRISU
+  kind: EleSquirrel
+  height: 0.4
+  weight: 3.9
+  dexEntry: It makes fur balls that crackle with static electricity. It stores them
+    with berries in tree holes.
+  sprite: {fileID: 21300000, guid: fb66fc7fafe5ebc46a863ee312910195, type: 3}
+  backSprite: {fileID: 21300000, guid: 98513bc2c0ebdb849a0fa84df456eb2d, type: 3}
+  shinySprite: {fileID: 21300000, guid: 8f04f3b262baf6a4f849830e7fe969ef, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 6f13b8fb2d56eeb47bf116dee15736ae, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 0d3e5b631328c604c96294e7b158373a, type: 3}
+  type1: {fileID: 11400000, guid: 826864d94ec7c8c4a8e95b6615b2eff3, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 6
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: f0cedf399fe0ab54eaf74b1308628228, type: 2}
+  - {fileID: 11400000, guid: fa9c6b70c35b56d4eb9833a262f882c3, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 217f52a2ef3b11b49bb420cabf224346, type: 2}
+  baseHP: 60
+  baseAttack: 45
+  baseDefense: 70
+  baseSpeed: 95
+  baseSpecialAttack: 45
+  baseSpecialDefense: 90
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 1
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 142
+  rareness: 200
+  baseHappiness: 100
+  stepsToHatch: 2805
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 49df1d5643c16e94e8a7607e0d4cb127, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 33d96fe56c3fefd4abee4fdd115ab776, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d5f2e90bd85630a43bdd31934847cdc5, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: cc97392f8c47d6d43a7fe744875dfd4d, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: beb00d8d0b8532343998216e2e7835b4, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 9f44f4d05fd57b74b9b026bf9776c7e7, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 8f7d8eb3956de5c4bb6b3d67bd3ba44b, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: b1a63ad3022d7e14991820e3f31f762e, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 79ff70b8768186845b6efa8a8ab2c39a, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 7475d027fb16bda4bb60e048a4a74faa, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: b400d2fcef3877e47b27c621bfe48550, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: bb3904f7307498445959529de2390f9f, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 02e8c45cbeaa8f645b9a919d8d8efc87, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: e6bd442075625464c9d7a20d804f6a47, type: 2}
+    level: 49
+  eggMoves:
+  - {fileID: 11400000, guid: 22ca39658f179474d8dbc4583cb18c74, type: 2}
+  - {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+  - {fileID: 11400000, guid: 75e21a4edea0b024bbc8676017f9a5fe, type: 2}
+  - {fileID: 11400000, guid: 742c70de3a7643945a25b26139959535, type: 2}
+  - {fileID: 11400000, guid: 9718332accb9dd4438b46ad9a022602e, type: 2}
+  - {fileID: 11400000, guid: 4148031223b255242880deef8e6a614c, type: 2}
+  - {fileID: 11400000, guid: ab4b503440591f742bf63c1693c6ee27, type: 2}
+  - {fileID: 11400000, guid: 04d33f3b315de81448190b591cc3a535, type: 2}
+  - {fileID: 11400000, guid: 3ad7323f7e54d8f4badcb6c0ca178e6b, type: 2}
+  - {fileID: 11400000, guid: 840bfbc637572204e89aa45543ac969b, type: 2}
+  - {fileID: 11400000, guid: ec6769bc96a317247a6a1bbb153f90ec, type: 2}
+  - {fileID: 11400000, guid: 90e9a9d7356e7c84ea9190b7ff0535b1, type: 2}

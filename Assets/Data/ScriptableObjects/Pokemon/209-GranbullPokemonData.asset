@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 209-GranbullPokemonData
+  m_EditorClassIdentifier: 
+  number: 210
+  name: Granbull
+  internalName: GRANBULL
+  kind: Fairy
+  height: 1.4
+  weight: 48.7
+  dexEntry: It has a particularly well-developed lower jaw. The huge fangs are heavy,
+    causing it to tilt its head. Unless it is startled, it will not try to bite.
+  sprite: {fileID: 21300000, guid: ac3c6be404689644ea3456066ae72d87, type: 3}
+  backSprite: {fileID: 21300000, guid: c296bb406d5d0024cab018854ea672a3, type: 3}
+  shinySprite: {fileID: 21300000, guid: 5445a056f9f2cf7489c0651b8cb4a862, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 76500944fcbe6e2418de09faea83d15c, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 14b4802dcf4abaf44b90537e986aae17, type: 3}
+  type1: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 6
+  growthRate: 1
+  habitat: 0
+  femaleRatio: 0.75
+  standardAbilities:
+  - {fileID: 11400000, guid: 4d2c363492d6553449a69e6b63a750e6, type: 2}
+  - {fileID: 11400000, guid: 850d457e7f9ec4d408cc419ca7e9a66d, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: ad05bcdca3a25194385ccb655470cb8c, type: 2}
+  baseHP: 90
+  baseAttack: 120
+  baseDefense: 75
+  baseSpeed: 45
+  baseSpecialAttack: 60
+  baseSpecialDefense: 60
+  EV_HP: 0
+  EV_Attack: 2
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 158
+  rareness: 75
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: babc9d06ca5ac9e45bc97f25fd964b7a, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 10a9a26754b7e8b44ba441e49bd4f099, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: f7a872a200b369f4595344bb39526604, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 206d073f613428f428074167c47c813d, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 90e9a9d7356e7c84ea9190b7ff0535b1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: cc97392f8c47d6d43a7fe744875dfd4d, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: dcd976db8573291419557ed6b9d18e1f, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: f3d560a7d1edced43965433b7691eaf1, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: c4e8c740e55faed46ab0712cbaa03682, type: 2}
+    level: 27
+  - move: {fileID: 11400000, guid: 51cd5e9f281e33f4b92b77f2c727e4b1, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: 045af626945e212499f0e9a28c180d66, type: 2}
+    level: 51
+  - move: {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+    level: 59
+  - move: {fileID: 11400000, guid: 4e5c129cdc82eab41b3c7170d5fb9eb6, type: 2}
+    level: 67
+  eggMoves: []

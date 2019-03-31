@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 452-CroagunkPokemonData
+  m_EditorClassIdentifier: 
+  number: 453
+  name: Croagunk
+  internalName: CROAGUNK
+  kind: Toxic Mouth
+  height: 0.7
+  weight: 23
+  dexEntry: Its cheeks hold poison sacs. It tries to catch foes off guard to jab them
+    with toxic fingers.
+  sprite: {fileID: 21300000, guid: f961c3c00a4e6264ea314b1b9e334dfb, type: 3}
+  backSprite: {fileID: 21300000, guid: b8375030e3897084f96027ee303e98d3, type: 3}
+  shinySprite: {fileID: 21300000, guid: a21e6bf2f8226d846848df94c360e055, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 59abe30403aa6154c873b7f5414028ef, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 520f323e00cb52544b80cc5bfa33b9de, type: 3}
+  type1: {fileID: 11400000, guid: 5c263d07fc626544cae866e79835f9fd, type: 2}
+  type2: {fileID: 11400000, guid: 60bba5c3467446d45a479ab6b6a6e82e, type: 2}
+  eggGroup1: 8
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: b0d6392cd3b653b49b81c7f41cea03a1, type: 2}
+  - {fileID: 11400000, guid: e8cb8580c3ec03e4b986501bef1325e8, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 492785b025b2e2246a588392ce67b7c0, type: 2}
+  baseHP: 48
+  baseAttack: 61
+  baseDefense: 40
+  baseSpeed: 50
+  baseSpecialAttack: 61
+  baseSpecialDefense: 40
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 60
+  rareness: 140
+  baseHappiness: 100
+  stepsToHatch: 2805
+  evolutions:
+  - resultant: {fileID: 11400000, guid: dba5e8700ad945a4a96b1b23b804bc14, type: 2}
+    levelToEvolve: 37
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6a425af601896ff48bd142db36a82669, type: 2}
+    level: 3
+  - move: {fileID: 11400000, guid: d306605b81c7124478801e53ad3ea1ab, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 6d25dd2274a273a4f97d7cc3c2c084f3, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: b0c5817ec469b4f44a3f7ef399a96c62, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 2da8c21f08cbc164da993e01dc3a0391, type: 2}
+    level: 24
+  - move: {fileID: 11400000, guid: 497f9a160f072f740959d8bd6ad5508e, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 18d2b07fd9a5ed740902b65b48c67a90, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 24f930d685f641f4f84e81cb91e6e849, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 7a147e057063b224a86c668c0f0c8579, type: 2}
+    level: 38
+  - move: {fileID: 11400000, guid: f79d836c63afaf245bae1d57829db1e6, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: a5573eee2ac81ae4ca79fab022a0aa11, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: 04d33f3b315de81448190b591cc3a535, type: 2}
+    level: 50
+  eggMoves:
+  - {fileID: 11400000, guid: 52f95a60cbe0aa944a8e85ae1b4ee274, type: 2}
+  - {fileID: 11400000, guid: 1fe62959272f95446b570cb5bc0006fc, type: 2}
+  - {fileID: 11400000, guid: 886cc954c2a8d6546abe10ac0f64a80c, type: 2}
+  - {fileID: 11400000, guid: a84629502e72f3345872dc19c167fa2c, type: 2}
+  - {fileID: 11400000, guid: 29dd5da64c2172f4d92cc1419277caf2, type: 2}
+  - {fileID: 11400000, guid: a7ea53f3523a6d641b05ae0de95e20c6, type: 2}
+  - {fileID: 11400000, guid: 02d284bddcaccd84c946ab544f218315, type: 2}
+  - {fileID: 11400000, guid: efce0155d8efb2e4d846129c30b3961f, type: 2}
+  - {fileID: 11400000, guid: f3d560a7d1edced43965433b7691eaf1, type: 2}
+  - {fileID: 11400000, guid: 2c040a557e68a68468efd8b0c07b7758, type: 2}
+  - {fileID: 11400000, guid: 8c66c1beeec9e8244ba1eddc9efab0be, type: 2}
+  - {fileID: 11400000, guid: 7f24e6a892f52fb40868d3b0e3b3c8f0, type: 2}
+  - {fileID: 11400000, guid: 52d66ae28f405a140a676397718172f1, type: 2}
+  - {fileID: 11400000, guid: 27b3ca9389c0dab4786d306e68f0fd68, type: 2}

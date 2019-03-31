@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 433-StunkyPokemonData
+  m_EditorClassIdentifier: 
+  number: 434
+  name: Stunky
+  internalName: STUNKY
+  kind: Skunk
+  height: 0.4
+  weight: 19.2
+  dexEntry: It protects itself by spraying a noxious fluid from its rear. The stench
+    lingers for 24 hours.
+  sprite: {fileID: 21300000, guid: d055180cc82cb554b89a0bc7c89286f2, type: 3}
+  backSprite: {fileID: 21300000, guid: dfdd71d7f85ee4b408403564ee76c052, type: 3}
+  shinySprite: {fileID: 21300000, guid: e7127946146c0044e8b29417385c4786, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 87a8c844c4d52a14796254a4f93478f6, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 026c671c1485bc54a9cb282dedc95961, type: 3}
+  type1: {fileID: 11400000, guid: 5c263d07fc626544cae866e79835f9fd, type: 2}
+  type2: {fileID: 11400000, guid: 5a37c1bbebd881b42bd5fab995e54689, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 89a4a5592296eb64e9f987e0ab3afb4f, type: 2}
+  - {fileID: 11400000, guid: bc75f9777f71b3d4b9a1fcaa50668d5f, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 532e9762ac38a2a4886c9d8d093afc68, type: 2}
+  baseHP: 63
+  baseAttack: 63
+  baseDefense: 47
+  baseSpeed: 74
+  baseSpecialAttack: 41
+  baseSpecialDefense: 41
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 1
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 66
+  rareness: 225
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 9f772067aac8262479c5d5d15e8fb467, type: 2}
+    levelToEvolve: 34
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: c8ad6b6cc523bd940b14ff75aa9ba40e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4abf7d172bbaeba4293580ddddb47f6f, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 22693a145093eb94b99ed72f31218337, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: fb9cbbcc0dcb76f4a8254e7141042569, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 8dbd4521f21986a4fb108aae7bfebd9e, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: efce0155d8efb2e4d846129c30b3961f, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: b5cb4834e72f9064abecca08c734899b, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 4b3a585e894cee04a9d1bb18f18e61d3, type: 2}
+    level: 27
+  - move: {fileID: 11400000, guid: ccf7ee4a0d9b11d4b91b2578d503bd84, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: c106b7df995223443800dc9dd1494144, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: fdcea9f0752a07242baa0c957d7097af, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: c04069573dd5ad143b9999bab5f1cbfa, type: 2}
+    level: 49
+  eggMoves:
+  - {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+  - {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+  - {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+  - {fileID: 11400000, guid: bf4aeedaebd961648b2a1d639d517a4e, type: 2}
+  - {fileID: 11400000, guid: 777fd3747c8934a44834a8d6288486b0, type: 2}
+  - {fileID: 11400000, guid: 58aa3d592b28f5e42a4586453743ccdb, type: 2}
+  - {fileID: 11400000, guid: 840bfbc637572204e89aa45543ac969b, type: 2}
+  - {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+  - {fileID: 11400000, guid: 9f0ed801ebf215b408a59d455939ce03, type: 2}
+  - {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+  - {fileID: 11400000, guid: 206d073f613428f428074167c47c813d, type: 2}
+  - {fileID: 11400000, guid: 7977c32ff901d584f8f33bf322b0bd77, type: 2}

@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 295-MakuhitaPokemonData
+  m_EditorClassIdentifier: 
+  number: 296
+  name: Makuhita
+  internalName: MAKUHITA
+  kind: Guts
+  height: 1
+  weight: 86.4
+  dexEntry: It loves to toughen up its body above all else. If you hear quaking rumbles
+    in a cave, it is the sound of Makuhita undertaking strenuous training.
+  sprite: {fileID: 21300000, guid: 3b2c34808ecce1e41b985d7240ca290c, type: 3}
+  backSprite: {fileID: 21300000, guid: c5fa38e5127d90341bd04f130f6b4fc3, type: 3}
+  shinySprite: {fileID: 21300000, guid: 60a5b98aec4cb1e48b8342b517fa46fb, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 5aa0891364c7bb94ea1fbe3dafd3de70, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 1f2c46b8b4e5c16408a26b2f0ee78c3d, type: 3}
+  type1: {fileID: 11400000, guid: 60bba5c3467446d45a479ab6b6a6e82e, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 8
+  eggGroup2: 0
+  growthRate: 5
+  habitat: 0
+  femaleRatio: 0.25
+  standardAbilities:
+  - {fileID: 11400000, guid: 5370a5cddfbfa4d4396bfd64d5065c3a, type: 2}
+  - {fileID: 11400000, guid: a15e373cc28781245b053d50213487b7, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: ff9707f0509fe71419680a601a505ebe, type: 2}
+  baseHP: 72
+  baseAttack: 60
+  baseDefense: 30
+  baseSpeed: 25
+  baseSpecialAttack: 20
+  baseSpecialDefense: 30
+  EV_HP: 1
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 47
+  rareness: 180
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: b7bd362dc1ce0e64db0e4d983c0e6be6, type: 2}
+    levelToEvolve: 24
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4abf7d172bbaeba4293580ddddb47f6f, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9f99cdcaa64669e41a2a8da39f981b55, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: b6aeed9c7cd9de949a18f0a8bb03ebf1, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 9f6327c384b596c4cacd33d10840d644, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 02d284bddcaccd84c946ab544f218315, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: c761759381cf557488626838e074d491, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: aa3899441c43934478c93384796e9a8c, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 7f24e6a892f52fb40868d3b0e3b3c8f0, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 3deca9d3e2612f342bc9cdd96bb22c49, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 178dabe2d75a1d64a8035b206f54b0d8, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 3409a556f97cfb0449a264d3e09129af, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 27b3ca9389c0dab4786d306e68f0fd68, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: 9f44f4d05fd57b74b9b026bf9776c7e7, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: fe31ce936c3024c41aec13270912f9b2, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: 8880b7ca31d4f794da5ad4a591a4d876, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: c24e608ede5552044974bb1114a3af17, type: 2}
+    level: 46
+  eggMoves:
+  - {fileID: 11400000, guid: 1fe62959272f95446b570cb5bc0006fc, type: 2}
+  - {fileID: 11400000, guid: 3206b805bebe41a479e48d61149567c3, type: 2}
+  - {fileID: 11400000, guid: 886cc954c2a8d6546abe10ac0f64a80c, type: 2}
+  - {fileID: 11400000, guid: a84629502e72f3345872dc19c167fa2c, type: 2}
+  - {fileID: 11400000, guid: 16531673f7df2c1428a3eda3a0a5e5b6, type: 2}
+  - {fileID: 11400000, guid: a7ea53f3523a6d641b05ae0de95e20c6, type: 2}
+  - {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+  - {fileID: 11400000, guid: efce0155d8efb2e4d846129c30b3961f, type: 2}
+  - {fileID: 11400000, guid: fba2738cccebc354e8a6c90b07df60f5, type: 2}
+  - {fileID: 11400000, guid: cfd93b7c0d975cb4d8630d561a4ffe21, type: 2}
+  - {fileID: 11400000, guid: f277acd4ff10f914a97ec332c912d36c, type: 2}
+  - {fileID: 11400000, guid: b0c5817ec469b4f44a3f7ef399a96c62, type: 2}
+  - {fileID: 11400000, guid: 27b3ca9389c0dab4786d306e68f0fd68, type: 2}
+  - {fileID: 11400000, guid: 11ff7da7c616f1741b88955427548f6f, type: 2}

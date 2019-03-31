@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 537-ThrohPokemonData
+  m_EditorClassIdentifier: 
+  number: 538
+  name: Throh
+  internalName: THROH
+  kind: Judo
+  height: 1.3
+  weight: 55.5
+  dexEntry: When they encounter foes bigger than themselves, they try to throw them.
+    They always travel in packs of five.
+  sprite: {fileID: 21300000, guid: 268d3827654708f49b03c6ffb18be411, type: 3}
+  backSprite: {fileID: 21300000, guid: 108a8136312454f4099b360a94172f51, type: 3}
+  shinySprite: {fileID: 21300000, guid: b6493adce6b97f244aee86f39bdb3f4e, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 3d32d793f49559449b8c903a45e66f78, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 2f9927f2c1c45d0488f2114e62f06852, type: 3}
+  type1: {fileID: 11400000, guid: 60bba5c3467446d45a479ab6b6a6e82e, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 8
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0
+  standardAbilities:
+  - {fileID: 11400000, guid: a15e373cc28781245b053d50213487b7, type: 2}
+  - {fileID: 11400000, guid: 9ecbfd12032db4c41b4660b9d7508597, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: e46cd10bf7de372419e2f0a16c7960f0, type: 2}
+  baseHP: 120
+  baseAttack: 100
+  baseDefense: 85
+  baseSpeed: 45
+  baseSpecialAttack: 30
+  baseSpecialDefense: 85
+  EV_HP: 2
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 163
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: c272b86c2496cdb4e894635816948c2d, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 33d96fe56c3fefd4abee4fdd115ab776, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 4abf7d172bbaeba4293580ddddb47f6f, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 3409a556f97cfb0449a264d3e09129af, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 9f6327c384b596c4cacd33d10840d644, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: b0c5817ec469b4f44a3f7ef399a96c62, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: a253414b220bfcd4b96ff45797d666eb, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 903b5ee462226ab47b3026d6ace38c5d, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 824d8c4521b674b4bbedc9a422007b40, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 584d83502cb91fd40851a88eb99706e4, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 9f44f4d05fd57b74b9b026bf9776c7e7, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 11ff7da7c616f1741b88955427548f6f, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: e57bc132b940120468c55968e0807e59, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 8880b7ca31d4f794da5ad4a591a4d876, type: 2}
+    level: 53
+  eggMoves: []

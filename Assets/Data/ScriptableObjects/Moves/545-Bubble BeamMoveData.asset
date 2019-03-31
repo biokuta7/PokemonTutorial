@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeeacdf889dfc2a4f93193475ed815da, type: 3}
+  m_Name: 545-Bubble BeamMoveData
+  m_EditorClassIdentifier: 
+  ID: 546
+  name: Bubble Beam
+  internalName: BUBBLEBEAM
+  description: A spray of bubbles is forcefully ejected at the target. It may also
+    lower its Speed stat.
+  functionCode: 044
+  target: 00
+  flags: 620065006600
+  isSpecial: 1
+  basePower: 65
+  accuracy: 100
+  totalPP: 20
+  additionalEffectChance: 10
+  priority: 0
+  type: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}

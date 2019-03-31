@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 292-WhismurPokemonData
+  m_EditorClassIdentifier: 
+  number: 293
+  name: Whismur
+  internalName: WHISMUR
+  kind: Whisper
+  height: 0.6
+  weight: 16.3
+  dexEntry: Its cries equal a jet plane in volume. It inhales through its ear canals.
+    Because of this system, it can cry continually without having to catch its breath.
+  sprite: {fileID: 21300000, guid: 4f2a68ba03bf41d419226a551275e4f0, type: 3}
+  backSprite: {fileID: 21300000, guid: a6746e66fe0db6e4a845abc8611e85ce, type: 3}
+  shinySprite: {fileID: 21300000, guid: 87da25c0e78a1a54ba389a5f26128567, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 807510e1bf4e1854ea867099d02a3431, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 3b669d980aef934499fe44d16cd5966d, type: 3}
+  type1: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 1
+  eggGroup2: 5
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 89e1705cde9d4994f8012e815a5e2c4d, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: ad05bcdca3a25194385ccb655470cb8c, type: 2}
+  baseHP: 64
+  baseAttack: 51
+  baseDefense: 23
+  baseSpeed: 28
+  baseSpecialAttack: 51
+  baseSpecialDefense: 23
+  EV_HP: 1
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 48
+  rareness: 190
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: e6f695ed68f8aed49b994aaec392dc58, type: 2}
+    levelToEvolve: 20
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: c16d454899509064aa753b3499b92b83, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: feef32ab21b065f4aae9bbf151f180c9, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 123685018af87ba42b579038dda50a29, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 3bbb861f40413cc49ba63bbc7d2599a8, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 2f7d6ab7cd0e52442adcc2fa35de98c8, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: c4e8c740e55faed46ab0712cbaa03682, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: 9a2ac98a1803c3948b268e42577196a6, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 6ca000a6aa650d243b1e634a9044d765, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: e00c2e5151380af4f86149e04650bb42, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: 742025f9f24a09946bae3d0cdb215512, type: 2}
+    level: 51
+  eggMoves:
+  - {fileID: 11400000, guid: 584d83502cb91fd40851a88eb99706e4, type: 2}
+  - {fileID: 11400000, guid: 74d2270e8d5047f47bdfca1fc219dded, type: 2}
+  - {fileID: 11400000, guid: 95a576a0b079fff4d9459736640d5c82, type: 2}
+  - {fileID: 11400000, guid: 4148031223b255242880deef8e6a614c, type: 2}
+  - {fileID: 11400000, guid: 7b14c654ccf062a45b54aa55c85ac600, type: 2}
+  - {fileID: 11400000, guid: 7f24e6a892f52fb40868d3b0e3b3c8f0, type: 2}
+  - {fileID: 11400000, guid: 8dbd4521f21986a4fb108aae7bfebd9e, type: 2}
+  - {fileID: 11400000, guid: ad3d5dd2b0bd4844b89d38058ec1336e, type: 2}
+  - {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}

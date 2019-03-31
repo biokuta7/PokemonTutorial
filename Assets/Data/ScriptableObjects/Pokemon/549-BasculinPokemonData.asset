@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 549-BasculinPokemonData
+  m_EditorClassIdentifier: 
+  number: 550
+  name: Basculin
+  internalName: BASCULIN
+  kind: Hostile
+  height: 1
+  weight: 18
+  dexEntry: Red and blue Basculin usually do not get along, but sometimes members
+    of one school mingle with the other's schooL.
+  sprite: {fileID: 21300000, guid: 4341ff2f0a4d421419fe70c840d746b6, type: 3}
+  backSprite: {fileID: 21300000, guid: 52843aa99747f074fa9700f7dbeb0521, type: 3}
+  shinySprite: {fileID: 21300000, guid: 47a60240f4fd7e04f8b59c53fb6e8952, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: c58cda219cea2a547bf672fb3f165979, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 8e01b2ccbdc45f04eb191c32b2849b73, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 12
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 975f61e15538f23429a671589ce00ebc, type: 2}
+  - {fileID: 11400000, guid: 0bd8c4688919436498967bafc6d4bc7d, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: e46cd10bf7de372419e2f0a16c7960f0, type: 2}
+  baseHP: 70
+  baseAttack: 92
+  baseDefense: 65
+  baseSpeed: 98
+  baseSpecialAttack: 80
+  baseSpecialDefense: 55
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 2
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 161
+  rareness: 25
+  baseHappiness: 70
+  stepsToHatch: 10455
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3b8f4014739fbae4d84fae04eb5099f2, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: feef32ab21b065f4aae9bbf151f180c9, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: f3d560a7d1edced43965433b7691eaf1, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 0c17539c29d9692498e809a6276dd991, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 3206b805bebe41a479e48d61149567c3, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+    level: 24
+  - move: {fileID: 11400000, guid: 1160a28543f1b8646be03bfee46df347, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: d6e8d8fdcc45db34dac43a7fc8e7b242, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 206d073f613428f428074167c47c813d, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: ab4b503440591f742bf63c1693c6ee27, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: 4cba1d219317e214ba3d8d80e0e25f09, type: 2}
+    level: 51
+  - move: {fileID: 11400000, guid: 5a170aa8024c80246991a18e353e044f, type: 2}
+    level: 56
+  eggMoves:
+  - {fileID: 11400000, guid: 3453f1ab4cf459a418c38964bff1630f, type: 2}
+  - {fileID: 11400000, guid: 5d1eca6964fbf79449b447b0f905ef42, type: 2}
+  - {fileID: 11400000, guid: b47841f8439c41b43b9d6fb0c7847197, type: 2}
+  - {fileID: 11400000, guid: 4dfa80e8978525c488cbd9c827a66af7, type: 2}
+  - {fileID: 11400000, guid: 70ea7f19b00e56d49a0fe52d49d2fd44, type: 2}
+  - {fileID: 11400000, guid: 51cd5e9f281e33f4b92b77f2c727e4b1, type: 2}
+  - {fileID: 11400000, guid: b0c5817ec469b4f44a3f7ef399a96c62, type: 2}
+  - {fileID: 11400000, guid: 8f7d8eb3956de5c4bb6b3d67bd3ba44b, type: 2}
+  - {fileID: 11400000, guid: 4af89848b3b64474187dbde56d3a206c, type: 2}

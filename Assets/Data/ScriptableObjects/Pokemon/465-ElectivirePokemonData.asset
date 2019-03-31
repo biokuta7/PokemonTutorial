@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 465-ElectivirePokemonData
+  m_EditorClassIdentifier: 
+  number: 466
+  name: Electivire
+  internalName: ELECTIVIRE
+  kind: Thunderbolt
+  height: 1.8
+  weight: 138.6
+  dexEntry: It pushes the tips of its two tails against the foe, then lets loose with
+    over 20,000 volts of power.
+  sprite: {fileID: 21300000, guid: e574fb4d64921e74c953cfdef3733ae5, type: 3}
+  backSprite: {fileID: 21300000, guid: a954857b7d78e194ab65e04134ec49b5, type: 3}
+  shinySprite: {fileID: 21300000, guid: 7f36ecba3d342b6488720b7ef541d118, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 7a210f1f6c102fb49826a6fd02ba0411, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 118d2617bcb7b664790fa67efff37526, type: 3}
+  type1: {fileID: 11400000, guid: 826864d94ec7c8c4a8e95b6615b2eff3, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 8
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.25
+  standardAbilities:
+  - {fileID: 11400000, guid: fee61c23a61d466499af0543d441ff1b, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: e9ce6c57c461f1a46a1b82ed0527d9e5, type: 2}
+  baseHP: 75
+  baseAttack: 123
+  baseDefense: 67
+  baseSpeed: 95
+  baseSpecialAttack: 95
+  baseSpecialDefense: 85
+  EV_HP: 0
+  EV_Attack: 3
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 243
+  rareness: 30
+  baseHappiness: 70
+  stepsToHatch: 6630
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 43082462e0b502849b59c6366460cef8, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d5f2e90bd85630a43bdd31934847cdc5, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b38abe15a5a03c344b556ae4ef7c99ea, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b230703886b02f14ba5cca7969ba17f8, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b38abe15a5a03c344b556ae4ef7c99ea, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: b230703886b02f14ba5cca7969ba17f8, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 8f7d8eb3956de5c4bb6b3d67bd3ba44b, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: 95e14b9bb06c45943aa7f521fd3c4464, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 7475d027fb16bda4bb60e048a4a74faa, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: b1a63ad3022d7e14991820e3f31f762e, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: d0ff4947ecf7c4c4887fcffbe1bb2fe4, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: ad91c274fe4e2f14ca79d36969420c69, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: bb3904f7307498445959529de2390f9f, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: 2e5f1320b45908f44ada7582573559d8, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 8804ac16ee7916b4e8a9c838c3bad87c, type: 2}
+    level: 55
+  - move: {fileID: 11400000, guid: 60f60ea14d80ad84ebd80005abbc42a5, type: 2}
+    level: 62
+  eggMoves: []

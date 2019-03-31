@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 624-BisharpPokemonData
+  m_EditorClassIdentifier: 
+  number: 625
+  name: Bisharp
+  internalName: BISHARP
+  kind: Sword Blade
+  height: 1.6
+  weight: 70
+  dexEntry: Bisharp pursues prey in the company of a large group of Pawniard. Then
+    Bisharp finishes off the prey.
+  sprite: {fileID: 21300000, guid: 1e863371de848d848bc566bd6aadc71c, type: 3}
+  backSprite: {fileID: 21300000, guid: 3446add4862f6334590b8959009b8c3f, type: 3}
+  shinySprite: {fileID: 21300000, guid: ce2708af7fef8624e9895d7cfaea7b4d, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 3416edd444a34894989b87d740909e89, type: 3}
+  footprintSprite: {fileID: 21300000, guid: c08190b3b4fa0a2459fefa3c6df1460e, type: 3}
+  type1: {fileID: 11400000, guid: 5a37c1bbebd881b42bd5fab995e54689, type: 2}
+  type2: {fileID: 11400000, guid: e19d9d0db9bfb304f86f2be1b2cbcd6e, type: 2}
+  eggGroup1: 8
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 0854434ff051a2c42bec06977bf3d0ac, type: 2}
+  - {fileID: 11400000, guid: 9ecbfd12032db4c41b4660b9d7508597, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 09c4d0a860f51c1488a6ee391d1e8f0e, type: 2}
+  baseHP: 65
+  baseAttack: 125
+  baseDefense: 100
+  baseSpeed: 70
+  baseSpecialAttack: 60
+  baseSpecialDefense: 70
+  EV_HP: 0
+  EV_Attack: 2
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 172
+  rareness: 45
+  baseHappiness: 35
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4ad07fef491bff84a9de8a52b84f9705, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: c8ad6b6cc523bd940b14ff75aa9ba40e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: fa647d901ccdd0247a78d3959bbce436, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 43015e5620b3d8847ad87e35a52bd6e1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: fa647d901ccdd0247a78d3959bbce436, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 43015e5620b3d8847ad87e35a52bd6e1, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 206d073f613428f428074167c47c813d, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 20511dc028bdeb84185f09366190df6d, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: b5cb4834e72f9064abecca08c734899b, type: 2}
+    level: 30
+  - move: {fileID: 11400000, guid: 41cf6d21b7400bd449aa635fccdb09d0, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 9064c27f2e3736249bec03fe438c3daf, type: 2}
+    level: 38
+  - move: {fileID: 11400000, guid: 6b122730c79780648a197ae9c6d76e78, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: a5bdded8b500614418098e7d3258784b, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: c106b7df995223443800dc9dd1494144, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 4dd2c9aed99018b41925ea000173945a, type: 2}
+    level: 57
+  - move: {fileID: 11400000, guid: 9887221a3a392a748b92ecd16cd5faf7, type: 2}
+    level: 63
+  - move: {fileID: 11400000, guid: a5bd2b5de305fcb43872d410c27d547c, type: 2}
+    level: 71
+  eggMoves: []

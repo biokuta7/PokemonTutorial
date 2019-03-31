@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 570-ZoroarkPokemonData
+  m_EditorClassIdentifier: 
+  number: 571
+  name: Zoroark
+  internalName: ZOROARK
+  kind: Illusion Fox
+  height: 1.6
+  weight: 81.1
+  dexEntry: Each has the ability to fool a large group of people simultaneously. They
+    protect their lair with illusory scenery.
+  sprite: {fileID: 21300000, guid: d8bf25fae2b4fc84c8e9ffa66d60681a, type: 3}
+  backSprite: {fileID: 21300000, guid: f26343fa1ce315849a43cfece196ecdd, type: 3}
+  shinySprite: {fileID: 21300000, guid: 4d052f19e2d55d044858a3902ab011ec, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: c1c588cdbde3aa9488d3c074d9c5e7f7, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 29c2ecca3dee3ce4fa99155bef3f0753, type: 3}
+  type1: {fileID: 11400000, guid: 5a37c1bbebd881b42bd5fab995e54689, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.125
+  standardAbilities:
+  - {fileID: 11400000, guid: 0463c7660c6afd744bde54730dcade98, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 60
+  baseAttack: 105
+  baseDefense: 60
+  baseSpeed: 105
+  baseSpecialAttack: 120
+  baseSpecialDefense: 60
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 2
+  EV_SpecialDefense: 0
+  baseEXP: 179
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 494af4edebad3e04d9d52a84f4dcef70, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: c8ad6b6cc523bd940b14ff75aa9ba40e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: a99d53165092a2a41ad55531613c3d1f, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: a99d53165092a2a41ad55531613c3d1f, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: fb9cbbcc0dcb76f4a8254e7141042569, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 206d073f613428f428074167c47c813d, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 6d25dd2274a273a4f97d7cc3c2c084f3, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 777fd3747c8934a44834a8d6288486b0, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: c106b7df995223443800dc9dd1494144, type: 2}
+    level: 30
+  - move: {fileID: 11400000, guid: 43015e5620b3d8847ad87e35a52bd6e1, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: 3453f1ab4cf459a418c38964bff1630f, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: 6b122730c79780648a197ae9c6d76e78, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: 9f0ed801ebf215b408a59d455939ce03, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 7a147e057063b224a86c668c0f0c8579, type: 2}
+    level: 54
+  - move: {fileID: 11400000, guid: fd5957dceb3eed242bb7108cbeca5745, type: 2}
+    level: 59
+  - move: {fileID: 11400000, guid: e4d879e03b78e394995631f9ef8a3550, type: 2}
+    level: 64
+  eggMoves: []

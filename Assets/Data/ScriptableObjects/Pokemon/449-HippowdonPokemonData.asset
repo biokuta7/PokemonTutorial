@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 449-HippowdonPokemonData
+  m_EditorClassIdentifier: 
+  number: 450
+  name: Hippowdon
+  internalName: HIPPOWDON
+  kind: Heavyweight
+  height: 2
+  weight: 300
+  dexEntry: It blasts internally stored sand from ports on its body to create a towering
+    twister for attack.
+  sprite: {fileID: 21300000, guid: 07fc6a288bedf7f44b6174daee974e54, type: 3}
+  backSprite: {fileID: 21300000, guid: b8662b80e13657e4e9c527eca6635dc6, type: 3}
+  shinySprite: {fileID: 21300000, guid: 86426121bdc8df04680282b249cff721, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: c7b95b086c8c5d44ab51bffaa55d1a63, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 0ebadc258b43b114681f6d42005d2919, type: 3}
+  type1: {fileID: 11400000, guid: 2aef90cd8ab7add4ead9fdc156318a32, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 59ffe5f67a3079b459d3e1d0e121bddd, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 9c2760b8ced6cbd49924f41e47871529, type: 2}
+  baseHP: 108
+  baseAttack: 112
+  baseDefense: 118
+  baseSpeed: 47
+  baseSpecialAttack: 68
+  baseSpecialDefense: 72
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 2
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 184
+  rareness: 60
+  baseHappiness: 70
+  stepsToHatch: 7905
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: babc9d06ca5ac9e45bc97f25fd964b7a, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 10a9a26754b7e8b44ba441e49bd4f099, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: f7a872a200b369f4595344bb39526604, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9f99cdcaa64669e41a2a8da39f981b55, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 11851d64298ab6144aa7129575ae7364, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 11851d64298ab6144aa7129575ae7364, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 0aad7ec6cb4a92745a61b010d146746b, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: f1659f14b4256c24b841abb2a7c91606, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 5d28992b9be13a341b391f0dd3d4a986, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: b08d8d6945d0819419892e4b757cdad8, type: 2}
+    level: 60
+  eggMoves: []

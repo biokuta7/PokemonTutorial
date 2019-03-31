@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -18,11 +19,11 @@ MonoBehaviour:
     flinch or leave it burned.
   functionCode: 00B
   target: 00
-  flags: 6100620065006600
+  flags: 6100620065006900
   isSpecial: 0
   basePower: 65
   accuracy: 95
   totalPP: 15
   additionalEffectChance: 10
   priority: 0
-  type: {fileID: 11400000, guid: e29da51f60183e2428c5da1f4d31481e, type: 2}
+  type: {fileID: 11400000, guid: e120886a2aede3b4089e217b177a6111, type: 2}

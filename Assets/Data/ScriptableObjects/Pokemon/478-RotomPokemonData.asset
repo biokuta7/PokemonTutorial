@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 478-RotomPokemonData
+  m_EditorClassIdentifier: 
+  number: 479
+  name: Rotom
+  internalName: ROTOM
+  kind: Plasma
+  height: 0.3
+  weight: 0.3
+  dexEntry: Its body is composed of plasma. It is known to infiltrate electronic devices
+    and wreak havoc.
+  sprite: {fileID: 21300000, guid: c39bcb8db6023ad4386bcb59261048e3, type: 3}
+  backSprite: {fileID: 21300000, guid: f04ab837332eaa946819f53b8f00a4cf, type: 3}
+  shinySprite: {fileID: 21300000, guid: 5bfbc83e34d8031428414904cef4c4cd, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 9a99beed2ab4b014d984e4462ab9602f, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 5bf509624dd8ee846b9f8ab186d7bb22, type: 3}
+  type1: {fileID: 11400000, guid: 826864d94ec7c8c4a8e95b6615b2eff3, type: 2}
+  type2: {fileID: 11400000, guid: 5eb27c1d76b3cc2439c818ac7325a0e5, type: 2}
+  eggGroup1: 11
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: -1
+  standardAbilities:
+  - {fileID: 11400000, guid: 5591a465327adc24089f3b21835f2487, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 50
+  baseAttack: 50
+  baseDefense: 77
+  baseSpeed: 91
+  baseSpecialAttack: 95
+  baseSpecialDefense: 77
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 1
+  EV_SpecialAttack: 1
+  EV_SpecialDefense: 0
+  baseEXP: 154
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 0597bcb9d5189764ea172472f3603923, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 7475d027fb16bda4bb60e048a4a74faa, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b38abe15a5a03c344b556ae4ef7c99ea, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 30e9bccee0b2ceb4cb9ad6b51e66e479, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: feef32ab21b065f4aae9bbf151f180c9, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 56e5520611331d1449233d80d090ed7d, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 95e14b9bb06c45943aa7f521fd3c4464, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: f1e99a84c358af64cab862404dc78a61, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 2a7e3bfdcb2b1354c8b670fc758cb83f, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: b1a63ad3022d7e14991820e3f31f762e, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: 7103c1098d734074f9a1592d89f19c44, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: 75e21a4edea0b024bbc8676017f9a5fe, type: 2}
+    level: 57
+  - move: {fileID: 11400000, guid: bb3904f7307498445959529de2390f9f, type: 2}
+    level: 64
+  eggMoves: []

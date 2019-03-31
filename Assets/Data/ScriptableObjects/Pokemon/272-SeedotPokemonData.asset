@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 272-SeedotPokemonData
+  m_EditorClassIdentifier: 
+  number: 273
+  name: Seedot
+  internalName: SEEDOT
+  kind: Acorn
+  height: 0.5
+  weight: 4
+  dexEntry: It hangs off branches and absorbs nutrients. When it finishes eating,
+    its body becomes so heavy that it drops to the ground with a thump.
+  sprite: {fileID: 21300000, guid: 9db6e72a20698c54bb9f4cb6d78781d6, type: 3}
+  backSprite: {fileID: 21300000, guid: 35be438942f582c44b989e1cc79837f0, type: 3}
+  shinySprite: {fileID: 21300000, guid: 4b1ab18251c0c194da5d2347227774a0, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: f76f8e7e8d15cb3408ca6f0e66563c8e, type: 3}
+  footprintSprite: {fileID: 21300000, guid: c9278c47295acb545aa9c6387c0ff556, type: 3}
+  type1: {fileID: 11400000, guid: 9ed7dc1c4ee6bf747b182dc2eaf16337, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 7
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: f0f4567366d84af44a479f99490860af, type: 2}
+  - {fileID: 11400000, guid: 643f15426c9330a47b7d08dc751d838b, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: d34f3882730b7f643b6fe38fb135be8c, type: 2}
+  baseHP: 40
+  baseAttack: 40
+  baseDefense: 50
+  baseSpeed: 30
+  baseSpecialAttack: 30
+  baseSpecialDefense: 30
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 1
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 44
+  rareness: 255
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 0de1c306687a5924f80dc6e0c544b4bd, type: 2}
+    levelToEvolve: 14
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 33d96fe56c3fefd4abee4fdd115ab776, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
+    level: 3
+  - move: {fileID: 11400000, guid: a2bc558341f8e55459fbed9bfee7482b, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 7d521f984ba299f4b9effbd5e07ec210, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: bf883db29c15eab4cbe5f9f2b382655a, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: a45b5f72eda8d2d4798e7d5235a9072c, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: c04069573dd5ad143b9999bab5f1cbfa, type: 2}
+    level: 43
+  eggMoves:
+  - {fileID: 11400000, guid: b54451c499c3fc24aade1add5a757d05, type: 2}
+  - {fileID: 11400000, guid: b6a288baf04435947a335691653026fb, type: 2}
+  - {fileID: 11400000, guid: 6b8e9a946146d164a8955256e73f74a7, type: 2}
+  - {fileID: 11400000, guid: 45d2e1dc1190a474490fd19bf8a24b39, type: 2}
+  - {fileID: 11400000, guid: 777fd3747c8934a44834a8d6288486b0, type: 2}
+  - {fileID: 11400000, guid: a348e0502b2529145aaaa410f8e3880f, type: 2}
+  - {fileID: 11400000, guid: 7a147e057063b224a86c668c0f0c8579, type: 2}
+  - {fileID: 11400000, guid: f65888ea561938f47a1b2d36efe13aef, type: 2}
+  - {fileID: 11400000, guid: d5f2e90bd85630a43bdd31934847cdc5, type: 2}
+  - {fileID: 11400000, guid: 45536db05abc7c1429c4ddb6279d0443, type: 2}
+  - {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+  - {fileID: 11400000, guid: da061361f80b8be41a2caf2d55f7a5ac, type: 2}

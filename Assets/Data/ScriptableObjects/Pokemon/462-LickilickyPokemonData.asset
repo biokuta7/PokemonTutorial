@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 462-LickilickyPokemonData
+  m_EditorClassIdentifier: 
+  number: 463
+  name: Lickilicky
+  internalName: LICKILICKY
+  kind: Licking
+  height: 1.7
+  weight: 140
+  dexEntry: It wraps things with its extensible tongue. Getting too close to it will
+    leave you soaked with drool.
+  sprite: {fileID: 21300000, guid: eb4c05b8430811b44b9cf6df09fb8909, type: 3}
+  backSprite: {fileID: 21300000, guid: 4339cfb74ac2c9348843d2466cf9838c, type: 3}
+  shinySprite: {fileID: 21300000, guid: 3553a1abd66642540a1e5c8e1dcec625, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 82e531d6d0d38f84abdbb21271652d6d, type: 3}
+  footprintSprite: {fileID: 21300000, guid: c820bbf9fae61d1489f0ff171a3a0771, type: 3}
+  type1: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 1
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 58d1e1e09552c35468c706a098999f09, type: 2}
+  - {fileID: 11400000, guid: 79ec5a44ce26f2541a05456e4aa36662, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 1afe4c34a7995184caf6bd34fbae8609, type: 2}
+  baseHP: 110
+  baseAttack: 85
+  baseDefense: 95
+  baseSpeed: 50
+  baseSpecialAttack: 80
+  baseSpecialDefense: 95
+  EV_HP: 3
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 180
+  rareness: 30
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: dcd976db8573291419557ed6b9d18e1f, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3bbb861f40413cc49ba63bbc7d2599a8, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 9718332accb9dd4438b46ad9a022602e, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: aa3899441c43934478c93384796e9a8c, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: e3c505701482f0141bc8931909022060, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 2f7d6ab7cd0e52442adcc2fa35de98c8, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 4965fe24e4d71994c83ce7f0c95a9d7a, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 1a0603d08aec3344bb06836eb047c05c, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: ec6769bc96a317247a6a1bbb153f90ec, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 3206b805bebe41a479e48d61149567c3, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 2c040a557e68a68468efd8b0c07b7758, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: a253a6a569c46a748ad69bf73eefba7a, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: b6923d67132158f4cad83069c787aacb, type: 2}
+    level: 53
+  - move: {fileID: 11400000, guid: bf78aed5ac7343848b51499fad2ba6f8, type: 2}
+    level: 57
+  - move: {fileID: 11400000, guid: afaa49cea35fccd40a4ec46bb12edd9f, type: 2}
+    level: 61
+  eggMoves: []

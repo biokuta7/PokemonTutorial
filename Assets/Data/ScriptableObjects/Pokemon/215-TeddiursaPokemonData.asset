@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 215-TeddiursaPokemonData
+  m_EditorClassIdentifier: 
+  number: 216
+  name: Teddiursa
+  internalName: TEDDIURSA
+  kind: Little Bear
+  height: 0.6
+  weight: 8.8
+  dexEntry: It licks its palms that are sweetened by being soaked in honey. A Teddiursa
+    makes its own honey by blending fruits and pollen collected by Beedrill.
+  sprite: {fileID: 21300000, guid: f15117bf2ea8abe41963580afa266a5c, type: 3}
+  backSprite: {fileID: 21300000, guid: f2d254b0b80c1f146a4b855ef3587c2f, type: 3}
+  shinySprite: {fileID: 21300000, guid: 659bc38fac816eb47924422d4139bbd4, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: df0035b4ffa832245bf0d0aac226e67e, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 70e24b42da3eb7745896cc11e3f399f4, type: 3}
+  type1: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: fa9c6b70c35b56d4eb9833a262f882c3, type: 2}
+  - {fileID: 11400000, guid: 850d457e7f9ec4d408cc419ca7e9a66d, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: b6ad6d1dbf5ed5040bc284302d05322f, type: 2}
+  baseHP: 60
+  baseAttack: 80
+  baseDefense: 50
+  baseSpeed: 40
+  baseSpecialAttack: 50
+  baseSpecialDefense: 50
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 66
+  rareness: 120
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 7eea8eb5d795321459579cee44ce379d, type: 2}
+    levelToEvolve: 30
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 742c70de3a7643945a25b26139959535, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: c8ad6b6cc523bd940b14ff75aa9ba40e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: dcd976db8573291419557ed6b9d18e1f, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4148031223b255242880deef8e6a614c, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: fb9cbbcc0dcb76f4a8254e7141042569, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 05690026fb024824db2ad77c5245df16, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: b5cb4834e72f9064abecca08c734899b, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: cc97392f8c47d6d43a7fe744875dfd4d, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 6ca000a6aa650d243b1e634a9044d765, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: ad3d5dd2b0bd4844b89d38058ec1336e, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: 5a170aa8024c80246991a18e353e044f, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: 511d2d613a889084b9ec13c60dd8332c, type: 2}
+    level: 57
+  eggMoves:
+  - {fileID: 11400000, guid: 3deca9d3e2612f342bc9cdd96bb22c49, type: 2}
+  - {fileID: 11400000, guid: 3206b805bebe41a479e48d61149567c3, type: 2}
+  - {fileID: 11400000, guid: fe31ce936c3024c41aec13270912f9b2, type: 2}
+  - {fileID: 11400000, guid: 886cc954c2a8d6546abe10ac0f64a80c, type: 2}
+  - {fileID: 11400000, guid: a84629502e72f3345872dc19c167fa2c, type: 2}
+  - {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+  - {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+  - {fileID: 11400000, guid: 4148031223b255242880deef8e6a614c, type: 2}
+  - {fileID: 11400000, guid: 20511dc028bdeb84185f09366190df6d, type: 2}
+  - {fileID: 11400000, guid: c106b7df995223443800dc9dd1494144, type: 2}
+  - {fileID: 11400000, guid: 3409a556f97cfb0449a264d3e09129af, type: 2}
+  - {fileID: 11400000, guid: e00c2e5151380af4f86149e04650bb42, type: 2}
+  - {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+  - {fileID: 11400000, guid: 11851d64298ab6144aa7129575ae7364, type: 2}

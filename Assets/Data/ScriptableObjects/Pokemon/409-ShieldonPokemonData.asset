@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 409-ShieldonPokemonData
+  m_EditorClassIdentifier: 
+  number: 410
+  name: Shieldon
+  internalName: SHIELDON
+  kind: Shield
+  height: 0.5
+  weight: 57
+  dexEntry: "A Pok\xE9mon that lived in jungles around 100 million years ago. Its
+    facial hide is extremely hard."
+  sprite: {fileID: 21300000, guid: 415d90d396fef8041a4df081a42538e5, type: 3}
+  backSprite: {fileID: 21300000, guid: 4e9e22a335b96704ab395c94be9b3c55, type: 3}
+  shinySprite: {fileID: 21300000, guid: 184c9fb45f28d7046b0610af959cc8bb, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 6679d9471165b0e4a9fca24054f1ba06, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 7b756713bb1fc30489adafb389b62a2a, type: 3}
+  type1: {fileID: 11400000, guid: 865c5118b1a0e3b4d895cfe37b3b2aa9, type: 2}
+  type2: {fileID: 11400000, guid: e19d9d0db9bfb304f86f2be1b2cbcd6e, type: 2}
+  eggGroup1: 1
+  eggGroup2: 0
+  growthRate: 0
+  habitat: 0
+  femaleRatio: 0.125
+  standardAbilities:
+  - {fileID: 11400000, guid: 8822aaa86cfc2f0408aaabea80029644, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 89e1705cde9d4994f8012e815a5e2c4d, type: 2}
+  baseHP: 30
+  baseAttack: 42
+  baseDefense: 118
+  baseSpeed: 30
+  baseSpecialAttack: 42
+  baseSpecialDefense: 88
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 1
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 70
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 7905
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 234bcb07641892b499953276987ab86d, type: 2}
+    levelToEvolve: 30
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 79c63ba594520644cbecc00f726ef040, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6d25dd2274a273a4f97d7cc3c2c084f3, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: 9064c27f2e3736249bec03fe438c3daf, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: a5bdded8b500614418098e7d3258784b, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 2da8c21f08cbc164da993e01dc3a0391, type: 2}
+    level: 24
+  - move: {fileID: 11400000, guid: 30694025d0c13dd4c896a65d19651c78, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 9f44f4d05fd57b74b9b026bf9776c7e7, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 4ad07fef491bff84a9de8a52b84f9705, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 4dd2c9aed99018b41925ea000173945a, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: c24e608ede5552044974bb1114a3af17, type: 2}
+    level: 46
+  eggMoves:
+  - {fileID: 11400000, guid: 903b5ee462226ab47b3026d6ace38c5d, type: 2}
+  - {fileID: 11400000, guid: 886cc954c2a8d6546abe10ac0f64a80c, type: 2}
+  - {fileID: 11400000, guid: fd48eadb1eda86c45b74371631ca93dd, type: 2}
+  - {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+  - {fileID: 11400000, guid: b08d8d6945d0819419892e4b757cdad8, type: 2}
+  - {fileID: 11400000, guid: 4abf7d172bbaeba4293580ddddb47f6f, type: 2}
+  - {fileID: 11400000, guid: f3d560a7d1edced43965433b7691eaf1, type: 2}
+  - {fileID: 11400000, guid: 49d5da56e08edc84bbd0872e20b1d121, type: 2}
+  - {fileID: 11400000, guid: 206d073f613428f428074167c47c813d, type: 2}
+  - {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+  - {fileID: 11400000, guid: 4773ef6422b4dba42bf480860c4f42cc, type: 2}
+  - {fileID: 11400000, guid: 11ff7da7c616f1741b88955427548f6f, type: 2}

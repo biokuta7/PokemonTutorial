@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 178-MareepPokemonData
+  m_EditorClassIdentifier: 
+  number: 179
+  name: Mareep
+  internalName: MAREEP
+  kind: Wool
+  height: 0.6
+  weight: 7.8
+  dexEntry: Its fluffy wool rubs together and builds a static charge. The more energy
+    is charged, the more brightly the lightbulb at the tip of its tail glows.
+  sprite: {fileID: 21300000, guid: ddb081bf025a8c24baa292f64e245244, type: 3}
+  backSprite: {fileID: 21300000, guid: 2fc4aa4ffe5c1364ba73c5b5ece98a7a, type: 3}
+  shinySprite: {fileID: 21300000, guid: 9a66760f6af393a439dcb7efdfbf4d2d, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: aecc70d423fc44d4db26580e107c733b, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 214bead0ac556864db504c8f50c04896, type: 3}
+  type1: {fileID: 11400000, guid: 826864d94ec7c8c4a8e95b6615b2eff3, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 1
+  eggGroup2: 5
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 602d0716b6f2c604aa4d23be03aede71, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 592d10e5db3b39d4a99a48f4626f55e6, type: 2}
+  baseHP: 55
+  baseAttack: 40
+  baseDefense: 40
+  baseSpeed: 35
+  baseSpecialAttack: 65
+  baseSpecialDefense: 45
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 1
+  EV_SpecialDefense: 0
+  baseEXP: 56
+  rareness: 235
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 88b64ebcd516c1344a2b7c7a9c8c182e, type: 2}
+    levelToEvolve: 15
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 49df1d5643c16e94e8a7607e0d4cb127, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 7475d027fb16bda4bb60e048a4a74faa, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: b38abe15a5a03c344b556ae4ef7c99ea, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 182b449d1aef5204dabab987f2afae04, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 75e21a4edea0b024bbc8676017f9a5fe, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: b1a63ad3022d7e14991820e3f31f762e, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 30e9bccee0b2ceb4cb9ad6b51e66e479, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 24accd80c06ba134b9e77c09775a745d, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: bb3904f7307498445959529de2390f9f, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: 41f3351bc2e0f3749bc59218fc41ad3b, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 7dba8b22673833342a50075386bcf896, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: d0ff4947ecf7c4c4887fcffbe1bb2fe4, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: 8804ac16ee7916b4e8a9c838c3bad87c, type: 2}
+    level: 46
+  eggMoves:
+  - {fileID: 11400000, guid: 824a861885c149d4bb06e01a7b7b5109, type: 2}
+  - {fileID: 11400000, guid: 3453f1ab4cf459a418c38964bff1630f, type: 2}
+  - {fileID: 11400000, guid: 903b5ee462226ab47b3026d6ace38c5d, type: 2}
+  - {fileID: 11400000, guid: 75e21a4edea0b024bbc8676017f9a5fe, type: 2}
+  - {fileID: 11400000, guid: 04d33f3b315de81448190b591cc3a535, type: 2}
+  - {fileID: 11400000, guid: 840bfbc637572204e89aa45543ac969b, type: 2}
+  - {fileID: 11400000, guid: f8e0359e915e43e4abfa7d0500c94d43, type: 2}
+  - {fileID: 11400000, guid: 9f99cdcaa64669e41a2a8da39f981b55, type: 2}
+  - {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+  - {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}

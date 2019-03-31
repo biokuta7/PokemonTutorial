@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 236-HitmontopPokemonData
+  m_EditorClassIdentifier: 
+  number: 237
+  name: Hitmontop
+  internalName: HITMONTOP
+  kind: Handstand
+  height: 1.4
+  weight: 48
+  dexEntry: Its technique of kicking while spinning is a remarkable mix of both offense
+    and defense. Hitmontop travel faster spinning than they do walking.
+  sprite: {fileID: 21300000, guid: 7cfdd4bf054c5124894f0bdb26ba9373, type: 3}
+  backSprite: {fileID: 21300000, guid: d0e682d300e23894ca5d59351fe3e6db, type: 3}
+  shinySprite: {fileID: 21300000, guid: c2bd67784274f7e4a93ae5dc7352bfac, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 7c931bbf850ba0040a469a1f3c1cb059, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 3cf373f6cd433db46acd5bd948b78600, type: 3}
+  type1: {fileID: 11400000, guid: 60bba5c3467446d45a479ab6b6a6e82e, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 8
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0
+  standardAbilities:
+  - {fileID: 11400000, guid: 4d2c363492d6553449a69e6b63a750e6, type: 2}
+  - {fileID: 11400000, guid: a7c5ad8c7b11d4f44bcfd155bfd7f55f, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: babc855018a0d534287fb1575505427c, type: 2}
+  baseHP: 50
+  baseAttack: 95
+  baseDefense: 95
+  baseSpeed: 70
+  baseSpecialAttack: 35
+  baseSpecialDefense: 110
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 2
+  baseEXP: 159
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 6630
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: b0c5817ec469b4f44a3f7ef399a96c62, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b177b51c48d58f749bd67addcc02cf57, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4abf7d172bbaeba4293580ddddb47f6f, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: d5f2e90bd85630a43bdd31934847cdc5, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 2db4dda18eb4ab7449236734275e1723, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 5df38effff9669e49a43e3d459847a64, type: 2}
+    level: 24
+  - move: {fileID: 11400000, guid: 886cc954c2a8d6546abe10ac0f64a80c, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: efce0155d8efb2e4d846129c30b3961f, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 3453f1ab4cf459a418c38964bff1630f, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: afaa49cea35fccd40a4ec46bb12edd9f, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: 11ff7da7c616f1741b88955427548f6f, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: f59c4c13ab26fc54caae248bc7547b1f, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: 16531673f7df2c1428a3eda3a0a5e5b6, type: 2}
+    level: 51
+  - move: {fileID: 11400000, guid: fe31ce936c3024c41aec13270912f9b2, type: 2}
+    level: 55
+  - move: {fileID: 11400000, guid: 74d2270e8d5047f47bdfca1fc219dded, type: 2}
+    level: 60
+  eggMoves: []

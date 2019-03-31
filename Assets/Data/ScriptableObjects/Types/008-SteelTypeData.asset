@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -17,19 +18,19 @@ MonoBehaviour:
   weaknesses:
   - {fileID: 11400000, guid: 60bba5c3467446d45a479ab6b6a6e82e, type: 2}
   - {fileID: 11400000, guid: 2aef90cd8ab7add4ead9fdc156318a32, type: 2}
-  - {fileID: 11400000, guid: e29da51f60183e2428c5da1f4d31481e, type: 2}
+  - {fileID: 11400000, guid: e120886a2aede3b4089e217b177a6111, type: 2}
   immunities:
   - {fileID: 11400000, guid: 5c263d07fc626544cae866e79835f9fd, type: 2}
   resistances:
-  - {fileID: 11400000, guid: de3693b16b9150146a68b455abcf327a, type: 2}
+  - {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
   - {fileID: 11400000, guid: 90bb1a57d841315478a74baa52e40ba4, type: 2}
   - {fileID: 11400000, guid: 865c5118b1a0e3b4d895cfe37b3b2aa9, type: 2}
   - {fileID: 11400000, guid: 79eb8f30cbe188e4f8a36dafd71ebdee, type: 2}
   - {fileID: 11400000, guid: 5eb27c1d76b3cc2439c818ac7325a0e5, type: 2}
   - {fileID: 11400000}
-  - {fileID: 11400000, guid: 0fe0aaa7940cd5b4a8de75cef966e991, type: 2}
-  - {fileID: 11400000, guid: 8a60f9e36b8e1a04e88890b5a3d000cb, type: 2}
-  - {fileID: 11400000, guid: 4963f2aa307feef4398c60cebd48934c, type: 2}
-  - {fileID: 11400000, guid: 355178e54b5c8544dabadc0bbe674360, type: 2}
-  - {fileID: 11400000, guid: 742fe8c78da5a014b9b8c5424ab3e72d, type: 2}
+  - {fileID: 11400000, guid: 9ed7dc1c4ee6bf747b182dc2eaf16337, type: 2}
+  - {fileID: 11400000, guid: 718f468b569515f42be9e985a9082465, type: 2}
+  - {fileID: 11400000, guid: 38a14f4c97dc09046a4a4f9f7bdade6e, type: 2}
+  - {fileID: 11400000, guid: a50e8df2c05bf734c9f408b06361f74e, type: 2}
+  - {fileID: 11400000, guid: 5a37c1bbebd881b42bd5fab995e54689, type: 2}
   color: {r: 0.7411765, g: 0.74509805, b: 0.8, a: 1}

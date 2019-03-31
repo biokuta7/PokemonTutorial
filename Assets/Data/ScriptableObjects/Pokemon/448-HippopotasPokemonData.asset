@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 448-HippopotasPokemonData
+  m_EditorClassIdentifier: 
+  number: 449
+  name: Hippopotas
+  internalName: HIPPOPOTAS
+  kind: Hippo
+  height: 0.8
+  weight: 49.5
+  dexEntry: It lives in arid places. Instead of perspiration, it expels grainy sand
+    from its body.
+  sprite: {fileID: 21300000, guid: b03020cb86bf3444b8ce6da362f0fbcb, type: 3}
+  backSprite: {fileID: 21300000, guid: 131d2a9eb7b0f2b44bbe2a59137b0d67, type: 3}
+  shinySprite: {fileID: 21300000, guid: 2804226265e6b6e45b90b00c7ac9132f, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: b993d85b10856d24d8fc2ab79cd45a44, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 0a00d88a44d8e05428208ee415115b37, type: 3}
+  type1: {fileID: 11400000, guid: 2aef90cd8ab7add4ead9fdc156318a32, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 59ffe5f67a3079b459d3e1d0e121bddd, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 9c2760b8ced6cbd49924f41e47871529, type: 2}
+  baseHP: 68
+  baseAttack: 72
+  baseDefense: 78
+  baseSpeed: 32
+  baseSpecialAttack: 38
+  baseSpecialDefense: 42
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 1
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 66
+  rareness: 140
+  baseHappiness: 70
+  stepsToHatch: 7905
+  evolutions:
+  - resultant: {fileID: 11400000, guid: ade2ec53f4cfdfa4c8250ad6e6df3e5a, type: 2}
+    levelToEvolve: 34
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9f99cdcaa64669e41a2a8da39f981b55, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 11851d64298ab6144aa7129575ae7364, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 0aad7ec6cb4a92745a61b010d146746b, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: f1659f14b4256c24b841abb2a7c91606, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 5d28992b9be13a341b391f0dd3d4a986, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: b08d8d6945d0819419892e4b757cdad8, type: 2}
+    level: 50
+  eggMoves:
+  - {fileID: 11400000, guid: 903b5ee462226ab47b3026d6ace38c5d, type: 2}
+  - {fileID: 11400000, guid: fd48eadb1eda86c45b74371631ca93dd, type: 2}
+  - {fileID: 11400000, guid: b0c5817ec469b4f44a3f7ef399a96c62, type: 2}
+  - {fileID: 11400000, guid: f1659f14b4256c24b841abb2a7c91606, type: 2}
+  - {fileID: 11400000, guid: e5eb1492bd066be4bb0837fe55f3c646, type: 2}
+  - {fileID: 11400000, guid: e00c2e5151380af4f86149e04650bb42, type: 2}
+  - {fileID: 11400000, guid: 896336ca57ccd0a478ad94a85479e278, type: 2}
+  - {fileID: 11400000, guid: ff3913788b628f54baa7ca440e7aca98, type: 2}
+  - {fileID: 11400000, guid: b3b0dd4dfe9ef9d4ba5dd8a6a2378381, type: 2}
+  - {fileID: 11400000, guid: c761759381cf557488626838e074d491, type: 2}

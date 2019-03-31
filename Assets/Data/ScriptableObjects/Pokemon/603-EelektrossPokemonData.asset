@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 603-EelektrossPokemonData
+  m_EditorClassIdentifier: 
+  number: 604
+  name: Eelektross
+  internalName: EELEKTROSS
+  kind: EleFish
+  height: 2.1
+  weight: 80.5
+  dexEntry: With their sucker mouths, they suck in prey. Then they use their fangs
+    to shock the prey with electricity.
+  sprite: {fileID: 21300000, guid: a62b6d8b97e00c44da53f92a8e5db227, type: 3}
+  backSprite: {fileID: 21300000, guid: f14d7db9b8643f94d811748434f862dd, type: 3}
+  shinySprite: {fileID: 21300000, guid: 182457d53b28df44bba1aba8262ce741, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 5016b2c567f5bbc49a8aaf1bfbd4ee19, type: 3}
+  footprintSprite: {fileID: 21300000, guid: fe245daeaedc8d24db0f482c555c185b, type: 3}
+  type1: {fileID: 11400000, guid: 826864d94ec7c8c4a8e95b6615b2eff3, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 11
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 5591a465327adc24089f3b21835f2487, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 85
+  baseAttack: 115
+  baseDefense: 80
+  baseSpeed: 50
+  baseSpecialAttack: 105
+  baseSpecialDefense: 80
+  EV_HP: 0
+  EV_Attack: 3
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 232
+  rareness: 30
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 9f71b97ffe2773a40bc74a4b4c1b2a03, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: f3d560a7d1edced43965433b7691eaf1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: a9cb34e1f0983c24aa63b6ee303bb1ed, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bb3904f7307498445959529de2390f9f, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+    level: 1
+  eggMoves: []

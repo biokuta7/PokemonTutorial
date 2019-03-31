@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 597-FerrothornPokemonData
+  m_EditorClassIdentifier: 
+  number: 598
+  name: Ferrothorn
+  internalName: FERROTHORN
+  kind: Thorn Pod
+  height: 1
+  weight: 110
+  dexEntry: They attach themselves to cave ceilings, firing steel spikes at targets
+    passing beneath them.
+  sprite: {fileID: 21300000, guid: 4d66578b3bcaaef4fa06535d496952b4, type: 3}
+  backSprite: {fileID: 21300000, guid: 7204939ec7fceb84085abbc15eb3e03b, type: 3}
+  shinySprite: {fileID: 21300000, guid: b1b8b7352268f35458805d2202381920, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: aa9aee0a457106340965dcf3357426dd, type: 3}
+  footprintSprite: {fileID: 21300000, guid: a633988a7538e44408e44f969942beb0, type: 3}
+  type1: {fileID: 11400000, guid: 9ed7dc1c4ee6bf747b182dc2eaf16337, type: 2}
+  type2: {fileID: 11400000, guid: e19d9d0db9bfb304f86f2be1b2cbcd6e, type: 2}
+  eggGroup1: 7
+  eggGroup2: 10
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: bd0bfa33cc60227498879a4dae89ac84, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 74
+  baseAttack: 94
+  baseDefense: 131
+  baseSpeed: 20
+  baseSpecialAttack: 54
+  baseSpecialDefense: 116
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 2
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 171
+  rareness: 90
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 8fa8b734d4bf3c648b9af24365b29712, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: ec6769bc96a317247a6a1bbb153f90ec, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: fd48eadb1eda86c45b74371631ca93dd, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: ec6769bc96a317247a6a1bbb153f90ec, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: fd48eadb1eda86c45b74371631ca93dd, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 20511dc028bdeb84185f09366190df6d, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: 94cbbd93cb037114781f77a2e7546a2e, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: afaa49cea35fccd40a4ec46bb12edd9f, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: a5bdded8b500614418098e7d3258784b, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: c7dabb21d70139444bd904d1e47f66a3, type: 2}
+    level: 30
+  - move: {fileID: 11400000, guid: c163dfa522d04f94d9ac8124bf7d1ec1, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: 1651f4255a305064b86ce9a95216cc75, type: 2}
+    level: 38
+  - move: {fileID: 11400000, guid: b6923d67132158f4cad83069c787aacb, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: 4dd2c9aed99018b41925ea000173945a, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: 045af626945e212499f0e9a28c180d66, type: 2}
+    level: 53
+  - move: {fileID: 11400000, guid: c981b703c64607144b99d1975327fa12, type: 2}
+    level: 61
+  - move: {fileID: 11400000, guid: c04069573dd5ad143b9999bab5f1cbfa, type: 2}
+    level: 67
+  eggMoves: []

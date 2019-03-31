@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 501-DewottPokemonData
+  m_EditorClassIdentifier: 
+  number: 502
+  name: Dewott
+  internalName: DEWOTT
+  kind: Discipline
+  height: 0.8
+  weight: 24.5
+  dexEntry: Scalchop techniques differ from one Dewott to another. It never neglects
+    maintaining its scalchops.
+  sprite: {fileID: 21300000, guid: db4cfc53e679fb7489294d22ddf20d02, type: 3}
+  backSprite: {fileID: 21300000, guid: f3e63b352dda16d45a775ff40e2a4562, type: 3}
+  shinySprite: {fileID: 21300000, guid: aced985b187337549b970f5c2909735e, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 74cba647cac1d2844a413701b4b8b88a, type: 3}
+  footprintSprite: {fileID: 21300000, guid: e0476eeb27ab0194ba7f87e911f7eb96, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.125
+  standardAbilities:
+  - {fileID: 11400000, guid: fdf277dc983292641be575343cb7d20b, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 23379adb94f14cb40b2a0ba065d19085, type: 2}
+  baseHP: 75
+  baseAttack: 75
+  baseDefense: 60
+  baseSpeed: 60
+  baseSpecialAttack: 83
+  baseSpecialDefense: 60
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 2
+  EV_SpecialDefense: 0
+  baseEXP: 145
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 4cbe109c3ec390b4e9d4a6e6454a618f, type: 2}
+    levelToEvolve: 36
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 90e9a9d7356e7c84ea9190b7ff0535b1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3b8f4014739fbae4d84fae04eb5099f2, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e1b13bbff45ac2c4d931b26b7167b481, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 90e9a9d7356e7c84ea9190b7ff0535b1, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 3b8f4014739fbae4d84fae04eb5099f2, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: e1b13bbff45ac2c4d931b26b7167b481, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 4abf7d172bbaeba4293580ddddb47f6f, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: f1422269310cc5140bf4cb60e5071b33, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: fa647d901ccdd0247a78d3959bbce436, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 0daaaf2b724e2e34f893d673a8ee7a4e, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: b0c5817ec469b4f44a3f7ef399a96c62, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 0c17539c29d9692498e809a6276dd991, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 135034a951a65894fb86a5f232b51764, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 1160a28543f1b8646be03bfee46df347, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 947b0dcc26e24574086cf7ec4b0e080d, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: 9887221a3a392a748b92ecd16cd5faf7, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 4bdcb7db2207f9142b7706d59e466f28, type: 2}
+    level: 52
+  eggMoves: []

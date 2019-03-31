@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 265-SilcoonPokemonData
+  m_EditorClassIdentifier: 
+  number: 266
+  name: Silcoon
+  internalName: SILCOON
+  kind: Cocoon
+  height: 0.6
+  weight: 10
+  dexEntry: It prepares for evolution using the energy it stored while it was a Wurmple.
+    It keeps watch over the surroundings with its two eyes.
+  sprite: {fileID: 21300000, guid: cafaaef79951dc8498f184f82f596856, type: 3}
+  backSprite: {fileID: 21300000, guid: 97ee23170130f8a4aaeab61a8b542be3, type: 3}
+  shinySprite: {fileID: 21300000, guid: 00753a9522e0ccd49b5b3a487f8a6ad4, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: fbddbd08de07e724c86c6b4b9fe828f1, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 6ba01a2e4ecf34542b4c6d7109136e58, type: 3}
+  type1: {fileID: 11400000, guid: 79eb8f30cbe188e4f8a36dafd71ebdee, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 3
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 0f81637a6efd5594f91922de5f257781, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 50
+  baseAttack: 35
+  baseDefense: 55
+  baseSpeed: 15
+  baseSpecialAttack: 25
+  baseSpecialDefense: 25
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 2
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 72
+  rareness: 120
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions:
+  - resultant: {fileID: 11400000, guid: d0791442d217c87488ccbaf3fbcd7d13, type: 2}
+    levelToEvolve: 10
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
+    level: 7
+  eggMoves: []

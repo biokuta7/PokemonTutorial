@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 613-BearticPokemonData
+  m_EditorClassIdentifier: 
+  number: 614
+  name: Beartic
+  internalName: BEARTIC
+  kind: Freezing
+  height: 2.6
+  weight: 260
+  dexEntry: It freezes its breath to create fangs and claws of ice to fight with.
+    Cold northern areas are its habitat.
+  sprite: {fileID: 21300000, guid: fa4fa11dfa991094b9b07c92dfb270bc, type: 3}
+  backSprite: {fileID: 21300000, guid: 3164abe8625a5ef408a7b279209bbc6f, type: 3}
+  shinySprite: {fileID: 21300000, guid: f6fd00c54ddf9d24580d20ae0394da64, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: cfbcbe6766a480c4086d1652ca527fd2, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 50dcb2aec05e0154488337d3ea63a0ea, type: 3}
+  type1: {fileID: 11400000, guid: 38a14f4c97dc09046a4a4f9f7bdade6e, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: f9bf45685f0426f40bdfc73770c59acb, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 56397a6e68134a6409d13eb81f2d8d2c, type: 2}
+  baseHP: 95
+  baseAttack: 110
+  baseDefense: 80
+  baseSpeed: 50
+  baseSpecialAttack: 70
+  baseSpecialDefense: 80
+  EV_HP: 0
+  EV_Attack: 2
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 170
+  rareness: 60
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: e57bc132b940120468c55968e0807e59, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 0c17539c29d9692498e809a6276dd991, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 40d2e39e14d19834e9e6089cb596cdc7, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 49df1d5643c16e94e8a7607e0d4cb127, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 33d96fe56c3fefd4abee4fdd115ab776, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b54112bb46bdcb342b701dde2aed4ef4, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 49df1d5643c16e94e8a7607e0d4cb127, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 33d96fe56c3fefd4abee4fdd115ab776, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: b54112bb46bdcb342b701dde2aed4ef4, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: fb9cbbcc0dcb76f4a8254e7141042569, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 5d1eca6964fbf79449b447b0f905ef42, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 9f44f4d05fd57b74b9b026bf9776c7e7, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 2da8c21f08cbc164da993e01dc3a0391, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: b5cb4834e72f9064abecca08c734899b, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: ab4b503440591f742bf63c1693c6ee27, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 144f1e94cb6bc7549bed0c5f76102830, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 6ca000a6aa650d243b1e634a9044d765, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 7b20094791067584392cb9404ff2c0ab, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: ba31b036da1e30c489136127091ad4f1, type: 2}
+    level: 53
+  - move: {fileID: 11400000, guid: 5a170aa8024c80246991a18e353e044f, type: 2}
+    level: 59
+  - move: {fileID: 11400000, guid: 9dbb1a05683b8034ca699377dca570d4, type: 2}
+    level: 66
+  eggMoves: []

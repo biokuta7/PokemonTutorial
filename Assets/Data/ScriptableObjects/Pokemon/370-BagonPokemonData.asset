@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 370-BagonPokemonData
+  m_EditorClassIdentifier: 
+  number: 371
+  name: Bagon
+  internalName: BAGON
+  kind: Rock Head
+  height: 0.6
+  weight: 42.1
+  dexEntry: "Although it is small, this Pok\xE9mon is very powerful because its body
+    is a bundle of muscles. It launches head-butts with its ironlike skull."
+  sprite: {fileID: 21300000, guid: dab0a0a9a45df6f4cbc53a7c1b90eecb, type: 3}
+  backSprite: {fileID: 21300000, guid: 6ac59a404638cb1449c5159d27861374, type: 3}
+  shinySprite: {fileID: 21300000, guid: 9dbb4c8160795fa418bf65994a2529b3, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 6ee16effb6824d149ad91deea83ba7f0, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 60e6bacde99627a4dae506b039514c4e, type: 3}
+  type1: {fileID: 11400000, guid: a50e8df2c05bf734c9f408b06361f74e, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 14
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: eaeb02f426f4fb040a995a3ac538cd8b, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: ff9707f0509fe71419680a601a505ebe, type: 2}
+  baseHP: 45
+  baseAttack: 75
+  baseDefense: 60
+  baseSpeed: 50
+  baseSpecialAttack: 40
+  baseSpecialDefense: 30
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 60
+  rareness: 45
+  baseHappiness: 35
+  stepsToHatch: 10455
+  evolutions:
+  - resultant: {fileID: 11400000, guid: c157f491a5c8bc642983ebece8870a20, type: 2}
+    levelToEvolve: 30
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 51cd5e9f281e33f4b92b77f2c727e4b1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: f3d560a7d1edced43965433b7691eaf1, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: 4abf7d172bbaeba4293580ddddb47f6f, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 62339e29a8fb98e4da4f46c83137d8b8, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: f1751b5ec96b0424e90af98f8405703d, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: a14c1abb33c849c40b2bc2db3133d367, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: 206d073f613428f428074167c47c813d, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: bc908f5b29ffbdf449ead18d33c8810b, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+    level: 55
+  eggMoves:
+  - {fileID: 11400000, guid: 9718332accb9dd4438b46ad9a022602e, type: 2}
+  - {fileID: 11400000, guid: 6a19de109a1bddf4d99a984783c518a3, type: 2}
+  - {fileID: 11400000, guid: 36ac6fad3c69dfa4ea764d608a2a1212, type: 2}
+  - {fileID: 11400000, guid: 30c2e672cc93cd44d983f46e72bb67eb, type: 2}
+  - {fileID: 11400000, guid: 1fb42093fd7d56f4d93f8ee993588931, type: 2}
+  - {fileID: 11400000, guid: 9f44f4d05fd57b74b9b026bf9776c7e7, type: 2}
+  - {fileID: 11400000, guid: 10a9a26754b7e8b44ba441e49bd4f099, type: 2}
+  - {fileID: 11400000, guid: 4bdcb7db2207f9142b7706d59e466f28, type: 2}
+  - {fileID: 11400000, guid: 5a170aa8024c80246991a18e353e044f, type: 2}
+  - {fileID: 11400000, guid: 8893a4943a8bc8644b6a8faef29dcf2a, type: 2}

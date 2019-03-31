@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 307-MedichamPokemonData
+  m_EditorClassIdentifier: 
+  number: 308
+  name: Medicham
+  internalName: MEDICHAM
+  kind: Meditate
+  height: 1.3
+  weight: 31.5
+  dexEntry: Through crushingly harsh yoga training, it gained the power to foretell
+    its foe's actions. It battles with elegant, dance- like movement.
+  sprite: {fileID: 21300000, guid: d95ad987047521b44814c7ebd26f517c, type: 3}
+  backSprite: {fileID: 21300000, guid: 872a11a4b91c342439ae372318bff0a7, type: 3}
+  shinySprite: {fileID: 21300000, guid: 8d7afc9563a522e46945f5cd7f13c395, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 583be842ea1323d49bc33d45c6026f7e, type: 3}
+  footprintSprite: {fileID: 21300000, guid: bdeb5abbd6a05264393cd5dd334a485b, type: 3}
+  type1: {fileID: 11400000, guid: 60bba5c3467446d45a479ab6b6a6e82e, type: 2}
+  type2: {fileID: 11400000, guid: 718f468b569515f42be9e985a9082465, type: 2}
+  eggGroup1: 8
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 57f075435dc65fc4290c4de362d90e5f, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: ed80cf5b8d8e1204296a4c18cc5ac574, type: 2}
+  baseHP: 60
+  baseAttack: 60
+  baseDefense: 75
+  baseSpeed: 80
+  baseSpecialAttack: 60
+  baseSpecialDefense: 75
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 2
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 144
+  rareness: 90
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 43082462e0b502849b59c6366460cef8, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: ad91c274fe4e2f14ca79d36969420c69, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 8ff24dd6627d3454bb87045584b979d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 33d96fe56c3fefd4abee4fdd115ab776, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 8c66c1beeec9e8244ba1eddc9efab0be, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 0220cff4fc3377247806f98b98ceb881, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 16531673f7df2c1428a3eda3a0a5e5b6, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 8c66c1beeec9e8244ba1eddc9efab0be, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 0220cff4fc3377247806f98b98ceb881, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 16531673f7df2c1428a3eda3a0a5e5b6, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 9fe3e343713bf9744b79faa05f4130f3, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 719d19365328016478a76a6cc3115cbb, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: efce0155d8efb2e4d846129c30b3961f, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 70de2395caef55748904be979eeef0d5, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 178dabe2d75a1d64a8035b206f54b0d8, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 7b2016b6671c1b34e9e6716a7044e541, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: bba0e618decf2494295c2ca64d2ee571, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 52f95a60cbe0aa944a8e85ae1b4ee274, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: 34fdd3d043eac614fb337c29055c6442, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 8880b7ca31d4f794da5ad4a591a4d876, type: 2}
+    level: 55
+  - move: {fileID: 11400000, guid: 17b540db896190346af6a508b2a0c1ec, type: 2}
+    level: 62
+  eggMoves: []

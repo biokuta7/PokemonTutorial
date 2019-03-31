@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -18,11 +19,11 @@ MonoBehaviour:
     It may also confuse the target.
   functionCode: 014
   target: 00
-  flags: 62006b00
+  flags: 620066006b00
   isSpecial: 1
   basePower: 60
   accuracy: 100
   totalPP: 20
-  additionalEffectChance: 100
+  additionalEffectChance: 0
   priority: 0
   type: {fileID: 11400000, guid: 90bb1a57d841315478a74baa52e40ba4, type: 2}

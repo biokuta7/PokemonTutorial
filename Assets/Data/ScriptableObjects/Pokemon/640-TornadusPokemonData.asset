@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 640-TornadusPokemonData
+  m_EditorClassIdentifier: 
+  number: 641
+  name: Tornadus
+  internalName: TORNADUS
+  kind: Cyclone
+  height: 1.5
+  weight: 63
+  dexEntry: Tornadus expels massive energy from its tail, causing severe storms. Its
+    power is great enough to blow houses away.
+  sprite: {fileID: 21300000, guid: ca49297fb001cab41b4cc4091624bf3b, type: 3}
+  backSprite: {fileID: 21300000, guid: 62eec8e4fed6d7f45a3f99cf0bc33d8b, type: 3}
+  shinySprite: {fileID: 21300000, guid: 767fbb74eb2a6aa439ab2a13f8ea826a, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: ca772bae4bff2c744983ba947e86afe4, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 9cf87c4278bc4954fb81dd1e87360caf, type: 3}
+  type1: {fileID: 11400000, guid: 90bb1a57d841315478a74baa52e40ba4, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 15
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: 0
+  standardAbilities:
+  - {fileID: 11400000, guid: 5e64b01508371c248be16c3429cf53db, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 0854434ff051a2c42bec06977bf3d0ac, type: 2}
+  baseHP: 79
+  baseAttack: 115
+  baseDefense: 70
+  baseSpeed: 111
+  baseSpecialAttack: 125
+  baseSpecialDefense: 80
+  EV_HP: 0
+  EV_Attack: 3
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 5
+  rareness: 3
+  baseHappiness: 90
+  stepsToHatch: 30855
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: feef32ab21b065f4aae9bbf151f180c9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b1634127e25b9b64aad2d055f4d0ed9a, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 2da8c21f08cbc164da993e01dc3a0391, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: b0c5817ec469b4f44a3f7ef399a96c62, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 07892493731bb2744a04d9c4b9926d94, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 95a576a0b079fff4d9459736640d5c82, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 3453f1ab4cf459a418c38964bff1630f, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 20ed064aef73d8f418cbe4597b1a4293, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 60787e5e672923942bb8ea2823e0ef90, type: 2}
+    level: 55
+  - move: {fileID: 11400000, guid: 3ba17b56df8a7214e8e456be13d519fb, type: 2}
+    level: 61
+  - move: {fileID: 11400000, guid: 73f3c456765070b40b93e41c4e2a385e, type: 2}
+    level: 67
+  - move: {fileID: 11400000, guid: 9568ab1e0a57eb340978593547c4af96, type: 2}
+    level: 73
+  - move: {fileID: 11400000, guid: 7b14c654ccf062a45b54aa55c85ac600, type: 2}
+    level: 79
+  - move: {fileID: 11400000, guid: 5a170aa8024c80246991a18e353e044f, type: 2}
+    level: 85
+  eggMoves: []

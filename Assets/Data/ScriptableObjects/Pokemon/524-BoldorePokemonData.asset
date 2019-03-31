@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 524-BoldorePokemonData
+  m_EditorClassIdentifier: 
+  number: 525
+  name: Boldore
+  internalName: BOLDORE
+  kind: Ore
+  height: 0.9
+  weight: 102
+  dexEntry: Because its energy was too great to be contained, the energy leaked and
+    formed orange crystals.
+  sprite: {fileID: 21300000, guid: f4fdda96ea1335740ba2b70f4ce17116, type: 3}
+  backSprite: {fileID: 21300000, guid: d81d6e9fb774b5748b12e4c37a7ea411, type: 3}
+  shinySprite: {fileID: 21300000, guid: f7fa6a844097fde4da229d8ad5f7d4fc, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: f05eb7cc34143ba4499c23f80ffd5c44, type: 3}
+  footprintSprite: {fileID: 21300000, guid: eed4f6df6642ec440a4541927e78c394, type: 3}
+  type1: {fileID: 11400000, guid: 865c5118b1a0e3b4d895cfe37b3b2aa9, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 10
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 8822aaa86cfc2f0408aaabea80029644, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 9c2760b8ced6cbd49924f41e47871529, type: 2}
+  baseHP: 70
+  baseAttack: 105
+  baseDefense: 105
+  baseSpeed: 20
+  baseSpecialAttack: 50
+  baseSpecialDefense: 40
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 1
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 137
+  rareness: 120
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9f99cdcaa64669e41a2a8da39f981b55, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: f3d560a7d1edced43965433b7691eaf1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 9f99cdcaa64669e41a2a8da39f981b55, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: f3d560a7d1edced43965433b7691eaf1, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 49d5da56e08edc84bbd0872e20b1d121, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: 6a425af601896ff48bd142db36a82669, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: a5bdded8b500614418098e7d3258784b, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 94562fdf9a1977c4f9b617b8eef1a08b, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: 24accd80c06ba134b9e77c09775a745d, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 3e74825e213db2f46aa158ecff87166a, type: 2}
+    level: 30
+  - move: {fileID: 11400000, guid: 4773ef6422b4dba42bf480860c4f42cc, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 7f3e701f581e25848b130cae41131378, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: ff0c05434e0850d4b88635587821b7f9, type: 2}
+    level: 48
+  - move: {fileID: 11400000, guid: c04069573dd5ad143b9999bab5f1cbfa, type: 2}
+    level: 55
+  eggMoves: []

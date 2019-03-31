@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 604-ElgyemPokemonData
+  m_EditorClassIdentifier: 
+  number: 605
+  name: Elgyem
+  internalName: ELGYEM
+  kind: Cerebral
+  height: 0.5
+  weight: 9
+  dexEntry: "This Pok\xE9mon had never been seen until it appeared from far in the
+    desert 50 years ago."
+  sprite: {fileID: 21300000, guid: ade7b04b723566b4ab1047e5785bb84a, type: 3}
+  backSprite: {fileID: 21300000, guid: ec9f6b1a64a3bfd4cbb209a12bda56d5, type: 3}
+  shinySprite: {fileID: 21300000, guid: 6b9c3d842b5aa2d43849d419ac92b121, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: a422ccc498dc2ca49b4fae04eb1c9672, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 2f301acf914eb2f449dc37369f13fa8b, type: 3}
+  type1: {fileID: 11400000, guid: 718f468b569515f42be9e985a9082465, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 8
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: ed80cf5b8d8e1204296a4c18cc5ac574, type: 2}
+  - {fileID: 11400000, guid: 75607410b575c3b43a5f2412ae9b7489, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 5927c1c6a42cdb140b0ee9f51cc1d814, type: 2}
+  baseHP: 55
+  baseAttack: 55
+  baseDefense: 55
+  baseSpeed: 30
+  baseSpecialAttack: 85
+  baseSpecialDefense: 55
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 1
+  EV_SpecialDefense: 0
+  baseEXP: 67
+  rareness: 255
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 9cf9a3db96b78fa48be5639f5fe0e50a, type: 2}
+    levelToEvolve: 42
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 0220cff4fc3377247806f98b98ceb881, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 49df1d5643c16e94e8a7607e0d4cb127, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 3659785186860df46b7a35075d70daf1, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: a165b1a29b54a8441a2bc3c59a6118f1, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 4aa6cb6c9662be9488e2a3562d16e64a, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: f3d560a7d1edced43965433b7691eaf1, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: 9fe3e343713bf9744b79faa05f4130f3, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: fd5957dceb3eed242bb7108cbeca5745, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 9a8c05652e8fbff478058dfcb3cba336, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: a14c1abb33c849c40b2bc2db3133d367, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: bba0e618decf2494295c2ca64d2ee571, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 943dd68f173614045a520526628a0d44, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: 70de2395caef55748904be979eeef0d5, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: 17b540db896190346af6a508b2a0c1ec, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: bd44bd562f149df4fa3912f09c1de438, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: f4bb7753cc8e94d43a635a750049544a, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: 9a2ac98a1803c3948b268e42577196a6, type: 2}
+    level: 53
+  - move: {fileID: 11400000, guid: 863a7782b05fce74fa2696d5988277ee, type: 2}
+    level: 56
+  eggMoves:
+  - {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+  - {fileID: 11400000, guid: 5ff32fd3e0ccd2143a5d76e35f416dfb, type: 2}
+  - {fileID: 11400000, guid: 4965fe24e4d71994c83ce7f0c95a9d7a, type: 2}
+  - {fileID: 11400000, guid: 57e541a2270eca24a9b44a4b943ba7bd, type: 2}
+  - {fileID: 11400000, guid: 7a147e057063b224a86c668c0f0c8579, type: 2}
+  - {fileID: 11400000, guid: f65888ea561938f47a1b2d36efe13aef, type: 2}
+  - {fileID: 11400000, guid: 7fb5a7f61000d8b4aa80f6d4e269826a, type: 2}
+  - {fileID: 11400000, guid: 015d34c858710174faf3c4fdd2099933, type: 2}

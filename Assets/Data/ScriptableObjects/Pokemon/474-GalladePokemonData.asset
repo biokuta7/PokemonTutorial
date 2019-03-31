@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 474-GalladePokemonData
+  m_EditorClassIdentifier: 
+  number: 475
+  name: Gallade
+  internalName: GALLADE
+  kind: Blade
+  height: 1.6
+  weight: 52
+  dexEntry: A master of courtesy and swordsmanship, it fights using extending swords
+    on its elbows.
+  sprite: {fileID: 21300000, guid: 9bea5d9ce9c91f94c9fbe257105b54fd, type: 3}
+  backSprite: {fileID: 21300000, guid: 8620b4e3d57c3b9428b5d18781adcf02, type: 3}
+  shinySprite: {fileID: 21300000, guid: 0f9bfa44b11d9d145aac4817c65a8ede, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: f99d0153db073f546a04b66981e15412, type: 3}
+  footprintSprite: {fileID: 21300000, guid: fc5030fad05220a45bdd78539671a17f, type: 3}
+  type1: {fileID: 11400000, guid: 718f468b569515f42be9e985a9082465, type: 2}
+  type2: {fileID: 11400000, guid: 60bba5c3467446d45a479ab6b6a6e82e, type: 2}
+  eggGroup1: 11
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: 0
+  standardAbilities:
+  - {fileID: 11400000, guid: babc855018a0d534287fb1575505427c, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 1b792af7225db7a438cc57b78ff11640, type: 2}
+  baseHP: 68
+  baseAttack: 125
+  baseDefense: 65
+  baseSpeed: 80
+  baseSpecialAttack: 65
+  baseSpecialDefense: 115
+  EV_HP: 0
+  EV_Attack: 3
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 233
+  rareness: 45
+  baseHappiness: 35
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 78a67d0c5e29b8544ab94611a0d42769, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: c106b7df995223443800dc9dd1494144, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 0220cff4fc3377247806f98b98ceb881, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 56e5520611331d1449233d80d090ed7d, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 015d34c858710174faf3c4fdd2099933, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 0220cff4fc3377247806f98b98ceb881, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: 56e5520611331d1449233d80d090ed7d, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 015d34c858710174faf3c4fdd2099933, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: fa647d901ccdd0247a78d3959bbce436, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: b5cb4834e72f9064abecca08c734899b, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 7cc88e8162115034a892a986b53071ba, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 9887221a3a392a748b92ecd16cd5faf7, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: baf6d92966733ae498b3d004af5042b4, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: f277acd4ff10f914a97ec332c912d36c, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: efce0155d8efb2e4d846129c30b3961f, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: 7a360d225bcb3a44ea28d80418a74d9f, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: 79c63ba594520644cbecc00f726ef040, type: 2}
+    level: 53
+  - move: {fileID: 11400000, guid: fe31ce936c3024c41aec13270912f9b2, type: 2}
+    level: 59
+  - move: {fileID: 11400000, guid: 3adf372432e53ca489134191c1193abe, type: 2}
+    level: 64
+  eggMoves: []

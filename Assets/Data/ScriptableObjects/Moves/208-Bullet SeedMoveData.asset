@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -18,11 +19,11 @@ MonoBehaviour:
     shot in rapid succession.
   functionCode: 0C0
   target: 00
-  flags: 620065006600
+  flags: 6200650066006e00
   isSpecial: 0
   basePower: 25
   accuracy: 100
   totalPP: 30
   additionalEffectChance: 0
   priority: 0
-  type: {fileID: 11400000, guid: 0fe0aaa7940cd5b4a8de75cef966e991, type: 2}
+  type: {fileID: 11400000, guid: 9ed7dc1c4ee6bf747b182dc2eaf16337, type: 2}

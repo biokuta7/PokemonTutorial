@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 561-YamaskPokemonData
+  m_EditorClassIdentifier: 
+  number: 562
+  name: Yamask
+  internalName: YAMASK
+  kind: Spirit
+  height: 0.5
+  weight: 1.5
+  dexEntry: "These Pok\xE9mon arose from the spirits of people interred in graves
+    in past ages. Each retains memories of its former life."
+  sprite: {fileID: 21300000, guid: 53fe9706f83bea8428c8c8655b564aeb, type: 3}
+  backSprite: {fileID: 21300000, guid: 20136f467e83aa74b871dcd13cce8e82, type: 3}
+  shinySprite: {fileID: 21300000, guid: 885fcac5b594c354380ce9f161a8d003, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 9461a455b1287ce4cbc75b4ba3197c27, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 8471629f39ddabc4e8591f5b26c49da5, type: 3}
+  type1: {fileID: 11400000, guid: 5eb27c1d76b3cc2439c818ac7325a0e5, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 10
+  eggGroup2: 11
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 8638e5add61b2234a9e4530829a3f634, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 38
+  baseAttack: 30
+  baseDefense: 85
+  baseSpeed: 30
+  baseSpecialAttack: 55
+  baseSpecialDefense: 65
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 1
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 61
+  rareness: 190
+  baseHappiness: 70
+  stepsToHatch: 6630
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 6f5313353fceec64db09279fd15cb344, type: 2}
+    levelToEvolve: 34
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 79c63ba594520644cbecc00f726ef040, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4965fe24e4d71994c83ce7f0c95a9d7a, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 58aa3d592b28f5e42a4586453743ccdb, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: a62334014ffe32f47b6cd09cbe7059c4, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 7103c1098d734074f9a1592d89f19c44, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: df888292889fed84f92d9073d449b5a6, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: f1e99a84c358af64cab862404dc78a61, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: fd48eadb1eda86c45b74371631ca93dd, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: f4bb7753cc8e94d43a635a750049544a, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: bd44bd562f149df4fa3912f09c1de438, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 59b2981bccec05f4a892993209db6bbb, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 912ffbf56e724034385ffafa8031e693, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: fff48c8136c20ac47af2c21033804cfe, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: 6fb23c01ca89abf4fa4c0bc1e4ea6bdb, type: 2}
+    level: 49
+  eggMoves:
+  - {fileID: 11400000, guid: 4965fe24e4d71994c83ce7f0c95a9d7a, type: 2}
+  - {fileID: 11400000, guid: 9f44f4d05fd57b74b9b026bf9776c7e7, type: 2}
+  - {fileID: 11400000, guid: 4148031223b255242880deef8e6a614c, type: 2}
+  - {fileID: 11400000, guid: 3659785186860df46b7a35075d70daf1, type: 2}
+  - {fileID: 11400000, guid: fd5957dceb3eed242bb7108cbeca5745, type: 2}
+  - {fileID: 11400000, guid: fdcea9f0752a07242baa0c957d7097af, type: 2}
+  - {fileID: 11400000, guid: 7a147e057063b224a86c668c0f0c8579, type: 2}
+  - {fileID: 11400000, guid: 2f4dad7c53c11dc4b8128289f988b29a, type: 2}

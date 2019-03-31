@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 620-DruddigonPokemonData
+  m_EditorClassIdentifier: 
+  number: 621
+  name: Druddigon
+  internalName: DRUDDIGON
+  kind: Cave
+  height: 1.6
+  weight: 139
+  dexEntry: It races through narrow caves, using its sharp claws to catch prey. Then
+    skin on its face is harder than a rock.
+  sprite: {fileID: 21300000, guid: aad6707e0e51a204b803d687a5e69057, type: 3}
+  backSprite: {fileID: 21300000, guid: 01cdf88eede85aa48aed8c80ab29b428, type: 3}
+  shinySprite: {fileID: 21300000, guid: 0ad4c21ca7b0fe046b552d5cfd43fa77, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: b2894d9ba5281c74db650b3cc895c887, type: 3}
+  footprintSprite: {fileID: 21300000, guid: c49a1ec92a07eae4393d17e918d99546, type: 3}
+  type1: {fileID: 11400000, guid: a50e8df2c05bf734c9f408b06361f74e, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 1
+  eggGroup2: 14
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: c38498b2a74dad94983af5dac8489d36, type: 2}
+  - {fileID: 11400000, guid: ff9707f0509fe71419680a601a505ebe, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: e46cd10bf7de372419e2f0a16c7960f0, type: 2}
+  baseHP: 77
+  baseAttack: 120
+  baseDefense: 90
+  baseSpeed: 48
+  baseSpecialAttack: 60
+  baseSpecialDefense: 90
+  EV_HP: 0
+  EV_Attack: 2
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 170
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 7905
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: c8ad6b6cc523bd940b14ff75aa9ba40e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: a99d53165092a2a41ad55531613c3d1f, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 206d073f613428f428074167c47c813d, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 30c2e672cc93cd44d983f46e72bb67eb, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: b5cb4834e72f9064abecca08c734899b, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: bc908f5b29ffbdf449ead18d33c8810b, type: 2}
+    level: 27
+  - move: {fileID: 11400000, guid: 3206b805bebe41a479e48d61149567c3, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: b0c5817ec469b4f44a3f7ef399a96c62, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: c106b7df995223443800dc9dd1494144, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: bcb96e3e65c631b4b90e4106c799d467, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: 8fa8b734d4bf3c648b9af24365b29712, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: e57bc132b940120468c55968e0807e59, type: 2}
+    level: 55
+  - move: {fileID: 11400000, guid: 4e5c129cdc82eab41b3c7170d5fb9eb6, type: 2}
+    level: 62
+  eggMoves:
+  - {fileID: 11400000, guid: 9f71b97ffe2773a40bc74a4b4c1b2a03, type: 2}
+  - {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+  - {fileID: 11400000, guid: 10a9a26754b7e8b44ba441e49bd4f099, type: 2}
+  - {fileID: 11400000, guid: aae2286b0faf0fe4e8828b4d27ff76a3, type: 2}
+  - {fileID: 11400000, guid: 840bfbc637572204e89aa45543ac969b, type: 2}
+  - {fileID: 11400000, guid: 20511dc028bdeb84185f09366190df6d, type: 2}
+  - {fileID: 11400000, guid: f30c768b5377a2241918bea01c597071, type: 2}
+  - {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+  - {fileID: 11400000, guid: dd5f72087eedb9d44a2ba78fc7f6569b, type: 2}
+  - {fileID: 11400000, guid: 18d2b07fd9a5ed740902b65b48c67a90, type: 2}
+  - {fileID: 11400000, guid: f7a872a200b369f4595344bb39526604, type: 2}

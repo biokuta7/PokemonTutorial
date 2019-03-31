@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 183-AzumarillPokemonData
+  m_EditorClassIdentifier: 
+  number: 184
+  name: Azumarill
+  internalName: AZUMARILL
+  kind: Aqua Rabbit
+  height: 0.8
+  weight: 28.5
+  dexEntry: It lives in water virtually all day long. Its body color and pattern act
+    as camouflage that makes it tough for enemies to spot in water.
+  sprite: {fileID: 21300000, guid: 77b7886c0369e1949b2f0282c167e325, type: 3}
+  backSprite: {fileID: 21300000, guid: ae8c8d5d4ecd31e4eaa054e6d4319054, type: 3}
+  shinySprite: {fileID: 21300000, guid: 511ee33c57cc87e479d40eff13bd21d9, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 250d2baee34c34049826034bebd57d96, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 0c3e7bf0d03da2a4ca70183ef0338ec0, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 2
+  eggGroup2: 6
+  growthRate: 1
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 5370a5cddfbfa4d4396bfd64d5065c3a, type: 2}
+  - {fileID: 11400000, guid: 44593b155682b6942833ec983207b885, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: bc5e54ec57025bd45b80281d3f4ea8fb, type: 2}
+  baseHP: 100
+  baseAttack: 50
+  baseDefense: 80
+  baseSpeed: 50
+  baseSpecialAttack: 50
+  baseSpecialDefense: 80
+  EV_HP: 3
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 185
+  rareness: 75
+  baseHappiness: 70
+  stepsToHatch: 2805
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 03d0cb1d5358f9449ad7d06d9e981398, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 90e9a9d7356e7c84ea9190b7ff0535b1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e1b13bbff45ac2c4d931b26b7167b481, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 90e9a9d7356e7c84ea9190b7ff0535b1, type: 2}
+    level: 2
+  - move: {fileID: 11400000, guid: e1b13bbff45ac2c4d931b26b7167b481, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 3b8f4014739fbae4d84fae04eb5099f2, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 9718332accb9dd4438b46ad9a022602e, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: ec6769bc96a317247a6a1bbb153f90ec, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: b47841f8439c41b43b9d6fb0c7847197, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: f277acd4ff10f914a97ec332c912d36c, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: 1160a28543f1b8646be03bfee46df347, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: ff3996eab3f07c44785b553c5f7b0662, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 3ba17b56df8a7214e8e456be13d519fb, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: e57bc132b940120468c55968e0807e59, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: 4bdcb7db2207f9142b7706d59e466f28, type: 2}
+    level: 46
+  eggMoves: []

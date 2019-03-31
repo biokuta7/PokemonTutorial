@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 159-FeraligatrPokemonData
+  m_EditorClassIdentifier: 
+  number: 160
+  name: Feraligatr
+  internalName: FERALIGATR
+  kind: Big Jaw
+  height: 2.3
+  weight: 88.8
+  dexEntry: It opens its huge mouth to intimidate enemies. In battle, it runs using
+    its thick and powerful hind legs to charge the foe with incredible speed.
+  sprite: {fileID: 21300000, guid: 9701d322275acb346bab5513f78c15bd, type: 3}
+  backSprite: {fileID: 21300000, guid: 7e03c715a506c2a4e8045c3bb46f1f23, type: 3}
+  shinySprite: {fileID: 21300000, guid: c124a7700a98605499c9f85125da9e18, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: d38e5b75e9c85654f8b74422c1963fbd, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 671d3f870f0f21c43a76316accc30b9d, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 1
+  eggGroup2: 2
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.125
+  standardAbilities:
+  - {fileID: 11400000, guid: fdf277dc983292641be575343cb7d20b, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: ff9707f0509fe71419680a601a505ebe, type: 2}
+  baseHP: 85
+  baseAttack: 105
+  baseDefense: 100
+  baseSpeed: 78
+  baseSpecialAttack: 79
+  baseSpecialDefense: 83
+  EV_HP: 0
+  EV_Attack: 2
+  EV_Defense: 1
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 239
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: c8ad6b6cc523bd940b14ff75aa9ba40e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3b8f4014739fbae4d84fae04eb5099f2, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 51cd5e9f281e33f4b92b77f2c727e4b1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3b8f4014739fbae4d84fae04eb5099f2, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: 51cd5e9f281e33f4b92b77f2c727e4b1, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 206d073f613428f428074167c47c813d, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: babc9d06ca5ac9e45bc97f25fd964b7a, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: ab4b503440591f742bf63c1693c6ee27, type: 2}
+    level: 24
+  - move: {fileID: 11400000, guid: 3453f1ab4cf459a418c38964bff1630f, type: 2}
+    level: 30
+  - move: {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: 3206b805bebe41a479e48d61149567c3, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: b5cb4834e72f9064abecca08c734899b, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: 5a170aa8024c80246991a18e353e044f, type: 2}
+    level: 58
+  - move: {fileID: 11400000, guid: 1160a28543f1b8646be03bfee46df347, type: 2}
+    level: 63
+  - move: {fileID: 11400000, guid: e57bc132b940120468c55968e0807e59, type: 2}
+    level: 71
+  - move: {fileID: 11400000, guid: 4bdcb7db2207f9142b7706d59e466f28, type: 2}
+    level: 76
+  eggMoves: []

@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 222-RemoraidPokemonData
+  m_EditorClassIdentifier: 
+  number: 223
+  name: Remoraid
+  internalName: REMORAID
+  kind: Jet
+  height: 0.6
+  weight: 12
+  dexEntry: A Remoraid uses its abdominal muscles to forcefully expel swallowed water,
+    then shoot down flying prey. When evolution approaches, it travels down rivers.
+  sprite: {fileID: 21300000, guid: bb7268ee391ec1949adb942d75e8f50d, type: 3}
+  backSprite: {fileID: 21300000, guid: a643c5e21f1e8054aaf85548f831c467, type: 3}
+  shinySprite: {fileID: 21300000, guid: 683553fb8f5daa5468ec0ece34cc1ae6, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 625891f96af70aa428c6f2cb81320e1b, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 795f900c9d44653468bdf4b478ac9c66, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 2
+  eggGroup2: 12
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 50e368e4c211f5b4b886a3c97152f997, type: 2}
+  - {fileID: 11400000, guid: d7613c85567302340852edb9b8b4c381, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: f4070d894f502274da03fa6d93b1561f, type: 2}
+  baseHP: 35
+  baseAttack: 65
+  baseDefense: 35
+  baseSpeed: 65
+  baseSpecialAttack: 65
+  baseSpecialDefense: 35
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 1
+  EV_SpecialDefense: 0
+  baseEXP: 60
+  rareness: 190
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 37e3a9096a35eb6438662e8cf97b36c5, type: 2}
+    levelToEvolve: 25
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 3b8f4014739fbae4d84fae04eb5099f2, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 348a733884d7e6943acc894872975359, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: 4aa6cb6c9662be9488e2a3562d16e64a, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 6b4e721b21197d343b3775779d921bb2, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: b47841f8439c41b43b9d6fb0c7847197, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: 4abf7d172bbaeba4293580ddddb47f6f, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 0daaaf2b724e2e34f893d673a8ee7a4e, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: 7dba8b22673833342a50075386bcf896, type: 2}
+    level: 30
+  - move: {fileID: 11400000, guid: 9a8a22dc71b500646b63bcefb84980fc, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: 6b8e9a946146d164a8955256e73f74a7, type: 2}
+    level: 38
+  - move: {fileID: 11400000, guid: 4bdcb7db2207f9142b7706d59e466f28, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: 931a6239501d867458263239c17a188b, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: d6e8d8fdcc45db34dac43a7fc8e7b242, type: 2}
+    level: 50
+  eggMoves:
+  - {fileID: 11400000, guid: ccf7ee4a0d9b11d4b91b2578d503bd84, type: 2}
+  - {fileID: 11400000, guid: 6b4e721b21197d343b3775779d921bb2, type: 2}
+  - {fileID: 11400000, guid: ab4b503440591f742bf63c1693c6ee27, type: 2}
+  - {fileID: 11400000, guid: 58aa3d592b28f5e42a4586453743ccdb, type: 2}
+  - {fileID: 11400000, guid: 4dfa80e8978525c488cbd9c827a66af7, type: 2}
+  - {fileID: 11400000, guid: b01731aefc4415a4f8b81e139a86902d, type: 2}
+  - {fileID: 11400000, guid: 49d5da56e08edc84bbd0872e20b1d121, type: 2}
+  - {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+  - {fileID: 11400000, guid: ad3d5dd2b0bd4844b89d38058ec1336e, type: 2}
+  - {fileID: 11400000, guid: 3bbb861f40413cc49ba63bbc7d2599a8, type: 2}
+  - {fileID: 11400000, guid: 8f7d8eb3956de5c4bb6b3d67bd3ba44b, type: 2}
+  - {fileID: 11400000, guid: 0daaaf2b724e2e34f893d673a8ee7a4e, type: 2}
+  - {fileID: 11400000, guid: 338ece30293ccce479e2e9baebcd5c47, type: 2}

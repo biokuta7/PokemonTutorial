@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 421-ShellosPokemonData
+  m_EditorClassIdentifier: 
+  number: 422
+  name: Shellos
+  internalName: SHELLOS
+  kind: Sea Slug
+  height: 0.3
+  weight: 6.3
+  dexEntry: Its colors and shapes differ from region to region. In the Sinnoh region,
+    two types are confirmed.
+  sprite: {fileID: 21300000, guid: d61f67a677592d9499859b805c8112e8, type: 3}
+  backSprite: {fileID: 21300000, guid: 6be77a8e10c6d004193e186d56112f7c, type: 3}
+  shinySprite: {fileID: 21300000, guid: 8f3967800574f1f44b7bb289e918b78c, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: a31ef59111c3d5143b7363a2aaf3ab9b, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 52cf176d102bc894c9085f471bffc49b, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 2
+  eggGroup2: 11
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 3009b929ef0f74946b98dc9725ad88ed, type: 2}
+  - {fileID: 11400000, guid: 52d53c96069c34b4da8469c6d5f334a6, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 9c2760b8ced6cbd49924f41e47871529, type: 2}
+  baseHP: 76
+  baseAttack: 48
+  baseDefense: 48
+  baseSpeed: 34
+  baseSpecialAttack: 57
+  baseSpecialDefense: 62
+  EV_HP: 1
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 65
+  rareness: 190
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 2653e0f8b1e684947bd9a0b1d6abd48d, type: 2}
+    levelToEvolve: 30
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 6a425af601896ff48bd142db36a82669, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: dee27cd0fdcd79240b0663c357831a95, type: 2}
+    level: 2
+  - move: {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 0daaaf2b724e2e34f893d673a8ee7a4e, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 497f9a160f072f740959d8bd6ad5508e, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 9fe3e343713bf9744b79faa05f4130f3, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: 3ba17b56df8a7214e8e456be13d519fb, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 903b5ee462226ab47b3026d6ace38c5d, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 70ea7f19b00e56d49a0fe52d49d2fd44, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 17b540db896190346af6a508b2a0c1ec, type: 2}
+    level: 46
+  eggMoves:
+  - {fileID: 11400000, guid: b54451c499c3fc24aade1add5a757d05, type: 2}
+  - {fileID: 11400000, guid: 5d1eca6964fbf79449b447b0f905ef42, type: 2}
+  - {fileID: 11400000, guid: 4504b3918cd63f24d8480103613a3eb7, type: 2}
+  - {fileID: 11400000, guid: 886cc954c2a8d6546abe10ac0f64a80c, type: 2}
+  - {fileID: 11400000, guid: fd48eadb1eda86c45b74371631ca93dd, type: 2}
+  - {fileID: 11400000, guid: b08d8d6945d0819419892e4b757cdad8, type: 2}
+  - {fileID: 11400000, guid: fdcea9f0752a07242baa0c957d7097af, type: 2}
+  - {fileID: 11400000, guid: 7ef0a78f2ac48a94984b2cac732f0951, type: 2}
+  - {fileID: 11400000, guid: 424e9656e1d9e8a40b980b3111eb709e, type: 2}
+  - {fileID: 11400000, guid: e1fe722c25f5a404392d218937ab85a5, type: 2}
+  - {fileID: 11400000, guid: 896336ca57ccd0a478ad94a85479e278, type: 2}
+  - {fileID: 11400000, guid: ff3913788b628f54baa7ca440e7aca98, type: 2}
+  - {fileID: 11400000, guid: b3b0dd4dfe9ef9d4ba5dd8a6a2378381, type: 2}
+  - {fileID: 11400000, guid: a56d7e80200de8f4e8a127187de9b7b3, type: 2}
+  - {fileID: 11400000, guid: 11851d64298ab6144aa7129575ae7364, type: 2}

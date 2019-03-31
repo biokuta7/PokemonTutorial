@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 270-LombrePokemonData
+  m_EditorClassIdentifier: 
+  number: 271
+  name: Lombre
+  internalName: LOMBRE
+  kind: Jolly
+  height: 1.2
+  weight: 32.5
+  dexEntry: In the evening, it takes great delight in popping out of rivers and startling
+    people. It feeds on aquatic moss that grows on rocks in the riverbed.
+  sprite: {fileID: 21300000, guid: 7841903937d72794383f5fa3ef01d0cd, type: 3}
+  backSprite: {fileID: 21300000, guid: 583a0231331837645bf9249cd7761a5d, type: 3}
+  shinySprite: {fileID: 21300000, guid: 363b69b4317b97148ae47398ea143b9c, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 740cf908c679f5d4f8ab7a459588cc26, type: 3}
+  footprintSprite: {fileID: 21300000, guid: fc913b7e181ff3944942a31c83c99f83, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 9ed7dc1c4ee6bf747b182dc2eaf16337, type: 2}
+  eggGroup1: 2
+  eggGroup2: 7
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 56397a6e68134a6409d13eb81f2d8d2c, type: 2}
+  - {fileID: 11400000, guid: 1e78b8444dbadbe4d994018be43ab305, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 58d1e1e09552c35468c706a098999f09, type: 2}
+  baseHP: 60
+  baseAttack: 50
+  baseDefense: 50
+  baseSpeed: 50
+  baseSpecialAttack: 60
+  baseSpecialDefense: 70
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 2
+  baseEXP: 119
+  rareness: 120
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 8752de2189d6487469c410b446e34300, type: 2}
+    levelToEvolve: 0
+    itemToEvolve: {fileID: 11400000, guid: ea5dd0f574d72964f8c25b11cc4e44dd, type: 2}
+    evolutionType: 1
+  learnedMoves:
+  - move: {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 49df1d5643c16e94e8a7607e0d4cb127, type: 2}
+    level: 3
+  - move: {fileID: 11400000, guid: 51676f5ca5c33f3488bef6bd69f42876, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 7d521f984ba299f4b9effbd5e07ec210, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 02d284bddcaccd84c946ab544f218315, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: fb9cbbcc0dcb76f4a8254e7141042569, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: e1b13bbff45ac2c4d931b26b7167b481, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: b47841f8439c41b43b9d6fb0c7847197, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: a14c1abb33c849c40b2bc2db3133d367, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: feef32ab21b065f4aae9bbf151f180c9, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 4bdcb7db2207f9142b7706d59e466f28, type: 2}
+    level: 45
+  eggMoves: []

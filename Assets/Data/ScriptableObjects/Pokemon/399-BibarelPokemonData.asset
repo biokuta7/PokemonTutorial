@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 399-BibarelPokemonData
+  m_EditorClassIdentifier: 
+  number: 400
+  name: Bibarel
+  internalName: BIBAREL
+  kind: Beaver
+  height: 1
+  weight: 31.5
+  dexEntry: It makes its nest by damming streams with bark and mud. It is known as
+    an industrious worker.
+  sprite: {fileID: 21300000, guid: 927ecc4a1ed6c6647aebba029ca7fcfb, type: 3}
+  backSprite: {fileID: 21300000, guid: f46db451a431d654db5d057c28d8446b, type: 3}
+  shinySprite: {fileID: 21300000, guid: 745f982e41fbfb84da6f9ff421da0066, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: b9620545f83174c47bfb9b94e9fe8c9b, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 69b4cdb0fe53dfa41bdc7fd6cec7f3f9, type: 3}
+  type1: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
+  type2: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  eggGroup1: 2
+  eggGroup2: 5
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 498f17d091dd46045a046826638bf92b, type: 2}
+  - {fileID: 11400000, guid: a6501e11b224b31439b52b334ea8647d, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: f4070d894f502274da03fa6d93b1561f, type: 2}
+  baseHP: 79
+  baseAttack: 85
+  baseDefense: 60
+  baseSpeed: 71
+  baseSpecialAttack: 55
+  baseSpecialDefense: 60
+  EV_HP: 0
+  EV_Attack: 2
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 144
+  rareness: 127
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 49df1d5643c16e94e8a7607e0d4cb127, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 49df1d5643c16e94e8a7607e0d4cb127, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 9718332accb9dd4438b46ad9a022602e, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: ec6769bc96a317247a6a1bbb153f90ec, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 3b8f4014739fbae4d84fae04eb5099f2, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: f3d560a7d1edced43965433b7691eaf1, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: e6bd442075625464c9d7a20d804f6a47, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: 11851d64298ab6144aa7129575ae7364, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: b54451c499c3fc24aade1add5a757d05, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+    level: 38
+  - move: {fileID: 11400000, guid: b400d2fcef3877e47b27c621bfe48550, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: e57bc132b940120468c55968e0807e59, type: 2}
+    level: 48
+  - move: {fileID: 11400000, guid: fd48eadb1eda86c45b74371631ca93dd, type: 2}
+    level: 53
+  eggMoves: []

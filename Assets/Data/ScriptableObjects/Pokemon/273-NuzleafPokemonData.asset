@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 273-NuzleafPokemonData
+  m_EditorClassIdentifier: 
+  number: 274
+  name: Nuzleaf
+  internalName: NUZLEAF
+  kind: Wily
+  height: 1
+  weight: 28
+  dexEntry: "A forest-dwelling Pok\xE9mon that is skilled at climbing trees. Its long
+    and pointed nose is its weak point. It loses power if the nose is gripped."
+  sprite: {fileID: 21300000, guid: 3f0e2ef4e7ef69a4eaf81dffcad8a0c6, type: 3}
+  backSprite: {fileID: 21300000, guid: 92ccbb02b0d1ff447ba6c04eae39d434, type: 3}
+  shinySprite: {fileID: 21300000, guid: fa008dd6499dc6740a68f241a1894b38, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 4f31f8c52dcbc4b4686de608dfb9c1c1, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 7a112c82667f07c4c9803a9c3edd49b4, type: 3}
+  type1: {fileID: 11400000, guid: 9ed7dc1c4ee6bf747b182dc2eaf16337, type: 2}
+  type2: {fileID: 11400000, guid: 5a37c1bbebd881b42bd5fab995e54689, type: 2}
+  eggGroup1: 5
+  eggGroup2: 7
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: f0f4567366d84af44a479f99490860af, type: 2}
+  - {fileID: 11400000, guid: 643f15426c9330a47b7d08dc751d838b, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: d34f3882730b7f643b6fe38fb135be8c, type: 2}
+  baseHP: 70
+  baseAttack: 70
+  baseDefense: 40
+  baseSpeed: 60
+  baseSpecialAttack: 60
+  baseSpecialDefense: 40
+  EV_HP: 0
+  EV_Attack: 2
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 119
+  rareness: 120
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions:
+  - resultant: {fileID: 11400000, guid: fac42dea20283634b8e471dbbbe8b141, type: 2}
+    levelToEvolve: 0
+    itemToEvolve: {fileID: 11400000, guid: dbde0f7648417f744a32e9faae6ff622, type: 2}
+    evolutionType: 1
+  learnedMoves:
+  - move: {fileID: 11400000, guid: c16d454899509064aa753b3499b92b83, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3bac1848939bf8549835d68f3be23289, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
+    level: 3
+  - move: {fileID: 11400000, guid: a2bc558341f8e55459fbed9bfee7482b, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 7d521f984ba299f4b9effbd5e07ec210, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 02d284bddcaccd84c946ab544f218315, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 43015e5620b3d8847ad87e35a52bd6e1, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 45536db05abc7c1429c4ddb6279d0443, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 2da8c21f08cbc164da993e01dc3a0391, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: 95a576a0b079fff4d9459736640d5c82, type: 2}
+    level: 49
+  eggMoves: []

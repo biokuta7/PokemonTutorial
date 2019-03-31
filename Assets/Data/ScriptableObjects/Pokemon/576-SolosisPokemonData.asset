@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 576-SolosisPokemonData
+  m_EditorClassIdentifier: 
+  number: 577
+  name: Solosis
+  internalName: SOLOSIS
+  kind: Cell
+  height: 0.3
+  weight: 1
+  dexEntry: Because their bodies are enveloped in a special liquid, they can survive
+    in any environment.
+  sprite: {fileID: 21300000, guid: fa28c2237abb7ae4e875a4e2127d1d50, type: 3}
+  backSprite: {fileID: 21300000, guid: de94cbd7c4663a04aa3202fecfe9b99a, type: 3}
+  shinySprite: {fileID: 21300000, guid: 22adb11e24ea6514fae6e8e9d55bbe24, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: ff5e9d700641167458a678d155bcced6, type: 3}
+  footprintSprite: {fileID: 21300000, guid: c82dd343bff26854594b55b7b0c4ff29, type: 3}
+  type1: {fileID: 11400000, guid: 718f468b569515f42be9e985a9082465, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 11
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 1bce60e089bc29c44b4bbcc5e89bec8f, type: 2}
+  - {fileID: 11400000, guid: bcd2efc2393655343b0e0c7602798e4e, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: d69edbf99bf2689429be6e9343f72d05, type: 2}
+  baseHP: 45
+  baseAttack: 30
+  baseDefense: 40
+  baseSpeed: 20
+  baseSpecialAttack: 105
+  baseSpecialDefense: 50
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 1
+  EV_SpecialDefense: 0
+  baseEXP: 58
+  rareness: 200
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: bad418ac16bbb654f9627616c72543d2, type: 2}
+    levelToEvolve: 32
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 40589a4e02d7b3847bc8e50d4212e3bb, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: fcf7b2a59248fe342ad157971138d17a, type: 2}
+    level: 3
+  - move: {fileID: 11400000, guid: ec6769bc96a317247a6a1bbb153f90ec, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: dd5f72087eedb9d44a2ba78fc7f6569b, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 9fe3e343713bf9744b79faa05f4130f3, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: d0ff4947ecf7c4c4887fcffbe1bb2fe4, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: cc97392f8c47d6d43a7fe744875dfd4d, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 17b540db896190346af6a508b2a0c1ec, type: 2}
+    level: 24
+  - move: {fileID: 11400000, guid: 66d4e28149797dc43baee977de141bb4, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 74d2270e8d5047f47bdfca1fc219dded, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: f992e7a4e62a3b149bb36f3087193be4, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 23dbb7882c9ee7d43acda6d0c8a526ab, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 943dd68f173614045a520526628a0d44, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 7fb5a7f61000d8b4aa80f6d4e269826a, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: 3659785186860df46b7a35075d70daf1, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: 863a7782b05fce74fa2696d5988277ee, type: 2}
+    level: 48
+  eggMoves:
+  - {fileID: 11400000, guid: bd34bba16b3aa9646828738f256798c3, type: 2}
+  - {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+  - {fileID: 11400000, guid: 30e9bccee0b2ceb4cb9ad6b51e66e479, type: 2}
+  - {fileID: 11400000, guid: fd5957dceb3eed242bb7108cbeca5745, type: 2}
+  - {fileID: 11400000, guid: a62334014ffe32f47b6cd09cbe7059c4, type: 2}
+  - {fileID: 11400000, guid: fdf3641947fef19439d1589e4b70cb3e, type: 2}
+  - {fileID: 11400000, guid: 0597bcb9d5189764ea172472f3603923, type: 2}

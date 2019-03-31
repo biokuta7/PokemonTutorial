@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 299-SkittyPokemonData
+  m_EditorClassIdentifier: 
+  number: 300
+  name: Skitty
+  internalName: SKITTY
+  kind: Kitten
+  height: 0.6
+  weight: 11
+  dexEntry: A Skitty's adorably cute behavior makes it highly popular. In battle,
+    it makes its tail puff out. It threatens foes with a sharp growl.
+  sprite: {fileID: 21300000, guid: 21da41bf0640e9f4a9137c05fb926a1e, type: 3}
+  backSprite: {fileID: 21300000, guid: 2396abb8678837b4b8f1334e41737c8f, type: 3}
+  shinySprite: {fileID: 21300000, guid: ef7bd1ef769405c49be4033bc54b0041, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: f0724ef428980564fb1c43a3be3b9f5a, type: 3}
+  footprintSprite: {fileID: 21300000, guid: e811702384e7cef488e70d9815bc58a4, type: 3}
+  type1: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 6
+  growthRate: 1
+  habitat: 0
+  femaleRatio: 0.75
+  standardAbilities:
+  - {fileID: 11400000, guid: e081788effcb88b4e80c992dd828bbf1, type: 2}
+  - {fileID: 11400000, guid: 917dfdbcceb403f45bb879bd276c8f31, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 011c02e8ec26134439beab9faf501902, type: 2}
+  baseHP: 50
+  baseAttack: 45
+  baseDefense: 45
+  baseSpeed: 50
+  baseSpecialAttack: 35
+  baseSpecialDefense: 35
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 1
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 52
+  rareness: 255
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 9d35f41932313ae4880cf9e9449e4167, type: 2}
+    levelToEvolve: 0
+    itemToEvolve: {fileID: 11400000, guid: 9ff1626c42b9c8d44974fdb2d24682a4, type: 2}
+    evolutionType: 1
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 02d284bddcaccd84c946ab544f218315, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 49df1d5643c16e94e8a7607e0d4cb127, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 90e9a9d7356e7c84ea9190b7ff0535b1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: cfd93b7c0d975cb4d8630d561a4ffe21, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 57b97821488e0954aa5ac8793c2e7716, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 58279d1ca978c0748ba4fc660d97d9ed, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 8e58a59f68ed40a49b42a88906e27b5e, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 6a10a9d296905a64394c695b1f053ea7, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: a6ce236ee90cd8648853fe63ca90ce11, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: cc97392f8c47d6d43a7fe744875dfd4d, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 27b3ca9389c0dab4786d306e68f0fd68, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: 742c70de3a7643945a25b26139959535, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 73c28a24542af1f4fa0f28275265c7f2, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: 08492303b86c9254c97e0aea47940218, type: 2}
+    level: 46
+  eggMoves:
+  - {fileID: 11400000, guid: c93cc4f4568f0084b9fb39e135243cd5, type: 2}
+  - {fileID: 11400000, guid: 08492303b86c9254c97e0aea47940218, type: 2}
+  - {fileID: 11400000, guid: 02d284bddcaccd84c946ab544f218315, type: 2}
+  - {fileID: 11400000, guid: 4148031223b255242880deef8e6a614c, type: 2}
+  - {fileID: 11400000, guid: f277acd4ff10f914a97ec332c912d36c, type: 2}
+  - {fileID: 11400000, guid: 02e8c45cbeaa8f645b9a919d8d8efc87, type: 2}
+  - {fileID: 11400000, guid: 497f9a160f072f740959d8bd6ad5508e, type: 2}
+  - {fileID: 11400000, guid: 9a8c05652e8fbff478058dfcb3cba336, type: 2}
+  - {fileID: 11400000, guid: 18d2b07fd9a5ed740902b65b48c67a90, type: 2}
+  - {fileID: 11400000, guid: 075cd6d6634b5004b8f3602896f27620, type: 2}
+  - {fileID: 11400000, guid: feef32ab21b065f4aae9bbf151f180c9, type: 2}
+  - {fileID: 11400000, guid: c5037b32ac3b84a478a4ec160d85abb6, type: 2}
+  - {fileID: 11400000, guid: a14c1abb33c849c40b2bc2db3133d367, type: 2}

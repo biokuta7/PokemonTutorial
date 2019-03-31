@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 423-AmbipomPokemonData
+  m_EditorClassIdentifier: 
+  number: 424
+  name: Ambipom
+  internalName: AMBIPOM
+  kind: Long Tail
+  height: 1.2
+  weight: 20.3
+  dexEntry: To eat, it deftly shucks nuts with its two tails. It rarely uses its arms
+    now.
+  sprite: {fileID: 21300000, guid: 65eb3d1db2118c94ebf3c37310cfeaf5, type: 3}
+  backSprite: {fileID: 21300000, guid: d07da437fb2794348a2ee39f4cf62cba, type: 3}
+  shinySprite: {fileID: 21300000, guid: 7bc3ac7cf6b2f8c41b61970734b794a1, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: f85a34bb63bdf9945924861242bc5646, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 41e20cae740f0f64bb076ac732c1aacd, type: 3}
+  type1: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 1
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: a7c5ad8c7b11d4f44bcfd155bfd7f55f, type: 2}
+  - {fileID: 11400000, guid: fa9c6b70c35b56d4eb9833a262f882c3, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 0a5cc9dd7dceb324d9068ac4af5822ba, type: 2}
+  baseHP: 75
+  baseAttack: 100
+  baseDefense: 66
+  baseSpeed: 115
+  baseSpecialAttack: 60
+  baseSpecialDefense: 66
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 2
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 169
+  rareness: 45
+  baseHappiness: 100
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: c8ad6b6cc523bd940b14ff75aa9ba40e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 90e9a9d7356e7c84ea9190b7ff0535b1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9f99cdcaa64669e41a2a8da39f981b55, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9f99cdcaa64669e41a2a8da39f981b55, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: c93cc4f4568f0084b9fb39e135243cd5, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 075cd6d6634b5004b8f3602896f27620, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: fb9cbbcc0dcb76f4a8254e7141042569, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: 8f7d8eb3956de5c4bb6b3d67bd3ba44b, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 3453f1ab4cf459a418c38964bff1630f, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: f211fbf13513b9c45ae0c3104e035239, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: 511d2d613a889084b9ec13c60dd8332c, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 7a147e057063b224a86c668c0f0c8579, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: 02e8c45cbeaa8f645b9a919d8d8efc87, type: 2}
+    level: 43
+  eggMoves: []

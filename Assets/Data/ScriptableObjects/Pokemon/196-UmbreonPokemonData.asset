@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 196-UmbreonPokemonData
+  m_EditorClassIdentifier: 
+  number: 197
+  name: Umbreon
+  internalName: UMBREON
+  kind: Moonlight
+  height: 1
+  weight: 27
+  dexEntry: Umbreon evolved from exposure to the moon's energy pulses. It lurks in
+    darkness and waits for its foes to move. The rings on its body glow when it leaps
+    to attack.
+  sprite: {fileID: 21300000, guid: 16b8a206b2e8449458678adf375769ea, type: 3}
+  backSprite: {fileID: 21300000, guid: 752fad5815ea7b24ea6753fc90f17cf6, type: 3}
+  shinySprite: {fileID: 21300000, guid: f0ac0b3b5a0a21c46b74047ec8565624, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 69476f7d69dad344286d83d6d6c16184, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 4140becce81a27f4cab15f44abb69f4c, type: 3}
+  type1: {fileID: 11400000, guid: 5a37c1bbebd881b42bd5fab995e54689, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.125
+  standardAbilities:
+  - {fileID: 11400000, guid: 75607410b575c3b43a5f2412ae9b7489, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 9ecbfd12032db4c41b4660b9d7508597, type: 2}
+  baseHP: 95
+  baseAttack: 65
+  baseDefense: 110
+  baseSpeed: 65
+  baseSpecialAttack: 60
+  baseSpecialDefense: 130
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 2
+  baseEXP: 184
+  rareness: 45
+  baseHappiness: 35
+  stepsToHatch: 9180
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: f277acd4ff10f914a97ec332c912d36c, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 90e9a9d7356e7c84ea9190b7ff0535b1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9f99cdcaa64669e41a2a8da39f981b55, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: d5f2e90bd85630a43bdd31934847cdc5, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 30e9bccee0b2ceb4cb9ad6b51e66e479, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 41cf6d21b7400bd449aa635fccdb09d0, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: fac3cc32392cf3b4bb3f7eadb0cc6cd8, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: fff48c8136c20ac47af2c21033804cfe, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 02e8c45cbeaa8f645b9a919d8d8efc87, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 57e541a2270eca24a9b44a4b943ba7bd, type: 2}
+    level: 45
+  eggMoves: []

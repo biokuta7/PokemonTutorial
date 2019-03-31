@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 317-CarvanhaPokemonData
+  m_EditorClassIdentifier: 
+  number: 318
+  name: Carvanha
+  internalName: CARVANHA
+  kind: Savage
+  height: 0.8
+  weight: 20.8
+  dexEntry: "Carvanha attack ships in swarms, making them sink. Although it is said
+    to be a very vicious Pok\xE9mon, it timidly flees as soon as it finds itself alone."
+  sprite: {fileID: 21300000, guid: 5c1464a79af9443448d3e8c7048151e7, type: 3}
+  backSprite: {fileID: 21300000, guid: 7e0d879dfb565e6408e9a62ecdc9df15, type: 3}
+  shinySprite: {fileID: 21300000, guid: 9ef208575f881224193ea66fd0776b10, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 5ce1db942f52ff549aea3b92aef1ed2a, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 60de6bbde92776e4fb701cf632c68192, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 5a37c1bbebd881b42bd5fab995e54689, type: 2}
+  eggGroup1: 12
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: c38498b2a74dad94983af5dac8489d36, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 0c9d1676ff9200c4ba84daff3c548563, type: 2}
+  baseHP: 45
+  baseAttack: 90
+  baseDefense: 20
+  baseSpeed: 65
+  baseSpecialAttack: 65
+  baseSpecialDefense: 20
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 61
+  rareness: 225
+  baseHappiness: 35
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: ba645aa4fed9b7f48b467626f5b04b85, type: 2}
+    levelToEvolve: 30
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 51cd5e9f281e33f4b92b77f2c727e4b1, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: 4abf7d172bbaeba4293580ddddb47f6f, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 206d073f613428f428074167c47c813d, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: babc9d06ca5ac9e45bc97f25fd964b7a, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: 2da8c21f08cbc164da993e01dc3a0391, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 41cf6d21b7400bd449aa635fccdb09d0, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 0c17539c29d9692498e809a6276dd991, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 3453f1ab4cf459a418c38964bff1630f, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+    level: 38
+  eggMoves:
+  - {fileID: 11400000, guid: 30694025d0c13dd4c896a65d19651c78, type: 2}
+  - {fileID: 11400000, guid: 5d1eca6964fbf79449b447b0f905ef42, type: 2}
+  - {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+  - {fileID: 11400000, guid: 4bdcb7db2207f9142b7706d59e466f28, type: 2}
+  - {fileID: 11400000, guid: 8f7d8eb3956de5c4bb6b3d67bd3ba44b, type: 2}
+  - {fileID: 11400000, guid: 5a170aa8024c80246991a18e353e044f, type: 2}

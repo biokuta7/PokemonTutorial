@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 189-AipomPokemonData
+  m_EditorClassIdentifier: 
+  number: 190
+  name: Aipom
+  internalName: AIPOM
+  kind: Long Tail
+  height: 0.8
+  weight: 11.5
+  dexEntry: Its tail ends with a dexterous, handlike appendage. However, because it
+    uses the tail so much, Aipom's real hands have become rather clumsy.
+  sprite: {fileID: 21300000, guid: ec22f6418fbcffb4aa7fec295e48de0c, type: 3}
+  backSprite: {fileID: 21300000, guid: 67e170abb0dd2ca4cb7bf5e5d20dc919, type: 3}
+  shinySprite: {fileID: 21300000, guid: 981bf96cf62278a4c97118d6e82b0513, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 3959e702a37f64745af3940a4e7c8534, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 123a0e58177f9ff4b932600318a0db24, type: 3}
+  type1: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 1
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: f0cedf399fe0ab54eaf74b1308628228, type: 2}
+  - {fileID: 11400000, guid: fa9c6b70c35b56d4eb9833a262f882c3, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 0a5cc9dd7dceb324d9068ac4af5822ba, type: 2}
+  baseHP: 55
+  baseAttack: 70
+  baseDefense: 55
+  baseSpeed: 85
+  baseSpecialAttack: 40
+  baseSpecialDefense: 55
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 1
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 72
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: c8ad6b6cc523bd940b14ff75aa9ba40e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 90e9a9d7356e7c84ea9190b7ff0535b1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9f99cdcaa64669e41a2a8da39f981b55, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: c93cc4f4568f0084b9fb39e135243cd5, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 075cd6d6634b5004b8f3602896f27620, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: fb9cbbcc0dcb76f4a8254e7141042569, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: 8f7d8eb3956de5c4bb6b3d67bd3ba44b, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 3453f1ab4cf459a418c38964bff1630f, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: f211fbf13513b9c45ae0c3104e035239, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: 511d2d613a889084b9ec13c60dd8332c, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 7a147e057063b224a86c668c0f0c8579, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: 02e8c45cbeaa8f645b9a919d8d8efc87, type: 2}
+    level: 43
+  eggMoves:
+  - {fileID: 11400000, guid: 3453f1ab4cf459a418c38964bff1630f, type: 2}
+  - {fileID: 11400000, guid: b6a288baf04435947a335691653026fb, type: 2}
+  - {fileID: 11400000, guid: efe9376b10863894d99db7561cbb9ca4, type: 2}
+  - {fileID: 11400000, guid: 886cc954c2a8d6546abe10ac0f64a80c, type: 2}
+  - {fileID: 11400000, guid: 742c70de3a7643945a25b26139959535, type: 2}
+  - {fileID: 11400000, guid: 8e58a59f68ed40a49b42a88906e27b5e, type: 2}
+  - {fileID: 11400000, guid: 02d284bddcaccd84c946ab544f218315, type: 2}
+  - {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+  - {fileID: 11400000, guid: b0c5817ec469b4f44a3f7ef399a96c62, type: 2}
+  - {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+  - {fileID: 11400000, guid: 1a0603d08aec3344bb06836eb047c05c, type: 2}
+  - {fileID: 11400000, guid: 162ffca29843f384fb6da9d014a71928, type: 2}
+  - {fileID: 11400000, guid: ecc30181b06681646939dc789b66296b, type: 2}

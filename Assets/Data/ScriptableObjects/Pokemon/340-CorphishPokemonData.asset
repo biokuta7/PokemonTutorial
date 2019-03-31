@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 340-CorphishPokemonData
+  m_EditorClassIdentifier: 
+  number: 341
+  name: Corphish
+  internalName: CORPHISH
+  kind: Ruffian
+  height: 0.6
+  weight: 11.5
+  dexEntry: "Once it grips prey with its large pincers, it will never let go, no matter
+    what. It is a hardy Pok\xE9mon that can thrive in any environment."
+  sprite: {fileID: 21300000, guid: 02013fbf9a6481944af8b7922515479c, type: 3}
+  backSprite: {fileID: 21300000, guid: 72698bae0dca55c4dbc035a0ad2ea0d1, type: 3}
+  shinySprite: {fileID: 21300000, guid: e1c38edcc04652148bb1c35ae40a4819, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: d414cb760dd5f9741b167664b4ac49b3, type: 3}
+  footprintSprite: {fileID: 21300000, guid: cd11ffdc15d77df46afda51d4738ff4f, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 2
+  eggGroup2: 9
+  growthRate: 5
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: ed298f78e600b3e429826881bdc0065c, type: 2}
+  - {fileID: 11400000, guid: 23379adb94f14cb40b2a0ba065d19085, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 0bd8c4688919436498967bafc6d4bc7d, type: 2}
+  baseHP: 43
+  baseAttack: 80
+  baseDefense: 65
+  baseSpeed: 35
+  baseSpecialAttack: 50
+  baseSpecialDefense: 35
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 62
+  rareness: 205
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 5a5a239591ff0be4c9cea2c130e17754, type: 2}
+    levelToEvolve: 30
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 03d0cb1d5358f9449ad7d06d9e981398, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 559b4415730b8cb47a952877dc8bcb6f, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: b47841f8439c41b43b9d6fb0c7847197, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 79c63ba594520644cbecc00f726ef040, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: aa3899441c43934478c93384796e9a8c, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: 6d25dd2274a273a4f97d7cc3c2c084f3, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: c106b7df995223443800dc9dd1494144, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: a0dc810a1c3f7da47afdd25d623edd80, type: 2}
+    level: 38
+  - move: {fileID: 11400000, guid: 9887221a3a392a748b92ecd16cd5faf7, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+    level: 47
+  - move: {fileID: 11400000, guid: a5bd2b5de305fcb43872d410c27d547c, type: 2}
+    level: 53
+  eggMoves:
+  - {fileID: 11400000, guid: 30694025d0c13dd4c896a65d19651c78, type: 2}
+  - {fileID: 11400000, guid: 903b5ee462226ab47b3026d6ace38c5d, type: 2}
+  - {fileID: 11400000, guid: 3206b805bebe41a479e48d61149567c3, type: 2}
+  - {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+  - {fileID: 11400000, guid: 6a19de109a1bddf4d99a984783c518a3, type: 2}
+  - {fileID: 11400000, guid: 74d2270e8d5047f47bdfca1fc219dded, type: 2}
+  - {fileID: 11400000, guid: aa3899441c43934478c93384796e9a8c, type: 2}
+  - {fileID: 11400000, guid: 20511dc028bdeb84185f09366190df6d, type: 2}
+  - {fileID: 11400000, guid: dee27cd0fdcd79240b0663c357831a95, type: 2}
+  - {fileID: 11400000, guid: e57bc132b940120468c55968e0807e59, type: 2}
+  - {fileID: 11400000, guid: a56d7e80200de8f4e8a127187de9b7b3, type: 2}

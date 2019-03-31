@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 243-EnteiPokemonData
+  m_EditorClassIdentifier: 
+  number: 244
+  name: Entei
+  internalName: ENTEI
+  kind: Volcano
+  height: 2.1
+  weight: 198
+  dexEntry: Entei embodies the passion of magma. It is thought to have been born in
+    the eruption of a volcano. It blasts fire that consumes all that it touches.
+  sprite: {fileID: 21300000, guid: 8f31bb87870f41749804438b07ac42a9, type: 3}
+  backSprite: {fileID: 21300000, guid: d188cb5a0464367439ca1c1865401e1d, type: 3}
+  shinySprite: {fileID: 21300000, guid: 798856919ff89314ba442c7c20ad1e62, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 7abe5d37cdff7eb4c88477c485c76b80, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 38fae236092d81e44b1c48fa2b1aa059, type: 3}
+  type1: {fileID: 11400000, guid: e120886a2aede3b4089e217b177a6111, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 15
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: -1
+  standardAbilities:
+  - {fileID: 11400000, guid: 09c4d0a860f51c1488a6ee391d1e8f0e, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 06bd162fe9018664b8c322bdd5564793, type: 2}
+  baseHP: 115
+  baseAttack: 115
+  baseDefense: 85
+  baseSpeed: 100
+  baseSpecialAttack: 90
+  baseSpecialDefense: 75
+  EV_HP: 1
+  EV_Attack: 2
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 261
+  rareness: 3
+  baseHappiness: 35
+  stepsToHatch: 20655
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 62339e29a8fb98e4da4f46c83137d8b8, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: c4e8c740e55faed46ab0712cbaa03682, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 483f4b439f7e8854bb1f26f6dfd32857, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 2f7d6ab7cd0e52442adcc2fa35de98c8, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: d64bedf5e2f4a984eb292a639e253040, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 2da8c21f08cbc164da993e01dc3a0391, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: 10a9a26754b7e8b44ba441e49bd4f099, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: fe5a83fc6520a1b4cae23f0fa580501f, type: 2}
+    level: 57
+  - move: {fileID: 11400000, guid: 95a576a0b079fff4d9459736640d5c82, type: 2}
+    level: 64
+  - move: {fileID: 11400000, guid: 3537201e6b45f8e4f9efff4c48a8f450, type: 2}
+    level: 71
+  - move: {fileID: 11400000, guid: 70de2395caef55748904be979eeef0d5, type: 2}
+    level: 78
+  - move: {fileID: 11400000, guid: e7f1e1ce5ede6b64783a700c5b31a348, type: 2}
+    level: 85
+  eggMoves: []

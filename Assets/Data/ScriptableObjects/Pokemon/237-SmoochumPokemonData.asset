@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 237-SmoochumPokemonData
+  m_EditorClassIdentifier: 
+  number: 238
+  name: Smoochum
+  internalName: SMOOCHUM
+  kind: Kiss
+  height: 0.4
+  weight: 6
+  dexEntry: It actively runs about, but also falls often. Whenever it falls, it will
+    check its reflection on a lake's surface to make sure its face hasn't become dirty.
+  sprite: {fileID: 21300000, guid: 95881069c7316c341ad787eb2c58f9c9, type: 3}
+  backSprite: {fileID: 21300000, guid: c62d70ef8a7a7d64480cdd2c927f93ac, type: 3}
+  shinySprite: {fileID: 21300000, guid: 0ab28156943ed214bb796a276050bd69, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 571bead238688cd459908ea22eb3177f, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 64c8249a309e2c44ca85e9376939ecc9, type: 3}
+  type1: {fileID: 11400000, guid: 38a14f4c97dc09046a4a4f9f7bdade6e, type: 2}
+  type2: {fileID: 11400000, guid: 718f468b569515f42be9e985a9082465, type: 2}
+  eggGroup1: 15
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 1
+  standardAbilities:
+  - {fileID: 11400000, guid: 79ec5a44ce26f2541a05456e4aa36662, type: 2}
+  - {fileID: 11400000, guid: db2bdd1080962f442a27f9560959b8dc, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 6912ac8a55cf72648894f824a40580db, type: 2}
+  baseHP: 45
+  baseAttack: 30
+  baseDefense: 15
+  baseSpeed: 65
+  baseSpecialAttack: 85
+  baseSpecialDefense: 65
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 1
+  EV_SpecialDefense: 0
+  baseEXP: 61
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 6630
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 6f9c62683f470b64f8c9e7680e78d288, type: 2}
+    levelToEvolve: 30
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: c16d454899509064aa753b3499b92b83, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: dcd976db8573291419557ed6b9d18e1f, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 79ff70b8768186845b6efa8a8ab2c39a, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 40d2e39e14d19834e9e6089cb596cdc7, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 0220cff4fc3377247806f98b98ceb881, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 58279d1ca978c0748ba4fc660d97d9ed, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: 46746659633a20f43939a28bf88ae150, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: fff48c8136c20ac47af2c21033804cfe, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 4148031223b255242880deef8e6a614c, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 9cea37bba3a567c44bc6020f1c777d86, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 981b3918fd4c7234e92fcd25312715ae, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: 943dd68f173614045a520526628a0d44, type: 2}
+    level: 38
+  - move: {fileID: 11400000, guid: 6a10a9d296905a64394c695b1f053ea7, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 1c402614e7b43184b9278d150ad7f687, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: 7b20094791067584392cb9404ff2c0ab, type: 2}
+    level: 48
+  eggMoves:
+  - {fileID: 11400000, guid: 08492303b86c9254c97e0aea47940218, type: 2}
+  - {fileID: 11400000, guid: 02d284bddcaccd84c946ab544f218315, type: 2}
+  - {fileID: 11400000, guid: 8ff24dd6627d3454bb87045584b979d9, type: 2}
+  - {fileID: 11400000, guid: 8c66c1beeec9e8244ba1eddc9efab0be, type: 2}
+  - {fileID: 11400000, guid: a165b1a29b54a8441a2bc3c59a6118f1, type: 2}
+  - {fileID: 11400000, guid: 7a147e057063b224a86c668c0f0c8579, type: 2}
+  - {fileID: 11400000, guid: 27b3ca9389c0dab4786d306e68f0fd68, type: 2}
+  - {fileID: 11400000, guid: c5037b32ac3b84a478a4ec160d85abb6, type: 2}

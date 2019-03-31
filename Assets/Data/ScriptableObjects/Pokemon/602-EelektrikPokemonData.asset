@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 602-EelektrikPokemonData
+  m_EditorClassIdentifier: 
+  number: 603
+  name: Eelektrik
+  internalName: EELEKTRIK
+  kind: EleFish
+  height: 1.2
+  weight: 22
+  dexEntry: "These Pok\xE9mon have a big appetite. When they spot their prey, they
+    attack it and paralyze it with electricity."
+  sprite: {fileID: 21300000, guid: 9a51ee9f06e29164e8f31a7c071b818a, type: 3}
+  backSprite: {fileID: 21300000, guid: 3d48dad093f2bda499572d8288e56007, type: 3}
+  shinySprite: {fileID: 21300000, guid: 4dba572266f522042b8d091171e8047d, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 3b0e492fd958103478d1e0c44a0d9723, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 561d5ac31855b244e8d3cb179544d237, type: 3}
+  type1: {fileID: 11400000, guid: 826864d94ec7c8c4a8e95b6615b2eff3, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 11
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 5591a465327adc24089f3b21835f2487, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 65
+  baseAttack: 85
+  baseDefense: 70
+  baseSpeed: 40
+  baseSpecialAttack: 75
+  baseSpecialDefense: 70
+  EV_HP: 0
+  EV_Attack: 2
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 142
+  rareness: 60
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 771493330187f3e41b33a94c3eb24dec, type: 2}
+    levelToEvolve: 0
+    itemToEvolve: {fileID: 11400000, guid: 9f93721f6a89f1146a01982d41c436cf, type: 2}
+    evolutionType: 1
+  learnedMoves:
+  - move: {fileID: 11400000, guid: f3d560a7d1edced43965433b7691eaf1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 7475d027fb16bda4bb60e048a4a74faa, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: beb00d8d0b8532343998216e2e7835b4, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d7d0314a15b8bfd4da4dbf6da5bc35e8, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: c272b86c2496cdb4e894635816948c2d, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: a9cb34e1f0983c24aa63b6ee303bb1ed, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: bb3904f7307498445959529de2390f9f, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: 2e5f1320b45908f44ada7582573559d8, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: ccf7ee4a0d9b11d4b91b2578d503bd84, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 734b752dd11809c43b0377600d4554d7, type: 2}
+    level: 54
+  - move: {fileID: 11400000, guid: be34364e25147244a8ac2f595c7fe75b, type: 2}
+    level: 59
+  - move: {fileID: 11400000, guid: 91e572bc284c7594bafa80c0c257783d, type: 2}
+    level: 64
+  - move: {fileID: 11400000, guid: e99899b1534140e47a270201d1684d22, type: 2}
+    level: 69
+  - move: {fileID: 11400000, guid: 5a170aa8024c80246991a18e353e044f, type: 2}
+    level: 74
+  eggMoves: []

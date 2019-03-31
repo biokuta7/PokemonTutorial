@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 417-BuizelPokemonData
+  m_EditorClassIdentifier: 
+  number: 418
+  name: Buizel
+  internalName: BUIZEL
+  kind: Sea Weasel
+  height: 0.7
+  weight: 29.5
+  dexEntry: It has a flotation sac that is like an inflatable collar. It floats on
+    water with its head out.
+  sprite: {fileID: 21300000, guid: 92d24b2a196efa24081befc8d9d44f51, type: 3}
+  backSprite: {fileID: 21300000, guid: 927c6a8181dc8d54ab8e82d2ae52cd13, type: 3}
+  shinySprite: {fileID: 21300000, guid: 73640d09c09e09e4e845c3fdc1f76653, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: e4c26b10b60394c40857dbc0768bedc6, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 4feae9201656aa54bbc497a48d1baec8, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 2
+  eggGroup2: 5
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 56397a6e68134a6409d13eb81f2d8d2c, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: f9c2b76b8598fca4586dbff3234cf9ea, type: 2}
+  baseHP: 55
+  baseAttack: 65
+  baseDefense: 35
+  baseSpeed: 85
+  baseSpecialAttack: 60
+  baseSpecialDefense: 30
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 1
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 66
+  rareness: 190
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: a84974c61f7b58345aeb7464e3d7bd8f, type: 2}
+    levelToEvolve: 26
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: aa1d0806244b86747a0e614f88d70d93, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 49df1d5643c16e94e8a7607e0d4cb127, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: e1b13bbff45ac2c4d931b26b7167b481, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: d5f2e90bd85630a43bdd31934847cdc5, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 3b8f4014739fbae4d84fae04eb5099f2, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: 8f7d8eb3956de5c4bb6b3d67bd3ba44b, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 0c17539c29d9692498e809a6276dd991, type: 2}
+    level: 24
+  - move: {fileID: 11400000, guid: f211fbf13513b9c45ae0c3104e035239, type: 2}
+    level: 27
+  - move: {fileID: 11400000, guid: 4af89848b3b64474187dbde56d3a206c, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 45536db05abc7c1429c4ddb6279d0443, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: 1160a28543f1b8646be03bfee46df347, type: 2}
+    level: 38
+  - move: {fileID: 11400000, guid: 3453f1ab4cf459a418c38964bff1630f, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 4bdcb7db2207f9142b7706d59e466f28, type: 2}
+    level: 45
+  eggMoves:
+  - {fileID: 11400000, guid: ff3996eab3f07c44785b553c5f7b0662, type: 2}
+  - {fileID: 11400000, guid: 1160a28543f1b8646be03bfee46df347, type: 2}
+  - {fileID: 11400000, guid: c93cc4f4568f0084b9fb39e135243cd5, type: 2}
+  - {fileID: 11400000, guid: 8e58a59f68ed40a49b42a88906e27b5e, type: 2}
+  - {fileID: 11400000, guid: fa647d901ccdd0247a78d3959bbce436, type: 2}
+  - {fileID: 11400000, guid: fb9cbbcc0dcb76f4a8254e7141042569, type: 2}
+  - {fileID: 11400000, guid: f3d560a7d1edced43965433b7691eaf1, type: 2}
+  - {fileID: 11400000, guid: 2c040a557e68a68468efd8b0c07b7758, type: 2}
+  - {fileID: 11400000, guid: 6a425af601896ff48bd142db36a82669, type: 2}
+  - {fileID: 11400000, guid: f8e0359e915e43e4abfa7d0500c94d43, type: 2}
+  - {fileID: 11400000, guid: b5cb4834e72f9064abecca08c734899b, type: 2}
+  - {fileID: 11400000, guid: ecc30181b06681646939dc789b66296b, type: 2}
+  - {fileID: 11400000, guid: 9c64fbe459ba95648b86dc222d140835, type: 2}

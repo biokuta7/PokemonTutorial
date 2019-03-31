@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 225-MantinePokemonData
+  m_EditorClassIdentifier: 
+  number: 226
+  name: Mantine
+  internalName: MANTINE
+  kind: Kite
+  height: 2.1
+  weight: 220
+  dexEntry: On sunny days, schools of Mantine can be seen elegantly leaping over the
+    waves. It is not bothered by the Remoraid that hitches rides.
+  sprite: {fileID: 21300000, guid: e29c3b603aef0814d9f98ab2f66755f2, type: 3}
+  backSprite: {fileID: 21300000, guid: d3e0941965c3d714ca099570d4d3e393, type: 3}
+  shinySprite: {fileID: 21300000, guid: 3aab951c8525eb14a812744dc164c0ef, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 38a209856c4c47640827dd03ee8b6ae7, type: 3}
+  footprintSprite: {fileID: 21300000, guid: a764d3891a0d15542a1d809e42099c0a, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 90bb1a57d841315478a74baa52e40ba4, type: 2}
+  eggGroup1: 2
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 56397a6e68134a6409d13eb81f2d8d2c, type: 2}
+  - {fileID: 11400000, guid: 274b20460d7fa184ca1fdc06cf5d3c74, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: f9c2b76b8598fca4586dbff3234cf9ea, type: 2}
+  baseHP: 65
+  baseAttack: 40
+  baseDefense: 70
+  baseSpeed: 70
+  baseSpecialAttack: 80
+  baseSpecialDefense: 140
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 2
+  baseEXP: 163
+  rareness: 25
+  baseHappiness: 70
+  stepsToHatch: 6630
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4aa6cb6c9662be9488e2a3562d16e64a, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6b8e9a946146d164a8955256e73f74a7, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 7dba8b22673833342a50075386bcf896, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 03d0cb1d5358f9449ad7d06d9e981398, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3bbb861f40413cc49ba63bbc7d2599a8, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b47841f8439c41b43b9d6fb0c7847197, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3bbb861f40413cc49ba63bbc7d2599a8, type: 2}
+    level: 3
+  - move: {fileID: 11400000, guid: b47841f8439c41b43b9d6fb0c7847197, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 30e9bccee0b2ceb4cb9ad6b51e66e479, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 5fcb722ef02a1bc4ca97936ea61cc6bb, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: f3d560a7d1edced43965433b7691eaf1, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: 0daaaf2b724e2e34f893d673a8ee7a4e, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 11ff7da7c616f1741b88955427548f6f, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+    level: 27
+  - move: {fileID: 11400000, guid: 3453f1ab4cf459a418c38964bff1630f, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: 20ed064aef73d8f418cbe4597b1a4293, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: ff3996eab3f07c44785b553c5f7b0662, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: efe9376b10863894d99db7561cbb9ca4, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: 4bdcb7db2207f9142b7706d59e466f28, type: 2}
+    level: 49
+  eggMoves:
+  - {fileID: 11400000, guid: b54451c499c3fc24aade1add5a757d05, type: 2}
+  - {fileID: 11400000, guid: 58aa3d592b28f5e42a4586453743ccdb, type: 2}
+  - {fileID: 11400000, guid: 4bdcb7db2207f9142b7706d59e466f28, type: 2}
+  - {fileID: 11400000, guid: 7ef0a78f2ac48a94984b2cac732f0951, type: 2}
+  - {fileID: 11400000, guid: dee27cd0fdcd79240b0663c357831a95, type: 2}
+  - {fileID: 11400000, guid: 1a0603d08aec3344bb06836eb047c05c, type: 2}
+  - {fileID: 11400000, guid: 6b3750a73aecc7d469a755f681a0f55f, type: 2}
+  - {fileID: 11400000, guid: 8893a4943a8bc8644b6a8faef29dcf2a, type: 2}
+  - {fileID: 11400000, guid: e1b13bbff45ac2c4d931b26b7167b481, type: 2}
+  - {fileID: 11400000, guid: 11ff7da7c616f1741b88955427548f6f, type: 2}

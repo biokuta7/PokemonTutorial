@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 166-SpinarakPokemonData
+  m_EditorClassIdentifier: 
+  number: 167
+  name: Spinarak
+  internalName: SPINARAK
+  kind: String Spit
+  height: 0.5
+  weight: 8.5
+  dexEntry: The web it spins can be considered its second nervous system. It is said
+    that a Spinarak determines its prey by the tiny vibrations it feels through the
+    web.
+  sprite: {fileID: 21300000, guid: ed9f58842e7593448a5129ab83f5342a, type: 3}
+  backSprite: {fileID: 21300000, guid: 7de98a6fede0afc4ea18becf2a8aa163, type: 3}
+  shinySprite: {fileID: 21300000, guid: 9cb6f96948d886841a32f8d92be83f88, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: f91ab15c69a381d4ea6cbde2f1f4fc0a, type: 3}
+  footprintSprite: {fileID: 21300000, guid: fc36b97b2bea91a49813e1b2d088539c, type: 3}
+  type1: {fileID: 11400000, guid: 79eb8f30cbe188e4f8a36dafd71ebdee, type: 2}
+  type2: {fileID: 11400000, guid: 5c263d07fc626544cae866e79835f9fd, type: 2}
+  eggGroup1: 3
+  eggGroup2: 0
+  growthRate: 1
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 3061775df8197ad4c8e4d3bc7de08339, type: 2}
+  - {fileID: 11400000, guid: 91e2aab60379a2d4d9efbcf46eb41c6d, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: d7613c85567302340852edb9b8b4c381, type: 2}
+  baseHP: 40
+  baseAttack: 60
+  baseDefense: 40
+  baseSpeed: 30
+  baseSpecialAttack: 40
+  baseSpecialDefense: 40
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 50
+  rareness: 255
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 6d211502bb3cd7e41b0aaaf0bf199867, type: 2}
+    levelToEvolve: 22
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: d306605b81c7124478801e53ad3ea1ab, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 2fe3950103ea0724e91849015d667f03, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 206d073f613428f428074167c47c813d, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: fff44a669961e0b4fb6e9a98cd61b6b8, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 180cba9a94eacce4f8a89e10042e409b, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: a62334014ffe32f47b6cd09cbe7059c4, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 6afded026ef044e469796eefe9f07d9e, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: fb9cbbcc0dcb76f4a8254e7141042569, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 18d2b07fd9a5ed740902b65b48c67a90, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: 7a5fbdcac0f00454686dad736bcb1b66, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 3453f1ab4cf459a418c38964bff1630f, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 94cbbd93cb037114781f77a2e7546a2e, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 943dd68f173614045a520526628a0d44, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: f79d836c63afaf245bae1d57829db1e6, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: 7333b7da39e71aa47a60202fa9f82461, type: 2}
+    level: 47
+  eggMoves:
+  - {fileID: 11400000, guid: c93cc4f4568f0084b9fb39e135243cd5, type: 2}
+  - {fileID: 11400000, guid: 4965fe24e4d71994c83ce7f0c95a9d7a, type: 2}
+  - {fileID: 11400000, guid: 706e2d43b0b86cc4a8e72ae93aa7d045, type: 2}
+  - {fileID: 11400000, guid: c106b7df995223443800dc9dd1494144, type: 2}
+  - {fileID: 11400000, guid: 4aa6cb6c9662be9488e2a3562d16e64a, type: 2}
+  - {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+  - {fileID: 11400000, guid: 2de7b984c95eee8419a7f5aab4e3bfd9, type: 2}
+  - {fileID: 11400000, guid: 7dba8b22673833342a50075386bcf896, type: 2}
+  - {fileID: 11400000, guid: aa1d0806244b86747a0e614f88d70d93, type: 2}
+  - {fileID: 11400000, guid: 44af52c6fbf574d4c9570c5700e6addd, type: 2}
+  - {fileID: 11400000, guid: 72ec79c87c59ba24f9c91253e18a8c85, type: 2}

@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 269-LotadPokemonData
+  m_EditorClassIdentifier: 
+  number: 270
+  name: Lotad
+  internalName: LOTAD
+  kind: Water Weed
+  height: 0.5
+  weight: 2.6
+  dexEntry: "This Pok\xE9mon lives in ponds with clean water. It is known to ferry
+    small Pok\xE9mon across ponds by carrying them on the broad leaf on its head."
+  sprite: {fileID: 21300000, guid: 94757b8c79ed8ae419f724a7439f94cd, type: 3}
+  backSprite: {fileID: 21300000, guid: 8a3cdab5afbffce4fa71664f9b2c8544, type: 3}
+  shinySprite: {fileID: 21300000, guid: ef3d09aeb5974964f9510f72c981d4dd, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: c01e0529898fcf043b30a54b24094b68, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 1bdf6c6939dbf2b45bc5582002d66c38, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 9ed7dc1c4ee6bf747b182dc2eaf16337, type: 2}
+  eggGroup1: 2
+  eggGroup2: 7
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 56397a6e68134a6409d13eb81f2d8d2c, type: 2}
+  - {fileID: 11400000, guid: 1e78b8444dbadbe4d994018be43ab305, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 58d1e1e09552c35468c706a098999f09, type: 2}
+  baseHP: 40
+  baseAttack: 30
+  baseDefense: 30
+  baseSpeed: 30
+  baseSpecialAttack: 40
+  baseSpecialDefense: 50
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 1
+  baseEXP: 44
+  rareness: 255
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 8bbd5a6f8b508d641a020707dd4628b0, type: 2}
+    levelToEvolve: 14
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 49df1d5643c16e94e8a7607e0d4cb127, type: 2}
+    level: 3
+  - move: {fileID: 11400000, guid: 51676f5ca5c33f3488bef6bd69f42876, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 7d521f984ba299f4b9effbd5e07ec210, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 424e9656e1d9e8a40b980b3111eb709e, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 9d4a14f02a117a44b9913b77b6f91470, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: cf3b125d2a3a19f4db9c549d9d557481, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: b47841f8439c41b43b9d6fb0c7847197, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: a14c1abb33c849c40b2bc2db3133d367, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 3ba17b56df8a7214e8e456be13d519fb, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 8998edf4d2f21d044b2a030f300f2fe4, type: 2}
+    level: 45
+  eggMoves:
+  - {fileID: 11400000, guid: 886cc954c2a8d6546abe10ac0f64a80c, type: 2}
+  - {fileID: 11400000, guid: ab4b503440591f742bf63c1693c6ee27, type: 2}
+  - {fileID: 11400000, guid: d0032eb960b8d524798fb954ea731315, type: 2}
+  - {fileID: 11400000, guid: a348e0502b2529145aaaa410f8e3880f, type: 2}
+  - {fileID: 11400000, guid: 3bac1848939bf8549835d68f3be23289, type: 2}
+  - {fileID: 11400000, guid: 05690026fb024824db2ad77c5245df16, type: 2}
+  - {fileID: 11400000, guid: bf883db29c15eab4cbe5f9f2b382655a, type: 2}
+  - {fileID: 11400000, guid: aadd74742887232459cb17c0ca184660, type: 2}
+  - {fileID: 11400000, guid: 075cd6d6634b5004b8f3602896f27620, type: 2}
+  - {fileID: 11400000, guid: 3b8f4014739fbae4d84fae04eb5099f2, type: 2}

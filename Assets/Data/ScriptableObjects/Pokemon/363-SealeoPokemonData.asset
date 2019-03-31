@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 363-SealeoPokemonData
+  m_EditorClassIdentifier: 
+  number: 364
+  name: Sealeo
+  internalName: SEALEO
+  kind: Ball Roll
+  height: 1.1
+  weight: 87.6
+  dexEntry: Sealeo live in herds on ice floes. Using its powerful flippers, it shatters
+    ice. It dives into the sea to hunt prey five times a day.
+  sprite: {fileID: 21300000, guid: 41e50786c23cbfb4f92a99230f88e7c3, type: 3}
+  backSprite: {fileID: 21300000, guid: db590d39d7ab49241a2d6c0276ab608c, type: 3}
+  shinySprite: {fileID: 21300000, guid: 04802aa00ecded94aac7d2dd7f48145c, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: f8b5337b1cd5339479e4cf867141e08f, type: 3}
+  footprintSprite: {fileID: 21300000, guid: cf5ef76da575a0e43886ed97ea953a60, type: 3}
+  type1: {fileID: 11400000, guid: 38a14f4c97dc09046a4a4f9f7bdade6e, type: 2}
+  type2: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  eggGroup1: 2
+  eggGroup2: 5
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 5370a5cddfbfa4d4396bfd64d5065c3a, type: 2}
+  - {fileID: 11400000, guid: f19b04f3b786b6d4cb06e5be697a87a0, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 79ec5a44ce26f2541a05456e4aa36662, type: 2}
+  baseHP: 90
+  baseAttack: 60
+  baseDefense: 70
+  baseSpeed: 45
+  baseSpecialAttack: 75
+  baseSpecialDefense: 70
+  EV_HP: 2
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 144
+  rareness: 120
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 73e1fc5a33bccc7489e5741cceec64f7, type: 2}
+    levelToEvolve: 44
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 40d2e39e14d19834e9e6089cb596cdc7, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 49df1d5643c16e94e8a7607e0d4cb127, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3b8f4014739fbae4d84fae04eb5099f2, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 135034a951a65894fb86a5f232b51764, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 135034a951a65894fb86a5f232b51764, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: ee88dd11bcf65524cbe81e055ede7970, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 903b5ee462226ab47b3026d6ace38c5d, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 6b4e721b21197d343b3775779d921bb2, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: ba31b036da1e30c489136127091ad4f1, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 2da8c21f08cbc164da993e01dc3a0391, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: 6ca000a6aa650d243b1e634a9044d765, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: ad3d5dd2b0bd4844b89d38058ec1336e, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: 7b20094791067584392cb9404ff2c0ab, type: 2}
+    level: 47
+  - move: {fileID: 11400000, guid: 9dbb1a05683b8034ca699377dca570d4, type: 2}
+    level: 55
+  eggMoves: []

@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 541-LeavannyPokemonData
+  m_EditorClassIdentifier: 
+  number: 542
+  name: Leavanny
+  internalName: LEAVANNY
+  kind: Nurturing
+  height: 1.2
+  weight: 20.5
+  dexEntry: It keeps its eggs warm with heat from fermenting leaves. It also uses
+    leaves to make warm wrappings for Sewaddle.
+  sprite: {fileID: 21300000, guid: c0ab175cee6c5bb48b657ec63c909447, type: 3}
+  backSprite: {fileID: 21300000, guid: d1ed26e449cc3094aaaf4c072906e690, type: 3}
+  shinySprite: {fileID: 21300000, guid: 576c899498ccf8740bf630ad48862b73, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: f21998fb31e709e45952a1bd00a50fa0, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 88813bff4e4a4a146b5394e99f350573, type: 3}
+  type1: {fileID: 11400000, guid: 79eb8f30cbe188e4f8a36dafd71ebdee, type: 2}
+  type2: {fileID: 11400000, guid: 9ed7dc1c4ee6bf747b182dc2eaf16337, type: 2}
+  eggGroup1: 3
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 3061775df8197ad4c8e4d3bc7de08339, type: 2}
+  - {fileID: 11400000, guid: f0f4567366d84af44a479f99490860af, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 1bce60e089bc29c44b4bbcc5e89bec8f, type: 2}
+  baseHP: 75
+  baseAttack: 103
+  baseDefense: 80
+  baseSpeed: 92
+  baseSpecialAttack: 70
+  baseSpecialDefense: 70
+  EV_HP: 0
+  EV_Attack: 3
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 221
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 7a360d225bcb3a44ea28d80418a74d9f, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 2fe3950103ea0724e91849015d667f03, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 29fbd58668c00724ba080e3514e4e713, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3bac1848939bf8549835d68f3be23289, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 29fbd58668c00724ba080e3514e4e713, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 3bac1848939bf8549835d68f3be23289, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: d4e3c2858df8b774aa64db5ab9266926, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: b5cb4834e72f9064abecca08c734899b, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: f277acd4ff10f914a97ec332c912d36c, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: 78a67d0c5e29b8544ab94611a0d42769, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: b41f0ba60c27a6a459db2860ce5cf946, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: dab02694fe76958429c4c151a4f4382f, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: 9887221a3a392a748b92ecd16cd5faf7, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: 55463fd3f765f9e4abb5cdd228a2f414, type: 2}
+    level: 50
+  eggMoves: []

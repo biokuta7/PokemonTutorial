@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 506-HerdierPokemonData
+  m_EditorClassIdentifier: 
+  number: 507
+  name: Herdier
+  internalName: HERDIER
+  kind: Loyal Dog
+  height: 0.9
+  weight: 14.7
+  dexEntry: "It loyally follows its Trainer's orders. For ages, they have helped Trainers
+    raise Pok\xE9mon."
+  sprite: {fileID: 21300000, guid: 1aa4f6d2833164844b126ce62d412002, type: 3}
+  backSprite: {fileID: 21300000, guid: 6933ce925ba24844bb6279cc37b4c345, type: 3}
+  shinySprite: {fileID: 21300000, guid: fb84e89a89da8ec439897fe7d465d70a, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 413480893e56527468788bc251033f62, type: 3}
+  footprintSprite: {fileID: 21300000, guid: a42edb43408232d4f9837dd4d11be493, type: 3}
+  type1: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 4d2c363492d6553449a69e6b63a750e6, type: 2}
+  - {fileID: 11400000, guid: caef24a3641fd3e45830048b0db1eb89, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: f4cf64a67a40d9046810b2856341091f, type: 2}
+  baseHP: 65
+  baseAttack: 80
+  baseDefense: 65
+  baseSpeed: 60
+  baseSpecialAttack: 35
+  baseSpecialDefense: 65
+  EV_HP: 0
+  EV_Attack: 2
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 130
+  rareness: 120
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 0ee40ce0ecaee06449dfcb8975519202, type: 2}
+    levelToEvolve: 32
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: f8e0359e915e43e4abfa7d0500c94d43, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: f8e0359e915e43e4abfa7d0500c94d43, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: f277acd4ff10f914a97ec332c912d36c, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: eef52d6b86c13c64aa26776c3453fe3b, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+    level: 24
+  - move: {fileID: 11400000, guid: c4e8c740e55faed46ab0712cbaa03682, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 947b0dcc26e24574086cf7ec4b0e080d, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 8880b7ca31d4f794da5ad4a591a4d876, type: 2}
+    level: 38
+  - move: {fileID: 11400000, guid: 02e8c45cbeaa8f645b9a919d8d8efc87, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: 60f60ea14d80ad84ebd80005abbc42a5, type: 2}
+    level: 47
+  eggMoves: []

@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 458-SnoverPokemonData
+  m_EditorClassIdentifier: 
+  number: 459
+  name: Snover
+  internalName: SNOVER
+  kind: Frost Tree
+  height: 1
+  weight: 50.5
+  dexEntry: It lives on snowy mountains. Having had little contact with humans, it
+    is boldly inquisitive.
+  sprite: {fileID: 21300000, guid: a9390b02720b9f74d82ceb808658e6be, type: 3}
+  backSprite: {fileID: 21300000, guid: 886d0ccedc73af14a92671dad3f39455, type: 3}
+  shinySprite: {fileID: 21300000, guid: 166d03b29560dd84c810b1e66513613d, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: b94af95ae3255344092fcd3db5e931df, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 77fdbffd4906ba744bc0e3c3bc81b211, type: 3}
+  type1: {fileID: 11400000, guid: 9ed7dc1c4ee6bf747b182dc2eaf16337, type: 2}
+  type2: {fileID: 11400000, guid: 38a14f4c97dc09046a4a4f9f7bdade6e, type: 2}
+  eggGroup1: 1
+  eggGroup2: 7
+  growthRate: 4
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 711bebb94a0d3cb4ea371699533c609d, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 89e1705cde9d4994f8012e815a5e2c4d, type: 2}
+  baseHP: 60
+  baseAttack: 62
+  baseDefense: 50
+  baseSpeed: 40
+  baseSpecialAttack: 62
+  baseSpecialDefense: 60
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 67
+  rareness: 120
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: ff000b324fa0a6649a2ff76b81c6a1f1, type: 2}
+    levelToEvolve: 40
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 40d2e39e14d19834e9e6089cb596cdc7, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3bac1848939bf8549835d68f3be23289, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: b54112bb46bdcb342b701dde2aed4ef4, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 9fe365d30820e2747a1727bb6447555b, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 2da8c21f08cbc164da993e01dc3a0391, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 424e9656e1d9e8a40b980b3111eb709e, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 748d6f7306d57e04a8dafa2546fca662, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: c163dfa522d04f94d9ac8124bf7d1ec1, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: e7a8d2c1a19506a4badd0da24a2f60c0, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 7b20094791067584392cb9404ff2c0ab, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 9dbb1a05683b8034ca699377dca570d4, type: 2}
+    level: 46
+  eggMoves:
+  - {fileID: 11400000, guid: 981b3918fd4c7234e92fcd25312715ae, type: 2}
+  - {fileID: 11400000, guid: 6b8e9a946146d164a8955256e73f74a7, type: 2}
+  - {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+  - {fileID: 11400000, guid: a2bc558341f8e55459fbed9bfee7482b, type: 2}
+  - {fileID: 11400000, guid: a348e0502b2529145aaaa410f8e3880f, type: 2}
+  - {fileID: 11400000, guid: 60251021589440c40b96c5308d70e6be, type: 2}
+  - {fileID: 11400000, guid: 424e9656e1d9e8a40b980b3111eb709e, type: 2}
+  - {fileID: 11400000, guid: 9d4a14f02a117a44b9913b77b6f91470, type: 2}
+  - {fileID: 11400000, guid: 083b88c1c4fcefc44895457f1cd93622, type: 2}
+  - {fileID: 11400000, guid: f9d5056959c9bf14cb37a6421006d824, type: 2}
+  - {fileID: 11400000, guid: 2f7d6ab7cd0e52442adcc2fa35de98c8, type: 2}

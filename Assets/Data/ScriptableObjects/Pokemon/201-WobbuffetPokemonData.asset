@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 201-WobbuffetPokemonData
+  m_EditorClassIdentifier: 
+  number: 202
+  name: Wobbuffet
+  internalName: WOBBUFFET
+  kind: Patient
+  height: 1.3
+  weight: 28.5
+  dexEntry: Usually docile, a Wobbuffet strikes back ferociously if its black tail
+    is attacked. It makes its lair in caves where it waits for nightfall.
+  sprite: {fileID: 21300000, guid: 64064887c4e27c948aab207e1c749586, type: 3}
+  backSprite: {fileID: 21300000, guid: 8f5cf1e2f59e8144e82bc111464b821f, type: 3}
+  shinySprite: {fileID: 21300000, guid: 6a0743606eea95545b008114664294fa, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 53bc1020ffc43d944a01950246135910, type: 3}
+  footprintSprite: {fileID: 21300000, guid: d53aff051a161994b9f38d3ca3d11eb6, type: 3}
+  type1: {fileID: 11400000, guid: 718f468b569515f42be9e985a9082465, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 11
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: bfb130f03911f054b87b00e2d273dfde, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: ed80cf5b8d8e1204296a4c18cc5ac574, type: 2}
+  baseHP: 190
+  baseAttack: 33
+  baseDefense: 58
+  baseSpeed: 33
+  baseSpecialAttack: 33
+  baseSpecialDefense: 58
+  EV_HP: 2
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 142
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 886cc954c2a8d6546abe10ac0f64a80c, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 7ef0a78f2ac48a94984b2cac732f0951, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: c96d683e0383c194caa33e1ccf960d38, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6fb23c01ca89abf4fa4c0bc1e4ea6bdb, type: 2}
+    level: 1
+  eggMoves: []

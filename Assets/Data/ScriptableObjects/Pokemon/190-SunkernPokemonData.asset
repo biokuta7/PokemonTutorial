@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 190-SunkernPokemonData
+  m_EditorClassIdentifier: 
+  number: 191
+  name: Sunkern
+  internalName: SUNKERN
+  kind: Seed
+  height: 0.3
+  weight: 1.8
+  dexEntry: Sunkern try to minimize movement to conserve the nutrients they have stored
+    in their bodies for evolution. They will not eat, subsisting only on morning dew.
+  sprite: {fileID: 21300000, guid: 77192357a5735cd43b2baff401439beb, type: 3}
+  backSprite: {fileID: 21300000, guid: 803b122d5ba954d408f4d4f5dd11eaf5, type: 3}
+  shinySprite: {fileID: 21300000, guid: 015c3b3feee9ae646bb3e0c7ba74f83c, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 34170cac7dd4abb498e4cb4c70ba1b5b, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 637042ee85c804b4893ecfa7836d984a, type: 3}
+  type1: {fileID: 11400000, guid: 9ed7dc1c4ee6bf747b182dc2eaf16337, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 7
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: f0f4567366d84af44a479f99490860af, type: 2}
+  - {fileID: 11400000, guid: 71adb2477286e9647ae2d71d7815dc4b, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 643f15426c9330a47b7d08dc751d838b, type: 2}
+  baseHP: 30
+  baseAttack: 30
+  baseDefense: 30
+  baseSpeed: 30
+  baseSpecialAttack: 30
+  baseSpecialDefense: 30
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 1
+  EV_SpecialDefense: 0
+  baseEXP: 36
+  rareness: 235
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: bc2a6f3a490eaaa4598720bc991c0ecf, type: 2}
+    levelToEvolve: 0
+    itemToEvolve: {fileID: 11400000, guid: b13971d0f26cf8d408fb517f65fed12a, type: 2}
+    evolutionType: 1
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 51676f5ca5c33f3488bef6bd69f42876, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: a2bc558341f8e55459fbed9bfee7482b, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: c163dfa522d04f94d9ac8124bf7d1ec1, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 9fe365d30820e2747a1727bb6447555b, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: cf3b125d2a3a19f4db9c549d9d557481, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: a348e0502b2529145aaaa410f8e3880f, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 3bac1848939bf8549835d68f3be23289, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: da061361f80b8be41a2caf2d55f7a5ac, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: d0032eb960b8d524798fb954ea731315, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 74d2270e8d5047f47bdfca1fc219dded, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: bf883db29c15eab4cbe5f9f2b382655a, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 9d4a14f02a117a44b9913b77b6f91470, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: e4f79be0bd7dfa943bad2da0d45cad51, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: a45b5f72eda8d2d4798e7d5235a9072c, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: 083b88c1c4fcefc44895457f1cd93622, type: 2}
+    level: 43
+  eggMoves:
+  - {fileID: 11400000, guid: 33d96fe56c3fefd4abee4fdd115ab776, type: 2}
+  - {fileID: 11400000, guid: fd48eadb1eda86c45b74371631ca93dd, type: 2}
+  - {fileID: 11400000, guid: 135034a951a65894fb86a5f232b51764, type: 2}
+  - {fileID: 11400000, guid: 9f44f4d05fd57b74b9b026bf9776c7e7, type: 2}
+  - {fileID: 11400000, guid: 9fe365d30820e2747a1727bb6447555b, type: 2}
+  - {fileID: 11400000, guid: f277acd4ff10f914a97ec332c912d36c, type: 2}
+  - {fileID: 11400000, guid: c163dfa522d04f94d9ac8124bf7d1ec1, type: 2}
+  - {fileID: 11400000, guid: a348e0502b2529145aaaa410f8e3880f, type: 2}
+  - {fileID: 11400000, guid: 59af370ad9a98be4ba047b3c4dcfdc03, type: 2}
+  - {fileID: 11400000, guid: 9d4a14f02a117a44b9913b77b6f91470, type: 2}
+  - {fileID: 11400000, guid: 7d521f984ba299f4b9effbd5e07ec210, type: 2}
+  - {fileID: 11400000, guid: 05690026fb024824db2ad77c5245df16, type: 2}

@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 226-SkarmoryPokemonData
+  m_EditorClassIdentifier: 
+  number: 227
+  name: Skarmory
+  internalName: SKARMORY
+  kind: Armor Bird
+  height: 1.7
+  weight: 50.5
+  dexEntry: "A Pok\xE9mon that has a body and wings of steel. People in the past used
+    feathers fallen from Skarmory to make swords and knives."
+  sprite: {fileID: 21300000, guid: b41750eea1660e7408702a03c7efd21a, type: 3}
+  backSprite: {fileID: 21300000, guid: f7e96b568d677454a95f088d6af1f70f, type: 3}
+  shinySprite: {fileID: 21300000, guid: 1f940ee6262768049ae9d6c2741bb3d2, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: b5346f54b6514c54e8d310e522ef05c5, type: 3}
+  footprintSprite: {fileID: 21300000, guid: d34ef9aa91bcdc1448cafd0e88cbc560, type: 3}
+  type1: {fileID: 11400000, guid: e19d9d0db9bfb304f86f2be1b2cbcd6e, type: 2}
+  type2: {fileID: 11400000, guid: 90bb1a57d841315478a74baa52e40ba4, type: 2}
+  eggGroup1: 4
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 532e9762ac38a2a4886c9d8d093afc68, type: 2}
+  - {fileID: 11400000, guid: 8822aaa86cfc2f0408aaabea80029644, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 631386df5bfe4a44b87d6c9f3ec414eb, type: 2}
+  baseHP: 65
+  baseAttack: 80
+  baseDefense: 140
+  baseSpeed: 70
+  baseSpecialAttack: 40
+  baseSpecialDefense: 70
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 2
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 163
+  rareness: 25
+  baseHappiness: 70
+  stepsToHatch: 6630
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9d2a9ce13673a634e89077573467ca18, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9f99cdcaa64669e41a2a8da39f981b55, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: 8f7d8eb3956de5c4bb6b3d67bd3ba44b, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 3453f1ab4cf459a418c38964bff1630f, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: 5fb64fe0f8fdcfe43a99d697942c9356, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: efce0155d8efb2e4d846129c30b3961f, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 07892493731bb2744a04d9c4b9926d94, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: d8ed94463b0d1f14496675317c8079d3, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 9064c27f2e3736249bec03fe438c3daf, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: e1d13e2a53c5d994a9d15caccfd8463d, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: 4798cf9b23b79124f96b077d9864d83e, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: 20ed064aef73d8f418cbe4597b1a4293, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: b5cb4834e72f9064abecca08c734899b, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: c106b7df995223443800dc9dd1494144, type: 2}
+    level: 50
+  eggMoves:
+  - {fileID: 11400000, guid: 41cf6d21b7400bd449aa635fccdb09d0, type: 2}
+  - {fileID: 11400000, guid: b47fe8171b0d9a142b63319bf7679801, type: 2}
+  - {fileID: 11400000, guid: fd48eadb1eda86c45b74371631ca93dd, type: 2}
+  - {fileID: 11400000, guid: 2309ad2bcd771e34a9bdd83b1118a5fc, type: 2}
+  - {fileID: 11400000, guid: 9f44f4d05fd57b74b9b026bf9776c7e7, type: 2}
+  - {fileID: 11400000, guid: 57e541a2270eca24a9b44a4b943ba7bd, type: 2}
+  - {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+  - {fileID: 11400000, guid: 58f2705acbbde2e48a7469e2fdc1a588, type: 2}
+  - {fileID: 11400000, guid: 4773ef6422b4dba42bf480860c4f42cc, type: 2}
+  - {fileID: 11400000, guid: c761759381cf557488626838e074d491, type: 2}

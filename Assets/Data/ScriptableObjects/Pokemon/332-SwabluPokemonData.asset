@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 332-SwabluPokemonData
+  m_EditorClassIdentifier: 
+  number: 333
+  name: Swablu
+  internalName: SWABLU
+  kind: Cotton Bird
+  height: 0.4
+  weight: 1.2
+  dexEntry: "A Pok\xE9mon that has wings like cottony clouds. After enduring winter,
+    in which little food is available, Swablu flocks move closer to towns in the spring."
+  sprite: {fileID: 21300000, guid: 11a576bfe027138488f7a5cbdcb99441, type: 3}
+  backSprite: {fileID: 21300000, guid: 2662ce11ab865144db1c435c3653a27e, type: 3}
+  shinySprite: {fileID: 21300000, guid: 501476103b9900b489f62fb95699e492, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: dfb3fa03908ec0447bd2324ad45b3b63, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 953241dd25b5c0842bdb5f6dfd8fbecb, type: 3}
+  type1: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
+  type2: {fileID: 11400000, guid: 90bb1a57d841315478a74baa52e40ba4, type: 2}
+  eggGroup1: 4
+  eggGroup2: 14
+  growthRate: 0
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: b5db5834bd2343441a26e1e130053781, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 1afe4c34a7995184caf6bd34fbae8609, type: 2}
+  baseHP: 45
+  baseAttack: 40
+  baseDefense: 60
+  baseSpeed: 50
+  baseSpecialAttack: 40
+  baseSpecialDefense: 75
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 1
+  baseEXP: 62
+  rareness: 255
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 8ca2c9b03ffe9644fbeb5eb37f2b9ec8, type: 2}
+    levelToEvolve: 35
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 9d2a9ce13673a634e89077573467ca18, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 49df1d5643c16e94e8a7607e0d4cb127, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 58279d1ca978c0748ba4fc660d97d9ed, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 5fb64fe0f8fdcfe43a99d697942c9356, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: c96d683e0383c194caa33e1ccf960d38, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 424e9656e1d9e8a40b980b3111eb709e, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 3b66f179cf005884794cce99d9e44197, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: 9d4a14f02a117a44b9913b77b6f91470, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: a253a6a569c46a748ad69bf73eefba7a, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: f38e5d29dcd8083489e890ce9044abbb, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: 41f3351bc2e0f3749bc59218fc41ad3b, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: 36ac6fad3c69dfa4ea764d608a2a1212, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: 1c402614e7b43184b9278d150ad7f687, type: 2}
+    level: 48
+  eggMoves:
+  - {fileID: 11400000, guid: 3453f1ab4cf459a418c38964bff1630f, type: 2}
+  - {fileID: 11400000, guid: 1fb42093fd7d56f4d93f8ee993588931, type: 2}
+  - {fileID: 11400000, guid: 4854b84cfb8fdbe4baafeb83bb0e9a54, type: 2}
+  - {fileID: 11400000, guid: 58aa3d592b28f5e42a4586453743ccdb, type: 2}
+  - {fileID: 11400000, guid: 742025f9f24a09946bae3d0cdb215512, type: 2}
+  - {fileID: 11400000, guid: f65888ea561938f47a1b2d36efe13aef, type: 2}
+  - {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+  - {fileID: 11400000, guid: 51cd5e9f281e33f4b92b77f2c727e4b1, type: 2}
+  - {fileID: 11400000, guid: ae17a6aef7527a141876ca7f983f220f, type: 2}
+  - {fileID: 11400000, guid: e1d13e2a53c5d994a9d15caccfd8463d, type: 2}

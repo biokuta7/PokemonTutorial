@@ -64,14 +64,18 @@ public class Battle : MonoBehaviour {
         foeHPSliderBar = foeHPSlider.GetComponentInChildren<Image>();
         allyHPSliderBar = allyHPSlider.GetComponentInChildren<Image>();
         allyPokemon.InitPokemon();
-        foePokemon.InitPokemon();
-        UpdateUI();
-        StartBattle();
     }
 
     private void Update()
     {
         UpdateUI();
+    }
+
+    public void InitWildBattle()
+    {
+        foePokemon.InitPokemon();
+        UpdateUI();
+        StartBattle();
     }
 
     public void UpdateUI()
@@ -241,7 +245,19 @@ public class Battle : MonoBehaviour {
         StartCoroutine(BattleHandler());
     }
 
+    private int ExperienceCalculation(Pokemon victor, Pokemon loser, bool trainerBattle = false)
+    {
+        float a = trainerBattle ? 1.5f : 1.0f; //Trainer battle or not
+        float b = loser.pokemonData.baseEXP; //Base
+        float e = (victor.heldItem != null && victor.heldItem.internalName.Equals("LUCKYEGG")) ? 1.5f : 1.0f; //Lucky egg held?
+        float l = loser.level; //Opponent level
+        float s = 1f; //Participants
 
+        float exp = (a * b * e * l) / (7 * s);
+
+        return Mathf.RoundToInt(exp);
+        
+    }
 
     IEnumerator BattleHandler()
     {
@@ -268,9 +284,7 @@ public class Battle : MonoBehaviour {
             }
 
             yield return StartCoroutine(SingleAttack(fasterPokemon, slowerPokemon, foeRand));
-
-            Debug.Log("First Check! " + CheckIfEitherPokemonDied());
-
+            
             if (CheckIfEitherPokemonDied())
             {
                 
@@ -278,9 +292,7 @@ public class Battle : MonoBehaviour {
             }
 
             yield return StartCoroutine(SingleAttack(slowerPokemon, fasterPokemon, allyRand));
-
-            Debug.Log("Second Check! " + CheckIfEitherPokemonDied());
-
+            
             if (CheckIfEitherPokemonDied())
             {
                 
@@ -289,9 +301,22 @@ public class Battle : MonoBehaviour {
 
         }
 
-        dialogueManager.AddDialogue("BATTLE OVER");
+        //dialogueManager.AddDialogue("BATTLE OVER");
 
+        
+        if(foePokemon.CheckForDeath())
+        {
+            int exp = ExperienceCalculation(allyPokemon, foePokemon);
+
+            dialogueManager.AddDialogue(allyPokemon.GetName() + " gained " + exp + " experience points!");
+            yield return StartCoroutine(WaitForCaughtUpTextAndInput());
+            yield return StartCoroutine(allyPokemon.ModXPCoroutine(exp));
+
+        }
+
+        PokemonGameManager.instance.EndBattle();
     }
+    
 
     private bool CheckIfEitherPokemonDied()
     {

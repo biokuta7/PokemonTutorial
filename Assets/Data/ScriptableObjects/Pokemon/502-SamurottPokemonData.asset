@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 502-SamurottPokemonData
+  m_EditorClassIdentifier: 
+  number: 503
+  name: Samurott
+  internalName: SAMUROTT
+  kind: Formidable
+  height: 1.5
+  weight: 94.6
+  dexEntry: Part of the armor on its anterior legs becomes a giant sword. Its cry
+    alone is enough to intimidate most enemies.
+  sprite: {fileID: 21300000, guid: 1b870052898573a4a85aebb4ccde4cb7, type: 3}
+  backSprite: {fileID: 21300000, guid: d032cf5cbc1bf804284e3a4fc30c9ac9, type: 3}
+  shinySprite: {fileID: 21300000, guid: 1ebf910220f764e49b7fb33606f939c4, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 7d7a3f86608bd8c4599f20ec6d048d54, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 44fc3b2726419e541b68b12d48950bf9, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.125
+  standardAbilities:
+  - {fileID: 11400000, guid: fdf277dc983292641be575343cb7d20b, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 23379adb94f14cb40b2a0ba065d19085, type: 2}
+  baseHP: 95
+  baseAttack: 100
+  baseDefense: 85
+  baseSpeed: 70
+  baseSpecialAttack: 108
+  baseSpecialDefense: 70
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 3
+  EV_SpecialDefense: 0
+  baseEXP: 238
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 40a181bb9cf1356459195f93d4b5f8d6, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 90e9a9d7356e7c84ea9190b7ff0535b1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3b8f4014739fbae4d84fae04eb5099f2, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e1b13bbff45ac2c4d931b26b7167b481, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 90e9a9d7356e7c84ea9190b7ff0535b1, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 3b8f4014739fbae4d84fae04eb5099f2, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: e1b13bbff45ac2c4d931b26b7167b481, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 4abf7d172bbaeba4293580ddddb47f6f, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: f1422269310cc5140bf4cb60e5071b33, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: fa647d901ccdd0247a78d3959bbce436, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 0daaaf2b724e2e34f893d673a8ee7a4e, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: b0c5817ec469b4f44a3f7ef399a96c62, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 0c17539c29d9692498e809a6276dd991, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: b5cb4834e72f9064abecca08c734899b, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 135034a951a65894fb86a5f232b51764, type: 2}
+    level: 38
+  - move: {fileID: 11400000, guid: 1160a28543f1b8646be03bfee46df347, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: 947b0dcc26e24574086cf7ec4b0e080d, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: 9887221a3a392a748b92ecd16cd5faf7, type: 2}
+    level: 57
+  - move: {fileID: 11400000, guid: 4bdcb7db2207f9142b7706d59e466f28, type: 2}
+    level: 62
+  eggMoves: []

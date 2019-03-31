@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 616-AccelgorPokemonData
+  m_EditorClassIdentifier: 
+  number: 617
+  name: Accelgor
+  internalName: ACCELGOR
+  kind: Shell Out
+  height: 0.8
+  weight: 25.3
+  dexEntry: Having removed its heavy shell, it becomes very light and can fight with
+    ninja-like movements.
+  sprite: {fileID: 21300000, guid: 6e45999058fedef4c8225dd533a942e6, type: 3}
+  backSprite: {fileID: 21300000, guid: 8650700f85872914a96553bb40f1badb, type: 3}
+  shinySprite: {fileID: 21300000, guid: 7a9f13189cf9a674e995349381528e43, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 6333f1f6f180ddf42ab3824d3e657ce6, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 5f936b6a5ef7dca4d94a8084760d562f, type: 3}
+  type1: {fileID: 11400000, guid: 79eb8f30cbe188e4f8a36dafd71ebdee, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 3
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 6912ac8a55cf72648894f824a40580db, type: 2}
+  - {fileID: 11400000, guid: 3009b929ef0f74946b98dc9725ad88ed, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: be28f628a03da7e49a8a0e0265a767a6, type: 2}
+  baseHP: 80
+  baseAttack: 70
+  baseDefense: 40
+  baseSpeed: 145
+  baseSpecialAttack: 100
+  baseSpecialDefense: 60
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 2
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 173
+  rareness: 75
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 180cba9a94eacce4f8a89e10042e409b, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: ccf7ee4a0d9b11d4b91b2578d503bd84, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 56e5520611331d1449233d80d090ed7d, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d5f2e90bd85630a43bdd31934847cdc5, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: ccf7ee4a0d9b11d4b91b2578d503bd84, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 56e5520611331d1449233d80d090ed7d, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: d5f2e90bd85630a43bdd31934847cdc5, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: d4e3c2858df8b774aa64db5ab9266926, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: cf3b125d2a3a19f4db9c549d9d557481, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 8f7d8eb3956de5c4bb6b3d67bd3ba44b, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 2c040a557e68a68468efd8b0c07b7758, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 3453f1ab4cf459a418c38964bff1630f, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: d0032eb960b8d524798fb954ea731315, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 494af4edebad3e04d9d52a84f4dcef70, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: c61f1cdb129e61946b377260cd297708, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: 17b540db896190346af6a508b2a0c1ec, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: f65888ea561938f47a1b2d36efe13aef, type: 2}
+    level: 52
+  - move: {fileID: 11400000, guid: 4cba1d219317e214ba3d8d80e0e25f09, type: 2}
+    level: 56
+  eggMoves: []

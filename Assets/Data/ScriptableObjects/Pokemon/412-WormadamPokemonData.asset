@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 412-WormadamPokemonData
+  m_EditorClassIdentifier: 
+  number: 413
+  name: Wormadam
+  internalName: WORMADAM
+  kind: Bagworm
+  height: 0.5
+  weight: 6.5
+  dexEntry: "When Burmy evolved, its cloak became a part of this Pok\xE9mon's body.
+    The cloak is never shed."
+  sprite: {fileID: 21300000, guid: 0762d2a00d92b8444876209fd451caf3, type: 3}
+  backSprite: {fileID: 21300000, guid: 2bba9988fd28b634887b1c35ade29f24, type: 3}
+  shinySprite: {fileID: 21300000, guid: 45c1eeea3425c2744a0c10011e494a11, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 71132a7fd6c01b4498fdc6eb48dd7b8f, type: 3}
+  footprintSprite: {fileID: 21300000, guid: a8eaa41813973c541be6603a23b47149, type: 3}
+  type1: {fileID: 11400000, guid: 79eb8f30cbe188e4f8a36dafd71ebdee, type: 2}
+  type2: {fileID: 11400000, guid: 9ed7dc1c4ee6bf747b182dc2eaf16337, type: 2}
+  eggGroup1: 3
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 1
+  standardAbilities:
+  - {fileID: 11400000, guid: b0d6392cd3b653b49b81c7f41cea03a1, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 1bce60e089bc29c44b4bbcc5e89bec8f, type: 2}
+  baseHP: 60
+  baseAttack: 59
+  baseDefense: 85
+  baseSpeed: 36
+  baseSpecialAttack: 79
+  baseSpecialDefense: 105
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 2
+  baseEXP: 148
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 79c63ba594520644cbecc00f726ef040, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 29fbd58668c00724ba080e3514e4e713, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 9fe3e343713bf9744b79faa05f4130f3, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 0220cff4fc3377247806f98b98ceb881, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: 3bac1848939bf8549835d68f3be23289, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: a2bc558341f8e55459fbed9bfee7482b, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 4aa6cb6c9662be9488e2a3562d16e64a, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: 08492303b86c9254c97e0aea47940218, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: ab4b503440591f742bf63c1693c6ee27, type: 2}
+    level: 38
+  - move: {fileID: 11400000, guid: 57b97821488e0954aa5ac8793c2e7716, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 943dd68f173614045a520526628a0d44, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: 55463fd3f765f9e4abb5cdd228a2f414, type: 2}
+    level: 47
+  eggMoves: []

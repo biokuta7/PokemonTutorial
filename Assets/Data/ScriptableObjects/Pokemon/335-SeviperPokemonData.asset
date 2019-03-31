@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 335-SeviperPokemonData
+  m_EditorClassIdentifier: 
+  number: 336
+  name: Seviper
+  internalName: SEVIPER
+  kind: Fang Snake
+  height: 2.7
+  weight: 52.5
+  dexEntry: Seviper and Zangoose are eternal rivals. It counters a Zangoose's dazzling
+    agility with its swordlike tail, which also oozes a horrible poison.
+  sprite: {fileID: 21300000, guid: e09c9a22e85cf114dbfe8eac3cc9cafc, type: 3}
+  backSprite: {fileID: 21300000, guid: 053ed730141933642917e4ae59f3579c, type: 3}
+  shinySprite: {fileID: 21300000, guid: e90eea4c0118fa24696fde4f9e374a95, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 4f4979e2487a89c48891c48eb94de1fe, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 5c86631e04018cd4ba580cb358cd1621, type: 3}
+  type1: {fileID: 11400000, guid: 5c263d07fc626544cae866e79835f9fd, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 14
+  growthRate: 5
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 0f81637a6efd5594f91922de5f257781, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 99b1dfbb6544e054f9182d2d68e7c6aa, type: 2}
+  baseHP: 73
+  baseAttack: 100
+  baseDefense: 60
+  baseSpeed: 65
+  baseSpecialAttack: 100
+  baseSpecialDefense: 60
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 1
+  EV_SpecialDefense: 0
+  baseEXP: 160
+  rareness: 90
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: e3c505701482f0141bc8931909022060, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: dcd976db8573291419557ed6b9d18e1f, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 2da8c21f08cbc164da993e01dc3a0391, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: f30c768b5377a2241918bea01c597071, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: 24f930d685f641f4f84e81cb91e6e849, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: aae2286b0faf0fe4e8828b4d27ff76a3, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: 8c5587fcd9c8d5d44a3aa4c8aa56641c, type: 2}
+    level: 27
+  - move: {fileID: 11400000, guid: c106b7df995223443800dc9dd1494144, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 91e572bc284c7594bafa80c0c257783d, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: 58aa3d592b28f5e42a4586453743ccdb, type: 2}
+    level: 38
+  - move: {fileID: 11400000, guid: f79d836c63afaf245bae1d57829db1e6, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: 734b752dd11809c43b0377600d4554d7, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: bf78aed5ac7343848b51499fad2ba6f8, type: 2}
+    level: 53
+  eggMoves:
+  - {fileID: 11400000, guid: 41cf6d21b7400bd449aa635fccdb09d0, type: 2}
+  - {fileID: 11400000, guid: 903b5ee462226ab47b3026d6ace38c5d, type: 2}
+  - {fileID: 11400000, guid: 4cba1d219317e214ba3d8d80e0e25f09, type: 2}
+  - {fileID: 11400000, guid: 840bfbc637572204e89aa45543ac969b, type: 2}
+  - {fileID: 11400000, guid: c106b7df995223443800dc9dd1494144, type: 2}
+  - {fileID: 11400000, guid: 9f0ed801ebf215b408a59d455939ce03, type: 2}
+  - {fileID: 11400000, guid: 206d073f613428f428074167c47c813d, type: 2}
+  - {fileID: 11400000, guid: 896336ca57ccd0a478ad94a85479e278, type: 2}
+  - {fileID: 11400000, guid: ff3913788b628f54baa7ca440e7aca98, type: 2}
+  - {fileID: 11400000, guid: b3b0dd4dfe9ef9d4ba5dd8a6a2378381, type: 2}
+  - {fileID: 11400000, guid: ecc30181b06681646939dc789b66296b, type: 2}
+  - {fileID: 11400000, guid: bf78aed5ac7343848b51499fad2ba6f8, type: 2}

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 515-SimipourPokemonData
+  m_EditorClassIdentifier: 
+  number: 516
+  name: Simipour
+  internalName: SIMIPOUR
+  kind: Geyser
+  height: 1
+  weight: 29
+  dexEntry: The high-pressure water expelled from its tail is so powerful, it can
+    destroy a concrete wall.
+  sprite: {fileID: 21300000, guid: b4cae5ca9bf0c81459f7405495787c38, type: 3}
+  backSprite: {fileID: 21300000, guid: a32fded348b43ef44904360caefe9ccd, type: 3}
+  shinySprite: {fileID: 21300000, guid: 2474e382f415b3a41835699a3f8c9a59, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: c027fa0710fac874795682c461e1ba33, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 4c2954f97b1455d46b1b399d9176a36a, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.125
+  standardAbilities:
+  - {fileID: 11400000, guid: 0d8dec51d6d249449a421504145b2a85, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: fdf277dc983292641be575343cb7d20b, type: 2}
+  baseHP: 75
+  baseAttack: 98
+  baseDefense: 63
+  baseSpeed: 101
+  baseSpecialAttack: 98
+  baseSpecialDefense: 63
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 2
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 174
+  rareness: 75
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: dcd976db8573291419557ed6b9d18e1f, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: fb9cbbcc0dcb76f4a8254e7141042569, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 2196ed1ea9d10204ba26cadf2e753c21, type: 2}
+    level: 1
+  eggMoves: []

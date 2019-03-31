@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 546-WhimsicottPokemonData
+  m_EditorClassIdentifier: 
+  number: 547
+  name: Whimsicott
+  internalName: WHIMSICOTT
+  kind: Windveiled
+  height: 0.7
+  weight: 6.6
+  dexEntry: "Riding whirlwinds, they appear. These Pok\xE9mon sneak through gaps into
+    houses and cause all sorts of mischief."
+  sprite: {fileID: 21300000, guid: d9afb2663402d63489fc81a475523e48, type: 3}
+  backSprite: {fileID: 21300000, guid: 75043717680190347ab6f74e1ec2e540, type: 3}
+  shinySprite: {fileID: 21300000, guid: ca8b1d7445c3983499300f4b222676e5, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: d4b39e3938e83e84ab89abf101f2eba0, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 20b68a7886ae5b14c9cff255449375e7, type: 3}
+  type1: {fileID: 11400000, guid: 9ed7dc1c4ee6bf747b182dc2eaf16337, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 6
+  eggGroup2: 7
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 5e64b01508371c248be16c3429cf53db, type: 2}
+  - {fileID: 11400000, guid: 99b1dfbb6544e054f9182d2d68e7c6aa, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: f0f4567366d84af44a479f99490860af, type: 2}
+  baseHP: 60
+  baseAttack: 67
+  baseDefense: 85
+  baseSpeed: 116
+  baseSpecialAttack: 77
+  baseSpecialDefense: 75
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 2
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 168
+  rareness: 75
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: a2bc558341f8e55459fbed9bfee7482b, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: a348e0502b2529145aaaa410f8e3880f, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: cf3b125d2a3a19f4db9c549d9d557481, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 182b449d1aef5204dabab987f2afae04, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b1634127e25b9b64aad2d055f4d0ed9a, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 60787e5e672923942bb8ea2823e0ef90, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 73f3c456765070b40b93e41c4e2a385e, type: 2}
+    level: 46
+  eggMoves: []

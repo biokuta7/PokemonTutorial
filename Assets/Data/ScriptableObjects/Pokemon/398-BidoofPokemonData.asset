@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 398-BidoofPokemonData
+  m_EditorClassIdentifier: 
+  number: 399
+  name: Bidoof
+  internalName: BIDOOF
+  kind: Plump Mouse
+  height: 0.5
+  weight: 20
+  dexEntry: With nerves of steel, nothing can perturb it. It is more agile and active
+    than it appears.
+  sprite: {fileID: 21300000, guid: 8f00763c9460bfd459452fb941d611b9, type: 3}
+  backSprite: {fileID: 21300000, guid: fb7dca6a784f3d947ab53f83f0bb0697, type: 3}
+  shinySprite: {fileID: 21300000, guid: 350fca2a3310dba43b38543d0e4ca95e, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: b5fee90dc5193374ea61934be8756605, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 0d873f9d4c790134cafc50c005ac1063, type: 3}
+  type1: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 2
+  eggGroup2: 5
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 498f17d091dd46045a046826638bf92b, type: 2}
+  - {fileID: 11400000, guid: a6501e11b224b31439b52b334ea8647d, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: f4070d894f502274da03fa6d93b1561f, type: 2}
+  baseHP: 59
+  baseAttack: 45
+  baseDefense: 40
+  baseSpeed: 31
+  baseSpecialAttack: 35
+  baseSpecialDefense: 40
+  EV_HP: 1
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 50
+  rareness: 255
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions:
+  - resultant: {fileID: 11400000, guid: e78aece34a5ecb94fb3aaf8e581b7a4c, type: 2}
+    levelToEvolve: 15
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 49df1d5643c16e94e8a7607e0d4cb127, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 9718332accb9dd4438b46ad9a022602e, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: ec6769bc96a317247a6a1bbb153f90ec, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: f3d560a7d1edced43965433b7691eaf1, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: e6bd442075625464c9d7a20d804f6a47, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 11851d64298ab6144aa7129575ae7364, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: b54451c499c3fc24aade1add5a757d05, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: b400d2fcef3877e47b27c621bfe48550, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: e57bc132b940120468c55968e0807e59, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: fd48eadb1eda86c45b74371631ca93dd, type: 2}
+    level: 45
+  eggMoves:
+  - {fileID: 11400000, guid: 1160a28543f1b8646be03bfee46df347, type: 2}
+  - {fileID: 11400000, guid: 9718332accb9dd4438b46ad9a022602e, type: 2}
+  - {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+  - {fileID: 11400000, guid: 9f44f4d05fd57b74b9b026bf9776c7e7, type: 2}
+  - {fileID: 11400000, guid: fb9cbbcc0dcb76f4a8254e7141042569, type: 2}
+  - {fileID: 11400000, guid: f8e0359e915e43e4abfa7d0500c94d43, type: 2}
+  - {fileID: 11400000, guid: d5f2e90bd85630a43bdd31934847cdc5, type: 2}
+  - {fileID: 11400000, guid: 8fa8b734d4bf3c648b9af24365b29712, type: 2}
+  - {fileID: 11400000, guid: ec6769bc96a317247a6a1bbb153f90ec, type: 2}
+  - {fileID: 11400000, guid: f9d5056959c9bf14cb37a6421006d824, type: 2}
+  - {fileID: 11400000, guid: e00c2e5151380af4f86149e04650bb42, type: 2}
+  - {fileID: 11400000, guid: e1b13bbff45ac2c4d931b26b7167b481, type: 2}

@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 341-CrawdauntPokemonData
+  m_EditorClassIdentifier: 
+  number: 342
+  name: Crawdaunt
+  internalName: CRAWDAUNT
+  kind: Rogue
+  height: 1.1
+  weight: 32.8
+  dexEntry: "A brutish Pok\xE9mon that loves to battle. A veteran Crawdaunt that has
+    prevailed in hundreds of battles has giant pincers marked with countless scars."
+  sprite: {fileID: 21300000, guid: af2163ce4f94165418d5db1da29e583c, type: 3}
+  backSprite: {fileID: 21300000, guid: f569b0a4d61d631458270282c4ea3593, type: 3}
+  shinySprite: {fileID: 21300000, guid: e3ed6a08023f6ab46ba9e1dc004ef0fd, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 587d3bc85683cf04b925fc98824bc366, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 3ba8320ba72ed7449bdf7019c50c9046, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 5a37c1bbebd881b42bd5fab995e54689, type: 2}
+  eggGroup1: 2
+  eggGroup2: 9
+  growthRate: 5
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: ed298f78e600b3e429826881bdc0065c, type: 2}
+  - {fileID: 11400000, guid: 23379adb94f14cb40b2a0ba065d19085, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 0bd8c4688919436498967bafc6d4bc7d, type: 2}
+  baseHP: 63
+  baseAttack: 120
+  baseDefense: 85
+  baseSpeed: 55
+  baseSpecialAttack: 90
+  baseSpecialDefense: 55
+  EV_HP: 0
+  EV_Attack: 2
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 164
+  rareness: 155
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 03d0cb1d5358f9449ad7d06d9e981398, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 559b4415730b8cb47a952877dc8bcb6f, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 559b4415730b8cb47a952877dc8bcb6f, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: b47841f8439c41b43b9d6fb0c7847197, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 79c63ba594520644cbecc00f726ef040, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: aa3899441c43934478c93384796e9a8c, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: 8f7d8eb3956de5c4bb6b3d67bd3ba44b, type: 2}
+    level: 30
+  - move: {fileID: 11400000, guid: 6d25dd2274a273a4f97d7cc3c2c084f3, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: c106b7df995223443800dc9dd1494144, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: a0dc810a1c3f7da47afdd25d623edd80, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: 9887221a3a392a748b92ecd16cd5faf7, type: 2}
+    level: 52
+  - move: {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+    level: 57
+  - move: {fileID: 11400000, guid: a5bd2b5de305fcb43872d410c27d547c, type: 2}
+    level: 65
+  eggMoves: []

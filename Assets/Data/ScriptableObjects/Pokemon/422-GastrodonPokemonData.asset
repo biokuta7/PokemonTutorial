@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 422-GastrodonPokemonData
+  m_EditorClassIdentifier: 
+  number: 423
+  name: Gastrodon
+  internalName: GASTRODON
+  kind: Sea Slug
+  height: 0.9
+  weight: 29.9
+  dexEntry: It has a pliable body without any bones. If any part of its body is torn
+    off, it grows right back.
+  sprite: {fileID: 21300000, guid: 03099ea7695256b4d855c34f3d665af2, type: 3}
+  backSprite: {fileID: 21300000, guid: 4daa00be4b3c7fb43984cb81ae0fe053, type: 3}
+  shinySprite: {fileID: 21300000, guid: 1ce8bbf979504984da2f0ef21375f8ca, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: c6e12d193d18f5d4ca14d9b19551100e, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 59dd038123673ba47844e9252ed31b68, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 2aef90cd8ab7add4ead9fdc156318a32, type: 2}
+  eggGroup1: 2
+  eggGroup2: 11
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 3009b929ef0f74946b98dc9725ad88ed, type: 2}
+  - {fileID: 11400000, guid: 52d53c96069c34b4da8469c6d5f334a6, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 9c2760b8ced6cbd49924f41e47871529, type: 2}
+  baseHP: 111
+  baseAttack: 83
+  baseDefense: 68
+  baseSpeed: 39
+  baseSpecialAttack: 92
+  baseSpecialDefense: 82
+  EV_HP: 2
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 166
+  rareness: 75
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 6a425af601896ff48bd142db36a82669, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: dee27cd0fdcd79240b0663c357831a95, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 0daaaf2b724e2e34f893d673a8ee7a4e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: dee27cd0fdcd79240b0663c357831a95, type: 2}
+    level: 2
+  - move: {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 0daaaf2b724e2e34f893d673a8ee7a4e, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 497f9a160f072f740959d8bd6ad5508e, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 9fe3e343713bf9744b79faa05f4130f3, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: 3ba17b56df8a7214e8e456be13d519fb, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 903b5ee462226ab47b3026d6ace38c5d, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 70ea7f19b00e56d49a0fe52d49d2fd44, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 17b540db896190346af6a508b2a0c1ec, type: 2}
+    level: 54
+  eggMoves: []

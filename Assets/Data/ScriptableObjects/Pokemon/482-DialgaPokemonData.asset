@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 482-DialgaPokemonData
+  m_EditorClassIdentifier: 
+  number: 483
+  name: Dialga
+  internalName: DIALGA
+  kind: Temporal
+  height: 5.4
+  weight: 683
+  dexEntry: It has the power to control time. It appears in Sinnoh-region myths as
+    an ancient deity.
+  sprite: {fileID: 21300000, guid: 2568b2b64d1d1064381b37d74fbe42e7, type: 3}
+  backSprite: {fileID: 21300000, guid: 6c718e6af8d68ac4d9f309bf539e5d2c, type: 3}
+  shinySprite: {fileID: 21300000, guid: 3f8de91e7fdc19e4495adf44939fdfd5, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 8788c0ca8fef3d542b8bafb751b52f2d, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 831e4a4983188e646b94313a8efb850a, type: 3}
+  type1: {fileID: 11400000, guid: e19d9d0db9bfb304f86f2be1b2cbcd6e, type: 2}
+  type2: {fileID: 11400000, guid: a50e8df2c05bf734c9f408b06361f74e, type: 2}
+  eggGroup1: 15
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: -1
+  standardAbilities:
+  - {fileID: 11400000, guid: 09c4d0a860f51c1488a6ee391d1e8f0e, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: ed80cf5b8d8e1204296a4c18cc5ac574, type: 2}
+  baseHP: 100
+  baseAttack: 120
+  baseDefense: 120
+  baseSpeed: 90
+  baseSpecialAttack: 150
+  baseSpecialDefense: 100
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 3
+  EV_SpecialDefense: 0
+  baseEXP: 306
+  rareness: 30
+  baseHappiness: 0
+  stepsToHatch: 30855
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: f1751b5ec96b0424e90af98f8405703d, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 206d073f613428f428074167c47c813d, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 20511dc028bdeb84185f09366190df6d, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: 30694025d0c13dd4c896a65d19651c78, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: b5cb4834e72f9064abecca08c734899b, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 24accd80c06ba134b9e77c09775a745d, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 4ad07fef491bff84a9de8a52b84f9705, type: 2}
+    level: 24
+  - move: {fileID: 11400000, guid: bc908f5b29ffbdf449ead18d33c8810b, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: e51e0c804527e4045ae2c022bbad06ca, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: e5eb51bbaef58164ab4a9280bb231cee, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 840bfbc637572204e89aa45543ac969b, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: 705c4464ab204544c8dd8d3c770e6821, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: c981b703c64607144b99d1975327fa12, type: 2}
+    level: 50
+  eggMoves: []

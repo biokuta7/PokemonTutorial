@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 437-BonslyPokemonData
+  m_EditorClassIdentifier: 
+  number: 438
+  name: Bonsly
+  internalName: BONSLY
+  kind: Bonsai
+  height: 0.5
+  weight: 15
+  dexEntry: It looks as if it is always crying. It is actually adjusting its body's
+    fluid levels by eliminating excess.
+  sprite: {fileID: 21300000, guid: 6069e0521fa8f4d43871f8f02c941c74, type: 3}
+  backSprite: {fileID: 21300000, guid: b64813a4a7e79ac42afd871b46f2152d, type: 3}
+  shinySprite: {fileID: 21300000, guid: c940da6fb5925564f84f0373a46ebd72, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 49e05db912ecd1d4283011bf6ebacd98, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 909060ac1889d80448be66979b7a3f70, type: 3}
+  type1: {fileID: 11400000, guid: 865c5118b1a0e3b4d895cfe37b3b2aa9, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 15
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 8822aaa86cfc2f0408aaabea80029644, type: 2}
+  - {fileID: 11400000, guid: eaeb02f426f4fb040a995a3ac538cd8b, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: ad05bcdca3a25194385ccb655470cb8c, type: 2}
+  baseHP: 50
+  baseAttack: 80
+  baseDefense: 95
+  baseSpeed: 10
+  baseSpecialAttack: 10
+  baseSpecialDefense: 45
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 1
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 58
+  rareness: 255
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4148031223b255242880deef8e6a614c, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6a10a9d296905a64394c695b1f053ea7, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: ab4b503440591f742bf63c1693c6ee27, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: b230703886b02f14ba5cca7969ba17f8, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: e867937231e5b964385d7ad80fb74704, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: 1a0603d08aec3344bb06836eb047c05c, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 32433de61b22a4547a4e2386f6bc82fb, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 2e15374810494ec4d90f20ee3b5afdbe, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: 3e74825e213db2f46aa158ecff87166a, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 8682624421b0bc4429d16d5ab03a77cf, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 18d2b07fd9a5ed740902b65b48c67a90, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+    level: 40
+  eggMoves:
+  - {fileID: 11400000, guid: fd48eadb1eda86c45b74371631ca93dd, type: 2}
+  - {fileID: 11400000, guid: 9718332accb9dd4438b46ad9a022602e, type: 2}
+  - {fileID: 11400000, guid: 9f44f4d05fd57b74b9b026bf9776c7e7, type: 2}
+  - {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
+  - {fileID: 11400000, guid: f3d560a7d1edced43965433b7691eaf1, type: 2}
+  - {fileID: 11400000, guid: ec6769bc96a317247a6a1bbb153f90ec, type: 2}
+  - {fileID: 11400000, guid: f1659f14b4256c24b841abb2a7c91606, type: 2}
+  - {fileID: 11400000, guid: 1651f4255a305064b86ce9a95216cc75, type: 2}
+  - {fileID: 11400000, guid: 4773ef6422b4dba42bf480860c4f42cc, type: 2}

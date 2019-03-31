@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 338-BarboachPokemonData
+  m_EditorClassIdentifier: 
+  number: 339
+  name: Barboach
+  internalName: BARBOACH
+  kind: Whiskers
+  height: 0.4
+  weight: 1.9
+  dexEntry: Its body is covered with a slimy film. The film acts as a barrier to prevent
+    germs in muddy water from entering the Barboach's body.
+  sprite: {fileID: 21300000, guid: eab53c281adadd140a188948ceea1690, type: 3}
+  backSprite: {fileID: 21300000, guid: 76987f575a8ba604bb408171502d8d63, type: 3}
+  shinySprite: {fileID: 21300000, guid: 8699a3d0914941f40a620af4c7cba688, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: a937aeca910757242889f8a9138f0e07, type: 3}
+  footprintSprite: {fileID: 21300000, guid: bd64f0bddffa2c24984ffc4329a7cde5, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 2aef90cd8ab7add4ead9fdc156318a32, type: 2}
+  eggGroup1: 12
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 79ec5a44ce26f2541a05456e4aa36662, type: 2}
+  - {fileID: 11400000, guid: b0d6392cd3b653b49b81c7f41cea03a1, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 6912ac8a55cf72648894f824a40580db, type: 2}
+  baseHP: 50
+  baseAttack: 48
+  baseDefense: 43
+  baseSpeed: 60
+  baseSpecialAttack: 46
+  baseSpecialDefense: 41
+  EV_HP: 1
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 58
+  rareness: 190
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: f1ff94d76906a7b46a3d052889681f01, type: 2}
+    levelToEvolve: 30
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 6a425af601896ff48bd142db36a82669, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: dee27cd0fdcd79240b0663c357831a95, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: e1b13bbff45ac2c4d931b26b7167b481, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: 3b8f4014739fbae4d84fae04eb5099f2, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 497f9a160f072f740959d8bd6ad5508e, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: b54451c499c3fc24aade1add5a757d05, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: 0daaaf2b724e2e34f893d673a8ee7a4e, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 929dd1fa550cc024f9a5897d6685bdcf, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: 6ca000a6aa650d243b1e634a9044d765, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: ad3d5dd2b0bd4844b89d38058ec1336e, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 1160a28543f1b8646be03bfee46df347, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: 5d28992b9be13a341b391f0dd3d4a986, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: f992e7a4e62a3b149bb36f3087193be4, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: b08d8d6945d0819419892e4b757cdad8, type: 2}
+    level: 47
+  eggMoves:
+  - {fileID: 11400000, guid: 6a19de109a1bddf4d99a984783c518a3, type: 2}
+  - {fileID: 11400000, guid: e51e0c804527e4045ae2c022bbad06ca, type: 2}
+  - {fileID: 11400000, guid: ab4b503440591f742bf63c1693c6ee27, type: 2}
+  - {fileID: 11400000, guid: 4bdcb7db2207f9142b7706d59e466f28, type: 2}
+  - {fileID: 11400000, guid: 4dfa80e8978525c488cbd9c827a66af7, type: 2}
+  - {fileID: 11400000, guid: 70ea7f19b00e56d49a0fe52d49d2fd44, type: 2}
+  - {fileID: 11400000, guid: beb00d8d0b8532343998216e2e7835b4, type: 2}
+  - {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+  - {fileID: 11400000, guid: 5a170aa8024c80246991a18e353e044f, type: 2}
+  - {fileID: 11400000, guid: 4af89848b3b64474187dbde56d3a206c, type: 2}

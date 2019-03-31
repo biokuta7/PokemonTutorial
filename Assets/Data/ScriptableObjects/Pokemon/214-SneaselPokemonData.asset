@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 214-SneaselPokemonData
+  m_EditorClassIdentifier: 
+  number: 215
+  name: Sneasel
+  internalName: SNEASEL
+  kind: Sharp Claw
+  height: 0.9
+  weight: 28
+  dexEntry: A Sneasel scales trees by punching its hooked claws into the bark. It
+    seeks out unguarded nests and steals eggs for food while the parents are away.
+  sprite: {fileID: 21300000, guid: a2be179e92082c2448619c4ea645c7e4, type: 3}
+  backSprite: {fileID: 21300000, guid: f2caa7c292920b0468655b7800086de5, type: 3}
+  shinySprite: {fileID: 21300000, guid: 4f3caadc6b43752448f05845a9a2a404, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: ab28673e4214831429308d96303b3b8d, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 937460d80642a764893a0d71711d0495, type: 3}
+  type1: {fileID: 11400000, guid: 5a37c1bbebd881b42bd5fab995e54689, type: 2}
+  type2: {fileID: 11400000, guid: 38a14f4c97dc09046a4a4f9f7bdade6e, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 9ecbfd12032db4c41b4660b9d7508597, type: 2}
+  - {fileID: 11400000, guid: 532e9762ac38a2a4886c9d8d093afc68, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: d34f3882730b7f643b6fe38fb135be8c, type: 2}
+  baseHP: 55
+  baseAttack: 95
+  baseDefense: 55
+  baseSpeed: 115
+  baseSpecialAttack: 35
+  baseSpecialDefense: 75
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 1
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 86
+  rareness: 60
+  baseHappiness: 35
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: c8ad6b6cc523bd940b14ff75aa9ba40e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6d25dd2274a273a4f97d7cc3c2c084f3, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d5f2e90bd85630a43bdd31934847cdc5, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: b54112bb46bdcb342b701dde2aed4ef4, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: fb9cbbcc0dcb76f4a8254e7141042569, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: 3453f1ab4cf459a418c38964bff1630f, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 20511dc028bdeb84185f09366190df6d, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: a99d53165092a2a41ad55531613c3d1f, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: b6a288baf04435947a335691653026fb, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: b5cb4834e72f9064abecca08c734899b, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: dd5f72087eedb9d44a2ba78fc7f6569b, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: 9f0ed801ebf215b408a59d455939ce03, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: 748d6f7306d57e04a8dafa2546fca662, type: 2}
+    level: 47
+  eggMoves:
+  - {fileID: 11400000, guid: a6ce236ee90cd8648853fe63ca90ce11, type: 2}
+  - {fileID: 11400000, guid: 981b3918fd4c7234e92fcd25312715ae, type: 2}
+  - {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+  - {fileID: 11400000, guid: 886cc954c2a8d6546abe10ac0f64a80c, type: 2}
+  - {fileID: 11400000, guid: 9f71b97ffe2773a40bc74a4b4c1b2a03, type: 2}
+  - {fileID: 11400000, guid: f211fbf13513b9c45ae0c3104e035239, type: 2}
+  - {fileID: 11400000, guid: 02d284bddcaccd84c946ab544f218315, type: 2}
+  - {fileID: 11400000, guid: efce0155d8efb2e4d846129c30b3961f, type: 2}
+  - {fileID: 11400000, guid: cfd93b7c0d975cb4d8630d561a4ffe21, type: 2}
+  - {fileID: 11400000, guid: 8ff24dd6627d3454bb87045584b979d9, type: 2}
+  - {fileID: 11400000, guid: 748d6f7306d57e04a8dafa2546fca662, type: 2}
+  - {fileID: 11400000, guid: 9f0ed801ebf215b408a59d455939ce03, type: 2}
+  - {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+  - {fileID: 11400000, guid: 162ffca29843f384fb6da9d014a71928, type: 2}

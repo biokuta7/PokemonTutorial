@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 204-ForretressPokemonData
+  m_EditorClassIdentifier: 
+  number: 205
+  name: Forretress
+  internalName: FORRETRESS
+  kind: Bagworm
+  height: 1.2
+  weight: 125.8
+  dexEntry: It keeps itself inside its steel shell. The shell is opened when it is
+    catching prey, but it is so quick that the shell's inside cannot be seen.
+  sprite: {fileID: 21300000, guid: 7781a075732fda34f9eb7113d1f25e1d, type: 3}
+  backSprite: {fileID: 21300000, guid: 5e73679fc7726354395d77a73709f1af, type: 3}
+  shinySprite: {fileID: 21300000, guid: 0fdef177059cca04c8aa5b1122826933, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 6a7d23f3a9ecd564ea7d6bc933fc8966, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 76ce65c99e663d94d96cb94c36225a7b, type: 3}
+  type1: {fileID: 11400000, guid: 79eb8f30cbe188e4f8a36dafd71ebdee, type: 2}
+  type2: {fileID: 11400000, guid: e19d9d0db9bfb304f86f2be1b2cbcd6e, type: 2}
+  eggGroup1: 3
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 8822aaa86cfc2f0408aaabea80029644, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 1bce60e089bc29c44b4bbcc5e89bec8f, type: 2}
+  baseHP: 75
+  baseAttack: 90
+  baseDefense: 140
+  baseSpeed: 40
+  baseSpecialAttack: 60
+  baseSpecialDefense: 60
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 2
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 163
+  rareness: 75
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 44af52c6fbf574d4c9570c5700e6addd, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 79c63ba594520644cbecc00f726ef040, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 1651f4255a305064b86ce9a95216cc75, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 29fbd58668c00724ba080e3514e4e713, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 1651f4255a305064b86ce9a95216cc75, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: 29fbd58668c00724ba080e3514e4e713, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: 5df38effff9669e49a43e3d459847a64, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 33d96fe56c3fefd4abee4fdd115ab776, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 9d4a14f02a117a44b9913b77b6f91470, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: d8ed94463b0d1f14496675317c8079d3, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: c7dabb21d70139444bd904d1e47f66a3, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 4798cf9b23b79124f96b077d9864d83e, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: 045af626945e212499f0e9a28c180d66, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: c04069573dd5ad143b9999bab5f1cbfa, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: a5bdded8b500614418098e7d3258784b, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: afaa49cea35fccd40a4ec46bb12edd9f, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+    level: 56
+  - move: {fileID: 11400000, guid: e8c2f975a1a07494e8512a4aa254744c, type: 2}
+    level: 60
+  eggMoves: []

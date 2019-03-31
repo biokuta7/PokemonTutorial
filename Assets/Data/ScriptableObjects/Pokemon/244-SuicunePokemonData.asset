@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 244-SuicunePokemonData
+  m_EditorClassIdentifier: 
+  number: 245
+  name: Suicune
+  internalName: SUICUNE
+  kind: Aurora
+  height: 2
+  weight: 187
+  dexEntry: Suicune embodies the compassion of a pure spring of water. It runs across
+    the land with gliding elegance. It has the power to purify dirty water.
+  sprite: {fileID: 21300000, guid: 52382078ed7a1d54a909d7e02fe2b3ba, type: 3}
+  backSprite: {fileID: 21300000, guid: aefad0628e2ea1a4ab66d59992e52de3, type: 3}
+  shinySprite: {fileID: 21300000, guid: 291378fff236a5443acb79a831a26b58, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 13b63d4cad1845b45a9b416aad954ffd, type: 3}
+  footprintSprite: {fileID: 21300000, guid: a78f32ceed7cc684ab812b1eb0c152c4, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 15
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: -1
+  standardAbilities:
+  - {fileID: 11400000, guid: 09c4d0a860f51c1488a6ee391d1e8f0e, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 274b20460d7fa184ca1fdc06cf5d3c74, type: 2}
+  baseHP: 100
+  baseAttack: 75
+  baseDefense: 115
+  baseSpeed: 85
+  baseSpecialAttack: 90
+  baseSpecialDefense: 115
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 1
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 2
+  baseEXP: 261
+  rareness: 3
+  baseHappiness: 35
+  stepsToHatch: 20655
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b47841f8439c41b43b9d6fb0c7847197, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 3ba17b56df8a7214e8e456be13d519fb, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: b1634127e25b9b64aad2d055f4d0ed9a, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 6b4e721b21197d343b3775779d921bb2, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 424e9656e1d9e8a40b980b3111eb709e, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 7ef0a78f2ac48a94984b2cac732f0951, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: babc9d06ca5ac9e45bc97f25fd964b7a, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: 60787e5e672923942bb8ea2823e0ef90, type: 2}
+    level: 57
+  - move: {fileID: 11400000, guid: 95a576a0b079fff4d9459736640d5c82, type: 2}
+    level: 64
+  - move: {fileID: 11400000, guid: 4bdcb7db2207f9142b7706d59e466f28, type: 2}
+    level: 71
+  - move: {fileID: 11400000, guid: 70de2395caef55748904be979eeef0d5, type: 2}
+    level: 78
+  - move: {fileID: 11400000, guid: 7b20094791067584392cb9404ff2c0ab, type: 2}
+    level: 85
+  eggMoves: []

@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 601-TynamoPokemonData
+  m_EditorClassIdentifier: 
+  number: 602
+  name: Tynamo
+  internalName: TYNAMO
+  kind: EleFish
+  height: 0.2
+  weight: 0.3
+  dexEntry: "These Pok\xE9mon move in schools. They have an electricity-generating
+    organ, so they discharge electricity if in danger."
+  sprite: {fileID: 21300000, guid: 51886f8fe3921d848b2c88da3dae7d88, type: 3}
+  backSprite: {fileID: 21300000, guid: 86f0412a1fc48024081e04ef351e2845, type: 3}
+  shinySprite: {fileID: 21300000, guid: f0f3b6004cf259c40bb529050e4abda0, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 1767075444c3d3a45a13fec2cd1e9c76, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 7eff476cc0858ce47b70dda85332cd63, type: 3}
+  type1: {fileID: 11400000, guid: 826864d94ec7c8c4a8e95b6615b2eff3, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 11
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 5591a465327adc24089f3b21835f2487, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 35
+  baseAttack: 55
+  baseDefense: 40
+  baseSpeed: 60
+  baseSpecialAttack: 45
+  baseSpecialDefense: 40
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 1
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 55
+  rareness: 190
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 0387873225a847d43af7ece2cec00cce, type: 2}
+    levelToEvolve: 39
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 7475d027fb16bda4bb60e048a4a74faa, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: beb00d8d0b8532343998216e2e7835b4, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d7d0314a15b8bfd4da4dbf6da5bc35e8, type: 2}
+    level: 1
+  eggMoves: []

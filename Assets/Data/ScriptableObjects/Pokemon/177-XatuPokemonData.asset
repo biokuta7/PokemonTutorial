@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 177-XatuPokemonData
+  m_EditorClassIdentifier: 
+  number: 178
+  name: Xatu
+  internalName: XATU
+  kind: Mystic
+  height: 1.5
+  weight: 15
+  dexEntry: It has the enigmatic power of foreseeing the future. Some people in different
+    lands have long believed that Xatu are emissaries from another world.
+  sprite: {fileID: 21300000, guid: 70f4f6bd88253254a804366912f2dc07, type: 3}
+  backSprite: {fileID: 21300000, guid: 8f7af40eb8e888249aee6a974224638a, type: 3}
+  shinySprite: {fileID: 21300000, guid: d7e5a83741753624d80fbf311fcdc26c, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 10911a4931fa9d3489f1804ce07eb60d, type: 3}
+  footprintSprite: {fileID: 21300000, guid: ccc5654d7d76a02429c97439c32529e2, type: 3}
+  type1: {fileID: 11400000, guid: 718f468b569515f42be9e985a9082465, type: 2}
+  type2: {fileID: 11400000, guid: 90bb1a57d841315478a74baa52e40ba4, type: 2}
+  eggGroup1: 4
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 75607410b575c3b43a5f2412ae9b7489, type: 2}
+  - {fileID: 11400000, guid: 643f15426c9330a47b7d08dc751d838b, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 2c776673e1df27f47bc47c25b6512916, type: 2}
+  baseHP: 65
+  baseAttack: 75
+  baseDefense: 70
+  baseSpeed: 95
+  baseSpecialAttack: 95
+  baseSpecialDefense: 70
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 1
+  EV_SpecialAttack: 1
+  EV_SpecialDefense: 0
+  baseEXP: 165
+  rareness: 75
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 9d2a9ce13673a634e89077573467ca18, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: a62334014ffe32f47b6cd09cbe7059c4, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: 015d34c858710174faf3c4fdd2099933, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 9cea37bba3a567c44bc6020f1c777d86, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: a165b1a29b54a8441a2bc3c59a6118f1, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 2c040a557e68a68468efd8b0c07b7758, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 30e9bccee0b2ceb4cb9ad6b51e66e479, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: 60787e5e672923942bb8ea2823e0ef90, type: 2}
+    level: 27
+  - move: {fileID: 11400000, guid: c5037b32ac3b84a478a4ec160d85abb6, type: 2}
+    level: 30
+  - move: {fileID: 11400000, guid: 1049d51d9e91d3b48bad875bcc8f88fb, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: f992e7a4e62a3b149bb36f3087193be4, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: 3adf372432e53ca489134191c1193abe, type: 2}
+    level: 47
+  - move: {fileID: 11400000, guid: f1e99a84c358af64cab862404dc78a61, type: 2}
+    level: 54
+  - move: {fileID: 11400000, guid: f65888ea561938f47a1b2d36efe13aef, type: 2}
+    level: 54
+  - move: {fileID: 11400000, guid: 57e541a2270eca24a9b44a4b943ba7bd, type: 2}
+    level: 59
+  - move: {fileID: 11400000, guid: 943dd68f173614045a520526628a0d44, type: 2}
+    level: 66
+  eggMoves: []

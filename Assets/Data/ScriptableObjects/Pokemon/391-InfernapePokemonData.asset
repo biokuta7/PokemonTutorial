@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 391-InfernapePokemonData
+  m_EditorClassIdentifier: 
+  number: 392
+  name: Infernape
+  internalName: INFERNAPE
+  kind: Flame
+  height: 1.2
+  weight: 55
+  dexEntry: It uses a special kind of martial arts involving all its limbs. Its fire
+    never goes out.
+  sprite: {fileID: 21300000, guid: cd6a432a405b54743aab14bf36d6c04d, type: 3}
+  backSprite: {fileID: 21300000, guid: 9d8a4abf5bb951840b95f401ce2c210c, type: 3}
+  shinySprite: {fileID: 21300000, guid: e14325cf35d51364a9f342c4618e3ffa, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 8757426ad2183fc42a7f4c3d051de134, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 6638635782543204496b8d999575f1b4, type: 3}
+  type1: {fileID: 11400000, guid: e120886a2aede3b4089e217b177a6111, type: 2}
+  type2: {fileID: 11400000, guid: 60bba5c3467446d45a479ab6b6a6e82e, type: 2}
+  eggGroup1: 5
+  eggGroup2: 8
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.125
+  standardAbilities:
+  - {fileID: 11400000, guid: 1dc5ee67c2e1b984fb603949c1781c71, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: fcd29837e8c55e54d96615738d51a988, type: 2}
+  baseHP: 76
+  baseAttack: 104
+  baseDefense: 71
+  baseSpeed: 108
+  baseSpecialAttack: 104
+  baseSpecialDefense: 71
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 1
+  EV_SpecialAttack: 1
+  EV_SpecialDefense: 0
+  baseEXP: 240
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: c8ad6b6cc523bd940b14ff75aa9ba40e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 62339e29a8fb98e4da4f46c83137d8b8, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6d25dd2274a273a4f97d7cc3c2c084f3, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 62339e29a8fb98e4da4f46c83137d8b8, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 6d25dd2274a273a4f97d7cc3c2c084f3, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: c50aacc569ba46c4ea2c0f37c4d3c394, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: fb9cbbcc0dcb76f4a8254e7141042569, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: 74ed12fa681218449bfe67dcb3e40e8f, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: efce0155d8efb2e4d846129c30b3961f, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: 9f0ed801ebf215b408a59d455939ce03, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: fe31ce936c3024c41aec13270912f9b2, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 483f4b439f7e8854bb1f26f6dfd32857, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: ef4c8b448f6084848a1c3e459e61b09e, type: 2}
+    level: 52
+  - move: {fileID: 11400000, guid: 70de2395caef55748904be979eeef0d5, type: 2}
+    level: 58
+  - move: {fileID: 11400000, guid: 0e44d2036717f484ca028db9c5dd3c64, type: 2}
+    level: 68
+  eggMoves: []

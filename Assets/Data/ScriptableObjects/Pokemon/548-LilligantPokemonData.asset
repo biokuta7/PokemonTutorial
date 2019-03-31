@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 548-LilligantPokemonData
+  m_EditorClassIdentifier: 
+  number: 549
+  name: Lilligant
+  internalName: LILLIGANT
+  kind: Flowering
+  height: 1.1
+  weight: 16.3
+  dexEntry: The fragrance of the garland on its head has a relaxing effect. It withers
+    if a Trainer does not take good care of it.
+  sprite: {fileID: 21300000, guid: cbd700923a63cbd4c8924696edf82126, type: 3}
+  backSprite: {fileID: 21300000, guid: b5820d2a98dff994c9966e0703c5f5f6, type: 3}
+  shinySprite: {fileID: 21300000, guid: 954901647fadc2f4f88ef2fdde24b379, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 71bcbcf2f401e414fb73d7ca584df765, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 2a99e815775be2443a7aead6d003ea05, type: 3}
+  type1: {fileID: 11400000, guid: 9ed7dc1c4ee6bf747b182dc2eaf16337, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 7
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 1
+  standardAbilities:
+  - {fileID: 11400000, guid: f0f4567366d84af44a479f99490860af, type: 2}
+  - {fileID: 11400000, guid: 58d1e1e09552c35468c706a098999f09, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: c14092609e4bcb34697c56b3622959e8, type: 2}
+  baseHP: 70
+  baseAttack: 60
+  baseDefense: 75
+  baseSpeed: 90
+  baseSpecialAttack: 110
+  baseSpecialDefense: 75
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 2
+  EV_SpecialDefense: 0
+  baseEXP: 168
+  rareness: 75
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: a2bc558341f8e55459fbed9bfee7482b, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: a348e0502b2529145aaaa410f8e3880f, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: cf3b125d2a3a19f4db9c549d9d557481, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bf883db29c15eab4cbe5f9f2b382655a, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: aadd74742887232459cb17c0ca184660, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 9f04dc7fb76f9754da0aaee54270d75f, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 11434634b16ce4344a68c7884c2d777f, type: 2}
+    level: 46
+  eggMoves: []

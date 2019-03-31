@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 473-Porygon-ZPokemonData
+  m_EditorClassIdentifier: 
+  number: 474
+  name: Porygon-Z
+  internalName: PORYGONZ
+  kind: Virtual
+  height: 0.9
+  weight: 34
+  dexEntry: "Additional software was installed to make it a better Pok\xE9mon. It
+    began acting oddly, however."
+  sprite: {fileID: 21300000, guid: fa8b1724915702c40a40a058c657328e, type: 3}
+  backSprite: {fileID: 21300000, guid: e70e507978516b24089dcabe9094ceaa, type: 3}
+  shinySprite: {fileID: 21300000, guid: 272e5455eb9996148bcb39090d97f3b3, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 06f1c842282516e4a872c3a416c17d79, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 78acc0dd285747f4680052cdcc25bde1, type: 3}
+  type1: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 10
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: -1
+  standardAbilities:
+  - {fileID: 11400000, guid: 0bd8c4688919436498967bafc6d4bc7d, type: 2}
+  - {fileID: 11400000, guid: 8b866c5d28322d34e9f66cc33bc03cc2, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 5927c1c6a42cdb140b0ee9f51cc1d814, type: 2}
+  baseHP: 85
+  baseAttack: 80
+  baseDefense: 70
+  baseSpeed: 90
+  baseSpecialAttack: 135
+  baseSpecialDefense: 75
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 3
+  EV_SpecialDefense: 0
+  baseEXP: 241
+  rareness: 30
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: ab0b01762d586874389dcc9967c6b3ab, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 7a147e057063b224a86c668c0f0c8579, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 322c3cef9f4550d48adde2dca9d0162c, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: abc221200a673c3438db63c10ef95319, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4aa6cb6c9662be9488e2a3562d16e64a, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 3453f1ab4cf459a418c38964bff1630f, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: 17b540db896190346af6a508b2a0c1ec, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: e8c2f975a1a07494e8512a4aa254744c, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: 7dba8b22673833342a50075386bcf896, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 6b122730c79780648a197ae9c6d76e78, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: bb3904f7307498445959529de2390f9f, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: 348a733884d7e6943acc894872975359, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: 217b94c02411183468ff115fbe1c5245, type: 2}
+    level: 51
+  - move: {fileID: 11400000, guid: 856b1c4614a2df8439805c851e354b39, type: 2}
+    level: 56
+  - move: {fileID: 11400000, guid: e99899b1534140e47a270201d1684d22, type: 2}
+    level: 62
+  - move: {fileID: 11400000, guid: 931a6239501d867458263239c17a188b, type: 2}
+    level: 67
+  eggMoves: []

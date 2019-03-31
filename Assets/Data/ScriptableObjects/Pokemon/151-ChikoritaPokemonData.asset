@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 151-ChikoritaPokemonData
+  m_EditorClassIdentifier: 
+  number: 152
+  name: Chikorita
+  internalName: CHIKORITA
+  kind: Leaf
+  height: 0.9
+  weight: 6.4
+  dexEntry: It waves its leaf around to keep foes at bay. However, a sweet fragrance
+    also wafts from the leaf, creating a friendly atmosphere that becalms the battlers.
+  sprite: {fileID: 21300000, guid: 8f9c46a978fe43648bb4f9a9b94213af, type: 3}
+  backSprite: {fileID: 21300000, guid: cfb3ba15db4c2d845bc0ba6df08bd24d, type: 3}
+  shinySprite: {fileID: 21300000, guid: f21ef78f336088f4bbc7f2e29171caf0, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 6577c942b975a8346a5981f8ddddff93, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 56e1611d6872c52478b82f38093bfb68, type: 3}
+  type1: {fileID: 11400000, guid: 9ed7dc1c4ee6bf747b182dc2eaf16337, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 1
+  eggGroup2: 7
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.125
+  standardAbilities:
+  - {fileID: 11400000, guid: 163bc21c6133be146858708b4680a8d9, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: c14092609e4bcb34697c56b3622959e8, type: 2}
+  baseHP: 45
+  baseAttack: 49
+  baseDefense: 65
+  baseSpeed: 45
+  baseSpecialAttack: 49
+  baseSpecialDefense: 65
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 1
+  baseEXP: 64
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 0a3166151dff74f44a3c7c2ead383fc6, type: 2}
+    levelToEvolve: 16
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 49df1d5643c16e94e8a7607e0d4cb127, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3bac1848939bf8549835d68f3be23289, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: df88744d10ecf63428e89354262498ad, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: bf883db29c15eab4cbe5f9f2b382655a, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: fcf7b2a59248fe342ad157971138d17a, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 60251021589440c40b96c5308d70e6be, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 9d4a14f02a117a44b9913b77b6f91470, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: 05690026fb024824db2ad77c5245df16, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: d0ff4947ecf7c4c4887fcffbe1bb2fe4, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 903b5ee462226ab47b3026d6ace38c5d, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: c96d683e0383c194caa33e1ccf960d38, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: 4d6c066a4b7fdcc40ae1addf8fa93fe4, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: e4f79be0bd7dfa943bad2da0d45cad51, type: 2}
+    level: 45
+  eggMoves:
+  - {fileID: 11400000, guid: 30694025d0c13dd4c896a65d19651c78, type: 2}
+  - {fileID: 11400000, guid: 4d6c066a4b7fdcc40ae1addf8fa93fe4, type: 2}
+  - {fileID: 11400000, guid: 903b5ee462226ab47b3026d6ace38c5d, type: 2}
+  - {fileID: 11400000, guid: 886cc954c2a8d6546abe10ac0f64a80c, type: 2}
+  - {fileID: 11400000, guid: ab4b503440591f742bf63c1693c6ee27, type: 2}
+  - {fileID: 11400000, guid: 9fe365d30820e2747a1727bb6447555b, type: 2}
+  - {fileID: 11400000, guid: 7cc88e8162115034a892a986b53071ba, type: 2}
+  - {fileID: 11400000, guid: c163dfa522d04f94d9ac8124bf7d1ec1, type: 2}
+  - {fileID: 11400000, guid: 55463fd3f765f9e4abb5cdd228a2f414, type: 2}
+  - {fileID: 11400000, guid: a348e0502b2529145aaaa410f8e3880f, type: 2}
+  - {fileID: 11400000, guid: 7d521f984ba299f4b9effbd5e07ec210, type: 2}
+  - {fileID: 11400000, guid: a253a6a569c46a748ad69bf73eefba7a, type: 2}
+  - {fileID: 11400000, guid: 463c36a9034021d4bb4de1f732963438, type: 2}
+  - {fileID: 11400000, guid: bf78aed5ac7343848b51499fad2ba6f8, type: 2}

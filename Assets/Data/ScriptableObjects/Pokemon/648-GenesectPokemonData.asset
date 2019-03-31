@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 648-GenesectPokemonData
+  m_EditorClassIdentifier: 
+  number: 649
+  name: Genesect
+  internalName: GENESECT
+  kind: Paleozoic
+  height: 1.5
+  weight: 82.5
+  dexEntry: "This ancient bug Pok\xE9mon was altered by Team Plasma. They upgraded
+    the cannon on its back."
+  sprite: {fileID: 21300000, guid: 5c4a45b44862faa4a97e7ec911a9f4bf, type: 3}
+  backSprite: {fileID: 21300000, guid: a381bf119278c0f408da3f0eba1ea256, type: 3}
+  shinySprite: {fileID: 21300000, guid: c9ceb4044e8122c4da8ecd29406ae520, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: a997e082f280a7f43ab352de22b9c7d9, type: 3}
+  footprintSprite: {fileID: 21300000, guid: e5dd50f8e835d324cb2cf077d9d18015, type: 3}
+  type1: {fileID: 11400000, guid: 79eb8f30cbe188e4f8a36dafd71ebdee, type: 2}
+  type2: {fileID: 11400000, guid: e19d9d0db9bfb304f86f2be1b2cbcd6e, type: 2}
+  eggGroup1: 15
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: -1
+  standardAbilities:
+  - {fileID: 11400000, guid: 8b866c5d28322d34e9f66cc33bc03cc2, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 71
+  baseAttack: 120
+  baseDefense: 95
+  baseSpeed: 99
+  baseSpecialAttack: 120
+  baseSpecialDefense: 95
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 1
+  EV_SpecialAttack: 1
+  EV_SpecialDefense: 0
+  baseEXP: 14
+  rareness: 3
+  baseHappiness: 0
+  stepsToHatch: 30855
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 1339ca54e3736814997d7e88c1de3aef, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d5f2e90bd85630a43bdd31934847cdc5, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e8c2f975a1a07494e8512a4aa254744c, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 20511dc028bdeb84185f09366190df6d, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: fa647d901ccdd0247a78d3959bbce436, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 348a733884d7e6943acc894872975359, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: e39a29e64e5f26547aacf274c6e2fc12, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: fb67747a5d01e374ba67cd67102f3719, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: b5cb4834e72f9064abecca08c734899b, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 9064c27f2e3736249bec03fe438c3daf, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 7dba8b22673833342a50075386bcf896, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: 217b94c02411183468ff115fbe1c5245, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: b41f0ba60c27a6a459db2860ce5cf946, type: 2}
+    level: 51
+  - move: {fileID: 11400000, guid: c61f1cdb129e61946b377260cd297708, type: 2}
+    level: 55
+  - move: {fileID: 11400000, guid: 9a8c05652e8fbff478058dfcb3cba336, type: 2}
+    level: 62
+  - move: {fileID: 11400000, guid: e99899b1534140e47a270201d1684d22, type: 2}
+    level: 66
+  - move: {fileID: 11400000, guid: 931a6239501d867458263239c17a188b, type: 2}
+    level: 73
+  - move: {fileID: 11400000, guid: 1651f4255a305064b86ce9a95216cc75, type: 2}
+    level: 77
+  eggMoves: []

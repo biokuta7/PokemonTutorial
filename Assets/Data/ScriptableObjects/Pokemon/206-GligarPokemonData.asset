@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 206-GligarPokemonData
+  m_EditorClassIdentifier: 
+  number: 207
+  name: Gligar
+  internalName: GLIGAR
+  kind: FlyScorpion
+  height: 1.1
+  weight: 64.8
+  dexEntry: It glides without making a single sound. It grasps the face of its foe
+    using its hind and large front claws, then stabs with its poison barb.
+  sprite: {fileID: 21300000, guid: fe729f2f7734c0140825463aba409f20, type: 3}
+  backSprite: {fileID: 21300000, guid: ddf74eefb5765604ca68f11e38057472, type: 3}
+  shinySprite: {fileID: 21300000, guid: 8bfff07c83775284fa17360b765b399e, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 5cc10d626103a524ab29591e73ba457a, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 9b5b2c43c7a0cd9439402425ec6216b1, type: 3}
+  type1: {fileID: 11400000, guid: 2aef90cd8ab7add4ead9fdc156318a32, type: 2}
+  type2: {fileID: 11400000, guid: 90bb1a57d841315478a74baa52e40ba4, type: 2}
+  eggGroup1: 3
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: ed298f78e600b3e429826881bdc0065c, type: 2}
+  - {fileID: 11400000, guid: 292e7e0ff6e7588448903262eac203e9, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 660cf6a420c6eaf478161f4358a2f39d, type: 2}
+  baseHP: 65
+  baseAttack: 75
+  baseDefense: 105
+  baseSpeed: 85
+  baseSpecialAttack: 35
+  baseSpecialDefense: 65
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 1
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 86
+  rareness: 60
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: d306605b81c7124478801e53ad3ea1ab, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9f99cdcaa64669e41a2a8da39f981b55, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: aa3899441c43934478c93384796e9a8c, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: d5f2e90bd85630a43bdd31934847cdc5, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: fa647d901ccdd0247a78d3959bbce436, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: ef4c8b448f6084848a1c3e459e61b09e, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: b5cb4834e72f9064abecca08c734899b, type: 2}
+    level: 27
+  - move: {fileID: 11400000, guid: 494af4edebad3e04d9d52a84f4dcef70, type: 2}
+    level: 30
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: b41f0ba60c27a6a459db2860ce5cf946, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: c028274b977641b409c91d92818cee19, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: 9887221a3a392a748b92ecd16cd5faf7, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: a5bd2b5de305fcb43872d410c27d547c, type: 2}
+    level: 55
+  eggMoves:
+  - {fileID: 11400000, guid: 3453f1ab4cf459a418c38964bff1630f, type: 2}
+  - {fileID: 11400000, guid: c93cc4f4568f0084b9fb39e135243cd5, type: 2}
+  - {fileID: 11400000, guid: 886cc954c2a8d6546abe10ac0f64a80c, type: 2}
+  - {fileID: 11400000, guid: 7333b7da39e71aa47a60202fa9f82461, type: 2}
+  - {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+  - {fileID: 11400000, guid: efce0155d8efb2e4d846129c30b3961f, type: 2}
+  - {fileID: 11400000, guid: 20511dc028bdeb84185f09366190df6d, type: 2}
+  - {fileID: 11400000, guid: c106b7df995223443800dc9dd1494144, type: 2}
+  - {fileID: 11400000, guid: f30c768b5377a2241918bea01c597071, type: 2}
+  - {fileID: 11400000, guid: 34fdd3d043eac614fb337c29055c6442, type: 2}
+  - {fileID: 11400000, guid: 45536db05abc7c1429c4ddb6279d0443, type: 2}
+  - {fileID: 11400000, guid: 8fa8b734d4bf3c648b9af24365b29712, type: 2}
+  - {fileID: 11400000, guid: f1659f14b4256c24b841abb2a7c91606, type: 2}
+  - {fileID: 11400000, guid: 5fcb722ef02a1bc4ca97936ea61cc6bb, type: 2}

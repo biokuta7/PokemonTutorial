@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 195-EspeonPokemonData
+  m_EditorClassIdentifier: 
+  number: 196
+  name: Espeon
+  internalName: ESPEON
+  kind: Sun
+  height: 0.9
+  weight: 26.5
+  dexEntry: An Espeon is extremely loyal to any trainer it considers to be worthy.
+    It is said to have developed precognitive powers to protect its trainer from harm.
+  sprite: {fileID: 21300000, guid: 1d9ebf67f8a459e41ac67b64bb1fef74, type: 3}
+  backSprite: {fileID: 21300000, guid: 7c8b9e85decf5b245bd9d0db00923469, type: 3}
+  shinySprite: {fileID: 21300000, guid: 9c52780270e85484faa490d37b98043d, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 84e453a83e6d63a42b5142849c610fa0, type: 3}
+  footprintSprite: {fileID: 21300000, guid: eeb35b2365861f94babf8797919602aa, type: 3}
+  type1: {fileID: 11400000, guid: 718f468b569515f42be9e985a9082465, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.125
+  standardAbilities:
+  - {fileID: 11400000, guid: 75607410b575c3b43a5f2412ae9b7489, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 2c776673e1df27f47bc47c25b6512916, type: 2}
+  baseHP: 65
+  baseAttack: 65
+  baseDefense: 60
+  baseSpeed: 110
+  baseSpecialAttack: 130
+  baseSpecialDefense: 95
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 2
+  EV_SpecialDefense: 0
+  baseEXP: 184
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 9180
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: f277acd4ff10f914a97ec332c912d36c, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 90e9a9d7356e7c84ea9190b7ff0535b1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9f99cdcaa64669e41a2a8da39f981b55, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 0220cff4fc3377247806f98b98ceb881, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: d5f2e90bd85630a43bdd31934847cdc5, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 8f7d8eb3956de5c4bb6b3d67bd3ba44b, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 4aa6cb6c9662be9488e2a3562d16e64a, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: f992e7a4e62a3b149bb36f3087193be4, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: bba0e618decf2494295c2ca64d2ee571, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 59af370ad9a98be4ba047b3c4dcfdc03, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 943dd68f173614045a520526628a0d44, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 02e8c45cbeaa8f645b9a919d8d8efc87, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: f65888ea561938f47a1b2d36efe13aef, type: 2}
+    level: 45
+  eggMoves: []

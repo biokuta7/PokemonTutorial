@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 614-CryogonalPokemonData
+  m_EditorClassIdentifier: 
+  number: 615
+  name: Cryogonal
+  internalName: CRYOGONAL
+  kind: Crystallizing
+  height: 1.1
+  weight: 148
+  dexEntry: They are born in snow clouds. They use chains made of ice crystals to
+    capture prey.
+  sprite: {fileID: 21300000, guid: 834b61883ae90aa44a7abd43500e6d3e, type: 3}
+  backSprite: {fileID: 21300000, guid: d3651c95c82a7e440a935907f1eefe1a, type: 3}
+  shinySprite: {fileID: 21300000, guid: 3e3f20ab4aa9ff74396db3e5041af5fc, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 38a6f4a5c42523e47b940f2d7de8c898, type: 3}
+  footprintSprite: {fileID: 21300000, guid: a2400197bafdc47438ae4f0c72212aad, type: 3}
+  type1: {fileID: 11400000, guid: 38a14f4c97dc09046a4a4f9f7bdade6e, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 10
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: -1
+  standardAbilities:
+  - {fileID: 11400000, guid: 5591a465327adc24089f3b21835f2487, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 70
+  baseAttack: 50
+  baseDefense: 30
+  baseSpeed: 105
+  baseSpecialAttack: 95
+  baseSpecialDefense: 135
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 2
+  baseEXP: 170
+  rareness: 25
+  baseHappiness: 70
+  stepsToHatch: 6630
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: c272b86c2496cdb4e894635816948c2d, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 748d6f7306d57e04a8dafa2546fca662, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: dfa867db934cf52428b441adcdad91a0, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 5df38effff9669e49a43e3d459847a64, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: b54112bb46bdcb342b701dde2aed4ef4, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 424e9656e1d9e8a40b980b3111eb709e, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 58aa3d592b28f5e42a4586453743ccdb, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 6b4e721b21197d343b3775779d921bb2, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: bd34bba16b3aa9646828738f256798c3, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 9a8a22dc71b500646b63bcefb84980fc, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: d0ff4947ecf7c4c4887fcffbe1bb2fe4, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: fcf7b2a59248fe342ad157971138d17a, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: b5cb4834e72f9064abecca08c734899b, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 30e9bccee0b2ceb4cb9ad6b51e66e479, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: 17b540db896190346af6a508b2a0c1ec, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: e4f79be0bd7dfa943bad2da0d45cad51, type: 2}
+    level: 53
+  - move: {fileID: 11400000, guid: c106b7df995223443800dc9dd1494144, type: 2}
+    level: 57
+  - move: {fileID: 11400000, guid: 9dbb1a05683b8034ca699377dca570d4, type: 2}
+    level: 61
+  eggMoves: []

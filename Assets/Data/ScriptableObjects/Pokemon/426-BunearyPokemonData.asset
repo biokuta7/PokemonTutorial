@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 426-BunearyPokemonData
+  m_EditorClassIdentifier: 
+  number: 427
+  name: Buneary
+  internalName: BUNEARY
+  kind: Rabbit
+  height: 0.4
+  weight: 5.5
+  dexEntry: It slams foes by sharply uncoiling its rolled ears. It stings enough to
+    make a grown-up cry in pain.
+  sprite: {fileID: 21300000, guid: 7412df7c3c714c84dab34e12170e6416, type: 3}
+  backSprite: {fileID: 21300000, guid: ca33b081bff69b74992aadc0eeaeb05f, type: 3}
+  shinySprite: {fileID: 21300000, guid: e81f5f977a0537b46aaabc8299dc2576, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 0c6f88fe68fd2c74592e2b8254b8dd67, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 02d3404fc3b57e847bcf04bcb5fac425, type: 3}
+  type1: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 8
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: f0cedf399fe0ab54eaf74b1308628228, type: 2}
+  - {fileID: 11400000, guid: 85a6f5d816d107e4ab01a0a7002e5886, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 1ccb81acc929ba44690453c174199e85, type: 2}
+  baseHP: 55
+  baseAttack: 66
+  baseDefense: 44
+  baseSpeed: 85
+  baseSpecialAttack: 44
+  baseSpecialDefense: 56
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 1
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 70
+  rareness: 190
+  baseHappiness: 0
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 6b3750a73aecc7d469a755f681a0f55f, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: c16d454899509064aa753b3499b92b83, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9718332accb9dd4438b46ad9a022602e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: cfd93b7c0d975cb4d8630d561a4ffe21, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9f44f4d05fd57b74b9b026bf9776c7e7, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: 77e7a13767565c4499ec882b39c9d4c1, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: d5f2e90bd85630a43bdd31934847cdc5, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: 6930ddcdd2437fc4e97d7b0e7dc10b07, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: c93cc4f4568f0084b9fb39e135243cd5, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: 3453f1ab4cf459a418c38964bff1630f, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: c2a2f1fe7760dce43972f49a1d11f716, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 824a861885c149d4bb06e01a7b7b5109, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: cc97392f8c47d6d43a7fe744875dfd4d, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: dab02694fe76958429c4c151a4f4382f, type: 2}
+    level: 53
+  - move: {fileID: 11400000, guid: efe9376b10863894d99db7561cbb9ca4, type: 2}
+    level: 56
+  - move: {fileID: 11400000, guid: b5a4221bc5e319841b4a778de8d00787, type: 2}
+    level: 63
+  eggMoves:
+  - {fileID: 11400000, guid: 584d83502cb91fd40851a88eb99706e4, type: 2}
+  - {fileID: 11400000, guid: 6a10a9d296905a64394c695b1f053ea7, type: 2}
+  - {fileID: 11400000, guid: f211fbf13513b9c45ae0c3104e035239, type: 2}
+  - {fileID: 11400000, guid: 135034a951a65894fb86a5f232b51764, type: 2}
+  - {fileID: 11400000, guid: 02d284bddcaccd84c946ab544f218315, type: 2}
+  - {fileID: 11400000, guid: 4148031223b255242880deef8e6a614c, type: 2}
+  - {fileID: 11400000, guid: 43082462e0b502849b59c6366460cef8, type: 2}
+  - {fileID: 11400000, guid: ab4b503440591f742bf63c1693c6ee27, type: 2}
+  - {fileID: 11400000, guid: fba2738cccebc354e8a6c90b07df60f5, type: 2}
+  - {fileID: 11400000, guid: 8ff24dd6627d3454bb87045584b979d9, type: 2}
+  - {fileID: 11400000, guid: b230703886b02f14ba5cca7969ba17f8, type: 2}
+  - {fileID: 11400000, guid: c028274b977641b409c91d92818cee19, type: 2}
+  - {fileID: 11400000, guid: 79ff70b8768186845b6efa8a8ab2c39a, type: 2}
+  - {fileID: 11400000, guid: ecc30181b06681646939dc789b66296b, type: 2}
+  - {fileID: 11400000, guid: ad91c274fe4e2f14ca79d36969420c69, type: 2}

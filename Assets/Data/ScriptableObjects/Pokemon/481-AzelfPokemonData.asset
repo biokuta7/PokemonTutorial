@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 481-AzelfPokemonData
+  m_EditorClassIdentifier: 
+  number: 482
+  name: Azelf
+  internalName: AZELF
+  kind: Willpower
+  height: 0.3
+  weight: 0.3
+  dexEntry: "Known as \u201CThe Being of Willpower.\u201D It sleeps at the bottom
+    of a lake to keep the world in balance."
+  sprite: {fileID: 21300000, guid: 4aeab6411beee0f4fa097047346b946b, type: 3}
+  backSprite: {fileID: 21300000, guid: 696afea14a3ec81498e6b3854e1a0391, type: 3}
+  shinySprite: {fileID: 21300000, guid: 4c39d7a187fe2ac4b99b553bfc9381aa, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: e934e726dc456dc40819c7f1aaf85297, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 540850dfe5df9b144b99f183b9fe79de, type: 3}
+  type1: {fileID: 11400000, guid: 718f468b569515f42be9e985a9082465, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 15
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: -1
+  standardAbilities:
+  - {fileID: 11400000, guid: 5591a465327adc24089f3b21835f2487, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 75
+  baseAttack: 125
+  baseDefense: 70
+  baseSpeed: 115
+  baseSpecialAttack: 125
+  baseSpecialDefense: 70
+  EV_HP: 0
+  EV_Attack: 2
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 1
+  EV_SpecialDefense: 0
+  baseEXP: 261
+  rareness: 3
+  baseHappiness: 140
+  stepsToHatch: 20655
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 6ca000a6aa650d243b1e634a9044d765, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 0220cff4fc3377247806f98b98ceb881, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: fd5957dceb3eed242bb7108cbeca5745, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: 16531673f7df2c1428a3eda3a0a5e5b6, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: 8f7d8eb3956de5c4bb6b3d67bd3ba44b, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: feef32ab21b065f4aae9bbf151f180c9, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: f992e7a4e62a3b149bb36f3087193be4, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 7a147e057063b224a86c668c0f0c8579, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: 95a576a0b079fff4d9459736640d5c82, type: 2}
+    level: 51
+  - move: {fileID: 11400000, guid: 02e8c45cbeaa8f645b9a919d8d8efc87, type: 2}
+    level: 61
+  - move: {fileID: 11400000, guid: 9d4a14f02a117a44b9913b77b6f91470, type: 2}
+    level: 66
+  - move: {fileID: 11400000, guid: c04069573dd5ad143b9999bab5f1cbfa, type: 2}
+    level: 76
+  eggMoves: []

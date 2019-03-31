@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 517-MusharnaPokemonData
+  m_EditorClassIdentifier: 
+  number: 518
+  name: Musharna
+  internalName: MUSHARNA
+  kind: Drowsing
+  height: 1.1
+  weight: 60.5
+  dexEntry: With the mist from its forehead, it can create shapes of things from dreams
+    it has eaten.
+  sprite: {fileID: 21300000, guid: a32b7327a4e58f24eb7d104d3c1f57a5, type: 3}
+  backSprite: {fileID: 21300000, guid: f697f208be0acd64cbc8ad5e9075746f, type: 3}
+  shinySprite: {fileID: 21300000, guid: 4e0921997c1c30c4bac12b4290f2490f, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 956d351018ebf5043ad0f097ff63cfa5, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 0e094d716bcbad44d8486d96ab554a42, type: 3}
+  type1: {fileID: 11400000, guid: 718f468b569515f42be9e985a9082465, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 1
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: db2bdd1080962f442a27f9560959b8dc, type: 2}
+  - {fileID: 11400000, guid: 75607410b575c3b43a5f2412ae9b7489, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: ed80cf5b8d8e1204296a4c18cc5ac574, type: 2}
+  baseHP: 116
+  baseAttack: 55
+  baseDefense: 85
+  baseSpeed: 29
+  baseSpecialAttack: 107
+  baseSpecialDefense: 95
+  EV_HP: 2
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 170
+  rareness: 75
+  baseHappiness: 70
+  stepsToHatch: 2805
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 9718332accb9dd4438b46ad9a022602e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9cea37bba3a567c44bc6020f1c777d86, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4aa6cb6c9662be9488e2a3562d16e64a, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 1683302a221d16c45a514c8db81ec734, type: 2}
+    level: 1
+  eggMoves: []

@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 490-DarkraiPokemonData
+  m_EditorClassIdentifier: 
+  number: 491
+  name: Darkrai
+  internalName: DARKRAI
+  kind: Pitch-Black
+  height: 1.5
+  weight: 50.5
+  dexEntry: It can lull people to sleep and make them dream. It is active during nights
+    of the new moon.
+  sprite: {fileID: 21300000, guid: 4a1c0b0182411914c90f0b7874927d83, type: 3}
+  backSprite: {fileID: 21300000, guid: 4a211fef7c6ed004fbf8da7e0685df38, type: 3}
+  shinySprite: {fileID: 21300000, guid: e653546755a1d1643b73e53731b0a284, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 72fdc082ea56fd340bbfa5d4753f1c94, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 89e93c84e9961014ab2a279496f09ec1, type: 3}
+  type1: {fileID: 11400000, guid: 5a37c1bbebd881b42bd5fab995e54689, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 15
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: -1
+  standardAbilities:
+  - {fileID: 11400000, guid: e257ff2b76fca4144a69cd9e4840ee82, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 70
+  baseAttack: 90
+  baseDefense: 90
+  baseSpeed: 125
+  baseSpecialAttack: 135
+  baseSpecialDefense: 90
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 1
+  EV_SpecialAttack: 2
+  EV_SpecialDefense: 0
+  baseEXP: 270
+  rareness: 3
+  baseHappiness: 0
+  stepsToHatch: 30855
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: f1e99a84c358af64cab862404dc78a61, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4965fe24e4d71994c83ce7f0c95a9d7a, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d5f2e90bd85630a43bdd31934847cdc5, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 1683302a221d16c45a514c8db81ec734, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 2f4dad7c53c11dc4b8128289f988b29a, type: 2}
+    level: 38
+  - move: {fileID: 11400000, guid: 56e5520611331d1449233d80d090ed7d, type: 2}
+    level: 47
+  - move: {fileID: 11400000, guid: 58aa3d592b28f5e42a4586453743ccdb, type: 2}
+    level: 57
+  - move: {fileID: 11400000, guid: 06875d0341163694291f48a928f022ea, type: 2}
+    level: 66
+  - move: {fileID: 11400000, guid: 7a147e057063b224a86c668c0f0c8579, type: 2}
+    level: 75
+  - move: {fileID: 11400000, guid: 7da6059acac28d1419a320a4d23d4f7b, type: 2}
+    level: 84
+  - move: {fileID: 11400000, guid: 9568ab1e0a57eb340978593547c4af96, type: 2}
+    level: 93
+  eggMoves: []

@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 155-QuilavaPokemonData
+  m_EditorClassIdentifier: 
+  number: 156
+  name: Quilava
+  internalName: QUILAVA
+  kind: Volcano
+  height: 0.9
+  weight: 19
+  dexEntry: It intimidates foes with intense gusts of flames and superheated air.
+    Its quick nimbleness lets it dodge attacks even while scorching an enemy.
+  sprite: {fileID: 21300000, guid: 430117b882fb576469f8bc468d6d7f95, type: 3}
+  backSprite: {fileID: 21300000, guid: cfae193bdba8eac4b9b9f5ae1b92040d, type: 3}
+  shinySprite: {fileID: 21300000, guid: 5e9c73d2d3426ee42be1faca577ca7d6, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: b67366dc1a7523944a6a861088fda58f, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 9421512855f1f8447ad7165f9e86cbdf, type: 3}
+  type1: {fileID: 11400000, guid: e120886a2aede3b4089e217b177a6111, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.125
+  standardAbilities:
+  - {fileID: 11400000, guid: 1dc5ee67c2e1b984fb603949c1781c71, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 06bd162fe9018664b8c322bdd5564793, type: 2}
+  baseHP: 58
+  baseAttack: 64
+  baseDefense: 58
+  baseSpeed: 80
+  baseSpecialAttack: 80
+  baseSpecialDefense: 65
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 1
+  EV_SpecialAttack: 1
+  EV_SpecialDefense: 0
+  baseEXP: 142
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 0c83a1e1c9d5a4a4fb50293515f80a0b, type: 2}
+    levelToEvolve: 36
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 8dbd4521f21986a4fb108aae7bfebd9e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 8dbd4521f21986a4fb108aae7bfebd9e, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: 62339e29a8fb98e4da4f46c83137d8b8, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: d5f2e90bd85630a43bdd31934847cdc5, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 74ed12fa681218449bfe67dcb3e40e8f, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 9718332accb9dd4438b46ad9a022602e, type: 2}
+    level: 24
+  - move: {fileID: 11400000, guid: 8f7d8eb3956de5c4bb6b3d67bd3ba44b, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: e39a29e64e5f26547aacf274c6e2fc12, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: fe5a83fc6520a1b4cae23f0fa580501f, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: d64bedf5e2f4a984eb292a639e253040, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: 7ba7b62010793334ea3c22704bdc66a5, type: 2}
+    level: 53
+  - move: {fileID: 11400000, guid: ec6769bc96a317247a6a1bbb153f90ec, type: 2}
+    level: 57
+  - move: {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+    level: 64
+  - move: {fileID: 11400000, guid: e7f1e1ce5ede6b64783a700c5b31a348, type: 2}
+    level: 68
+  eggMoves: []

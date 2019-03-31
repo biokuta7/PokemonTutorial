@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 161-FurretPokemonData
+  m_EditorClassIdentifier: 
+  number: 162
+  name: Furret
+  internalName: FURRET
+  kind: Long Body
+  height: 1.8
+  weight: 32.5
+  dexEntry: A Furret has a very slim build. When under attack, it can squirm through
+    narrow spaces and get away. In spite of its short limbs, it is very nimble and
+    fleet.
+  sprite: {fileID: 21300000, guid: 0d5479ffab9e49d4e88100ea78abbe66, type: 3}
+  backSprite: {fileID: 21300000, guid: bb9ccc21f485ab84b962b6cffe8a5b47, type: 3}
+  shinySprite: {fileID: 21300000, guid: b28067e0cb0c54d48aa82b494a88b99f, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 5f252190d46467548ab7dd8781299a95, type: 3}
+  footprintSprite: {fileID: 21300000, guid: cef6b17a4e6dfe54c80227ec7dbcd51a, type: 3}
+  type1: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: f0cedf399fe0ab54eaf74b1308628228, type: 2}
+  - {fileID: 11400000, guid: 532e9762ac38a2a4886c9d8d093afc68, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: f2de2423ca550594aade218885cbb0ff, type: 2}
+  baseHP: 85
+  baseAttack: 76
+  baseDefense: 64
+  baseSpeed: 90
+  baseSpecialAttack: 45
+  baseSpecialDefense: 55
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 2
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 145
+  rareness: 90
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: c8ad6b6cc523bd940b14ff75aa9ba40e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: cfd93b7c0d975cb4d8630d561a4ffe21, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9718332accb9dd4438b46ad9a022602e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d5f2e90bd85630a43bdd31934847cdc5, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9718332accb9dd4438b46ad9a022602e, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: d5f2e90bd85630a43bdd31934847cdc5, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: fb9cbbcc0dcb76f4a8254e7141042569, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: f277acd4ff10f914a97ec332c912d36c, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 3ad7323f7e54d8f4badcb6c0ca178e6b, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 1a0603d08aec3344bb06836eb047c05c, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 6ca000a6aa650d243b1e634a9044d765, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: 18d2b07fd9a5ed740902b65b48c67a90, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: b54451c499c3fc24aade1add5a757d05, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: c93cc4f4568f0084b9fb39e135243cd5, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: 2c040a557e68a68468efd8b0c07b7758, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: 742025f9f24a09946bae3d0cdb215512, type: 2}
+    level: 56
+  eggMoves: []

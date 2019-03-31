@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 365-ClamperlPokemonData
+  m_EditorClassIdentifier: 
+  number: 366
+  name: Clamperl
+  internalName: CLAMPERL
+  kind: Bivalve
+  height: 0.4
+  weight: 52.5
+  dexEntry: A Clamperl slams its shell closed on prey to prevent escape. The pearl
+    it creates upon evolution is said to be infused with a mysterious energy.
+  sprite: {fileID: 21300000, guid: cb0b826c3645bab499fd0839b73c67e7, type: 3}
+  backSprite: {fileID: 21300000, guid: 5cd67d03b4d23ad4f8cdd8b8f16056f1, type: 3}
+  shinySprite: {fileID: 21300000, guid: f24d7d1c482482049aab6a06e86c517f, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: f947ada275765044b8c53a93c49553e7, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 3f22a010166aae143a2fe195ccc946ca, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 2
+  eggGroup2: 0
+  growthRate: 0
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 23379adb94f14cb40b2a0ba065d19085, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: ad05bcdca3a25194385ccb655470cb8c, type: 2}
+  baseHP: 35
+  baseAttack: 64
+  baseDefense: 85
+  baseSpeed: 32
+  baseSpecialAttack: 74
+  baseSpecialDefense: 55
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 1
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 69
+  rareness: 255
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 3f6301bc93440614cb9c49baf1da3268, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3b8f4014739fbae4d84fae04eb5099f2, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4af89848b3b64474187dbde56d3a206c, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: a5bdded8b500614418098e7d3258784b, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: ef486201c14d4d847b99d8f8c4fd9b53, type: 2}
+    level: 51
+  eggMoves:
+  - {fileID: 11400000, guid: ff3996eab3f07c44785b553c5f7b0662, type: 2}
+  - {fileID: 11400000, guid: 5ff32fd3e0ccd2143a5d76e35f416dfb, type: 2}
+  - {fileID: 11400000, guid: 903b5ee462226ab47b3026d6ace38c5d, type: 2}
+  - {fileID: 11400000, guid: 5d1eca6964fbf79449b447b0f905ef42, type: 2}
+  - {fileID: 11400000, guid: 30e9bccee0b2ceb4cb9ad6b51e66e479, type: 2}
+  - {fileID: 11400000, guid: 9f44f4d05fd57b74b9b026bf9776c7e7, type: 2}
+  - {fileID: 11400000, guid: dee27cd0fdcd79240b0663c357831a95, type: 2}
+  - {fileID: 11400000, guid: 70ea7f19b00e56d49a0fe52d49d2fd44, type: 2}
+  - {fileID: 11400000, guid: a253a6a569c46a748ad69bf73eefba7a, type: 2}
+  - {fileID: 11400000, guid: 3bbb861f40413cc49ba63bbc7d2599a8, type: 2}
+  - {fileID: 11400000, guid: 0daaaf2b724e2e34f893d673a8ee7a4e, type: 2}

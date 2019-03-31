@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 322-CameruptPokemonData
+  m_EditorClassIdentifier: 
+  number: 323
+  name: Camerupt
+  internalName: CAMERUPT
+  kind: Eruption
+  height: 1.9
+  weight: 220
+  dexEntry: "A Pok\xE9mon that lives in the crater of a volcano. Every 10 years, the
+    volcanoes on its back erupt violently. Research is under way on the cause of eruption."
+  sprite: {fileID: 21300000, guid: 5d986b1bf1b074842b2df80d50188a98, type: 3}
+  backSprite: {fileID: 21300000, guid: 82c2849eb93253141b4ffc3b51fc316a, type: 3}
+  shinySprite: {fileID: 21300000, guid: 9423664cd38451544a56ff6a5446310a, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 555aa597da3ae9a4fae97586c34ca1ff, type: 3}
+  footprintSprite: {fileID: 21300000, guid: a913080906c5b2f4d8ab6649c6406b0c, type: 3}
+  type1: {fileID: 11400000, guid: e120886a2aede3b4089e217b177a6111, type: 2}
+  type2: {fileID: 11400000, guid: 2aef90cd8ab7add4ead9fdc156318a32, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: cfb4a6fc19379044d8eb5e68ab4ad3e4, type: 2}
+  - {fileID: 11400000, guid: 334fca0b58a403445b573684a41d5bef, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: a5feeccb121b1304584074018fe30cae, type: 2}
+  baseHP: 70
+  baseAttack: 100
+  baseDefense: 70
+  baseSpeed: 40
+  baseSpecialAttack: 105
+  baseSpecialDefense: 75
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 1
+  EV_SpecialDefense: 0
+  baseEXP: 161
+  rareness: 150
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 49df1d5643c16e94e8a7607e0d4cb127, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 62339e29a8fb98e4da4f46c83137d8b8, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 929dd1fa550cc024f9a5897d6685bdcf, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 62339e29a8fb98e4da4f46c83137d8b8, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 929dd1fa550cc024f9a5897d6685bdcf, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 4abf7d172bbaeba4293580ddddb47f6f, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: bf4aeedaebd961648b2a1d639d517a4e, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: b54451c499c3fc24aade1add5a757d05, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: fe5a83fc6520a1b4cae23f0fa580501f, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: e51e0c804527e4045ae2c022bbad06ca, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: fd48eadb1eda86c45b74371631ca93dd, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 3e74825e213db2f46aa158ecff87166a, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 11851d64298ab6144aa7129575ae7364, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: 5d28992b9be13a341b391f0dd3d4a986, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: e7f1e1ce5ede6b64783a700c5b31a348, type: 2}
+    level: 52
+  - move: {fileID: 11400000, guid: b08d8d6945d0819419892e4b757cdad8, type: 2}
+    level: 59
+  eggMoves: []

@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 278-PelipperPokemonData
+  m_EditorClassIdentifier: 
+  number: 279
+  name: Pelipper
+  internalName: PELIPPER
+  kind: Water Bird
+  height: 1.2
+  weight: 28
+  dexEntry: It skims the tops of waves as it flies. When it spots prey, it uses its
+    large beak to scoop up the victim with water. It protects its eggs in its beak.
+  sprite: {fileID: 21300000, guid: a7297435e7489f340a748e1162a90991, type: 3}
+  backSprite: {fileID: 21300000, guid: b652c2cee656697428ff1a63e4ad6bff, type: 3}
+  shinySprite: {fileID: 21300000, guid: 066df8aec58e9854cbcc07743c5243c9, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 5b12dcded5848ec459e5c3d90f36ea4f, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 72fa5a7479c1b3f4eaf0368cb2ffb6fa, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 90bb1a57d841315478a74baa52e40ba4, type: 2}
+  eggGroup1: 2
+  eggGroup2: 4
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 532e9762ac38a2a4886c9d8d093afc68, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 1e78b8444dbadbe4d994018be43ab305, type: 2}
+  baseHP: 60
+  baseAttack: 50
+  baseDefense: 100
+  baseSpeed: 65
+  baseSpecialAttack: 85
+  baseSpecialDefense: 70
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 2
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 151
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: d6e8d8fdcc45db34dac43a7fc8e7b242, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 49df1d5643c16e94e8a7607e0d4cb127, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3b8f4014739fbae4d84fae04eb5099f2, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e1b13bbff45ac2c4d931b26b7167b481, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 5fcb722ef02a1bc4ca97936ea61cc6bb, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3bbb861f40413cc49ba63bbc7d2599a8, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: 5fcb722ef02a1bc4ca97936ea61cc6bb, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 424e9656e1d9e8a40b980b3111eb709e, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: 0daaaf2b724e2e34f893d673a8ee7a4e, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 045af626945e212499f0e9a28c180d66, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 79c63ba594520644cbecc00f726ef040, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: ae17a6aef7527a141876ca7f983f220f, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 5d1eca6964fbf79449b447b0f905ef42, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: ff3913788b628f54baa7ca440e7aca98, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: b3b0dd4dfe9ef9d4ba5dd8a6a2378381, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: 896336ca57ccd0a478ad94a85479e278, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: 511d2d613a889084b9ec13c60dd8332c, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: 60787e5e672923942bb8ea2823e0ef90, type: 2}
+    level: 52
+  - move: {fileID: 11400000, guid: 4bdcb7db2207f9142b7706d59e466f28, type: 2}
+    level: 58
+  - move: {fileID: 11400000, guid: 73f3c456765070b40b93e41c4e2a385e, type: 2}
+    level: 63
+  eggMoves: []

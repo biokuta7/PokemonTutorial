@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 538-SawkPokemonData
+  m_EditorClassIdentifier: 
+  number: 539
+  name: Sawk
+  internalName: SAWK
+  kind: Karate
+  height: 1.4
+  weight: 51
+  dexEntry: Tying their belts gets them pumped and makes their punches more destructive.
+    Disturbing their training angers them.
+  sprite: {fileID: 21300000, guid: f7bc8bc0514b1a6468f0b306ddb3f222, type: 3}
+  backSprite: {fileID: 21300000, guid: ecd7730e65d0ead49947d3814b7b0f02, type: 3}
+  shinySprite: {fileID: 21300000, guid: 75c66e4329e3d124fb6794b220aa666a, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 225776c4e4feb1c459d107a3e671ead3, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 9e4d862c708051b4d9e457f5a7724e4b, type: 3}
+  type1: {fileID: 11400000, guid: 60bba5c3467446d45a479ab6b6a6e82e, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 8
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0
+  standardAbilities:
+  - {fileID: 11400000, guid: 8822aaa86cfc2f0408aaabea80029644, type: 2}
+  - {fileID: 11400000, guid: 9ecbfd12032db4c41b4660b9d7508597, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: e46cd10bf7de372419e2f0a16c7960f0, type: 2}
+  baseHP: 75
+  baseAttack: 125
+  baseDefense: 75
+  baseSpeed: 85
+  baseSpecialAttack: 30
+  baseSpecialDefense: 75
+  EV_HP: 0
+  EV_Attack: 2
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 163
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: e5061df92e7b90041852403f59abd910, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 33d96fe56c3fefd4abee4fdd115ab776, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 4abf7d172bbaeba4293580ddddb47f6f, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 50ced63224687ad479604e56abd307b0, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 4e4499f883e59194aa03a61e54f02f2e, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 886cc954c2a8d6546abe10ac0f64a80c, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: b599ebee688a37240a2c9831bd696fee, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 87e77352da264dc46a1998053b28a1c2, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 824d8c4521b674b4bbedc9a422007b40, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 947b0dcc26e24574086cf7ec4b0e080d, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 9f44f4d05fd57b74b9b026bf9776c7e7, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: f59c4c13ab26fc54caae248bc7547b1f, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: fe31ce936c3024c41aec13270912f9b2, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 8880b7ca31d4f794da5ad4a591a4d876, type: 2}
+    level: 53
+  eggMoves: []

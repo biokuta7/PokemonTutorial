@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 297-AzurillPokemonData
+  m_EditorClassIdentifier: 
+  number: 298
+  name: Azurill
+  internalName: AZURILL
+  kind: Polka Dot
+  height: 0.2
+  weight: 2
+  dexEntry: Its tail, which is packed with nutrition, is very bouncy like a rubber
+    ball. On sunny days they gather at the edge of water and splash about for fun.
+  sprite: {fileID: 21300000, guid: a56d7fdefcf1ef74cadf954c382f0c9d, type: 3}
+  backSprite: {fileID: 21300000, guid: e3f470532eda2864e844b39226e653b6, type: 3}
+  shinySprite: {fileID: 21300000, guid: 3802c54e0cad8a740b0911187a5af077, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 8a847418d3096e34b892b99901636101, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 6a11eddd1d3af7c418028af3e763de17, type: 3}
+  type1: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 15
+  eggGroup2: 0
+  growthRate: 1
+  habitat: 0
+  femaleRatio: 0.75
+  standardAbilities:
+  - {fileID: 11400000, guid: 5370a5cddfbfa4d4396bfd64d5065c3a, type: 2}
+  - {fileID: 11400000, guid: 44593b155682b6942833ec983207b885, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: bc5e54ec57025bd45b80281d3f4ea8fb, type: 2}
+  baseHP: 50
+  baseAttack: 20
+  baseDefense: 40
+  baseSpeed: 20
+  baseSpecialAttack: 20
+  baseSpecialDefense: 40
+  EV_HP: 1
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 38
+  rareness: 150
+  baseHappiness: 70
+  stepsToHatch: 2805
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 6b3750a73aecc7d469a755f681a0f55f, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 03d0cb1d5358f9449ad7d06d9e981398, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 90e9a9d7356e7c84ea9190b7ff0535b1, type: 2}
+    level: 2
+  - move: {fileID: 11400000, guid: e1b13bbff45ac2c4d931b26b7167b481, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 3b8f4014739fbae4d84fae04eb5099f2, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: cc97392f8c47d6d43a7fe744875dfd4d, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: b47841f8439c41b43b9d6fb0c7847197, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: f277acd4ff10f914a97ec332c912d36c, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: 1a0603d08aec3344bb06836eb047c05c, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: efe9376b10863894d99db7561cbb9ca4, type: 2}
+    level: 23
+  eggMoves:
+  - {fileID: 11400000, guid: 903b5ee462226ab47b3026d6ace38c5d, type: 2}
+  - {fileID: 11400000, guid: 135034a951a65894fb86a5f232b51764, type: 2}
+  - {fileID: 11400000, guid: 4148031223b255242880deef8e6a614c, type: 2}
+  - {fileID: 11400000, guid: 70ea7f19b00e56d49a0fe52d49d2fd44, type: 2}
+  - {fileID: 11400000, guid: a253a6a569c46a748ad69bf73eefba7a, type: 2}
+  - {fileID: 11400000, guid: 58279d1ca978c0748ba4fc660d97d9ed, type: 2}
+  - {fileID: 11400000, guid: 1a0603d08aec3344bb06836eb047c05c, type: 2}
+  - {fileID: 11400000, guid: d6e8d8fdcc45db34dac43a7fc8e7b242, type: 2}
+  - {fileID: 11400000, guid: 075cd6d6634b5004b8f3602896f27620, type: 2}
+  - {fileID: 11400000, guid: e1b13bbff45ac2c4d931b26b7167b481, type: 2}

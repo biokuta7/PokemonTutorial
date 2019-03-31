@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 637-CobalionPokemonData
+  m_EditorClassIdentifier: 
+  number: 638
+  name: Cobalion
+  internalName: COBALION
+  kind: Iron Will
+  height: 2.1
+  weight: 250
+  dexEntry: "It has a body and heart of steel. Its glare is sufficient to make even
+    an unruly Pok\xE9mon obey it."
+  sprite: {fileID: 21300000, guid: 18601def5ddd64746b56b2ce98ef6492, type: 3}
+  backSprite: {fileID: 21300000, guid: d0d0b4615152b2e4ca29d67edc665e2b, type: 3}
+  shinySprite: {fileID: 21300000, guid: d464859dff9863d4abdd08402f2f1ac8, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: c036cba0c55bf3d42b4c9d0c59827e90, type: 3}
+  footprintSprite: {fileID: 21300000, guid: d93a762b783942e4c9f55404cb86e871, type: 3}
+  type1: {fileID: 11400000, guid: e19d9d0db9bfb304f86f2be1b2cbcd6e, type: 2}
+  type2: {fileID: 11400000, guid: 60bba5c3467446d45a479ab6b6a6e82e, type: 2}
+  eggGroup1: 15
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: -1
+  standardAbilities:
+  - {fileID: 11400000, guid: 1b792af7225db7a438cc57b78ff11640, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 91
+  baseAttack: 90
+  baseDefense: 129
+  baseSpeed: 108
+  baseSpecialAttack: 90
+  baseSpecialDefense: 72
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 3
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 5
+  rareness: 3
+  baseHappiness: 35
+  stepsToHatch: 20655
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: d5f2e90bd85630a43bdd31934847cdc5, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 50ced63224687ad479604e56abd307b0, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 20511dc028bdeb84185f09366190df6d, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: f277acd4ff10f914a97ec332c912d36c, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 947b0dcc26e24574086cf7ec4b0e080d, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 4dd2c9aed99018b41925ea000173945a, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 5c9ce0ec67a7f9e48ae20db192d47848, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: 9887221a3a392a748b92ecd16cd5faf7, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: f59c4c13ab26fc54caae248bc7547b1f, type: 2}
+    level: 55
+  - move: {fileID: 11400000, guid: eef52d6b86c13c64aa26776c3453fe3b, type: 2}
+    level: 61
+  - move: {fileID: 11400000, guid: 4ad07fef491bff84a9de8a52b84f9705, type: 2}
+    level: 67
+  - move: {fileID: 11400000, guid: fe31ce936c3024c41aec13270912f9b2, type: 2}
+    level: 73
+  eggMoves: []

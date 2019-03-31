@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 542-VenipedePokemonData
+  m_EditorClassIdentifier: 
+  number: 543
+  name: Venipede
+  internalName: VENIPEDE
+  kind: Centipede
+  height: 0.4
+  weight: 5.3
+  dexEntry: It discovers what is going on around it by using the feelers on its head
+    and tail. It is brutally aggresive.
+  sprite: {fileID: 21300000, guid: b7579d746066a4843bebca1b33124996, type: 3}
+  backSprite: {fileID: 21300000, guid: 731fa037350399b4097968aff5c3d80b, type: 3}
+  shinySprite: {fileID: 21300000, guid: 927df621cb8ad904ea0bccb669d878ea, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 11ac975bdee72c3429034c2346d4f5fa, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 7f7a79d43dc845244989074526389709, type: 3}
+  type1: {fileID: 11400000, guid: 79eb8f30cbe188e4f8a36dafd71ebdee, type: 2}
+  type2: {fileID: 11400000, guid: 5c263d07fc626544cae866e79835f9fd, type: 2}
+  eggGroup1: 3
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: aa741ab2d81e343488784bf677d21166, type: 2}
+  - {fileID: 11400000, guid: 3061775df8197ad4c8e4d3bc7de08339, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 850d457e7f9ec4d408cc419ca7e9a66d, type: 2}
+  baseHP: 30
+  baseAttack: 45
+  baseDefense: 59
+  baseSpeed: 57
+  baseSpecialAttack: 30
+  baseSpecialDefense: 39
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 1
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 52
+  rareness: 255
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 287fffa9b6d456a4493cd85fb1b2c009, type: 2}
+    levelToEvolve: 22
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 9718332accb9dd4438b46ad9a022602e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: ec6769bc96a317247a6a1bbb153f90ec, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d306605b81c7124478801e53ad3ea1ab, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: 79c63ba594520644cbecc00f726ef040, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: f30c768b5377a2241918bea01c597071, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 29fbd58668c00724ba080e3514e4e713, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 24f930d685f641f4f84e81cb91e6e849, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: 3453f1ab4cf459a418c38964bff1630f, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 8739d312e54cd144c8fc4bb502e11d5b, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 4b3a585e894cee04a9d1bb18f18e61d3, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 8fa8b734d4bf3c648b9af24365b29712, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+    level: 43
+  eggMoves:
+  - {fileID: 11400000, guid: 94cbbd93cb037114781f77a2e7546a2e, type: 2}
+  - {fileID: 11400000, guid: 8fa8b734d4bf3c648b9af24365b29712, type: 2}
+  - {fileID: 11400000, guid: d8ed94463b0d1f14496675317c8079d3, type: 2}
+  - {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+  - {fileID: 11400000, guid: 44af52c6fbf574d4c9570c5700e6addd, type: 2}
+  - {fileID: 11400000, guid: 72ec79c87c59ba24f9c91253e18a8c85, type: 2}

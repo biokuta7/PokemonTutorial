@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 174-TogepiPokemonData
+  m_EditorClassIdentifier: 
+  number: 175
+  name: Togepi
+  internalName: TOGEPI
+  kind: Spike Ball
+  height: 0.3
+  weight: 1.5
+  dexEntry: "As its energy, it uses the feelings of compassion and pleasure exuded
+    by people and Pok\xE9mon. It stores up happy feelings in its shell, then shares
+    them out."
+  sprite: {fileID: 21300000, guid: c44f44fb1885c664582806c039bfab5d, type: 3}
+  backSprite: {fileID: 21300000, guid: 2943472fa5fe9e0498e6c72ae2e3a4a9, type: 3}
+  shinySprite: {fileID: 21300000, guid: c11f0c76b9f3e1b4385d9cf573e52b18, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: cbb2e288ae611e946921520ac1092293, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 1a6340dccceb24447b2efb2d165edba6, type: 3}
+  type1: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 15
+  eggGroup2: 0
+  growthRate: 1
+  habitat: 0
+  femaleRatio: 0.125
+  standardAbilities:
+  - {fileID: 11400000, guid: 50e368e4c211f5b4b886a3c97152f997, type: 2}
+  - {fileID: 11400000, guid: e31d0b5e9fc8b074e8740eeda2d1976d, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: c24056d7eb2a32044bcd4b667023afbf, type: 2}
+  baseHP: 35
+  baseAttack: 20
+  baseDefense: 65
+  baseSpeed: 20
+  baseSpecialAttack: 40
+  baseSpecialDefense: 65
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 1
+  baseEXP: 49
+  rareness: 190
+  baseHappiness: 70
+  stepsToHatch: 2805
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 49df1d5643c16e94e8a7607e0d4cb127, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: cc97392f8c47d6d43a7fe744875dfd4d, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 0a1a2816917ec8f4986fe09e1b39417a, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 79ff70b8768186845b6efa8a8ab2c39a, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 11851d64298ab6144aa7129575ae7364, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 135034a951a65894fb86a5f232b51764, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 3ad7323f7e54d8f4badcb6c0ca178e6b, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 22ca39658f179474d8dbc4583cb18c74, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: c5037b32ac3b84a478a4ec160d85abb6, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 30694025d0c13dd4c896a65d19651c78, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: c96d683e0383c194caa33e1ccf960d38, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: c93cc4f4568f0084b9fb39e135243cd5, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: 02e8c45cbeaa8f645b9a919d8d8efc87, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 824a861885c149d4bb06e01a7b7b5109, type: 2}
+    level: 53
+  eggMoves:
+  - {fileID: 11400000, guid: 95a576a0b079fff4d9459736640d5c82, type: 2}
+  - {fileID: 11400000, guid: cfd93b7c0d975cb4d8630d561a4ffe21, type: 2}
+  - {fileID: 11400000, guid: f992e7a4e62a3b149bb36f3087193be4, type: 2}
+  - {fileID: 11400000, guid: 9cea37bba3a567c44bc6020f1c777d86, type: 2}
+  - {fileID: 11400000, guid: f38e5d29dcd8083489e890ce9044abbb, type: 2}
+  - {fileID: 11400000, guid: 59af370ad9a98be4ba047b3c4dcfdc03, type: 2}
+  - {fileID: 11400000, guid: 7a147e057063b224a86c668c0f0c8579, type: 2}
+  - {fileID: 11400000, guid: 9d2a9ce13673a634e89077573467ca18, type: 2}
+  - {fileID: 11400000, guid: bf9d984b4f28e724bb18caed859b3315, type: 2}
+  - {fileID: 11400000, guid: 1049d51d9e91d3b48bad875bcc8f88fb, type: 2}
+  - {fileID: 11400000, guid: fdf3641947fef19439d1589e4b70cb3e, type: 2}
+  - {fileID: 11400000, guid: 3adf372432e53ca489134191c1193abe, type: 2}

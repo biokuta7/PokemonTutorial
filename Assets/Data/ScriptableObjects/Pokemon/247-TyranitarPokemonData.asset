@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 247-TyranitarPokemonData
+  m_EditorClassIdentifier: 
+  number: 248
+  name: Tyranitar
+  internalName: TYRANITAR
+  kind: Armor
+  height: 2
+  weight: 202
+  dexEntry: A Tyranitar is so overwhelmingly powerful, it can bring down a whole mountain
+    to make its nest. It roams in mountains seeking new opponents to fight.
+  sprite: {fileID: 21300000, guid: dd97d1c40adfe90458a564be661f40df, type: 3}
+  backSprite: {fileID: 21300000, guid: 85595d52379be1e45baf15d71b906abd, type: 3}
+  shinySprite: {fileID: 21300000, guid: e51476fd0202c6345bdc6adec98679c7, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 24e327ffedd162d41b1221cd10df843b, type: 3}
+  footprintSprite: {fileID: 21300000, guid: a105c07b59e7633419f4969a3250c964, type: 3}
+  type1: {fileID: 11400000, guid: 865c5118b1a0e3b4d895cfe37b3b2aa9, type: 2}
+  type2: {fileID: 11400000, guid: 5a37c1bbebd881b42bd5fab995e54689, type: 2}
+  eggGroup1: 1
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 59ffe5f67a3079b459d3e1d0e121bddd, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 9e29fc8e9332fe64e8ffd30a38bf2480, type: 2}
+  baseHP: 100
+  baseAttack: 134
+  baseDefense: 110
+  baseSpeed: 61
+  baseSpecialAttack: 95
+  baseSpecialDefense: 100
+  EV_HP: 0
+  EV_Attack: 3
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 270
+  rareness: 45
+  baseHappiness: 35
+  stepsToHatch: 10455
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: f7a872a200b369f4595344bb39526604, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: babc9d06ca5ac9e45bc97f25fd964b7a, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 10a9a26754b7e8b44ba441e49bd4f099, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 7f3e701f581e25848b130cae41131378, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 7f3e701f581e25848b130cae41131378, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 3206b805bebe41a479e48d61149567c3, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: 3e74825e213db2f46aa158ecff87166a, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 206d073f613428f428074167c47c813d, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: 5a170aa8024c80246991a18e353e044f, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 9568ab1e0a57eb340978593547c4af96, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: 045af626945e212499f0e9a28c180d66, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+    level: 47
+  - move: {fileID: 11400000, guid: 5d28992b9be13a341b391f0dd3d4a986, type: 2}
+    level: 54
+  - move: {fileID: 11400000, guid: ff0c05434e0850d4b88635587821b7f9, type: 2}
+    level: 63
+  - move: {fileID: 11400000, guid: 931a6239501d867458263239c17a188b, type: 2}
+    level: 73
+  - move: {fileID: 11400000, guid: 60f60ea14d80ad84ebd80005abbc42a5, type: 2}
+    level: 82
+  eggMoves: []

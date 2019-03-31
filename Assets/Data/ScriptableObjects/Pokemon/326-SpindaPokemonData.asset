@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 326-SpindaPokemonData
+  m_EditorClassIdentifier: 
+  number: 327
+  name: Spinda
+  internalName: SPINDA
+  kind: Spot Panda
+  height: 1.1
+  weight: 5
+  dexEntry: It is distinguished by a pattern of spots that is always different. Its
+    unsteady, tottering walk has the effect of fouling its foe's aim.
+  sprite: {fileID: 21300000, guid: e2097c540ad3c4741bdb02ef2d7f5a9d, type: 3}
+  backSprite: {fileID: 21300000, guid: 55fe003c0102aa6498f2f0dbd3e33691, type: 3}
+  shinySprite: {fileID: 21300000, guid: 57e236f64ed39d246a41df8b23df4a86, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: a8598eeeede4b5346b14578d8ae77d27, type: 3}
+  footprintSprite: {fileID: 21300000, guid: af9150ff700995d43a3586ce11197763, type: 3}
+  type1: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 8
+  growthRate: 1
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 58d1e1e09552c35468c706a098999f09, type: 2}
+  - {fileID: 11400000, guid: c73c217e7349ef64fa9e82400eb41359, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 6619f3f61f9847641818c10783d491a7, type: 2}
+  baseHP: 60
+  baseAttack: 60
+  baseDefense: 60
+  baseSpeed: 60
+  baseSpecialAttack: 60
+  baseSpecialDefense: 60
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 1
+  EV_SpecialDefense: 0
+  baseEXP: 126
+  rareness: 255
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: feef32ab21b065f4aae9bbf151f180c9, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 6a10a9d296905a64394c695b1f053ea7, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: 4aa6cb6c9662be9488e2a3562d16e64a, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 1683302a221d16c45a514c8db81ec734, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: c2a2f1fe7760dce43972f49a1d11f716, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 18d2b07fd9a5ed740902b65b48c67a90, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: aadd74742887232459cb17c0ca184660, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: bba0e618decf2494295c2ca64d2ee571, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: ab4b503440591f742bf63c1693c6ee27, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: 5a170aa8024c80246991a18e353e044f, type: 2}
+    level: 55
+  eggMoves:
+  - {fileID: 11400000, guid: a6ce236ee90cd8648853fe63ca90ce11, type: 2}
+  - {fileID: 11400000, guid: c93cc4f4568f0084b9fb39e135243cd5, type: 2}
+  - {fileID: 11400000, guid: 4965fe24e4d71994c83ce7f0c95a9d7a, type: 2}
+  - {fileID: 11400000, guid: 135034a951a65894fb86a5f232b51764, type: 2}
+  - {fileID: 11400000, guid: 02d284bddcaccd84c946ab544f218315, type: 2}
+  - {fileID: 11400000, guid: 4148031223b255242880deef8e6a614c, type: 2}
+  - {fileID: 11400000, guid: b54112bb46bdcb342b701dde2aed4ef4, type: 2}
+  - {fileID: 11400000, guid: baf6d92966733ae498b3d004af5042b4, type: 2}
+  - {fileID: 11400000, guid: 5df38effff9669e49a43e3d459847a64, type: 2}
+  - {fileID: 11400000, guid: b91301c0eeae9b846931e5505af518da, type: 2}
+  - {fileID: 11400000, guid: 7f24e6a892f52fb40868d3b0e3b3c8f0, type: 2}
+  - {fileID: 11400000, guid: 0597bcb9d5189764ea172472f3603923, type: 2}
+  - {fileID: 11400000, guid: 0daaaf2b724e2e34f893d673a8ee7a4e, type: 2}
+  - {fileID: 11400000, guid: c5037b32ac3b84a478a4ec160d85abb6, type: 2}

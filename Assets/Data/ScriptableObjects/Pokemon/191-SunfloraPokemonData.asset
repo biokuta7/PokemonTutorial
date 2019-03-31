@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 191-SunfloraPokemonData
+  m_EditorClassIdentifier: 
+  number: 192
+  name: Sunflora
+  internalName: SUNFLORA
+  kind: Sun
+  height: 0.8
+  weight: 8.5
+  dexEntry: Sunflora convert solar energy into nutrition. They are highly active in
+    the warm daytime but suddenly stop moving as soon as the sun sets.
+  sprite: {fileID: 21300000, guid: d90ccf07b05f9d440a07c1b76ace0bc5, type: 3}
+  backSprite: {fileID: 21300000, guid: c703531dbddd57e499f93ec6699292b9, type: 3}
+  shinySprite: {fileID: 21300000, guid: b7f6d133971825b4a89ba51dd2744926, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: a8f0b28011da822409060a49592ea497, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 6b2c1fa34060b4549aee8a630afd3651, type: 3}
+  type1: {fileID: 11400000, guid: 9ed7dc1c4ee6bf747b182dc2eaf16337, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 7
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: f0f4567366d84af44a479f99490860af, type: 2}
+  - {fileID: 11400000, guid: 71adb2477286e9647ae2d71d7815dc4b, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 643f15426c9330a47b7d08dc751d838b, type: 2}
+  baseHP: 75
+  baseAttack: 75
+  baseDefense: 55
+  baseSpeed: 30
+  baseSpecialAttack: 105
+  baseSpecialDefense: 85
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 2
+  EV_SpecialDefense: 0
+  baseEXP: 149
+  rareness: 120
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 51676f5ca5c33f3488bef6bd69f42876, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: c16d454899509064aa753b3499b92b83, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: a2bc558341f8e55459fbed9bfee7482b, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: c163dfa522d04f94d9ac8124bf7d1ec1, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 9fe365d30820e2747a1727bb6447555b, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: cf3b125d2a3a19f4db9c549d9d557481, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: a348e0502b2529145aaaa410f8e3880f, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 3bac1848939bf8549835d68f3be23289, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: da061361f80b8be41a2caf2d55f7a5ac, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: d0032eb960b8d524798fb954ea731315, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 6b8e9a946146d164a8955256e73f74a7, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 11434634b16ce4344a68c7884c2d777f, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 9d4a14f02a117a44b9913b77b6f91470, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: e4f79be0bd7dfa943bad2da0d45cad51, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: a45b5f72eda8d2d4798e7d5235a9072c, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: 55463fd3f765f9e4abb5cdd228a2f414, type: 2}
+    level: 43
+  eggMoves: []

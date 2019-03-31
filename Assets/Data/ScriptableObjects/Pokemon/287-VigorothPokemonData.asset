@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 287-VigorothPokemonData
+  m_EditorClassIdentifier: 
+  number: 288
+  name: Vigoroth
+  internalName: VIGOROTH
+  kind: Wild Monkey
+  height: 1.4
+  weight: 46.5
+  dexEntry: It can't keep still because its blood boils with energy. It runs through
+    the fields and mountains all day to calm itself. If it doesn't, it can't sleep
+    at night.
+  sprite: {fileID: 21300000, guid: 166c349571ea9dc4d8cac3a7053683a0, type: 3}
+  backSprite: {fileID: 21300000, guid: 8d190b6264fc0664eaba065d43a6cd35, type: 3}
+  shinySprite: {fileID: 21300000, guid: 8344d2721bb457f42b7a01f4e8d2ac33, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 600ccd67b3934a04686165deeb83b0ab, type: 3}
+  footprintSprite: {fileID: 21300000, guid: e1bd0224033bdcc419eb73642962dd4a, type: 3}
+  type1: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: e9ce6c57c461f1a46a1b82ed0527d9e5, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 80
+  baseAttack: 80
+  baseDefense: 80
+  baseSpeed: 90
+  baseSpecialAttack: 55
+  baseSpecialDefense: 55
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 2
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 154
+  rareness: 120
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 329b026261095554394609eaf24f46d0, type: 2}
+    levelToEvolve: 36
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: c8ad6b6cc523bd940b14ff75aa9ba40e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4abf7d172bbaeba4293580ddddb47f6f, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 135034a951a65894fb86a5f232b51764, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: feef32ab21b065f4aae9bbf151f180c9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 135034a951a65894fb86a5f232b51764, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: feef32ab21b065f4aae9bbf151f180c9, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: fb9cbbcc0dcb76f4a8254e7141042569, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 9f44f4d05fd57b74b9b026bf9776c7e7, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: b5cb4834e72f9064abecca08c734899b, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 886cc954c2a8d6546abe10ac0f64a80c, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 3206b805bebe41a479e48d61149567c3, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: fba2738cccebc354e8a6c90b07df60f5, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 8880b7ca31d4f794da5ad4a591a4d876, type: 2}
+    level: 55
+  eggMoves: []

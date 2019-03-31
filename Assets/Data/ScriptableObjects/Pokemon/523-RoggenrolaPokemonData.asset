@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 523-RoggenrolaPokemonData
+  m_EditorClassIdentifier: 
+  number: 524
+  name: Roggenrola
+  internalName: ROGGENROLA
+  kind: Mantle
+  height: 0.4
+  weight: 18
+  dexEntry: They were discovered a hundred years ago in an earthquake fissure. Inside
+    each one is an energy core.
+  sprite: {fileID: 21300000, guid: 9a81deea85ed5994d8d427a7760865ae, type: 3}
+  backSprite: {fileID: 21300000, guid: 26799eb9e6dedbe44b2bd22bac48e58e, type: 3}
+  shinySprite: {fileID: 21300000, guid: 68f449850799cb74f86375c369e80c45, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 32f079e2d0d30fe419cb9119d05acc8b, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 04bd58895874ad24f96986696a5293c7, type: 3}
+  type1: {fileID: 11400000, guid: 865c5118b1a0e3b4d895cfe37b3b2aa9, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 10
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 8822aaa86cfc2f0408aaabea80029644, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 9c2760b8ced6cbd49924f41e47871529, type: 2}
+  baseHP: 55
+  baseAttack: 75
+  baseDefense: 85
+  baseSpeed: 15
+  baseSpecialAttack: 25
+  baseSpecialDefense: 25
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 1
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 56
+  rareness: 255
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions:
+  - resultant: {fileID: 11400000, guid: fdf69c8e6b4eb24439006a81461e2315, type: 2}
+    levelToEvolve: 25
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 9f99cdcaa64669e41a2a8da39f981b55, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: f3d560a7d1edced43965433b7691eaf1, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 49d5da56e08edc84bbd0872e20b1d121, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: 6a425af601896ff48bd142db36a82669, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: a5bdded8b500614418098e7d3258784b, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 94562fdf9a1977c4f9b617b8eef1a08b, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: 3e74825e213db2f46aa158ecff87166a, type: 2}
+    level: 27
+  - move: {fileID: 11400000, guid: 4773ef6422b4dba42bf480860c4f42cc, type: 2}
+    level: 30
+  - move: {fileID: 11400000, guid: 7f3e701f581e25848b130cae41131378, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: ff0c05434e0850d4b88635587821b7f9, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: c04069573dd5ad143b9999bab5f1cbfa, type: 2}
+    level: 40
+  eggMoves:
+  - {fileID: 11400000, guid: 4798cf9b23b79124f96b077d9864d83e, type: 2}
+  - {fileID: 11400000, guid: fd48eadb1eda86c45b74371631ca93dd, type: 2}
+  - {fileID: 11400000, guid: 7fb73faec6c58ca45858307c277eba75, type: 2}
+  - {fileID: 11400000, guid: c24e608ede5552044974bb1114a3af17, type: 2}
+  - {fileID: 11400000, guid: 348a733884d7e6943acc894872975359, type: 2}
+  - {fileID: 11400000, guid: 929dd1fa550cc024f9a5897d6685bdcf, type: 2}
+  - {fileID: 11400000, guid: 32433de61b22a4547a4e2386f6bc82fb, type: 2}
+  - {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}

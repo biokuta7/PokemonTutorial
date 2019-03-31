@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 262-ZigzagoonPokemonData
+  m_EditorClassIdentifier: 
+  number: 263
+  name: Zigzagoon
+  internalName: ZIGZAGOON
+  kind: TinyRaccoon
+  height: 0.4
+  weight: 17.5
+  dexEntry: Rubbing its nose against the ground, it always wanders about back and
+    forth in search of something. It is distinguished by the zigzag footprints it
+    leaves.
+  sprite: {fileID: 21300000, guid: 37a86b42651b6f2479c8e311ecd5ca70, type: 3}
+  backSprite: {fileID: 21300000, guid: ec07a900333448140918de7a1bf202e8, type: 3}
+  shinySprite: {fileID: 21300000, guid: e0197ff0001c97a4c9b5c49d5b3f48d0, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: e2e4992ef7fec0b4fae06f6bcc822d59, type: 3}
+  footprintSprite: {fileID: 21300000, guid: fcfb5299640f6b24caeae5554365c7c7, type: 3}
+  type1: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: fa9c6b70c35b56d4eb9833a262f882c3, type: 2}
+  - {fileID: 11400000, guid: 0d8dec51d6d249449a421504145b2a85, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 850d457e7f9ec4d408cc419ca7e9a66d, type: 2}
+  baseHP: 38
+  baseAttack: 30
+  baseDefense: 41
+  baseSpeed: 60
+  baseSpecialAttack: 30
+  baseSpecialDefense: 41
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 1
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 48
+  rareness: 255
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 39399fd3cce7c0f46aa34abe5ff4b39b, type: 2}
+    levelToEvolve: 20
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 49df1d5643c16e94e8a7607e0d4cb127, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 90e9a9d7356e7c84ea9190b7ff0535b1, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: f3d560a7d1edced43965433b7691eaf1, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 9f99cdcaa64669e41a2a8da39f981b55, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: f8e0359e915e43e4abfa7d0500c94d43, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: dee27cd0fdcd79240b0663c357831a95, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 94cbbd93cb037114781f77a2e7546a2e, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 742c70de3a7643945a25b26139959535, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 22ca39658f179474d8dbc4583cb18c74, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: ab4b503440591f742bf63c1693c6ee27, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 6ca000a6aa650d243b1e634a9044d765, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 3deca9d3e2612f342bc9cdd96bb22c49, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: 511d2d613a889084b9ec13c60dd8332c, type: 2}
+    level: 49
+  eggMoves:
+  - {fileID: 11400000, guid: cc97392f8c47d6d43a7fe744875dfd4d, type: 2}
+  - {fileID: 11400000, guid: f277acd4ff10f914a97ec332c912d36c, type: 2}
+  - {fileID: 11400000, guid: 6a425af601896ff48bd142db36a82669, type: 2}
+  - {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+  - {fileID: 11400000, guid: 8fa8b734d4bf3c648b9af24365b29712, type: 2}
+  - {fileID: 11400000, guid: 9a8c05652e8fbff478058dfcb3cba336, type: 2}
+  - {fileID: 11400000, guid: e00c2e5151380af4f86149e04650bb42, type: 2}
+  - {fileID: 11400000, guid: 075cd6d6634b5004b8f3602896f27620, type: 2}
+  - {fileID: 11400000, guid: 0597bcb9d5189764ea172472f3603923, type: 2}

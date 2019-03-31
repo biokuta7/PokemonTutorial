@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 428-MismagiusPokemonData
+  m_EditorClassIdentifier: 
+  number: 429
+  name: Mismagius
+  internalName: MISMAGIUS
+  kind: Magical
+  height: 0.9
+  weight: 4.4
+  dexEntry: Its cries sound like incantations. Those hearing it are tormented by headaches
+    and hallucinations.
+  sprite: {fileID: 21300000, guid: 44df7b4e6cdc2b44590e844d6d5b6e7d, type: 3}
+  backSprite: {fileID: 21300000, guid: 99943403d1746f1449f1b840706c040c, type: 3}
+  shinySprite: {fileID: 21300000, guid: a8acfaf03429fd94dbf32c2494fdc422, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: fda9b95a6d186c043b2e97172683f7cf, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 5788da7a851da85498146fadeb712589, type: 3}
+  type1: {fileID: 11400000, guid: 5eb27c1d76b3cc2439c818ac7325a0e5, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 11
+  eggGroup2: 0
+  growthRate: 1
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 5591a465327adc24089f3b21835f2487, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 60
+  baseAttack: 60
+  baseDefense: 60
+  baseSpeed: 105
+  baseSpecialAttack: 105
+  baseSpecialDefense: 105
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 1
+  EV_SpecialDefense: 1
+  baseEXP: 173
+  rareness: 45
+  baseHappiness: 35
+  stepsToHatch: 6630
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 9cea37bba3a567c44bc6020f1c777d86, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 60251021589440c40b96c5308d70e6be, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 49df1d5643c16e94e8a7607e0d4cb127, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 40589a4e02d7b3847bc8e50d4212e3bb, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 162ffca29843f384fb6da9d014a71928, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+    level: 1
+  eggMoves: []

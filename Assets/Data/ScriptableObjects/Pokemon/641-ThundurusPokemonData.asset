@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 641-ThundurusPokemonData
+  m_EditorClassIdentifier: 
+  number: 642
+  name: Thundurus
+  internalName: THUNDURUS
+  kind: Bolt Strike
+  height: 1.5
+  weight: 61
+  dexEntry: The spikes on its tail discharge immense bolts of lightning. It flies
+    around the Unova region firing off lightning bolts.
+  sprite: {fileID: 21300000, guid: 4cf8859155fb775479ceccfccaa6670f, type: 3}
+  backSprite: {fileID: 21300000, guid: e357b800c0690454b816a588f37d74f2, type: 3}
+  shinySprite: {fileID: 21300000, guid: a99817ceadb14a944849c0147550fc72, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 8fe199f33d543f64985a800dc6e6dadd, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 348f88ef0ff7d2248aaa1a00b7c5aa8b, type: 3}
+  type1: {fileID: 11400000, guid: 826864d94ec7c8c4a8e95b6615b2eff3, type: 2}
+  type2: {fileID: 11400000, guid: 90bb1a57d841315478a74baa52e40ba4, type: 2}
+  eggGroup1: 15
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: 0
+  standardAbilities:
+  - {fileID: 11400000, guid: 5e64b01508371c248be16c3429cf53db, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 0854434ff051a2c42bec06977bf3d0ac, type: 2}
+  baseHP: 79
+  baseAttack: 115
+  baseDefense: 70
+  baseSpeed: 111
+  baseSpecialAttack: 125
+  baseSpecialDefense: 80
+  EV_HP: 0
+  EV_Attack: 3
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 5
+  rareness: 3
+  baseHappiness: 90
+  stepsToHatch: 30855
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: feef32ab21b065f4aae9bbf151f180c9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b38abe15a5a03c344b556ae4ef7c99ea, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 2da8c21f08cbc164da993e01dc3a0391, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: b0c5817ec469b4f44a3f7ef399a96c62, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 95e14b9bb06c45943aa7f521fd3c4464, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 3659785186860df46b7a35075d70daf1, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 3453f1ab4cf459a418c38964bff1630f, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: bb3904f7307498445959529de2390f9f, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 75e21a4edea0b024bbc8676017f9a5fe, type: 2}
+    level: 55
+  - move: {fileID: 11400000, guid: 7a147e057063b224a86c668c0f0c8579, type: 2}
+    level: 61
+  - move: {fileID: 11400000, guid: 8804ac16ee7916b4e8a9c838c3bad87c, type: 2}
+    level: 67
+  - move: {fileID: 11400000, guid: 9568ab1e0a57eb340978593547c4af96, type: 2}
+    level: 73
+  - move: {fileID: 11400000, guid: 7b14c654ccf062a45b54aa55c85ac600, type: 2}
+    level: 79
+  - move: {fileID: 11400000, guid: 5a170aa8024c80246991a18e353e044f, type: 2}
+    level: 85
+  eggMoves: []

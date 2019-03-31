@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 471-GliscorPokemonData
+  m_EditorClassIdentifier: 
+  number: 472
+  name: Gliscor
+  internalName: GLISCOR
+  kind: Fang Scorp
+  height: 2
+  weight: 42.5
+  dexEntry: It observes prey while hanging inverted from branches. When the chance
+    presents itself, it swoops!
+  sprite: {fileID: 21300000, guid: 924c098d6b5020649a97b7cd2a8c62a8, type: 3}
+  backSprite: {fileID: 21300000, guid: 3358183d34b66484e8509c84729182d2, type: 3}
+  shinySprite: {fileID: 21300000, guid: 33e70dd1de5dab349bc547b928f9de59, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 109027e1b0d560a4baa3260be00a1d72, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 1dd6194e54f86724baef3eab88653fd6, type: 3}
+  type1: {fileID: 11400000, guid: 2aef90cd8ab7add4ead9fdc156318a32, type: 2}
+  type2: {fileID: 11400000, guid: 90bb1a57d841315478a74baa52e40ba4, type: 2}
+  eggGroup1: 3
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: ed298f78e600b3e429826881bdc0065c, type: 2}
+  - {fileID: 11400000, guid: 292e7e0ff6e7588448903262eac203e9, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 0a9b57cc48e89994d81e548ca34e08f6, type: 2}
+  baseHP: 75
+  baseAttack: 95
+  baseDefense: 125
+  baseSpeed: 95
+  baseSpecialAttack: 45
+  baseSpecialDefense: 75
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 2
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 179
+  rareness: 30
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: f7a872a200b369f4595344bb39526604, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: babc9d06ca5ac9e45bc97f25fd964b7a, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 10a9a26754b7e8b44ba441e49bd4f099, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: f79d836c63afaf245bae1d57829db1e6, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9f99cdcaa64669e41a2a8da39f981b55, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: aa3899441c43934478c93384796e9a8c, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9f99cdcaa64669e41a2a8da39f981b55, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: aa3899441c43934478c93384796e9a8c, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: d5f2e90bd85630a43bdd31934847cdc5, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: fa647d901ccdd0247a78d3959bbce436, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: ef4c8b448f6084848a1c3e459e61b09e, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: c106b7df995223443800dc9dd1494144, type: 2}
+    level: 27
+  - move: {fileID: 11400000, guid: 494af4edebad3e04d9d52a84f4dcef70, type: 2}
+    level: 30
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: b41f0ba60c27a6a459db2860ce5cf946, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: c028274b977641b409c91d92818cee19, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: 9887221a3a392a748b92ecd16cd5faf7, type: 2}
+    level: 50
+  eggMoves: []

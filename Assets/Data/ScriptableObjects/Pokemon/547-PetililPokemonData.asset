@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 547-PetililPokemonData
+  m_EditorClassIdentifier: 
+  number: 548
+  name: Petilil
+  internalName: PETILIL
+  kind: Bulb
+  height: 0.5
+  weight: 6.6
+  dexEntry: Since they prefer moist, nutrient-rich soil, the areas where Petilil live
+    are known to be good for growing plants.
+  sprite: {fileID: 21300000, guid: 153b71998b529c64fb0855cce22bc845, type: 3}
+  backSprite: {fileID: 21300000, guid: 8f683396e8be50449afde3b9215b1e68, type: 3}
+  shinySprite: {fileID: 21300000, guid: c8717ade3118b224599fe3d19d0d7dd3, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: a8cee0437ebb9f540af6185b16b9e4ff, type: 3}
+  footprintSprite: {fileID: 21300000, guid: d03320c233fc7684fb061b3f172fb1c8, type: 3}
+  type1: {fileID: 11400000, guid: 9ed7dc1c4ee6bf747b182dc2eaf16337, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 7
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 1
+  standardAbilities:
+  - {fileID: 11400000, guid: f0f4567366d84af44a479f99490860af, type: 2}
+  - {fileID: 11400000, guid: 58d1e1e09552c35468c706a098999f09, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: c14092609e4bcb34697c56b3622959e8, type: 2}
+  baseHP: 45
+  baseAttack: 35
+  baseDefense: 50
+  baseSpeed: 30
+  baseSpecialAttack: 70
+  baseSpecialDefense: 50
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 1
+  EV_SpecialDefense: 0
+  baseEXP: 56
+  rareness: 190
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 6c54fea8e2ab21847a889070e00f6416, type: 2}
+    levelToEvolve: 0
+    itemToEvolve: {fileID: 11400000, guid: b13971d0f26cf8d408fb517f65fed12a, type: 2}
+    evolutionType: 1
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 51676f5ca5c33f3488bef6bd69f42876, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: a2bc558341f8e55459fbed9bfee7482b, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: a348e0502b2529145aaaa410f8e3880f, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 6db871796f983fe4cb33a054bb5c4462, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: cf3b125d2a3a19f4db9c549d9d557481, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: bf883db29c15eab4cbe5f9f2b382655a, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 60251021589440c40b96c5308d70e6be, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 821e4ffa6d02b364b88e8bf9bc74093c, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: d0032eb960b8d524798fb954ea731315, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: 4d6c066a4b7fdcc40ae1addf8fa93fe4, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: f277acd4ff10f914a97ec332c912d36c, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 8998edf4d2f21d044b2a030f300f2fe4, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: dab02694fe76958429c4c151a4f4382f, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: a45b5f72eda8d2d4798e7d5235a9072c, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: 824a861885c149d4bb06e01a7b7b5109, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: 55463fd3f765f9e4abb5cdd228a2f414, type: 2}
+    level: 46
+  eggMoves:
+  - {fileID: 11400000, guid: 33d96fe56c3fefd4abee4fdd115ab776, type: 2}
+  - {fileID: 11400000, guid: cc97392f8c47d6d43a7fe744875dfd4d, type: 2}
+  - {fileID: 11400000, guid: 9f44f4d05fd57b74b9b026bf9776c7e7, type: 2}
+  - {fileID: 11400000, guid: 9fe365d30820e2747a1727bb6447555b, type: 2}
+  - {fileID: 11400000, guid: b5a4221bc5e319841b4a778de8d00787, type: 2}
+  - {fileID: 11400000, guid: c163dfa522d04f94d9ac8124bf7d1ec1, type: 2}
+  - {fileID: 11400000, guid: 9d4a14f02a117a44b9913b77b6f91470, type: 2}
+  - {fileID: 11400000, guid: 05690026fb024824db2ad77c5245df16, type: 2}
+  - {fileID: 11400000, guid: da061361f80b8be41a2caf2d55f7a5ac, type: 2}

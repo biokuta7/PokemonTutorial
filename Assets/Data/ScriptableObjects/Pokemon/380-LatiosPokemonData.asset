@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 380-LatiosPokemonData
+  m_EditorClassIdentifier: 
+  number: 381
+  name: Latios
+  internalName: LATIOS
+  kind: Eon
+  height: 2
+  weight: 60
+  dexEntry: Even in hiding, it can detect the locations of others and sense their
+    emotions since it has telepathy. Its intelligence allows it to understand human
+    languages.
+  sprite: {fileID: 21300000, guid: 31fec0a9813572549ae85862dfb5933a, type: 3}
+  backSprite: {fileID: 21300000, guid: e4c2a1f244e350641873fe4ffaae3bd9, type: 3}
+  shinySprite: {fileID: 21300000, guid: ac4a503ff56661e47a4e98756e3f9a77, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 6d78a82ed837c8a4fbe6ff3b965cc9df, type: 3}
+  footprintSprite: {fileID: 21300000, guid: cc9fe9ef4ea06554ba29e63aee558f3a, type: 3}
+  type1: {fileID: 11400000, guid: a50e8df2c05bf734c9f408b06361f74e, type: 2}
+  type2: {fileID: 11400000, guid: 718f468b569515f42be9e985a9082465, type: 2}
+  eggGroup1: 15
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: 0
+  standardAbilities:
+  - {fileID: 11400000, guid: 5591a465327adc24089f3b21835f2487, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 80
+  baseAttack: 90
+  baseDefense: 80
+  baseSpeed: 110
+  baseSpecialAttack: 130
+  baseSpecialDefense: 110
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 3
+  EV_SpecialDefense: 0
+  baseEXP: 270
+  rareness: 3
+  baseHappiness: 90
+  stepsToHatch: 30855
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 40589a4e02d7b3847bc8e50d4212e3bb, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3659785186860df46b7a35075d70daf1, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: f277acd4ff10f914a97ec332c912d36c, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: c96d683e0383c194caa33e1ccf960d38, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: f1751b5ec96b0424e90af98f8405703d, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 79c63ba594520644cbecc00f726ef040, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: a253a6a569c46a748ad69bf73eefba7a, type: 2}
+    level: 30
+  - move: {fileID: 11400000, guid: 6c12331a9f209cb4f93f5cdc6dfa267b, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: a14c1abb33c849c40b2bc2db3133d367, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: 17b540db896190346af6a508b2a0c1ec, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: 1049d51d9e91d3b48bad875bcc8f88fb, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: 6a19de109a1bddf4d99a984783c518a3, type: 2}
+    level: 55
+  - move: {fileID: 11400000, guid: 943dd68f173614045a520526628a0d44, type: 2}
+    level: 60
+  - move: {fileID: 11400000, guid: 7cc88e8162115034a892a986b53071ba, type: 2}
+    level: 65
+  - move: {fileID: 11400000, guid: 0df1ec76e1713ea479e564958da9bf9b, type: 2}
+    level: 70
+  - move: {fileID: 11400000, guid: f4bb7753cc8e94d43a635a750049544a, type: 2}
+    level: 75
+  - move: {fileID: 11400000, guid: 36ac6fad3c69dfa4ea764d608a2a1212, type: 2}
+    level: 80
+  - move: {fileID: 11400000, guid: fdcea9f0752a07242baa0c957d7097af, type: 2}
+    level: 85
+  eggMoves: []

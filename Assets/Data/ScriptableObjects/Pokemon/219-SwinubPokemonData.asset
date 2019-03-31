@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 219-SwinubPokemonData
+  m_EditorClassIdentifier: 
+  number: 220
+  name: Swinub
+  internalName: SWINUB
+  kind: Pig
+  height: 0.4
+  weight: 6.5
+  dexEntry: It roots for food by rubbing its snout against the ground. Its favorite
+    food is a mushroom that grows under dried grass. It occasionally roots out hot
+    springs.
+  sprite: {fileID: 21300000, guid: 7349368c921c6b6498e9192da0f3cea5, type: 3}
+  backSprite: {fileID: 21300000, guid: adf28fa6f1b82e84ab5581b2010dcaaf, type: 3}
+  shinySprite: {fileID: 21300000, guid: b8abb2d0195250544ae702363fbb3f56, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 85852bbf423d9f44c856f862b8393056, type: 3}
+  footprintSprite: {fileID: 21300000, guid: a5af4d94ec4f5de4d9c7020fefd9e223, type: 3}
+  type1: {fileID: 11400000, guid: 38a14f4c97dc09046a4a4f9f7bdade6e, type: 2}
+  type2: {fileID: 11400000, guid: 2aef90cd8ab7add4ead9fdc156318a32, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 79ec5a44ce26f2541a05456e4aa36662, type: 2}
+  - {fileID: 11400000, guid: f9bf45685f0426f40bdfc73770c59acb, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 5370a5cddfbfa4d4396bfd64d5065c3a, type: 2}
+  baseHP: 50
+  baseAttack: 50
+  baseDefense: 40
+  baseSpeed: 50
+  baseSpecialAttack: 30
+  baseSpecialDefense: 30
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 50
+  rareness: 225
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 749a17cc60a2d0d48a7e8a68a6cd04e7, type: 2}
+    levelToEvolve: 33
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: f8e0359e915e43e4abfa7d0500c94d43, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: dee27cd0fdcd79240b0663c357831a95, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 40d2e39e14d19834e9e6089cb596cdc7, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 6a425af601896ff48bd142db36a82669, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 9f44f4d05fd57b74b9b026bf9776c7e7, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: 497f9a160f072f740959d8bd6ad5508e, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: b54112bb46bdcb342b701dde2aed4ef4, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 748d6f7306d57e04a8dafa2546fca662, type: 2}
+    level: 24
+  - move: {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 424e9656e1d9e8a40b980b3111eb709e, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: 5d28992b9be13a341b391f0dd3d4a986, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: ab4b503440591f742bf63c1693c6ee27, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: 7b20094791067584392cb9404ff2c0ab, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: b54451c499c3fc24aade1add5a757d05, type: 2}
+    level: 48
+  eggMoves:
+  - {fileID: 11400000, guid: 30694025d0c13dd4c896a65d19651c78, type: 2}
+  - {fileID: 11400000, guid: 981b3918fd4c7234e92fcd25312715ae, type: 2}
+  - {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+  - {fileID: 11400000, guid: 903b5ee462226ab47b3026d6ace38c5d, type: 2}
+  - {fileID: 11400000, guid: fd48eadb1eda86c45b74371631ca93dd, type: 2}
+  - {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+  - {fileID: 11400000, guid: b08d8d6945d0819419892e4b757cdad8, type: 2}
+  - {fileID: 11400000, guid: 144f1e94cb6bc7549bed0c5f76102830, type: 2}
+  - {fileID: 11400000, guid: b7afee88591cb8041ba9bde2532f8312, type: 2}
+  - {fileID: 11400000, guid: 4dfa80e8978525c488cbd9c827a66af7, type: 2}
+  - {fileID: 11400000, guid: 4773ef6422b4dba42bf480860c4f42cc, type: 2}
+  - {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}

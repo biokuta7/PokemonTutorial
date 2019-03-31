@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -18,11 +19,11 @@ MonoBehaviour:
     also leave the target paralyzed.
   functionCode: 008
   target: 00
-  flags: 62006500
+  flags: 620065006600
   isSpecial: 1
   basePower: 120
   accuracy: 70
   totalPP: 10
   additionalEffectChance: 30
   priority: 0
-  type: {fileID: 11400000, guid: b116a2460c92a4c40a7dd42122987a37, type: 2}
+  type: {fileID: 11400000, guid: 826864d94ec7c8c4a8e95b6615b2eff3, type: 2}

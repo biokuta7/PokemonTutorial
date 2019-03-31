@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 618-MienfooPokemonData
+  m_EditorClassIdentifier: 
+  number: 619
+  name: Mienfoo
+  internalName: MIENFOO
+  kind: Martial Arts
+  height: 0.9
+  weight: 20
+  dexEntry: They have mastered elegant combos. As they concentrate, their battle moves
+    become swifter and more precise.
+  sprite: {fileID: 21300000, guid: 6fd50d87dd225864fa4211853f6ccc89, type: 3}
+  backSprite: {fileID: 21300000, guid: 904ba7befa047d84486a0c6fae72a7ff, type: 3}
+  shinySprite: {fileID: 21300000, guid: cabfaaffa639c16478b5e07c18d1715f, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: b1ea0549138c7b446aad16593f0dfd80, type: 3}
+  footprintSprite: {fileID: 21300000, guid: eb677c94587ea674498960bb013a6c3b, type: 3}
+  type1: {fileID: 11400000, guid: 60bba5c3467446d45a479ab6b6a6e82e, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 8
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 9ecbfd12032db4c41b4660b9d7508597, type: 2}
+  - {fileID: 11400000, guid: d69edbf99bf2689429be6e9343f72d05, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 975f61e15538f23429a671589ce00ebc, type: 2}
+  baseHP: 45
+  baseAttack: 85
+  baseDefense: 50
+  baseSpeed: 65
+  baseSpecialAttack: 55
+  baseSpecialDefense: 50
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 70
+  rareness: 180
+  baseHappiness: 70
+  stepsToHatch: 6630
+  evolutions:
+  - resultant: {fileID: 11400000, guid: f137a16926b44c6419a53802e8277480, type: 2}
+    levelToEvolve: 50
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: c16d454899509064aa753b3499b92b83, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 8c66c1beeec9e8244ba1eddc9efab0be, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 16531673f7df2c1428a3eda3a0a5e5b6, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 02d284bddcaccd84c946ab544f218315, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 8e58a59f68ed40a49b42a88906e27b5e, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 8f7d8eb3956de5c4bb6b3d67bd3ba44b, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 70de2395caef55748904be979eeef0d5, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 178dabe2d75a1d64a8035b206f54b0d8, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 29dd5da64c2172f4d92cc1419277caf2, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 6930ddcdd2437fc4e97d7b0e7dc10b07, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 494af4edebad3e04d9d52a84f4dcef70, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: f59c4c13ab26fc54caae248bc7547b1f, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: efe9376b10863894d99db7561cbb9ca4, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 7b2016b6671c1b34e9e6716a7044e541, type: 2}
+    level: 53
+  - move: {fileID: 11400000, guid: 8880b7ca31d4f794da5ad4a591a4d876, type: 2}
+    level: 57
+  - move: {fileID: 11400000, guid: e5eb51bbaef58164ab4a9280bb231cee, type: 2}
+    level: 61
+  eggMoves:
+  - {fileID: 11400000, guid: c93cc4f4568f0084b9fb39e135243cd5, type: 2}
+  - {fileID: 11400000, guid: 9f44f4d05fd57b74b9b026bf9776c7e7, type: 2}
+  - {fileID: 11400000, guid: efce0155d8efb2e4d846129c30b3961f, type: 2}
+  - {fileID: 11400000, guid: aa3899441c43934478c93384796e9a8c, type: 2}
+  - {fileID: 11400000, guid: b230703886b02f14ba5cca7969ba17f8, type: 2}
+  - {fileID: 11400000, guid: 2c040a557e68a68468efd8b0c07b7758, type: 2}
+  - {fileID: 11400000, guid: 7f24e6a892f52fb40868d3b0e3b3c8f0, type: 2}
+  - {fileID: 11400000, guid: 9f6327c384b596c4cacd33d10840d644, type: 2}

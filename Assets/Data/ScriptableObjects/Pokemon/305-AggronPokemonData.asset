@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 305-AggronPokemonData
+  m_EditorClassIdentifier: 
+  number: 306
+  name: Aggron
+  internalName: AGGRON
+  kind: Iron Armor
+  height: 2.1
+  weight: 360
+  dexEntry: Its iron horns grow longer a little at a time. They are used to determine
+    the Aggron's age. The gouges in its armor are worn with pride as mementos from
+    battles.
+  sprite: {fileID: 21300000, guid: 7a0372aeaf459ec4091f2dbbd7dae12d, type: 3}
+  backSprite: {fileID: 21300000, guid: fe64e0310c1086643b2cd1e5d840d02b, type: 3}
+  shinySprite: {fileID: 21300000, guid: 2926d44f9f3a8034b880c9e32c8133f5, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: c5971c6592d31b541a07a01828f7580b, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 8bed2701ce2c077478ab96282e751025, type: 3}
+  type1: {fileID: 11400000, guid: e19d9d0db9bfb304f86f2be1b2cbcd6e, type: 2}
+  type2: {fileID: 11400000, guid: 865c5118b1a0e3b4d895cfe37b3b2aa9, type: 2}
+  eggGroup1: 1
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 8822aaa86cfc2f0408aaabea80029644, type: 2}
+  - {fileID: 11400000, guid: eaeb02f426f4fb040a995a3ac538cd8b, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: a3f390a13c64a514dbd5440e2a38a282, type: 2}
+  baseHP: 70
+  baseAttack: 110
+  baseDefense: 180
+  baseSpeed: 50
+  baseSpecialAttack: 60
+  baseSpecialDefense: 60
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 3
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 239
+  rareness: 45
+  baseHappiness: 35
+  stepsToHatch: 9180
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6a425af601896ff48bd142db36a82669, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: f3d560a7d1edced43965433b7691eaf1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6a425af601896ff48bd142db36a82669, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: f3d560a7d1edced43965433b7691eaf1, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 20511dc028bdeb84185f09366190df6d, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: a5bdded8b500614418098e7d3258784b, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: c4e8c740e55faed46ab0712cbaa03682, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 4dd2c9aed99018b41925ea000173945a, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 79c63ba594520644cbecc00f726ef040, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 9064c27f2e3736249bec03fe438c3daf, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: 840bfbc637572204e89aa45543ac969b, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: 4798cf9b23b79124f96b077d9864d83e, type: 2}
+    level: 48
+  - move: {fileID: 11400000, guid: c24e608ede5552044974bb1114a3af17, type: 2}
+    level: 57
+  - move: {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+    level: 65
+  - move: {fileID: 11400000, guid: 4ad07fef491bff84a9de8a52b84f9705, type: 2}
+    level: 74
+  eggMoves: []

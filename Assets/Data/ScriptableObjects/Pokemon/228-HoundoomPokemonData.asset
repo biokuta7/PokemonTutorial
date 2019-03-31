@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 228-HoundoomPokemonData
+  m_EditorClassIdentifier: 
+  number: 229
+  name: Houndoom
+  internalName: HOUNDOOM
+  kind: Dark
+  height: 1.4
+  weight: 35
+  dexEntry: In a Houndoom pack, the one with its horns raked sharply back serves a
+    leadership role. They choose their leader by fighting among themselves.
+  sprite: {fileID: 21300000, guid: 01bde43f47901294da3e06693aefc280, type: 3}
+  backSprite: {fileID: 21300000, guid: bb7954f1a03ab71418065e7a28a9b60f, type: 3}
+  shinySprite: {fileID: 21300000, guid: 127e376d31f3b9b4e897c8285da378d2, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 6f8d1595b3332bc4eb3293603975107e, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 8bfd19b83fa69454cb8f133937fc105e, type: 3}
+  type1: {fileID: 11400000, guid: 5a37c1bbebd881b42bd5fab995e54689, type: 2}
+  type2: {fileID: 11400000, guid: e120886a2aede3b4089e217b177a6111, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 643f15426c9330a47b7d08dc751d838b, type: 2}
+  - {fileID: 11400000, guid: 06bd162fe9018664b8c322bdd5564793, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 9e29fc8e9332fe64e8ffd30a38bf2480, type: 2}
+  baseHP: 75
+  baseAttack: 90
+  baseDefense: 50
+  baseSpeed: 95
+  baseSpecialAttack: 110
+  baseSpecialDefense: 80
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 2
+  EV_SpecialDefense: 0
+  baseEXP: 175
+  rareness: 45
+  baseHappiness: 35
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: f7a872a200b369f4595344bb39526604, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 62339e29a8fb98e4da4f46c83137d8b8, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 123685018af87ba42b579038dda50a29, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 7977c32ff901d584f8f33bf322b0bd77, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 123685018af87ba42b579038dda50a29, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 7977c32ff901d584f8f33bf322b0bd77, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: c4e8c740e55faed46ab0712cbaa03682, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: f8e0359e915e43e4abfa7d0500c94d43, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: b6a288baf04435947a335691653026fb, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: 10a9a26754b7e8b44ba441e49bd4f099, type: 2}
+    level: 30
+  - move: {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: 6b122730c79780648a197ae9c6d76e78, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 777fd3747c8934a44834a8d6288486b0, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: d64bedf5e2f4a984eb292a639e253040, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+    level: 56
+  - move: {fileID: 11400000, guid: 7a147e057063b224a86c668c0f0c8579, type: 2}
+    level: 60
+  - move: {fileID: 11400000, guid: 7ba7b62010793334ea3c22704bdc66a5, type: 2}
+    level: 65
+  eggMoves: []

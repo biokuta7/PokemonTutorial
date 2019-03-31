@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 575-GothitellePokemonData
+  m_EditorClassIdentifier: 
+  number: 576
+  name: Gothitelle
+  internalName: GOTHITELLE
+  kind: Astral Body
+  height: 1.5
+  weight: 44
+  dexEntry: They can predict the future from the placement and movement of the stars.
+    They can see Trainers' life spans.
+  sprite: {fileID: 21300000, guid: e258e1db45b79c44fb54bc81f7e0e2ac, type: 3}
+  backSprite: {fileID: 21300000, guid: dfa327f4de332d24f845f13571f1fdf1, type: 3}
+  shinySprite: {fileID: 21300000, guid: e509fe4690cfe354f96acf73522444ff, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 7b289b2e180b86141ac2a53aadaa07d5, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 21ef38f92d18bac44b2edfec2edbda0e, type: 3}
+  type1: {fileID: 11400000, guid: 718f468b569515f42be9e985a9082465, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 8
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.75
+  standardAbilities:
+  - {fileID: 11400000, guid: f2de2423ca550594aade218885cbb0ff, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: bfb130f03911f054b87b00e2d273dfde, type: 2}
+  baseHP: 70
+  baseAttack: 55
+  baseDefense: 95
+  baseSpeed: 65
+  baseSpecialAttack: 95
+  baseSpecialDefense: 110
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 3
+  baseEXP: 221
+  rareness: 50
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: c16d454899509064aa753b3499b92b83, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 0220cff4fc3377247806f98b98ceb881, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 075cd6d6634b5004b8f3602896f27620, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4148031223b255242880deef8e6a614c, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 0220cff4fc3377247806f98b98ceb881, type: 2}
+    level: 3
+  - move: {fileID: 11400000, guid: 075cd6d6634b5004b8f3602896f27620, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 4148031223b255242880deef8e6a614c, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 8e58a59f68ed40a49b42a88906e27b5e, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: 4aa6cb6c9662be9488e2a3562d16e64a, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: 6b122730c79780648a197ae9c6d76e78, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+    level: 24
+  - move: {fileID: 11400000, guid: 66d4e28149797dc43baee977de141bb4, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 04d33f3b315de81448190b591cc3a535, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: f992e7a4e62a3b149bb36f3087193be4, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 3659785186860df46b7a35075d70daf1, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: 943dd68f173614045a520526628a0d44, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: 0df1ec76e1713ea479e564958da9bf9b, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: cc97392f8c47d6d43a7fe744875dfd4d, type: 2}
+    level: 54
+  - move: {fileID: 11400000, guid: f37b0e24c6cd43041a54325de41f6d05, type: 2}
+    level: 59
+  eggMoves: []

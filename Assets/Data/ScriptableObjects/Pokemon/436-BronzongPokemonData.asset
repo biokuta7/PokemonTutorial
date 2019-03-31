@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 436-BronzongPokemonData
+  m_EditorClassIdentifier: 
+  number: 437
+  name: Bronzong
+  internalName: BRONZONG
+  kind: Bronze Bell
+  height: 1.3
+  weight: 187
+  dexEntry: One caused a news sensation when it was dug up at a construction site
+    after a 2,000-year sleep.
+  sprite: {fileID: 21300000, guid: d97696744114289448b347e657cc1509, type: 3}
+  backSprite: {fileID: 21300000, guid: cd859c9a130285643817ee63b6608d3f, type: 3}
+  shinySprite: {fileID: 21300000, guid: 401ac81869ba5434bab1a332fbf82b11, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 750b916893071a148b80474040aa56c0, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 75b680f661878dd4e9a1cc743a8d9f32, type: 3}
+  type1: {fileID: 11400000, guid: e19d9d0db9bfb304f86f2be1b2cbcd6e, type: 2}
+  type2: {fileID: 11400000, guid: 718f468b569515f42be9e985a9082465, type: 2}
+  eggGroup1: 10
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: -1
+  standardAbilities:
+  - {fileID: 11400000, guid: 5591a465327adc24089f3b21835f2487, type: 2}
+  - {fileID: 11400000, guid: 6f39e91ba298fb345840905df8d0eebf, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: a3f390a13c64a514dbd5440e2a38a282, type: 2}
+  baseHP: 67
+  baseAttack: 89
+  baseDefense: 116
+  baseSpeed: 33
+  baseSpecialAttack: 79
+  baseSpecialDefense: 116
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 1
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 1
+  baseEXP: 175
+  rareness: 90
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: a45b5f72eda8d2d4798e7d5235a9072c, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3ba17b56df8a7214e8e456be13d519fb, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 0220cff4fc3377247806f98b98ceb881, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 1683302a221d16c45a514c8db81ec734, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: fd5957dceb3eed242bb7108cbeca5745, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 1683302a221d16c45a514c8db81ec734, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: fd5957dceb3eed242bb7108cbeca5745, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 30e9bccee0b2ceb4cb9ad6b51e66e479, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 40589a4e02d7b3847bc8e50d4212e3bb, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: a5bdded8b500614418098e7d3258784b, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: c96d683e0383c194caa33e1ccf960d38, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: f992e7a4e62a3b149bb36f3087193be4, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 9064c27f2e3736249bec03fe438c3daf, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 2e15374810494ec4d90f20ee3b5afdbe, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: afaa49cea35fccd40a4ec46bb12edd9f, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 95a576a0b079fff4d9459736640d5c82, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: 045af626945e212499f0e9a28c180d66, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: 3659785186860df46b7a35075d70daf1, type: 2}
+    level: 52
+  eggMoves: []

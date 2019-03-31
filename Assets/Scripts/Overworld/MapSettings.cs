@@ -20,17 +20,19 @@ public class MapSettings : MonoBehaviour
     public Encounter[] waterEncounters;
     public Encounter[] randomEncounters;
 
-    [Range(0f, .5f)]
+    [Range(0f, .20f)]
     public float grassEncounterChance = .15f;
-    [Range(0f, .5f)]
+    [Range(0f, .20f)]
     public float waterEncounterChance = .10f;
-    [Range(0f, .5f)]
+    [Range(0f, .20f)]
     public float randomEncounterChance = .05f;
 
     private void Awake()
     {
         instance = this;
     }
+
+    
 
     public bool OnGrassShake()
     {
@@ -52,6 +54,7 @@ public class MapSettings : MonoBehaviour
             {
                 int level = Random.Range(e.minLevel, e.maxLevel);
                 Debug.Log("A wild " + e.pokemonData.name + " appeared! LVL " + level);
+                PokemonGameManager.instance.StartWildBattle(e.pokemonData, level);
                 return true;
             }
         }

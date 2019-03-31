@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -18,11 +19,11 @@ MonoBehaviour:
     heal its HP.
   functionCode: 114
   target: 10
-  flags: 64006900
+  flags: 6400
   isSpecial: 0
   basePower: 0
   accuracy: 0
   totalPP: 10
   additionalEffectChance: 0
   priority: 0
-  type: {fileID: 11400000, guid: de3693b16b9150146a68b455abcf327a, type: 2}
+  type: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}

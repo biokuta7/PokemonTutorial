@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 645-KyuremPokemonData
+  m_EditorClassIdentifier: 
+  number: 646
+  name: Kyurem
+  internalName: KYUREM
+  kind: Boundary
+  height: 3
+  weight: 325
+  dexEntry: It generates a powerful, freezing energy inside itself, but its body became
+    frozen when the energy leaked out.
+  sprite: {fileID: 21300000, guid: 8f26eb1ab21c88641bc79d5747731abc, type: 3}
+  backSprite: {fileID: 21300000, guid: cf34c6f1bb94d03418897d5433af5873, type: 3}
+  shinySprite: {fileID: 21300000, guid: ec93222d57e788b41ae6ef64a5c0ef73, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: fb9dba5b3f829a24f86c30bae41a3e17, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 7b34564804f26dc489a2e5b7173da174, type: 3}
+  type1: {fileID: 11400000, guid: a50e8df2c05bf734c9f408b06361f74e, type: 2}
+  type2: {fileID: 11400000, guid: 38a14f4c97dc09046a4a4f9f7bdade6e, type: 2}
+  eggGroup1: 15
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: -1
+  standardAbilities:
+  - {fileID: 11400000, guid: 09c4d0a860f51c1488a6ee391d1e8f0e, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 125
+  baseAttack: 130
+  baseDefense: 90
+  baseSpeed: 95
+  baseSpecialAttack: 130
+  baseSpecialDefense: 90
+  EV_HP: 1
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 1
+  EV_SpecialDefense: 0
+  baseEXP: 41
+  rareness: 3
+  baseHappiness: 0
+  stepsToHatch: 30855
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: b54112bb46bdcb342b701dde2aed4ef4, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 30c2e672cc93cd44d983f46e72bb67eb, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: fd5957dceb3eed242bb7108cbeca5745, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 30694025d0c13dd4c896a65d19651c78, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 9a8a22dc71b500646b63bcefb84980fc, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: f1751b5ec96b0424e90af98f8405703d, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: b5cb4834e72f9064abecca08c734899b, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 206d073f613428f428074167c47c813d, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: d80a6f13410eb6b4d99b15011013b074, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: 36ac6fad3c69dfa4ea764d608a2a1212, type: 2}
+    level: 57
+  - move: {fileID: 11400000, guid: fd5957dceb3eed242bb7108cbeca5745, type: 2}
+    level: 64
+  - move: {fileID: 11400000, guid: 74d2270e8d5047f47bdfca1fc219dded, type: 2}
+    level: 71
+  - move: {fileID: 11400000, guid: 7b20094791067584392cb9404ff2c0ab, type: 2}
+    level: 78
+  - move: {fileID: 11400000, guid: 4e5c129cdc82eab41b3c7170d5fb9eb6, type: 2}
+    level: 85
+  - move: {fileID: 11400000, guid: 742025f9f24a09946bae3d0cdb215512, type: 2}
+    level: 92
+  eggMoves: []

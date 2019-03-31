@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 460-WeavilePokemonData
+  m_EditorClassIdentifier: 
+  number: 461
+  name: Weavile
+  internalName: WEAVILE
+  kind: Sharp Claw
+  height: 1.1
+  weight: 34
+  dexEntry: They live in cold regions, forming groups of four or five that hunt prey
+    with impressive coordination.
+  sprite: {fileID: 21300000, guid: 857daad763a4b434ba01bf860c25497f, type: 3}
+  backSprite: {fileID: 21300000, guid: 746be46a30b82864dabd4e42bb6d9b08, type: 3}
+  shinySprite: {fileID: 21300000, guid: 27d6ef2151264f54eae39a5ce733ce8a, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: f414f9ce578bd9e48871b86488bee2ea, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 56d046f1621afdd4bb695cdaa1dd75b2, type: 3}
+  type1: {fileID: 11400000, guid: 5a37c1bbebd881b42bd5fab995e54689, type: 2}
+  type2: {fileID: 11400000, guid: 38a14f4c97dc09046a4a4f9f7bdade6e, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 09c4d0a860f51c1488a6ee391d1e8f0e, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: d34f3882730b7f643b6fe38fb135be8c, type: 2}
+  baseHP: 70
+  baseAttack: 120
+  baseDefense: 65
+  baseSpeed: 125
+  baseSpecialAttack: 45
+  baseSpecialDefense: 85
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 1
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 179
+  rareness: 45
+  baseHappiness: 35
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 6b122730c79780648a197ae9c6d76e78, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b0c5817ec469b4f44a3f7ef399a96c62, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 41cf6d21b7400bd449aa635fccdb09d0, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: c8ad6b6cc523bd940b14ff75aa9ba40e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6d25dd2274a273a4f97d7cc3c2c084f3, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d5f2e90bd85630a43bdd31934847cdc5, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d5f2e90bd85630a43bdd31934847cdc5, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: b54112bb46bdcb342b701dde2aed4ef4, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: fb9cbbcc0dcb76f4a8254e7141042569, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: 7a147e057063b224a86c668c0f0c8579, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 20511dc028bdeb84185f09366190df6d, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: a99d53165092a2a41ad55531613c3d1f, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 511d2d613a889084b9ec13c60dd8332c, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: c106b7df995223443800dc9dd1494144, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: dd5f72087eedb9d44a2ba78fc7f6569b, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: 9f0ed801ebf215b408a59d455939ce03, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: 9568ab1e0a57eb340978593547c4af96, type: 2}
+    level: 47
+  eggMoves: []

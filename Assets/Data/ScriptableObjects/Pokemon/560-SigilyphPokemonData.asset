@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 560-SigilyphPokemonData
+  m_EditorClassIdentifier: 
+  number: 561
+  name: Sigilyph
+  internalName: SIGILYPH
+  kind: Avianoid
+  height: 1.4
+  weight: 14
+  dexEntry: The guardians of an ancient city, they use their psychic power to attack
+    enemies that invade their territory.
+  sprite: {fileID: 21300000, guid: 53cde175ce76d7842a6d7fa5279d534e, type: 3}
+  backSprite: {fileID: 21300000, guid: 117415cbf0f69a245b111763ff4b1067, type: 3}
+  shinySprite: {fileID: 21300000, guid: 429cac4cd3a03c945882f02ae1f26e5f, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 27f98c42e05ef4e42bffebf6ccf75b33, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 02167950d01ccd74c8dd1989e978fd42, type: 3}
+  type1: {fileID: 11400000, guid: 718f468b569515f42be9e985a9082465, type: 2}
+  type2: {fileID: 11400000, guid: 90bb1a57d841315478a74baa52e40ba4, type: 2}
+  eggGroup1: 4
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 011c02e8ec26134439beab9faf501902, type: 2}
+  - {fileID: 11400000, guid: bcd2efc2393655343b0e0c7602798e4e, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 15944972634ce4946ab6d774fbed7a3a, type: 2}
+  baseHP: 72
+  baseAttack: 58
+  baseDefense: 80
+  baseSpeed: 97
+  baseSpecialAttack: 103
+  baseSpecialDefense: 80
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 2
+  EV_SpecialDefense: 0
+  baseEXP: 172
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: b1634127e25b9b64aad2d055f4d0ed9a, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: a165b1a29b54a8441a2bc3c59a6118f1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 1683302a221d16c45a514c8db81ec734, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 40589a4e02d7b3847bc8e50d4212e3bb, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 60787e5e672923942bb8ea2823e0ef90, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: c761759381cf557488626838e074d491, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: 4aa6cb6c9662be9488e2a3562d16e64a, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: 07892493731bb2744a04d9c4b9926d94, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: d0ff4947ecf7c4c4887fcffbe1bb2fe4, type: 2}
+    level: 24
+  - move: {fileID: 11400000, guid: fcf7b2a59248fe342ad157971138d17a, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 9a2ac98a1803c3948b268e42577196a6, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: f38e5d29dcd8083489e890ce9044abbb, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: 7fb73faec6c58ca45858307c277eba75, type: 2}
+    level: 38
+  - move: {fileID: 11400000, guid: 20ed064aef73d8f418cbe4597b1a4293, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 943dd68f173614045a520526628a0d44, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: 95ef7918086ac0943901de73014b9456, type: 2}
+    level: 48
+  - move: {fileID: 11400000, guid: 58f2705acbbde2e48a7469e2fdc1a588, type: 2}
+    level: 51
+  eggMoves:
+  - {fileID: 11400000, guid: 30694025d0c13dd4c896a65d19651c78, type: 2}
+  - {fileID: 11400000, guid: 1049d51d9e91d3b48bad875bcc8f88fb, type: 2}
+  - {fileID: 11400000, guid: ae17a6aef7527a141876ca7f983f220f, type: 2}
+  - {fileID: 11400000, guid: 7fb5a7f61000d8b4aa80f6d4e269826a, type: 2}
+  - {fileID: 11400000, guid: e1d13e2a53c5d994a9d15caccfd8463d, type: 2}
+  - {fileID: 11400000, guid: 3adf372432e53ca489134191c1193abe, type: 2}

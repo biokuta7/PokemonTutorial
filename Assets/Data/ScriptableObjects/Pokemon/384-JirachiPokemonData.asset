@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 384-JirachiPokemonData
+  m_EditorClassIdentifier: 
+  number: 385
+  name: Jirachi
+  internalName: JIRACHI
+  kind: Wish
+  height: 0.3
+  weight: 1.1
+  dexEntry: Jirachi is said to make wishes come true. While it sleeps, a tough crystalline
+    shell envelops the body to protect it from enemies.
+  sprite: {fileID: 21300000, guid: 4435b98f7a643f14db85940da3bb2f17, type: 3}
+  backSprite: {fileID: 21300000, guid: 6988a794fe10c964580817bb88ca16d5, type: 3}
+  shinySprite: {fileID: 21300000, guid: e61cd2f2975f3e140a548eaa38b6067f, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 909ef3cd52ccfc2459e8048e9bc7790e, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 82a754845c3a63b4397c85d6eff46704, type: 3}
+  type1: {fileID: 11400000, guid: e19d9d0db9bfb304f86f2be1b2cbcd6e, type: 2}
+  type2: {fileID: 11400000, guid: 718f468b569515f42be9e985a9082465, type: 2}
+  eggGroup1: 15
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: -1
+  standardAbilities:
+  - {fileID: 11400000, guid: e31d0b5e9fc8b074e8740eeda2d1976d, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 100
+  baseAttack: 100
+  baseDefense: 100
+  baseSpeed: 100
+  baseSpecialAttack: 100
+  baseSpecialDefense: 100
+  EV_HP: 3
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 270
+  rareness: 3
+  baseHappiness: 100
+  stepsToHatch: 30855
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: c5037b32ac3b84a478a4ec160d85abb6, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 0220cff4fc3377247806f98b98ceb881, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6ca000a6aa650d243b1e634a9044d765, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 8f7d8eb3956de5c4bb6b3d67bd3ba44b, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: f277acd4ff10f914a97ec332c912d36c, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 943dd68f173614045a520526628a0d44, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: a253a6a569c46a748ad69bf73eefba7a, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 6ca000a6aa650d243b1e634a9044d765, type: 2}
+    level: 30
+  - move: {fileID: 11400000, guid: a14c1abb33c849c40b2bc2db3133d367, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: 7fb73faec6c58ca45858307c277eba75, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: b5a4221bc5e319841b4a778de8d00787, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: f992e7a4e62a3b149bb36f3087193be4, type: 2}
+    level: 55
+  - move: {fileID: 11400000, guid: 95ef7918086ac0943901de73014b9456, type: 2}
+    level: 60
+  - move: {fileID: 11400000, guid: 02e8c45cbeaa8f645b9a919d8d8efc87, type: 2}
+    level: 65
+  - move: {fileID: 11400000, guid: 2efe7fe75a3fd6c4dbf2f3ebe66a23c2, type: 2}
+    level: 70
+  eggMoves: []

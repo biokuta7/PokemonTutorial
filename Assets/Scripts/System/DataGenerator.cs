@@ -29,7 +29,7 @@ public class DataGenerator : MonoBehaviour
     //MAX 17
     public static int NUMBER_OF_TYPES = 17;
     //MAX 151
-    public static int NUMBER_OF_POKEMON = 151;
+    public static int NUMBER_OF_POKEMON = 649; //151 //649
     //MAX 164
     public static int NUMBER_OF_ABILITIES = 164;
     //MAX 559
@@ -171,7 +171,7 @@ public class DataGenerator : MonoBehaviour
             pokemonData.kind = IniFileAccessor.ReadValue(indexStr, "Kind");
             pokemonData.dexEntry = IniFileAccessor.ReadValue(indexStr, "Pokedex");
 
-            pokemonData.habitat = (PokemonData.Habitat) Enum.Parse(typeof(PokemonData.Habitat), IniFileAccessor.ReadValue(indexStr, "Habitat").ToUpper());
+            //pokemonData.habitat = (PokemonData.Habitat) Enum.Parse(typeof(PokemonData.Habitat), IniFileAccessor.ReadValue(indexStr, "Habitat").ToUpper());
 
             //TYPE
 

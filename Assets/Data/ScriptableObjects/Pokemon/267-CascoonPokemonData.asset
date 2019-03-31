@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 267-CascoonPokemonData
+  m_EditorClassIdentifier: 
+  number: 268
+  name: Cascoon
+  internalName: CASCOON
+  kind: Cocoon
+  height: 0.7
+  weight: 11.5
+  dexEntry: To avoid detection by its enemies, it hides motionlessly beneath large
+    leaves and in the gaps of branches. It also attaches dead leaves to its body for
+    camouflage.
+  sprite: {fileID: 21300000, guid: 0895440057772b0498f959ea4c22692d, type: 3}
+  backSprite: {fileID: 21300000, guid: ac1cdd8ca98e3c048a810c400f92ecc2, type: 3}
+  shinySprite: {fileID: 21300000, guid: 63f15c956a9ab9344a0bb332f7961f5d, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 056cc93a14eabf446a4d8ce254cd0556, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 92e682813b70cb842bbaf9743e3bbb99, type: 3}
+  type1: {fileID: 11400000, guid: 79eb8f30cbe188e4f8a36dafd71ebdee, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 3
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 0f81637a6efd5594f91922de5f257781, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 50
+  baseAttack: 35
+  baseDefense: 55
+  baseSpeed: 15
+  baseSpecialAttack: 25
+  baseSpecialDefense: 25
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 2
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 41
+  rareness: 120
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 74d873379c9e3944f89f91ac143cbe6c, type: 2}
+    levelToEvolve: 10
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
+    level: 7
+  eggMoves: []

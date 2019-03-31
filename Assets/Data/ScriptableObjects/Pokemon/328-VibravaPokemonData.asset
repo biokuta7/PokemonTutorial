@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 328-VibravaPokemonData
+  m_EditorClassIdentifier: 
+  number: 329
+  name: Vibrava
+  internalName: VIBRAVA
+  kind: Vibration
+  height: 1.1
+  weight: 15.3
+  dexEntry: It looses ultrasonic waves by rubbing its wings together. Since a Vibrava's
+    wings are still in the process of growing, it can only fly short distances.
+  sprite: {fileID: 21300000, guid: 8124733e6796e1d4b954aafea9d6be28, type: 3}
+  backSprite: {fileID: 21300000, guid: 8fb431055a0071a48a690cf69d71dcc6, type: 3}
+  shinySprite: {fileID: 21300000, guid: 68bd0893b638fbd489bc5670e000955e, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 717fe9a6baf1db9489d9f3631f7bb7fe, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 8a01dfaaf9b05f7439b9c6f64e0edb0c, type: 3}
+  type1: {fileID: 11400000, guid: 2aef90cd8ab7add4ead9fdc156318a32, type: 2}
+  type2: {fileID: 11400000, guid: a50e8df2c05bf734c9f408b06361f74e, type: 2}
+  eggGroup1: 3
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 5591a465327adc24089f3b21835f2487, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 50
+  baseAttack: 70
+  baseDefense: 50
+  baseSpeed: 70
+  baseSpecialAttack: 50
+  baseSpecialDefense: 50
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 1
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 119
+  rareness: 120
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: f339323059578eb4ca4ca5ed4760538e, type: 2}
+    levelToEvolve: 45
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: aa1d0806244b86747a0e614f88d70d93, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9f99cdcaa64669e41a2a8da39f981b55, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: f1659f14b4256c24b841abb2a7c91606, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9f99cdcaa64669e41a2a8da39f981b55, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: f1659f14b4256c24b841abb2a7c91606, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 6a425af601896ff48bd142db36a82669, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 33d96fe56c3fefd4abee4fdd115ab776, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: f50dadd193e8fb947b3cecc59f5ca9c6, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 3e74825e213db2f46aa158ecff87166a, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 3bbb861f40413cc49ba63bbc7d2599a8, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: f1751b5ec96b0424e90af98f8405703d, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: e51e0c804527e4045ae2c022bbad06ca, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: 7f3e701f581e25848b130cae41131378, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: 931a6239501d867458263239c17a188b, type: 2}
+    level: 49
+  eggMoves: []

@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 251-TreeckoPokemonData
+  m_EditorClassIdentifier: 
+  number: 252
+  name: Treecko
+  internalName: TREECKO
+  kind: Wood Gecko
+  height: 0.5
+  weight: 5
+  dexEntry: It makes its nest in a giant tree in the forest. It ferociously guards
+    against anything nearing its territory. It is said to be the protector of the
+    forest's trees.
+  sprite: {fileID: 21300000, guid: f6caf5b5e49725741898fcca784b7eff, type: 3}
+  backSprite: {fileID: 21300000, guid: 92058c0f111bc3e4f8bfc196205d485f, type: 3}
+  shinySprite: {fileID: 21300000, guid: 1c901e9ed62f7b342acb27725b9e71dc, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 539aa1a75f475514480d6d92986e68bb, type: 3}
+  footprintSprite: {fileID: 21300000, guid: e50eefcc9ce195c4f9b5def36102f8d3, type: 3}
+  type1: {fileID: 11400000, guid: 9ed7dc1c4ee6bf747b182dc2eaf16337, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 1
+  eggGroup2: 14
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.125
+  standardAbilities:
+  - {fileID: 11400000, guid: 163bc21c6133be146858708b4680a8d9, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: be28f628a03da7e49a8a0e0265a767a6, type: 2}
+  baseHP: 40
+  baseAttack: 45
+  baseDefense: 35
+  baseSpeed: 70
+  baseSpecialAttack: 65
+  baseSpecialDefense: 55
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 1
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 62
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: c42980be5882c904898ec82a0ca385bb, type: 2}
+    levelToEvolve: 16
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: c16d454899509064aa753b3499b92b83, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 51676f5ca5c33f3488bef6bd69f42876, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: d5f2e90bd85630a43bdd31934847cdc5, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: cf3b125d2a3a19f4db9c549d9d557481, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: 3453f1ab4cf459a418c38964bff1630f, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 1a0603d08aec3344bb06836eb047c05c, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 16531673f7df2c1428a3eda3a0a5e5b6, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: d0032eb960b8d524798fb954ea731315, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: 8998edf4d2f21d044b2a030f300f2fe4, type: 2}
+    level: 51
+  eggMoves:
+  - {fileID: 11400000, guid: 6b8e9a946146d164a8955256e73f74a7, type: 2}
+  - {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+  - {fileID: 11400000, guid: 9f71b97ffe2773a40bc74a4b4c1b2a03, type: 2}
+  - {fileID: 11400000, guid: 50ced63224687ad479604e56abd307b0, type: 2}
+  - {fileID: 11400000, guid: f1751b5ec96b0424e90af98f8405703d, type: 2}
+  - {fileID: 11400000, guid: 74d2270e8d5047f47bdfca1fc219dded, type: 2}
+  - {fileID: 11400000, guid: 9fe365d30820e2747a1727bb6447555b, type: 2}
+  - {fileID: 11400000, guid: 55463fd3f765f9e4abb5cdd228a2f414, type: 2}
+  - {fileID: 11400000, guid: a348e0502b2529145aaaa410f8e3880f, type: 2}
+  - {fileID: 11400000, guid: 60251021589440c40b96c5308d70e6be, type: 2}
+  - {fileID: 11400000, guid: dee27cd0fdcd79240b0663c357831a95, type: 2}
+  - {fileID: 11400000, guid: 9d4a14f02a117a44b9913b77b6f91470, type: 2}
+  - {fileID: 11400000, guid: 45536db05abc7c1429c4ddb6279d0443, type: 2}
+  - {fileID: 11400000, guid: bf883db29c15eab4cbe5f9f2b382655a, type: 2}
+  - {fileID: 11400000, guid: da061361f80b8be41a2caf2d55f7a5ac, type: 2}

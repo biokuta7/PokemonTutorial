@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 216-UrsaringPokemonData
+  m_EditorClassIdentifier: 
+  number: 217
+  name: Ursaring
+  internalName: URSARING
+  kind: Hibernator
+  height: 1.8
+  weight: 125.8
+  dexEntry: In forests, it is said that there are many streams and towering trees
+    where an Ursaring gathers food. It walks through its forest collecting food every
+    day.
+  sprite: {fileID: 21300000, guid: ba4825b527d86b7418be709ca382bc5f, type: 3}
+  backSprite: {fileID: 21300000, guid: 4296155865b45224a925e28cfd085c2f, type: 3}
+  shinySprite: {fileID: 21300000, guid: 1e332e282042f8e47919796f1165ae78, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 4fb8e95ab9f152e46a49edf52e50c6c0, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 9833b3b8522f6dc4598fe1d6c0328cb6, type: 3}
+  type1: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: a15e373cc28781245b053d50213487b7, type: 2}
+  - {fileID: 11400000, guid: 850d457e7f9ec4d408cc419ca7e9a66d, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 9e29fc8e9332fe64e8ffd30a38bf2480, type: 2}
+  baseHP: 90
+  baseAttack: 130
+  baseDefense: 75
+  baseSpeed: 55
+  baseSpecialAttack: 75
+  baseSpecialDefense: 75
+  EV_HP: 0
+  EV_Attack: 2
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 175
+  rareness: 60
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 742c70de3a7643945a25b26139959535, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: c8ad6b6cc523bd940b14ff75aa9ba40e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: dcd976db8573291419557ed6b9d18e1f, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4148031223b255242880deef8e6a614c, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: fb9cbbcc0dcb76f4a8254e7141042569, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 05690026fb024824db2ad77c5245df16, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: b5cb4834e72f9064abecca08c734899b, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 206d073f613428f428074167c47c813d, type: 2}
+    level: 38
+  - move: {fileID: 11400000, guid: 6ca000a6aa650d243b1e634a9044d765, type: 2}
+    level: 47
+  - move: {fileID: 11400000, guid: ad3d5dd2b0bd4844b89d38058ec1336e, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 5a170aa8024c80246991a18e353e044f, type: 2}
+    level: 58
+  - move: {fileID: 11400000, guid: 7b14c654ccf062a45b54aa55c85ac600, type: 2}
+    level: 67
+  eggMoves: []

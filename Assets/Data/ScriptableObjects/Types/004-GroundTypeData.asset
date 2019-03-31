@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -15,11 +16,11 @@ MonoBehaviour:
   internalName: GROUND
   isSpecial: 0
   weaknesses:
-  - {fileID: 11400000, guid: 4436bc7397ddc2342ae364d8dadc3e39, type: 2}
-  - {fileID: 11400000, guid: 0fe0aaa7940cd5b4a8de75cef966e991, type: 2}
-  - {fileID: 11400000, guid: 4963f2aa307feef4398c60cebd48934c, type: 2}
+  - {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  - {fileID: 11400000, guid: 9ed7dc1c4ee6bf747b182dc2eaf16337, type: 2}
+  - {fileID: 11400000, guid: 38a14f4c97dc09046a4a4f9f7bdade6e, type: 2}
   immunities:
-  - {fileID: 11400000, guid: b116a2460c92a4c40a7dd42122987a37, type: 2}
+  - {fileID: 11400000, guid: 826864d94ec7c8c4a8e95b6615b2eff3, type: 2}
   resistances:
   - {fileID: 11400000, guid: 5c263d07fc626544cae866e79835f9fd, type: 2}
   - {fileID: 11400000, guid: 865c5118b1a0e3b4d895cfe37b3b2aa9, type: 2}

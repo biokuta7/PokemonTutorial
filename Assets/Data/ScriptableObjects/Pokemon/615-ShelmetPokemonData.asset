@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 615-ShelmetPokemonData
+  m_EditorClassIdentifier: 
+  number: 616
+  name: Shelmet
+  internalName: SHELMET
+  kind: Snail
+  height: 0.4
+  weight: 7.7
+  dexEntry: It evolves when bathed in an electric-like energy along with Karrablast.
+    The reason is still unknown.
+  sprite: {fileID: 21300000, guid: cc850f34e07d9c5448e3b6e7c039a939, type: 3}
+  backSprite: {fileID: 21300000, guid: d2362349a46e80a46b3afe6c7ff94a43, type: 3}
+  shinySprite: {fileID: 21300000, guid: e0c7ea49c6f888045a6e13d45e5fa2d1, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: c172ce3e9f55ccc47bbf3f450e9ead34, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 38bdb549a4880bc4f8b4e38976b652ee, type: 3}
+  type1: {fileID: 11400000, guid: 79eb8f30cbe188e4f8a36dafd71ebdee, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 3
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 6912ac8a55cf72648894f824a40580db, type: 2}
+  - {fileID: 11400000, guid: 23379adb94f14cb40b2a0ba065d19085, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 1bce60e089bc29c44b4bbcc5e89bec8f, type: 2}
+  baseHP: 50
+  baseAttack: 40
+  baseDefense: 85
+  baseSpeed: 25
+  baseSpecialAttack: 40
+  baseSpecialDefense: 65
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 1
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 61
+  rareness: 200
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 180cba9a94eacce4f8a89e10042e409b, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: a9cb34e1f0983c24aa63b6ee303bb1ed, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 33d96fe56c3fefd4abee4fdd115ab776, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: fd48eadb1eda86c45b74371631ca93dd, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: d4e3c2858df8b774aa64db5ab9266926, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: cf3b125d2a3a19f4db9c549d9d557481, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 11851d64298ab6144aa7129575ae7364, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 79c63ba594520644cbecc00f726ef040, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: bd34bba16b3aa9646828738f256798c3, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: d0032eb960b8d524798fb954ea731315, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 903b5ee462226ab47b3026d6ace38c5d, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: c61f1cdb129e61946b377260cd297708, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: 17b540db896190346af6a508b2a0c1ec, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 57e541a2270eca24a9b44a4b943ba7bd, type: 2}
+    level: 52
+  - move: {fileID: 11400000, guid: 4cba1d219317e214ba3d8d80e0e25f09, type: 2}
+    level: 56
+  eggMoves:
+  - {fileID: 11400000, guid: c93cc4f4568f0084b9fb39e135243cd5, type: 2}
+  - {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+  - {fileID: 11400000, guid: 135034a951a65894fb86a5f232b51764, type: 2}
+  - {fileID: 11400000, guid: 9f44f4d05fd57b74b9b026bf9776c7e7, type: 2}
+  - {fileID: 11400000, guid: efce0155d8efb2e4d846129c30b3961f, type: 2}
+  - {fileID: 11400000, guid: bd44bd562f149df4fa3912f09c1de438, type: 2}
+  - {fileID: 11400000, guid: 719d19365328016478a76a6cc3115cbb, type: 2}
+  - {fileID: 11400000, guid: 6a425af601896ff48bd142db36a82669, type: 2}
+  - {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+  - {fileID: 11400000, guid: d8ed94463b0d1f14496675317c8079d3, type: 2}

@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 291-ShedinjaPokemonData
+  m_EditorClassIdentifier: 
+  number: 292
+  name: Shedinja
+  internalName: SHEDINJA
+  kind: Shed
+  height: 0.8
+  weight: 1.2
+  dexEntry: "A peculiar Pok\xE9mon that floats in air even though its wings remain
+    completely still. The inside of its body is hollow and utterly dark."
+  sprite: {fileID: 21300000, guid: cc19d4adcce7aa34fa561fb4b9c38808, type: 3}
+  backSprite: {fileID: 21300000, guid: 68372a84e2daec64a99c5309b1291994, type: 3}
+  shinySprite: {fileID: 21300000, guid: 770c5518ea0b6c343bcf60bd348ad43b, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 62a52c8516d058b4da0d0da0ad16dc57, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 72db381a93726cb4982d80351b34899d, type: 3}
+  type1: {fileID: 11400000, guid: 79eb8f30cbe188e4f8a36dafd71ebdee, type: 2}
+  type2: {fileID: 11400000, guid: 5eb27c1d76b3cc2439c818ac7325a0e5, type: 2}
+  eggGroup1: 10
+  eggGroup2: 0
+  growthRate: 0
+  habitat: 0
+  femaleRatio: -1
+  standardAbilities:
+  - {fileID: 11400000, guid: 816c3232ea9d8e94a855b22a60aa80f4, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 1
+  baseAttack: 90
+  baseDefense: 45
+  baseSpeed: 40
+  baseSpecialAttack: 30
+  baseSpecialDefense: 30
+  EV_HP: 2
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 83
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: c8ad6b6cc523bd940b14ff75aa9ba40e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 180cba9a94eacce4f8a89e10042e409b, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 9f99cdcaa64669e41a2a8da39f981b55, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: fb9cbbcc0dcb76f4a8254e7141042569, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: 719d19365328016478a76a6cc3115cbb, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 162ffca29843f384fb6da9d014a71928, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 30e9bccee0b2ceb4cb9ad6b51e66e479, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 6afded026ef044e469796eefe9f07d9e, type: 2}
+    level: 38
+  - move: {fileID: 11400000, guid: 912ffbf56e724034385ffafa8031e693, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: 3659785186860df46b7a35075d70daf1, type: 2}
+    level: 52
+  - move: {fileID: 11400000, guid: 59b2981bccec05f4a892993209db6bbb, type: 2}
+    level: 59
+  eggMoves: []

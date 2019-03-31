@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 500-OshawottPokemonData
+  m_EditorClassIdentifier: 
+  number: 501
+  name: Oshawott
+  internalName: OSHAWOTT
+  kind: Sea Otter
+  height: 0.5
+  weight: 5.9
+  dexEntry: The scalchop on its stomach is made from the same elements as claws. It
+    detaches the scalchop for use as a blade.
+  sprite: {fileID: 21300000, guid: ed97bd31ee4c3674090005c82d6250eb, type: 3}
+  backSprite: {fileID: 21300000, guid: 1237466071808304196eb48a65cb08ad, type: 3}
+  shinySprite: {fileID: 21300000, guid: ac7d2b6b82ac8214aafd5c98cc871a78, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: e751d69e517199e478a4f47e2f719cb7, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 717e8e53e4690c947bc3a5cf55f385ff, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.125
+  standardAbilities:
+  - {fileID: 11400000, guid: fdf277dc983292641be575343cb7d20b, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 23379adb94f14cb40b2a0ba065d19085, type: 2}
+  baseHP: 55
+  baseAttack: 55
+  baseDefense: 45
+  baseSpeed: 45
+  baseSpecialAttack: 63
+  baseSpecialDefense: 45
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 1
+  EV_SpecialDefense: 0
+  baseEXP: 28
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 3706211f6c0dd6b4a8c6621c5085243b, type: 2}
+    levelToEvolve: 17
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 90e9a9d7356e7c84ea9190b7ff0535b1, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 3b8f4014739fbae4d84fae04eb5099f2, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: e1b13bbff45ac2c4d931b26b7167b481, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 4abf7d172bbaeba4293580ddddb47f6f, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: f1422269310cc5140bf4cb60e5071b33, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: fa647d901ccdd0247a78d3959bbce436, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 0daaaf2b724e2e34f893d673a8ee7a4e, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: b0c5817ec469b4f44a3f7ef399a96c62, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 0c17539c29d9692498e809a6276dd991, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 135034a951a65894fb86a5f232b51764, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 1160a28543f1b8646be03bfee46df347, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: 947b0dcc26e24574086cf7ec4b0e080d, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 9887221a3a392a748b92ecd16cd5faf7, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 4bdcb7db2207f9142b7706d59e466f28, type: 2}
+    level: 43
+  eggMoves:
+  - {fileID: 11400000, guid: 20ed064aef73d8f418cbe4597b1a4293, type: 2}
+  - {fileID: 11400000, guid: 41cf6d21b7400bd449aa635fccdb09d0, type: 2}
+  - {fileID: 11400000, guid: 5d1eca6964fbf79449b447b0f905ef42, type: 2}
+  - {fileID: 11400000, guid: 6a10a9d296905a64394c695b1f053ea7, type: 2}
+  - {fileID: 11400000, guid: 16531673f7df2c1428a3eda3a0a5e5b6, type: 2}
+  - {fileID: 11400000, guid: c106b7df995223443800dc9dd1494144, type: 2}
+  - {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+  - {fileID: 11400000, guid: a56d7e80200de8f4e8a127187de9b7b3, type: 2}

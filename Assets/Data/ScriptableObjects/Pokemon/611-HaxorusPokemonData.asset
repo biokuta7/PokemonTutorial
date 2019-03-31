@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 611-HaxorusPokemonData
+  m_EditorClassIdentifier: 
+  number: 612
+  name: Haxorus
+  internalName: HAXORUS
+  kind: Axe Jaw
+  height: 1.8
+  weight: 105.5
+  dexEntry: "Their sturdy tusks will stay sharp even if used to cut steel beams. These
+    Pok\xE9mon are covered in hard armor."
+  sprite: {fileID: 21300000, guid: 4bf0bc9064c58ea4d82d79632f2a8bb3, type: 3}
+  backSprite: {fileID: 21300000, guid: e9df95ab9d50029448a3f9b0aa21800c, type: 3}
+  shinySprite: {fileID: 21300000, guid: 771a0f27d5e2f974a9b5fa0355ecf9e3, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 27119145f78c8b349895120681d71fed, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 501ac68b9d1118f439f2226596c1599d, type: 3}
+  type1: {fileID: 11400000, guid: a50e8df2c05bf734c9f408b06361f74e, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 1
+  eggGroup2: 14
+  growthRate: 4
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 56c150e15bd2a0f44aac7a9188be39e5, type: 2}
+  - {fileID: 11400000, guid: e46cd10bf7de372419e2f0a16c7960f0, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 9e29fc8e9332fe64e8ffd30a38bf2480, type: 2}
+  baseHP: 76
+  baseAttack: 147
+  baseDefense: 90
+  baseSpeed: 97
+  baseSpecialAttack: 60
+  baseSpecialDefense: 70
+  EV_HP: 0
+  EV_Attack: 3
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 243
+  rareness: 45
+  baseHappiness: 35
+  stepsToHatch: 10455
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: c8ad6b6cc523bd940b14ff75aa9ba40e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 41cf6d21b7400bd449aa635fccdb09d0, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 30c2e672cc93cd44d983f46e72bb67eb, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 41cf6d21b7400bd449aa635fccdb09d0, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 30c2e672cc93cd44d983f46e72bb67eb, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: a9b51909a7ea9264da570897fb870781, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 206d073f613428f428074167c47c813d, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: b5cb4834e72f9064abecca08c734899b, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 7a360d225bcb3a44ea28d80418a74d9f, type: 2}
+    level: 24
+  - move: {fileID: 11400000, guid: bc908f5b29ffbdf449ead18d33c8810b, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 6a19de109a1bddf4d99a984783c518a3, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: 6d25dd2274a273a4f97d7cc3c2c084f3, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 36ac6fad3c69dfa4ea764d608a2a1212, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: 9887221a3a392a748b92ecd16cd5faf7, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: a5bd2b5de305fcb43872d410c27d547c, type: 2}
+    level: 58
+  - move: {fileID: 11400000, guid: 4e5c129cdc82eab41b3c7170d5fb9eb6, type: 2}
+    level: 66
+  - move: {fileID: 11400000, guid: 60f60ea14d80ad84ebd80005abbc42a5, type: 2}
+    level: 74
+  eggMoves: []

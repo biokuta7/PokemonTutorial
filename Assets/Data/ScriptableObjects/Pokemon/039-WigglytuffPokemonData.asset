@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -24,16 +25,16 @@ MonoBehaviour:
   shinySprite: {fileID: 21300000, guid: dc73cf76cf7a4b944a935be84497ca1b, type: 3}
   shinyBackSprite: {fileID: 21300000, guid: c319d19f3380a274fa9c26c224aa281a, type: 3}
   footprintSprite: {fileID: 21300000, guid: 720a4de57a5b44d43ae53b91c0fe6eeb, type: 3}
-  type1: {fileID: 11400000, guid: de3693b16b9150146a68b455abcf327a, type: 2}
-  type2: {fileID: 11400000, guid: 26317c5bb6f4d8746a0567db42a1e986, type: 2}
+  type1: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
   eggGroup1: 6
   eggGroup2: 0
   growthRate: 1
-  habitat: 2
+  habitat: 0
   femaleRatio: 0.75
   standardAbilities:
-  - {fileID: 11400000, guid: fa3ba21b66a321d4bb07d81f3af2b45f, type: 2}
-  hiddenAbility: {fileID: 11400000, guid: df5374afe55b88a4f82329e66c5d8ce2, type: 2}
+  - {fileID: 11400000, guid: e081788effcb88b4e80c992dd828bbf1, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: f2de2423ca550594aade218885cbb0ff, type: 2}
   baseHP: 140
   baseAttack: 70
   baseDefense: 45
@@ -52,12 +53,12 @@ MonoBehaviour:
   stepsToHatch: 2805
   evolutions: []
   learnedMoves:
-  - move: {fileID: 11400000, guid: aea43cb5e83ed344787b58efe06440da, type: 2}
+  - move: {fileID: 11400000, guid: 58279d1ca978c0748ba4fc660d97d9ed, type: 2}
     level: 1
-  - move: {fileID: 11400000, guid: d8b48209d2479c34092c394dd8f1186d, type: 2}
+  - move: {fileID: 11400000, guid: 4965fe24e4d71994c83ce7f0c95a9d7a, type: 2}
     level: 1
-  - move: {fileID: 11400000, guid: e84ca13ff82cd0046a8a71f421158604, type: 2}
+  - move: {fileID: 11400000, guid: 9718332accb9dd4438b46ad9a022602e, type: 2}
     level: 1
-  - move: {fileID: 11400000, guid: d03418bfd94dca64c83c5ce9c0fe775b, type: 2}
+  - move: {fileID: 11400000, guid: 8e58a59f68ed40a49b42a88906e27b5e, type: 2}
     level: 1
   eggMoves: []

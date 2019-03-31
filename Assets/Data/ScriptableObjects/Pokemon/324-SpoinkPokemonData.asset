@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 324-SpoinkPokemonData
+  m_EditorClassIdentifier: 
+  number: 325
+  name: Spoink
+  internalName: SPOINK
+  kind: Bounce
+  height: 0.7
+  weight: 30.6
+  dexEntry: "A Pok\xE9mon that manipulates psychic power at will. It doesn't stop
+    bouncing even when it is asleep. It loves eating mushrooms that grow underground."
+  sprite: {fileID: 21300000, guid: f86d549a6ae1f98469390495aead0eb1, type: 3}
+  backSprite: {fileID: 21300000, guid: 663d240988152644595da0b42104c5de, type: 3}
+  shinySprite: {fileID: 21300000, guid: 6b4ac0b5962f6fb4285416afcef86a1b, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 778002bf08414ef418fec3df2e306d51, type: 3}
+  footprintSprite: {fileID: 21300000, guid: d54d9e1d45138ac46aeb8d706d998cfd, type: 3}
+  type1: {fileID: 11400000, guid: 718f468b569515f42be9e985a9082465, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 1
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 5370a5cddfbfa4d4396bfd64d5065c3a, type: 2}
+  - {fileID: 11400000, guid: 58d1e1e09552c35468c706a098999f09, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 0d8dec51d6d249449a421504145b2a85, type: 2}
+  baseHP: 60
+  baseAttack: 25
+  baseDefense: 35
+  baseSpeed: 60
+  baseSpecialAttack: 70
+  baseSpecialDefense: 80
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 1
+  baseEXP: 66
+  rareness: 255
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: f26a85598cb391541a1d9b0f68811165, type: 2}
+    levelToEvolve: 32
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 6b3750a73aecc7d469a755f681a0f55f, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 40589a4e02d7b3847bc8e50d4212e3bb, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: f8e0359e915e43e4abfa7d0500c94d43, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 4aa6cb6c9662be9488e2a3562d16e64a, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: bba0e618decf2494295c2ca64d2ee571, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 30e9bccee0b2ceb4cb9ad6b51e66e479, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: 856b1c4614a2df8439805c851e354b39, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: a14c1abb33c849c40b2bc2db3133d367, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: 6ca000a6aa650d243b1e634a9044d765, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: ad3d5dd2b0bd4844b89d38058ec1336e, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 24accd80c06ba134b9e77c09775a745d, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 66d4e28149797dc43baee977de141bb4, type: 2}
+    level: 38
+  - move: {fileID: 11400000, guid: 045af626945e212499f0e9a28c180d66, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: 943dd68f173614045a520526628a0d44, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: efe9376b10863894d99db7561cbb9ca4, type: 2}
+    level: 50
+  eggMoves:
+  - {fileID: 11400000, guid: b54451c499c3fc24aade1add5a757d05, type: 2}
+  - {fileID: 11400000, guid: 9f44f4d05fd57b74b9b026bf9776c7e7, type: 2}
+  - {fileID: 11400000, guid: 95a576a0b079fff4d9459736640d5c82, type: 2}
+  - {fileID: 11400000, guid: f992e7a4e62a3b149bb36f3087193be4, type: 2}
+  - {fileID: 11400000, guid: 9cea37bba3a567c44bc6020f1c777d86, type: 2}
+  - {fileID: 11400000, guid: 7ef0a78f2ac48a94984b2cac732f0951, type: 2}
+  - {fileID: 11400000, guid: 7fb5a7f61000d8b4aa80f6d4e269826a, type: 2}
+  - {fileID: 11400000, guid: 0597bcb9d5189764ea172472f3603923, type: 2}
+  - {fileID: 11400000, guid: c761759381cf557488626838e074d491, type: 2}
+  - {fileID: 11400000, guid: a14c1abb33c849c40b2bc2db3133d367, type: 2}

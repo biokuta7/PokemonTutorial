@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeeacdf889dfc2a4f93193475ed815da, type: 3}
+  m_Name: 169-Feather DanceMoveData
+  m_EditorClassIdentifier: 
+  ID: 170
+  name: Feather Dance
+  internalName: FEATHERDANCE
+  description: The user covers the target's body with a mass of down that harshly
+    lowers its Attack stat.
+  functionCode: 04B
+  target: 00
+  flags: 620063006500
+  isSpecial: 0
+  basePower: 0
+  accuracy: 100
+  totalPP: 15
+  additionalEffectChance: 0
+  priority: 0
+  type: {fileID: 11400000, guid: 90bb1a57d841315478a74baa52e40ba4, type: 2}

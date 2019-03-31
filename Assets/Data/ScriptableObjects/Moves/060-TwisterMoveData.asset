@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -18,11 +19,11 @@ MonoBehaviour:
     may also make targets flinch.
   functionCode: 078
   target: 04
-  flags: 620065006600
+  flags: 62006500
   isSpecial: 1
   basePower: 40
   accuracy: 100
   totalPP: 20
   additionalEffectChance: 20
   priority: 0
-  type: {fileID: 11400000, guid: 355178e54b5c8544dabadc0bbe674360, type: 2}
+  type: {fileID: 11400000, guid: a50e8df2c05bf734c9f408b06361f74e, type: 2}

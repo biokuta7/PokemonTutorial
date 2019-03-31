@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 271-LudicoloPokemonData
+  m_EditorClassIdentifier: 
+  number: 272
+  name: Ludicolo
+  internalName: LUDICOLO
+  kind: Carefree
+  height: 1.5
+  weight: 55
+  dexEntry: When it hears festive music, all the cells in its body become stimulated,
+    and it begins moving in rhythm. It does not quail even when it faces a tough opponent.
+  sprite: {fileID: 21300000, guid: bd29da58d93578d4d8e99ddd6d8cc333, type: 3}
+  backSprite: {fileID: 21300000, guid: 2dcb1682b269a144da35879bf32c5382, type: 3}
+  shinySprite: {fileID: 21300000, guid: 6cb9e2f3f1f62664e9206b45e0f5d150, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: b66ee23c60e9bbf40be1a2dcb704f8fe, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 76dd0b4d8b0fdab43a8425ea5535b739, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 9ed7dc1c4ee6bf747b182dc2eaf16337, type: 2}
+  eggGroup1: 2
+  eggGroup2: 7
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 56397a6e68134a6409d13eb81f2d8d2c, type: 2}
+  - {fileID: 11400000, guid: 1e78b8444dbadbe4d994018be43ab305, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 58d1e1e09552c35468c706a098999f09, type: 2}
+  baseHP: 80
+  baseAttack: 70
+  baseDefense: 70
+  baseSpeed: 70
+  baseSpecialAttack: 90
+  baseSpecialDefense: 100
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 3
+  baseEXP: 216
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 49df1d5643c16e94e8a7607e0d4cb127, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: cf3b125d2a3a19f4db9c549d9d557481, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 7d521f984ba299f4b9effbd5e07ec210, type: 2}
+    level: 1
+  eggMoves: []

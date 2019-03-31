@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -22,4 +23,4 @@ MonoBehaviour:
   overworldUsabilityID: 3
   battleUsabilityID: 0
   specialItemID: 0
-  TMmoveToLearn: {fileID: 11400000, guid: 526b33dcd9c4b5d47b1bcb9ada4d7e73, type: 2}
+  TMmoveToLearn: {fileID: 11400000, guid: a45b5f72eda8d2d4798e7d5235a9072c, type: 2}

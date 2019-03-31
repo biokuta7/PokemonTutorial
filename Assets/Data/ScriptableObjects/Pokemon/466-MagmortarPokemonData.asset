@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 466-MagmortarPokemonData
+  m_EditorClassIdentifier: 
+  number: 467
+  name: Magmortar
+  internalName: MAGMORTAR
+  kind: Blast
+  height: 1.6
+  weight: 68
+  dexEntry: It blasts fireballs of over 3,600 degrees F from the ends of its arms.
+    It lives in volcanic craters.
+  sprite: {fileID: 21300000, guid: 8eeb4531ded78214fa1c6f8c51dffa34, type: 3}
+  backSprite: {fileID: 21300000, guid: 27efd2c1b2b15a041873f15c4cc85258, type: 3}
+  shinySprite: {fileID: 21300000, guid: abf829b89a52c7049810027f74c98d7c, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: c1ae592ca9227f246ba1f737a99f29a0, type: 3}
+  footprintSprite: {fileID: 21300000, guid: f7c1856a71151e84e8335766fd038cc1, type: 3}
+  type1: {fileID: 11400000, guid: e120886a2aede3b4089e217b177a6111, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 8
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.25
+  standardAbilities:
+  - {fileID: 11400000, guid: 16fb63eb3d512b146a1af1cbea909609, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: e9ce6c57c461f1a46a1b82ed0527d9e5, type: 2}
+  baseHP: 75
+  baseAttack: 95
+  baseDefense: 67
+  baseSpeed: 83
+  baseSpecialAttack: 125
+  baseSpecialDefense: 95
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 3
+  EV_SpecialDefense: 0
+  baseEXP: 243
+  rareness: 30
+  baseHappiness: 70
+  stepsToHatch: 6630
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: ad91c274fe4e2f14ca79d36969420c69, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 7977c32ff901d584f8f33bf322b0bd77, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 62339e29a8fb98e4da4f46c83137d8b8, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 8dbd4521f21986a4fb108aae7bfebd9e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 62339e29a8fb98e4da4f46c83137d8b8, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 8dbd4521f21986a4fb108aae7bfebd9e, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: 483f4b439f7e8854bb1f26f6dfd32857, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 4504b3918cd63f24d8480103613a3eb7, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: bf4aeedaebd961648b2a1d639d517a4e, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 30e9bccee0b2ceb4cb9ad6b51e66e479, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: 43082462e0b502849b59c6366460cef8, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: fe5a83fc6520a1b4cae23f0fa580501f, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: a45b5f72eda8d2d4798e7d5235a9072c, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: d64bedf5e2f4a984eb292a639e253040, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 3537201e6b45f8e4f9efff4c48a8f450, type: 2}
+    level: 55
+  - move: {fileID: 11400000, guid: 931a6239501d867458263239c17a188b, type: 2}
+    level: 62
+  eggMoves: []

@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 181-BellossomPokemonData
+  m_EditorClassIdentifier: 
+  number: 182
+  name: Bellossom
+  internalName: BELLOSSOM
+  kind: Flower
+  height: 0.4
+  weight: 5.8
+  dexEntry: Its flower petals deepen in color through exposure to sunlight. When cloudy
+    weather persists, it does a dance that is thought to be a ritual for summoning
+    the sun.
+  sprite: {fileID: 21300000, guid: 41071d2808e2c6e4fb3e0446ce75be52, type: 3}
+  backSprite: {fileID: 21300000, guid: 9f4a32123e8aa534b8b6bd3638456efa, type: 3}
+  shinySprite: {fileID: 21300000, guid: b562471342981184ab28559d606d0936, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: d31cddf9c0e065a4f848287fc44f0822, type: 3}
+  footprintSprite: {fileID: 21300000, guid: f7ecf9c2271294f43b50300a3a738ee9, type: 3}
+  type1: {fileID: 11400000, guid: 9ed7dc1c4ee6bf747b182dc2eaf16337, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 7
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: f0f4567366d84af44a479f99490860af, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 1a07bb355aaa0e04889c84a47fe1ceb9, type: 2}
+  baseHP: 75
+  baseAttack: 80
+  baseDefense: 85
+  baseSpeed: 50
+  baseSpecialAttack: 90
+  baseSpecialDefense: 100
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 3
+  baseEXP: 216
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 78a67d0c5e29b8544ab94611a0d42769, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: cf3b125d2a3a19f4db9c549d9d557481, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 05690026fb024824db2ad77c5245df16, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 821e4ffa6d02b364b88e8bf9bc74093c, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: a45b5f72eda8d2d4798e7d5235a9072c, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 60251021589440c40b96c5308d70e6be, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: 55463fd3f765f9e4abb5cdd228a2f414, type: 2}
+    level: 53
+  eggMoves: []

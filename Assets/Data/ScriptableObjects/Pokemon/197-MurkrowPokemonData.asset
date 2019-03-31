@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 197-MurkrowPokemonData
+  m_EditorClassIdentifier: 
+  number: 198
+  name: Murkrow
+  internalName: MURKROW
+  kind: Darkness
+  height: 0.5
+  weight: 2.1
+  dexEntry: Murkrow were feared as the alleged bearers of ill fortune. It shows strong
+    interest in anything that sparkles. It will even try to steal rings from women.
+  sprite: {fileID: 21300000, guid: 55d74bd41a3ad5c4db3d466ab8583e1f, type: 3}
+  backSprite: {fileID: 21300000, guid: 4efb79db01387444f8712e92f3e153ac, type: 3}
+  shinySprite: {fileID: 21300000, guid: 92300a116ff146f41846d7aa1a479498, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: dabdb7733ac6cf7458c433bea66280e1, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 39298234cdbb26545916527cb8c835bd, type: 3}
+  type1: {fileID: 11400000, guid: 5a37c1bbebd881b42bd5fab995e54689, type: 2}
+  type2: {fileID: 11400000, guid: 90bb1a57d841315478a74baa52e40ba4, type: 2}
+  eggGroup1: 4
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 91e2aab60379a2d4d9efbcf46eb41c6d, type: 2}
+  - {fileID: 11400000, guid: c24056d7eb2a32044bcd4b667023afbf, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 5e64b01508371c248be16c3429cf53db, type: 2}
+  baseHP: 60
+  baseAttack: 85
+  baseDefense: 42
+  baseSpeed: 91
+  baseSpecialAttack: 85
+  baseSpecialDefense: 42
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 1
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 81
+  rareness: 30
+  baseHappiness: 35
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 9c1a953e5ce339d44ad6153082c50860, type: 2}
+    levelToEvolve: 0
+    itemToEvolve: {fileID: 11400000, guid: eb707a0dc06fa7442a480887d16baf4f, type: 2}
+    evolutionType: 1
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 9d2a9ce13673a634e89077573467ca18, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 58aa3d592b28f5e42a4586453743ccdb, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 5fcb722ef02a1bc4ca97936ea61cc6bb, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: a62334014ffe32f47b6cd09cbe7059c4, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 41cf6d21b7400bd449aa635fccdb09d0, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 6d25dd2274a273a4f97d7cc3c2c084f3, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: fff48c8136c20ac47af2c21033804cfe, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 777fd3747c8934a44834a8d6288486b0, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: 60787e5e672923942bb8ea2823e0ef90, type: 2}
+    level: 51
+  - move: {fileID: 11400000, guid: 18d2b07fd9a5ed740902b65b48c67a90, type: 2}
+    level: 55
+  - move: {fileID: 11400000, guid: 43015e5620b3d8847ad87e35a52bd6e1, type: 2}
+    level: 61
+  - move: {fileID: 11400000, guid: 769e1e4c682229c47bc73c58e0dfa835, type: 2}
+    level: 65
+  eggMoves:
+  - {fileID: 11400000, guid: 41cf6d21b7400bd449aa635fccdb09d0, type: 2}
+  - {fileID: 11400000, guid: b47fe8171b0d9a142b63319bf7679801, type: 2}
+  - {fileID: 11400000, guid: 30e9bccee0b2ceb4cb9ad6b51e66e479, type: 2}
+  - {fileID: 11400000, guid: 2309ad2bcd771e34a9bdd83b1118a5fc, type: 2}
+  - {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+  - {fileID: 11400000, guid: 4854b84cfb8fdbe4baafeb83bb0e9a54, type: 2}
+  - {fileID: 11400000, guid: f38e5d29dcd8083489e890ce9044abbb, type: 2}
+  - {fileID: 11400000, guid: 1c402614e7b43184b9278d150ad7f687, type: 2}
+  - {fileID: 11400000, guid: 1049d51d9e91d3b48bad875bcc8f88fb, type: 2}
+  - {fileID: 11400000, guid: ae17a6aef7527a141876ca7f983f220f, type: 2}
+  - {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+  - {fileID: 11400000, guid: 58f2705acbbde2e48a7469e2fdc1a588, type: 2}
+  - {fileID: 11400000, guid: c761759381cf557488626838e074d491, type: 2}
+  - {fileID: 11400000, guid: 5fcb722ef02a1bc4ca97936ea61cc6bb, type: 2}

@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 634-HydreigonPokemonData
+  m_EditorClassIdentifier: 
+  number: 635
+  name: Hydreigon
+  internalName: HYDREIGON
+  kind: Brutal
+  height: 1.8
+  weight: 160
+  dexEntry: The heads on their arms do not have brains. They use all three heads to
+    consume and destroy everything.
+  sprite: {fileID: 21300000, guid: a8462437f174bef4685a16463bd4e32b, type: 3}
+  backSprite: {fileID: 21300000, guid: 415ab489a4c63d440a6028ee9bcdf340, type: 3}
+  shinySprite: {fileID: 21300000, guid: 5f0c874af08348b48b59eb096be4eacc, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 86a8695b6fbcb9843b205169291b5a76, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 5cd6f8ede40469a47b2ee314c4c458e4, type: 3}
+  type1: {fileID: 11400000, guid: 5a37c1bbebd881b42bd5fab995e54689, type: 2}
+  type2: {fileID: 11400000, guid: a50e8df2c05bf734c9f408b06361f74e, type: 2}
+  eggGroup1: 14
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 5591a465327adc24089f3b21835f2487, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 92
+  baseAttack: 105
+  baseDefense: 90
+  baseSpeed: 98
+  baseSpecialAttack: 125
+  baseSpecialDefense: 90
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 3
+  EV_SpecialDefense: 0
+  baseEXP: 14
+  rareness: 45
+  baseHappiness: 35
+  stepsToHatch: 10455
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 217b94c02411183468ff115fbe1c5245, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 30c2e672cc93cd44d983f46e72bb67eb, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4abf7d172bbaeba4293580ddddb47f6f, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4abf7d172bbaeba4293580ddddb47f6f, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: f3d560a7d1edced43965433b7691eaf1, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: f1751b5ec96b0424e90af98f8405703d, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: c4e8c740e55faed46ab0712cbaa03682, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 1a0603d08aec3344bb06836eb047c05c, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 36ac6fad3c69dfa4ea764d608a2a1212, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: eef52d6b86c13c64aa26776c3453fe3b, type: 2}
+    level: 38
+  - move: {fileID: 11400000, guid: 1fb42093fd7d56f4d93f8ee993588931, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: 903b5ee462226ab47b3026d6ace38c5d, type: 2}
+    level: 48
+  - move: {fileID: 11400000, guid: 206d073f613428f428074167c47c813d, type: 2}
+    level: 55
+  - move: {fileID: 11400000, guid: 742025f9f24a09946bae3d0cdb215512, type: 2}
+    level: 68
+  - move: {fileID: 11400000, guid: 4e5c129cdc82eab41b3c7170d5fb9eb6, type: 2}
+    level: 79
+  eggMoves: []

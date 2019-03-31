@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 331-CacturnePokemonData
+  m_EditorClassIdentifier: 
+  number: 332
+  name: Cacturne
+  internalName: CACTURNE
+  kind: Scarecrow
+  height: 1.3
+  weight: 77.4
+  dexEntry: After spending thousands of years in harsh deserts, its blood transformed
+    into the same substances as sand. It is nocturnal, so it hunts at night.
+  sprite: {fileID: 21300000, guid: 1e6478110a3cd04478ebd768f06828c4, type: 3}
+  backSprite: {fileID: 21300000, guid: 36f167defb1b4e74daf955990a03568f, type: 3}
+  shinySprite: {fileID: 21300000, guid: b90a74a4d20a412478159f6898f70309, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: a718e8ba1e4d8fe469ac8a4ce63df0aa, type: 3}
+  footprintSprite: {fileID: 21300000, guid: fd771ad92bbde8c44aa8515dea71b935, type: 3}
+  type1: {fileID: 11400000, guid: 9ed7dc1c4ee6bf747b182dc2eaf16337, type: 2}
+  type2: {fileID: 11400000, guid: 5a37c1bbebd881b42bd5fab995e54689, type: 2}
+  eggGroup1: 7
+  eggGroup2: 8
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 292e7e0ff6e7588448903262eac203e9, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 274b20460d7fa184ca1fdc06cf5d3c74, type: 2}
+  baseHP: 70
+  baseAttack: 115
+  baseDefense: 60
+  baseSpeed: 55
+  baseSpecialAttack: 115
+  baseSpecialDefense: 60
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 1
+  EV_SpecialDefense: 0
+  baseEXP: 166
+  rareness: 60
+  baseHappiness: 35
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: b0c5817ec469b4f44a3f7ef399a96c62, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d306605b81c7124478801e53ad3ea1ab, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 51676f5ca5c33f3488bef6bd69f42876, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: a2bc558341f8e55459fbed9bfee7482b, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 51676f5ca5c33f3488bef6bd69f42876, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: a2bc558341f8e55459fbed9bfee7482b, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: a348e0502b2529145aaaa410f8e3880f, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 9f99cdcaa64669e41a2a8da39f981b55, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 94cbbd93cb037114781f77a2e7546a2e, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: c163dfa522d04f94d9ac8124bf7d1ec1, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: d8ed94463b0d1f14496675317c8079d3, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: 18d2b07fd9a5ed740902b65b48c67a90, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 045af626945e212499f0e9a28c180d66, type: 2}
+    level: 47
+  - move: {fileID: 11400000, guid: 7152243099474d943b93ecb6d1d082bd, type: 2}
+    level: 53
+  - move: {fileID: 11400000, guid: 182b449d1aef5204dabab987f2afae04, type: 2}
+    level: 59
+  - move: {fileID: 11400000, guid: 7f3e701f581e25848b130cae41131378, type: 2}
+    level: 65
+  - move: {fileID: 11400000, guid: 6fb23c01ca89abf4fa4c0bc1e4ea6bdb, type: 2}
+    level: 71
+  eggMoves: []

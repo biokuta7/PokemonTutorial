@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 312-VolbeatPokemonData
+  m_EditorClassIdentifier: 
+  number: 313
+  name: Volbeat
+  internalName: VOLBEAT
+  kind: Firefly
+  height: 0.7
+  weight: 17.7
+  dexEntry: With their taillights lit, Volbeat fly in a swarm, drawing geometric designs
+    in the night sky. They move their nests if their pond water becomes dirty.
+  sprite: {fileID: 21300000, guid: f96fe712143f0134188b518c03a589fe, type: 3}
+  backSprite: {fileID: 21300000, guid: 0ca545ca328582142ab0cb8931879ea7, type: 3}
+  shinySprite: {fileID: 21300000, guid: 15b663f1040f3894e9712d6f0cfcfcd5, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 53f6c221dd445d142a6c1da26dd2ac80, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 67ccb4460a39c714f8005fe4231998a6, type: 3}
+  type1: {fileID: 11400000, guid: 79eb8f30cbe188e4f8a36dafd71ebdee, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 3
+  eggGroup2: 8
+  growthRate: 0
+  habitat: 0
+  femaleRatio: 0
+  standardAbilities:
+  - {fileID: 11400000, guid: 428a8fe8dcc1a85498e7c20d3d779313, type: 2}
+  - {fileID: 11400000, guid: 3061775df8197ad4c8e4d3bc7de08339, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 5e64b01508371c248be16c3429cf53db, type: 2}
+  baseHP: 65
+  baseAttack: 73
+  baseDefense: 55
+  baseSpeed: 85
+  baseSpecialAttack: 47
+  baseSpecialDefense: 75
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 1
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 140
+  rareness: 150
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 56ce8365943a56645bd82382ce5d9b41, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 56e5520611331d1449233d80d090ed7d, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 30e9bccee0b2ceb4cb9ad6b51e66e479, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: fac3cc32392cf3b4bb3f7eadb0cc6cd8, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: d5f2e90bd85630a43bdd31934847cdc5, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 34223e49dd94efa499501d9684e5e00f, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 7dba8b22673833342a50075386bcf896, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 79c63ba594520644cbecc00f726ef040, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: f277acd4ff10f914a97ec332c912d36c, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: a14c1abb33c849c40b2bc2db3133d367, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: c61f1cdb129e61946b377260cd297708, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+    level: 45
+  eggMoves:
+  - {fileID: 11400000, guid: c93cc4f4568f0084b9fb39e135243cd5, type: 2}
+  - {fileID: 11400000, guid: c61f1cdb129e61946b377260cd297708, type: 2}
+  - {fileID: 11400000, guid: c2a2f1fe7760dce43972f49a1d11f716, type: 2}
+  - {fileID: 11400000, guid: 135034a951a65894fb86a5f232b51764, type: 2}
+  - {fileID: 11400000, guid: 3409a556f97cfb0449a264d3e09129af, type: 2}
+  - {fileID: 11400000, guid: 6abbf14dc28487942887c4d09bd55f32, type: 2}
+  - {fileID: 11400000, guid: 0597bcb9d5189764ea172472f3603923, type: 2}

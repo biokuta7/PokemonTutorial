@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 241-BlisseyPokemonData
+  m_EditorClassIdentifier: 
+  number: 242
+  name: Blissey
+  internalName: BLISSEY
+  kind: Happiness
+  height: 1.5
+  weight: 46.8
+  dexEntry: If it senses sadness with its fluffy fur, a Blissey will rush over to
+    the sad person, however far away, to share an egg of happiness that brings a smile
+    to any face.
+  sprite: {fileID: 21300000, guid: 49615a517b361b84a9a3fa89d3e7e764, type: 3}
+  backSprite: {fileID: 21300000, guid: 82f3a6a504669e64bbfbdcd32e08cc93, type: 3}
+  shinySprite: {fileID: 21300000, guid: c651106ba81bf514d9ee2aff04003ba7, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 5d836d9d07707ee488ca44bc702586b7, type: 3}
+  footprintSprite: {fileID: 21300000, guid: fd004adb55b00ae4d9b3ddbaf67cdca3, type: 3}
+  type1: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 6
+  eggGroup2: 0
+  growthRate: 1
+  habitat: 0
+  femaleRatio: 1
+  standardAbilities:
+  - {fileID: 11400000, guid: b5db5834bd2343441a26e1e130053781, type: 2}
+  - {fileID: 11400000, guid: e31d0b5e9fc8b074e8740eeda2d1976d, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 1a07bb355aaa0e04889c84a47fe1ceb9, type: 2}
+  baseHP: 255
+  baseAttack: 10
+  baseDefense: 10
+  baseSpeed: 55
+  baseSpecialAttack: 75
+  baseSpecialDefense: 135
+  EV_HP: 3
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 608
+  rareness: 30
+  baseHappiness: 140
+  stepsToHatch: 10455
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 9718332accb9dd4438b46ad9a022602e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: c16d454899509064aa753b3499b92b83, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 49df1d5643c16e94e8a7607e0d4cb127, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 90e9a9d7356e7c84ea9190b7ff0535b1, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: a253a6a569c46a748ad69bf73eefba7a, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 8e58a59f68ed40a49b42a88906e27b5e, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: fad89a88d1d661c4d937d53bcfb34b85, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: 22ca39658f179474d8dbc4583cb18c74, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 0836f4a044031c4439650d9b3380ce83, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+    level: 27
+  - move: {fileID: 11400000, guid: 58279d1ca978c0748ba4fc660d97d9ed, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 511d2d613a889084b9ec13c60dd8332c, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: 7cc88e8162115034a892a986b53071ba, type: 2}
+    level: 38
+  - move: {fileID: 11400000, guid: 77f43d31efde36742b68f5827e8c34ae, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: d0ff4947ecf7c4c4887fcffbe1bb2fe4, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: b5a4221bc5e319841b4a778de8d00787, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+    level: 54
+  eggMoves: []

@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 351-KecleonPokemonData
+  m_EditorClassIdentifier: 
+  number: 352
+  name: Kecleon
+  internalName: KECLEON
+  kind: Color Swap
+  height: 1
+  weight: 22
+  dexEntry: "A Pok\xE9mon that has the ability to alter its body colors to match its
+    surroundings. A Kecleon reverts to its original colors if it is startled."
+  sprite: {fileID: 21300000, guid: 86d6a0b2b0cd03f429b3481748f6da49, type: 3}
+  backSprite: {fileID: 21300000, guid: ce9d0a2863e6385498936a8f5bbe12c6, type: 3}
+  shinySprite: {fileID: 21300000, guid: 4c3be3c698935864abc80d6d57e011e4, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 8a0dadf1b4152b741b08e00f298fc65c, type: 3}
+  footprintSprite: {fileID: 21300000, guid: f54fc822ba20dc84fb83352daa2ea3e5, type: 3}
+  type1: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 4c67499284f883046a9ea0856b0ff5a1, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 60
+  baseAttack: 90
+  baseDefense: 70
+  baseSpeed: 40
+  baseSpecialAttack: 60
+  baseSpecialDefense: 120
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 1
+  baseEXP: 154
+  rareness: 200
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 939713a1375356247908f4ae678e8fe3, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 90e9a9d7356e7c84ea9190b7ff0535b1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: dcd976db8573291419557ed6b9d18e1f, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: c8ad6b6cc523bd940b14ff75aa9ba40e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: c272b86c2496cdb4e894635816948c2d, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: fb9cbbcc0dcb76f4a8254e7141042569, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: efce0155d8efb2e4d846129c30b3961f, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: 4aa6cb6c9662be9488e2a3562d16e64a, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: 6afded026ef044e469796eefe9f07d9e, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: b5cb4834e72f9064abecca08c734899b, type: 2}
+    level: 27
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: 2a7e3bfdcb2b1354c8b670fc758cb83f, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 18d2b07fd9a5ed740902b65b48c67a90, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: d7e6d6018ddd7a843a630cf919b9bf91, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 30694025d0c13dd4c896a65d19651c78, type: 2}
+    level: 55
+  - move: {fileID: 11400000, guid: 9a2ac98a1803c3948b268e42577196a6, type: 2}
+    level: 58
+  eggMoves:
+  - {fileID: 11400000, guid: 4965fe24e4d71994c83ce7f0c95a9d7a, type: 2}
+  - {fileID: 11400000, guid: c2a2f1fe7760dce43972f49a1d11f716, type: 2}
+  - {fileID: 11400000, guid: 02d284bddcaccd84c946ab544f218315, type: 2}
+  - {fileID: 11400000, guid: 777fd3747c8934a44834a8d6288486b0, type: 2}
+  - {fileID: 11400000, guid: 856b1c4614a2df8439805c851e354b39, type: 2}
+  - {fileID: 11400000, guid: 7a147e057063b224a86c668c0f0c8579, type: 2}
+  - {fileID: 11400000, guid: 17b540db896190346af6a508b2a0c1ec, type: 2}
+  - {fileID: 11400000, guid: 7fb5a7f61000d8b4aa80f6d4e269826a, type: 2}
+  - {fileID: 11400000, guid: dd5f72087eedb9d44a2ba78fc7f6569b, type: 2}
+  - {fileID: 11400000, guid: 0597bcb9d5189764ea172472f3603923, type: 2}

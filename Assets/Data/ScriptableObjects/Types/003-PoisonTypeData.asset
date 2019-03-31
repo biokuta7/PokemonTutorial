@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -16,11 +17,11 @@ MonoBehaviour:
   isSpecial: 0
   weaknesses:
   - {fileID: 11400000, guid: 2aef90cd8ab7add4ead9fdc156318a32, type: 2}
-  - {fileID: 11400000, guid: 8a60f9e36b8e1a04e88890b5a3d000cb, type: 2}
+  - {fileID: 11400000, guid: 718f468b569515f42be9e985a9082465, type: 2}
   immunities: []
   resistances:
   - {fileID: 11400000, guid: 60bba5c3467446d45a479ab6b6a6e82e, type: 2}
   - {fileID: 11400000}
   - {fileID: 11400000, guid: 79eb8f30cbe188e4f8a36dafd71ebdee, type: 2}
-  - {fileID: 11400000, guid: 0fe0aaa7940cd5b4a8de75cef966e991, type: 2}
+  - {fileID: 11400000, guid: 9ed7dc1c4ee6bf747b182dc2eaf16337, type: 2}
   color: {r: 0.54901963, g: 0.16078432, b: 0.68235296, a: 1}

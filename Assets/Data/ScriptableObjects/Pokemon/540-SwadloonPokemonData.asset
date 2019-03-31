@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 540-SwadloonPokemonData
+  m_EditorClassIdentifier: 
+  number: 541
+  name: Swadloon
+  internalName: SWADLOON
+  kind: Leaf-Wrapped
+  height: 0.5
+  weight: 7.3
+  dexEntry: It protects itself from the cold by wrapping up in leaves. It stays on
+    the move, eating leaves in forests.
+  sprite: {fileID: 21300000, guid: 164373144bd8a9c4abeb40783b10dd02, type: 3}
+  backSprite: {fileID: 21300000, guid: 25c4f2d4ca66a6e4199a4009825aff99, type: 3}
+  shinySprite: {fileID: 21300000, guid: 1d1cf52c464f4bc458c5a56509dd6321, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: abb6520ce960a554dbb1f2ec15309caf, type: 3}
+  footprintSprite: {fileID: 21300000, guid: e8cff937e67402f48b8371f1e87c6d48, type: 3}
+  type1: {fileID: 11400000, guid: 79eb8f30cbe188e4f8a36dafd71ebdee, type: 2}
+  type2: {fileID: 11400000, guid: 9ed7dc1c4ee6bf747b182dc2eaf16337, type: 2}
+  eggGroup1: 3
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: c14092609e4bcb34697c56b3622959e8, type: 2}
+  - {fileID: 11400000, guid: f0f4567366d84af44a479f99490860af, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 1bce60e089bc29c44b4bbcc5e89bec8f, type: 2}
+  baseHP: 55
+  baseAttack: 63
+  baseDefense: 90
+  baseSpeed: 42
+  baseSpecialAttack: 50
+  baseSpecialDefense: 80
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 2
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 133
+  rareness: 120
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 9fe365d30820e2747a1727bb6447555b, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 2fe3950103ea0724e91849015d667f03, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 29fbd58668c00724ba080e3514e4e713, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3bac1848939bf8549835d68f3be23289, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 79c63ba594520644cbecc00f726ef040, type: 2}
+    level: 20
+  eggMoves: []

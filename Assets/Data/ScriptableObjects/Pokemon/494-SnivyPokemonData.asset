@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 494-SnivyPokemonData
+  m_EditorClassIdentifier: 
+  number: 495
+  name: Snivy
+  internalName: SNIVY
+  kind: Grass Snake
+  height: 0.6
+  weight: 8.1
+  dexEntry: They photosynthesize by bathing their tails in sunlight. When they are
+    not feeling well, their tails droop.
+  sprite: {fileID: 21300000, guid: e387c2868c33ab4409de23294b47c8db, type: 3}
+  backSprite: {fileID: 21300000, guid: c1205ad6df9d72944aa82bea181e040b, type: 3}
+  shinySprite: {fileID: 21300000, guid: 4a540d16712b5bb4b9d74a7920725cd9, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 8805cc70ffbddd34993bf5541fdccac3, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 8da18a7ab64136845b95a4626fcfca9d, type: 3}
+  type1: {fileID: 11400000, guid: 9ed7dc1c4ee6bf747b182dc2eaf16337, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 7
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.125
+  standardAbilities:
+  - {fileID: 11400000, guid: 163bc21c6133be146858708b4680a8d9, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 6619f3f61f9847641818c10783d491a7, type: 2}
+  baseHP: 45
+  baseAttack: 45
+  baseDefense: 55
+  baseSpeed: 63
+  baseSpecialAttack: 45
+  baseSpecialDefense: 55
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 1
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 28
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 261f485dd3120cd4b9abce8277551f5c, type: 2}
+    levelToEvolve: 17
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 463c36a9034021d4bb4de1f732963438, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: e3c505701482f0141bc8931909022060, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: a2bc558341f8e55459fbed9bfee7482b, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 2d240287eb7bee74b85fa7a5a10bb30f, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: a348e0502b2529145aaaa410f8e3880f, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: cf3b125d2a3a19f4db9c549d9d557481, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 1a0603d08aec3344bb06836eb047c05c, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 78a67d0c5e29b8544ab94611a0d42769, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 734b752dd11809c43b0377600d4554d7, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: d0032eb960b8d524798fb954ea731315, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: bf78aed5ac7343848b51499fad2ba6f8, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 91e572bc284c7594bafa80c0c257783d, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: 55463fd3f765f9e4abb5cdd228a2f414, type: 2}
+    level: 43
+  eggMoves:
+  - {fileID: 11400000, guid: 08492303b86c9254c97e0aea47940218, type: 2}
+  - {fileID: 11400000, guid: aae2286b0faf0fe4e8828b4d27ff76a3, type: 2}
+  - {fileID: 11400000, guid: 840bfbc637572204e89aa45543ac969b, type: 2}
+  - {fileID: 11400000, guid: 60251021589440c40b96c5308d70e6be, type: 2}
+  - {fileID: 11400000, guid: fff48c8136c20ac47af2c21033804cfe, type: 2}
+  - {fileID: 11400000, guid: 7ef0a78f2ac48a94984b2cac732f0951, type: 2}
+  - {fileID: 11400000, guid: 9d4a14f02a117a44b9913b77b6f91470, type: 2}
+  - {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+  - {fileID: 11400000, guid: 05690026fb024824db2ad77c5245df16, type: 2}
+  - {fileID: 11400000, guid: 8893a4943a8bc8644b6a8faef29dcf2a, type: 2}

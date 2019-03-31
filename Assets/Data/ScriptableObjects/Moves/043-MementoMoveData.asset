@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -18,11 +19,11 @@ MonoBehaviour:
     the target's Attack and Sp. Atk.
   functionCode: 0E2
   target: 00
-  flags: 6500
+  flags: 62006500
   isSpecial: 0
   basePower: 0
   accuracy: 100
   totalPP: 10
   additionalEffectChance: 0
   priority: 0
-  type: {fileID: 11400000, guid: 742fe8c78da5a014b9b8c5424ab3e72d, type: 2}
+  type: {fileID: 11400000, guid: 5a37c1bbebd881b42bd5fab995e54689, type: 2}

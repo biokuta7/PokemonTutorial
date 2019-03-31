@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 530-AudinoPokemonData
+  m_EditorClassIdentifier: 
+  number: 531
+  name: Audino
+  internalName: AUDINO
+  kind: Hearing
+  height: 1.1
+  weight: 31
+  dexEntry: Its auditory sense is astounding. It has a radar-like ability to understand
+    its surrounding through slight sounds.
+  sprite: {fileID: 21300000, guid: b2f2878241b013849b6db1eade615cb7, type: 3}
+  backSprite: {fileID: 21300000, guid: 9a05d7b23f4e1c4469e1f25c1d8ba1fb, type: 3}
+  shinySprite: {fileID: 21300000, guid: 6fd3ba27b56d76c41bb4f02f69c79468, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 077d5d8f666e4754d98dcf5a3c2189a8, type: 3}
+  footprintSprite: {fileID: 21300000, guid: db7bd3f6c4ce2024b8befc02485a4996, type: 3}
+  type1: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 6
+  eggGroup2: 0
+  growthRate: 1
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 1a07bb355aaa0e04889c84a47fe1ceb9, type: 2}
+  - {fileID: 11400000, guid: d69edbf99bf2689429be6e9343f72d05, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 85a6f5d816d107e4ab01a0a7002e5886, type: 2}
+  baseHP: 103
+  baseAttack: 60
+  baseDefense: 86
+  baseSpeed: 50
+  baseSpecialAttack: 60
+  baseSpecialDefense: 86
+  EV_HP: 2
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 134
+  rareness: 255
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: c16d454899509064aa753b3499b92b83, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 49df1d5643c16e94e8a7607e0d4cb127, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: f277acd4ff10f914a97ec332c912d36c, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: a253a6a569c46a748ad69bf73eefba7a, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 8e58a59f68ed40a49b42a88906e27b5e, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 57b97821488e0954aa5ac8793c2e7716, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: fdf3641947fef19439d1589e4b70cb3e, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: dab02694fe76958429c4c151a4f4382f, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+    level: 30
+  - move: {fileID: 11400000, guid: 7cc88e8162115034a892a986b53071ba, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: 824a861885c149d4bb06e01a7b7b5109, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: 9a8c05652e8fbff478058dfcb3cba336, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: 02e8c45cbeaa8f645b9a919d8d8efc87, type: 2}
+    level: 55
+  eggMoves:
+  - {fileID: 11400000, guid: b54451c499c3fc24aade1add5a757d05, type: 2}
+  - {fileID: 11400000, guid: 22ca39658f179474d8dbc4583cb18c74, type: 2}
+  - {fileID: 11400000, guid: 135034a951a65894fb86a5f232b51764, type: 2}
+  - {fileID: 11400000, guid: 73c28a24542af1f4fa0f28275265c7f2, type: 2}
+  - {fileID: 11400000, guid: b5a4221bc5e319841b4a778de8d00787, type: 2}
+  - {fileID: 11400000, guid: 9cea37bba3a567c44bc6020f1c777d86, type: 2}
+  - {fileID: 11400000, guid: e00c2e5151380af4f86149e04650bb42, type: 2}
+  - {fileID: 11400000, guid: 79ff70b8768186845b6efa8a8ab2c39a, type: 2}
+  - {fileID: 11400000, guid: c5037b32ac3b84a478a4ec160d85abb6, type: 2}
+  - {fileID: 11400000, guid: 11851d64298ab6144aa7129575ae7364, type: 2}

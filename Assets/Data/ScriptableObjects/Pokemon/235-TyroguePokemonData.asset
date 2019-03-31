@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 235-TyroguePokemonData
+  m_EditorClassIdentifier: 
+  number: 236
+  name: Tyrogue
+  internalName: TYROGUE
+  kind: Scuffle
+  height: 0.7
+  weight: 21
+  dexEntry: "Tyrogue become stressed out if they do not get to train every day. When
+    raising this Pok\xE9mon, the trainer must establish a regular training schedule."
+  sprite: {fileID: 21300000, guid: dd5e8d5532fbb4b47ba8b2bf5e7dee34, type: 3}
+  backSprite: {fileID: 21300000, guid: 4ba4a822050aabb4291f6271ac573ac6, type: 3}
+  shinySprite: {fileID: 21300000, guid: e6df4e69534f4b8459bef196c3ac3098, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 689ec922cb7a890458e881e17c001390, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 37defc6a009ec1b47be9cda702bf981e, type: 3}
+  type1: {fileID: 11400000, guid: 60bba5c3467446d45a479ab6b6a6e82e, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 15
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0
+  standardAbilities:
+  - {fileID: 11400000, guid: a15e373cc28781245b053d50213487b7, type: 2}
+  - {fileID: 11400000, guid: babc855018a0d534287fb1575505427c, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: e9ce6c57c461f1a46a1b82ed0527d9e5, type: 2}
+  baseHP: 35
+  baseAttack: 35
+  baseDefense: 35
+  baseSpeed: 35
+  baseSpecialAttack: 35
+  baseSpecialDefense: 35
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 42
+  rareness: 75
+  baseHappiness: 70
+  stepsToHatch: 6630
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: f277acd4ff10f914a97ec332c912d36c, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 02d284bddcaccd84c946ab544f218315, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: cfd93b7c0d975cb4d8630d561a4ffe21, type: 2}
+    level: 1
+  eggMoves:
+  - {fileID: 11400000, guid: 1fe62959272f95446b570cb5bc0006fc, type: 2}
+  - {fileID: 11400000, guid: 886cc954c2a8d6546abe10ac0f64a80c, type: 2}
+  - {fileID: 11400000, guid: 9f44f4d05fd57b74b9b026bf9776c7e7, type: 2}
+  - {fileID: 11400000, guid: efce0155d8efb2e4d846129c30b3961f, type: 2}
+  - {fileID: 11400000, guid: f277acd4ff10f914a97ec332c912d36c, type: 2}
+  - {fileID: 11400000, guid: 7b2016b6671c1b34e9e6716a7044e541, type: 2}
+  - {fileID: 11400000, guid: c50aacc569ba46c4ea2c0f37c4d3c394, type: 2}
+  - {fileID: 11400000, guid: 719d19365328016478a76a6cc3115cbb, type: 2}
+  - {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+  - {fileID: 11400000, guid: 5df38effff9669e49a43e3d459847a64, type: 2}
+  - {fileID: 11400000, guid: 52d66ae28f405a140a676397718172f1, type: 2}

@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 544-ScolipedePokemonData
+  m_EditorClassIdentifier: 
+  number: 545
+  name: Scolipede
+  internalName: SCOLIPEDE
+  kind: Megapede
+  height: 2.5
+  weight: 200.5
+  dexEntry: Highly aggressive, it uses the claws near its neck to dig into its opponents
+    and poison them.
+  sprite: {fileID: 21300000, guid: f8bb62374e690334b8c72e27a79deaaa, type: 3}
+  backSprite: {fileID: 21300000, guid: 7282e16db226b1348a9425df1355077e, type: 3}
+  shinySprite: {fileID: 21300000, guid: 6797b471ef1622744aeb9a6e5d81b53c, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: f1b79494e4da111419581ee25c0df1bc, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 6b5b3030048c37c4bb30dcdfad823171, type: 3}
+  type1: {fileID: 11400000, guid: 79eb8f30cbe188e4f8a36dafd71ebdee, type: 2}
+  type2: {fileID: 11400000, guid: 5c263d07fc626544cae866e79835f9fd, type: 2}
+  eggGroup1: 3
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: aa741ab2d81e343488784bf677d21166, type: 2}
+  - {fileID: 11400000, guid: 3061775df8197ad4c8e4d3bc7de08339, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 850d457e7f9ec4d408cc419ca7e9a66d, type: 2}
+  baseHP: 60
+  baseAttack: 90
+  baseDefense: 89
+  baseSpeed: 112
+  baseSpecialAttack: 55
+  baseSpecialDefense: 69
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 3
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 214
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 40a181bb9cf1356459195f93d4b5f8d6, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9718332accb9dd4438b46ad9a022602e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: ec6769bc96a317247a6a1bbb153f90ec, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d306605b81c7124478801e53ad3ea1ab, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d306605b81c7124478801e53ad3ea1ab, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: 79c63ba594520644cbecc00f726ef040, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: f30c768b5377a2241918bea01c597071, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 29fbd58668c00724ba080e3514e4e713, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: 24f930d685f641f4f84e81cb91e6e849, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: c93cc4f4568f0084b9fb39e135243cd5, type: 2}
+    level: 30
+  - move: {fileID: 11400000, guid: 3453f1ab4cf459a418c38964bff1630f, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 8739d312e54cd144c8fc4bb502e11d5b, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: 4b3a585e894cee04a9d1bb18f18e61d3, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: 8fa8b734d4bf3c648b9af24365b29712, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+    level: 55
+  eggMoves: []

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 264-WurmplePokemonData
+  m_EditorClassIdentifier: 
+  number: 265
+  name: Wurmple
+  internalName: WURMPLE
+  kind: Worm
+  height: 0.3
+  weight: 3.6
+  dexEntry: It sticks to tree branches and eats leaves. The thread it spits from its
+    mouth, which becomes gooey when it touches air, slows the movement of its foes.
+  sprite: {fileID: 21300000, guid: deb763d7e36c0c64f95f2a3ea17f683d, type: 3}
+  backSprite: {fileID: 21300000, guid: be5ea3dc74144274ea0292957453671a, type: 3}
+  shinySprite: {fileID: 21300000, guid: 76242f2b3adbcd74c91fdf71e8d05ed5, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: b9acd936140b02a4d939ce2744a5be50, type: 3}
+  footprintSprite: {fileID: 21300000, guid: fb64b472151a6c74a95afa3aa22c42c2, type: 3}
+  type1: {fileID: 11400000, guid: 79eb8f30cbe188e4f8a36dafd71ebdee, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 3
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 9de9baf65f689714e8468ad3e739653d, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: f0cedf399fe0ab54eaf74b1308628228, type: 2}
+  baseHP: 45
+  baseAttack: 45
+  baseDefense: 35
+  baseSpeed: 20
+  baseSpecialAttack: 20
+  baseSpecialDefense: 30
+  EV_HP: 1
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 39
+  rareness: 255
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 2fe3950103ea0724e91849015d667f03, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d306605b81c7124478801e53ad3ea1ab, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 29fbd58668c00724ba080e3514e4e713, type: 2}
+    level: 15
+  eggMoves: []

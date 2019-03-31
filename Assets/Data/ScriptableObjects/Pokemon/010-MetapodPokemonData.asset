@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -25,14 +26,14 @@ MonoBehaviour:
   shinyBackSprite: {fileID: 21300000, guid: 5342ae88b44fff8418015ecfe5a259a0, type: 3}
   footprintSprite: {fileID: 21300000, guid: ff71e3cbc077446478e4f822576d8fb6, type: 3}
   type1: {fileID: 11400000, guid: 79eb8f30cbe188e4f8a36dafd71ebdee, type: 2}
-  type2: {fileID: 11400000, guid: 26317c5bb6f4d8746a0567db42a1e986, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
   eggGroup1: 3
   eggGroup2: 0
   growthRate: 2
-  habitat: 1
+  habitat: 0
   femaleRatio: 0.5
   standardAbilities:
-  - {fileID: 11400000, guid: c228fbb0f3612934aabc56038e74ccdc, type: 2}
+  - {fileID: 11400000, guid: 0f81637a6efd5594f91922de5f257781, type: 2}
   hiddenAbility: {fileID: 0}
   baseHP: 50
   baseAttack: 20
@@ -51,13 +52,13 @@ MonoBehaviour:
   baseHappiness: 70
   stepsToHatch: 4080
   evolutions:
-  - resultant: {fileID: 11400000, guid: 0979a2f769ddb2947bc4c277fe3e0772, type: 2}
+  - resultant: {fileID: 11400000, guid: 3465c9bc41f9d504d99fd8d0ed2b0548, type: 2}
     levelToEvolve: 10
     itemToEvolve: {fileID: 0}
     evolutionType: 0
   learnedMoves:
-  - move: {fileID: 11400000, guid: 5841efc3a5903d4469d2a705c67b9e50, type: 2}
+  - move: {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
     level: 1
-  - move: {fileID: 11400000, guid: 5841efc3a5903d4469d2a705c67b9e50, type: 2}
+  - move: {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
     level: 7
   eggMoves: []

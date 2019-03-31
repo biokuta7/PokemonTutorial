@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 344-LileepPokemonData
+  m_EditorClassIdentifier: 
+  number: 345
+  name: Lileep
+  internalName: LILEEP
+  kind: Sea Lily
+  height: 1
+  weight: 23.8
+  dexEntry: It disguises itself as seaweed by making its tentacles sway. Unsuspecting
+    prey that come too close are swallowed whole. It became extinct 100 million years
+    ago.
+  sprite: {fileID: 21300000, guid: 85e8a072fd3b27b4087aa658c481175a, type: 3}
+  backSprite: {fileID: 21300000, guid: 8f9e270ff86175843b6693c247cb3438, type: 3}
+  shinySprite: {fileID: 21300000, guid: e8c2480f85acb7c4eab60460d0131d78, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: a33eb633c7c2d3648b3351c3af753a7d, type: 3}
+  footprintSprite: {fileID: 21300000, guid: f78777184afdfac41a0b1ebf4fe162c5, type: 3}
+  type1: {fileID: 11400000, guid: 865c5118b1a0e3b4d895cfe37b3b2aa9, type: 2}
+  type2: {fileID: 11400000, guid: 9ed7dc1c4ee6bf747b182dc2eaf16337, type: 2}
+  eggGroup1: 9
+  eggGroup2: 0
+  growthRate: 0
+  habitat: 0
+  femaleRatio: 0.125
+  standardAbilities:
+  - {fileID: 11400000, guid: 8bcbd9b0205488d4cb6f0ef05c115eb3, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 52d53c96069c34b4da8469c6d5f334a6, type: 2}
+  baseHP: 66
+  baseAttack: 41
+  baseDefense: 77
+  baseSpeed: 23
+  baseSpecialAttack: 61
+  baseSpecialDefense: 87
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 1
+  baseEXP: 71
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 7905
+  evolutions:
+  - resultant: {fileID: 11400000, guid: b9bf8e7f33423ef48ba4d25233a9b962, type: 2}
+    levelToEvolve: 40
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: fff44a669961e0b4fb6e9a98cd61b6b8, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: a9cb34e1f0983c24aa63b6ee303bb1ed, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: c163dfa522d04f94d9ac8124bf7d1ec1, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 30e9bccee0b2ceb4cb9ad6b51e66e479, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: b54451c499c3fc24aade1add5a757d05, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 91e572bc284c7594bafa80c0c257783d, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 30694025d0c13dd4c896a65d19651c78, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: 8998edf4d2f21d044b2a030f300f2fe4, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: ff3913788b628f54baa7ca440e7aca98, type: 2}
+    level: 57
+  - move: {fileID: 11400000, guid: 896336ca57ccd0a478ad94a85479e278, type: 2}
+    level: 57
+  - move: {fileID: 11400000, guid: b3b0dd4dfe9ef9d4ba5dd8a6a2378381, type: 2}
+    level: 57
+  - move: {fileID: 11400000, guid: bf78aed5ac7343848b51499fad2ba6f8, type: 2}
+    level: 64
+  eggMoves:
+  - {fileID: 11400000, guid: 5ff32fd3e0ccd2143a5d76e35f416dfb, type: 2}
+  - {fileID: 11400000, guid: fd48eadb1eda86c45b74371631ca93dd, type: 2}
+  - {fileID: 11400000, guid: 9f44f4d05fd57b74b9b026bf9776c7e7, type: 2}
+  - {fileID: 11400000, guid: cf3b125d2a3a19f4db9c549d9d557481, type: 2}
+  - {fileID: 11400000, guid: 7ef0a78f2ac48a94984b2cac732f0951, type: 2}
+  - {fileID: 11400000, guid: 17b540db896190346af6a508b2a0c1ec, type: 2}
+  - {fileID: 11400000, guid: 4773ef6422b4dba42bf480860c4f42cc, type: 2}
+  - {fileID: 11400000, guid: 075cd6d6634b5004b8f3602896f27620, type: 2}
+  - {fileID: 11400000, guid: bf78aed5ac7343848b51499fad2ba6f8, type: 2}

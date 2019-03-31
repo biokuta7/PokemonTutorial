@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 368-RelicanthPokemonData
+  m_EditorClassIdentifier: 
+  number: 369
+  name: Relicanth
+  internalName: RELICANTH
+  kind: Longevity
+  height: 1
+  weight: 23.4
+  dexEntry: "A Pok\xE9mon that was once believed to have been extinct. The species
+    has not changed its form for 100 million years. It walks on the seafloor using
+    its pectoral fins."
+  sprite: {fileID: 21300000, guid: 57c1444edc8ab0948974d99600286780, type: 3}
+  backSprite: {fileID: 21300000, guid: 3093819750a3830438631a4f70045b83, type: 3}
+  shinySprite: {fileID: 21300000, guid: cfc263419d8a47e42955ebdd9088fa34, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 482c6635b9dd5e14e81d3aaa59b8e948, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 7ac209e147482164f87b39661ccd2bbe, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 865c5118b1a0e3b4d895cfe37b3b2aa9, type: 2}
+  eggGroup1: 2
+  eggGroup2: 12
+  growthRate: 4
+  habitat: 0
+  femaleRatio: 0.125
+  standardAbilities:
+  - {fileID: 11400000, guid: 56397a6e68134a6409d13eb81f2d8d2c, type: 2}
+  - {fileID: 11400000, guid: eaeb02f426f4fb040a995a3ac538cd8b, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 8822aaa86cfc2f0408aaabea80029644, type: 2}
+  baseHP: 100
+  baseAttack: 90
+  baseDefense: 130
+  baseSpeed: 55
+  baseSpecialAttack: 45
+  baseSpecialDefense: 65
+  EV_HP: 1
+  EV_Attack: 0
+  EV_Defense: 1
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 170
+  rareness: 25
+  baseHappiness: 70
+  stepsToHatch: 10455
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3b8f4014739fbae4d84fae04eb5099f2, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 32433de61b22a4547a4e2386f6bc82fb, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 11851d64298ab6144aa7129575ae7364, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: dee27cd0fdcd79240b0663c357831a95, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 30694025d0c13dd4c896a65d19651c78, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: 31cbd4778222ad04ba021a5ffa9d73af, type: 2}
+    level: 57
+  - move: {fileID: 11400000, guid: 6ca000a6aa650d243b1e634a9044d765, type: 2}
+    level: 64
+  - move: {fileID: 11400000, guid: 4bdcb7db2207f9142b7706d59e466f28, type: 2}
+    level: 71
+  - move: {fileID: 11400000, guid: 49da2f892c8edfb4ba41bad44868441a, type: 2}
+    level: 78
+  eggMoves:
+  - {fileID: 11400000, guid: b54451c499c3fc24aade1add5a757d05, type: 2}
+  - {fileID: 11400000, guid: 1160a28543f1b8646be03bfee46df347, type: 2}
+  - {fileID: 11400000, guid: 5d1eca6964fbf79449b447b0f905ef42, type: 2}
+  - {fileID: 11400000, guid: 929dd1fa550cc024f9a5897d6685bdcf, type: 2}
+  - {fileID: 11400000, guid: 4dfa80e8978525c488cbd9c827a66af7, type: 2}
+  - {fileID: 11400000, guid: 6a425af601896ff48bd142db36a82669, type: 2}
+  - {fileID: 11400000, guid: 70ea7f19b00e56d49a0fe52d49d2fd44, type: 2}
+  - {fileID: 11400000, guid: f9d5056959c9bf14cb37a6421006d824, type: 2}
+  - {fileID: 11400000, guid: e00c2e5151380af4f86149e04650bb42, type: 2}
+  - {fileID: 11400000, guid: ad3d5dd2b0bd4844b89d38058ec1336e, type: 2}
+  - {fileID: 11400000, guid: e1b13bbff45ac2c4d931b26b7167b481, type: 2}
+  - {fileID: 11400000, guid: a14c1abb33c849c40b2bc2db3133d367, type: 2}

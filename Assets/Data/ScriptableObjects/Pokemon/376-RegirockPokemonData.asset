@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 376-RegirockPokemonData
+  m_EditorClassIdentifier: 
+  number: 377
+  name: Regirock
+  internalName: REGIROCK
+  kind: Rock Peak
+  height: 1.7
+  weight: 230
+  dexEntry: "A Pok\xE9mon that is made entirely of rocks and boulders. If parts of
+    its body chip off in battle, Regirock repairs itself by adding new rocks."
+  sprite: {fileID: 21300000, guid: 3409eafdbec753c4080de97b12dd43a7, type: 3}
+  backSprite: {fileID: 21300000, guid: 0845a899208bb0640bd94532f24abf4c, type: 3}
+  shinySprite: {fileID: 21300000, guid: adaa6f9f015e020489005c95f91d01a5, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 3c74a842dc9d9ea45a7c90aa71e876fb, type: 3}
+  footprintSprite: {fileID: 21300000, guid: b7f8ba4363675b742b821a7a350be670, type: 3}
+  type1: {fileID: 11400000, guid: 865c5118b1a0e3b4d895cfe37b3b2aa9, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 15
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: -1
+  standardAbilities:
+  - {fileID: 11400000, guid: 0d405b7112150654b82b08b766ecc938, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 8822aaa86cfc2f0408aaabea80029644, type: 2}
+  baseHP: 80
+  baseAttack: 100
+  baseDefense: 200
+  baseSpeed: 50
+  baseSpecialAttack: 50
+  baseSpecialDefense: 100
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 3
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 261
+  rareness: 3
+  baseHappiness: 35
+  stepsToHatch: 20655
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: c04069573dd5ad143b9999bab5f1cbfa, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 2f7d6ab7cd0e52442adcc2fa35de98c8, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e867937231e5b964385d7ad80fb74704, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: fd48eadb1eda86c45b74371631ca93dd, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: e57bc132b940120468c55968e0807e59, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 30694025d0c13dd4c896a65d19651c78, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: a5bdded8b500614418098e7d3258784b, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: d7d0314a15b8bfd4da4dbf6da5bc35e8, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 348a733884d7e6943acc894872975359, type: 2}
+    level: 57
+  - move: {fileID: 11400000, guid: e99899b1534140e47a270201d1684d22, type: 2}
+    level: 65
+  - move: {fileID: 11400000, guid: ff0c05434e0850d4b88635587821b7f9, type: 2}
+    level: 73
+  - move: {fileID: 11400000, guid: 7b14c654ccf062a45b54aa55c85ac600, type: 2}
+    level: 81
+  - move: {fileID: 11400000, guid: 931a6239501d867458263239c17a188b, type: 2}
+    level: 89
+  eggMoves: []

@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 485-RegigigasPokemonData
+  m_EditorClassIdentifier: 
+  number: 486
+  name: Regigigas
+  internalName: REGIGIGAS
+  kind: Colossal
+  height: 3.7
+  weight: 420
+  dexEntry: "There is an enduring legend that states this Pok\xE9mon towed continents
+    with ropes."
+  sprite: {fileID: 21300000, guid: 90cf217c7cbb714458f4a7acb2f5ae9b, type: 3}
+  backSprite: {fileID: 21300000, guid: 34f944c9b1aad684c99a48480ec595d7, type: 3}
+  shinySprite: {fileID: 21300000, guid: 3124b50035fbb6542ae87e27abc7171a, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: c431e51a5f7a3fa4ba7dab08e314a935, type: 3}
+  footprintSprite: {fileID: 21300000, guid: f580f038615cb9942b2b82e24ea9dab8, type: 3}
+  type1: {fileID: 11400000, guid: 2ea15428717fc694bb34f1185d0c8fa0, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 15
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: -1
+  standardAbilities:
+  - {fileID: 11400000, guid: e27459da1907f604c85355c5d75f6785, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 110
+  baseAttack: 160
+  baseDefense: 110
+  baseSpeed: 100
+  baseSpecialAttack: 80
+  baseSpecialDefense: 110
+  EV_HP: 0
+  EV_Attack: 3
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 302
+  rareness: 3
+  baseHappiness: 0
+  stepsToHatch: 30855
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 43082462e0b502849b59c6366460cef8, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 8ff24dd6627d3454bb87045584b979d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: ad91c274fe4e2f14ca79d36969420c69, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: c2a2f1fe7760dce43972f49a1d11f716, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: aa3899441c43934478c93384796e9a8c, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 30e9bccee0b2ceb4cb9ad6b51e66e479, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: cfd93b7c0d975cb4d8630d561a4ffe21, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b0c5817ec469b4f44a3f7ef399a96c62, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 11ff7da7c616f1741b88955427548f6f, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: a14c1abb33c849c40b2bc2db3133d367, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: 045af626945e212499f0e9a28c180d66, type: 2}
+    level: 65
+  - move: {fileID: 11400000, guid: c05a0cc9abdb7c94abeb9f005f8b7dd4, type: 2}
+    level: 75
+  - move: {fileID: 11400000, guid: c24e608ede5552044974bb1114a3af17, type: 2}
+    level: 90
+  - move: {fileID: 11400000, guid: 60f60ea14d80ad84ebd80005abbc42a5, type: 2}
+    level: 100
+  eggMoves: []

@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 577-DuosionPokemonData
+  m_EditorClassIdentifier: 
+  number: 578
+  name: Duosion
+  internalName: DUOSION
+  kind: Mitosis
+  height: 0.6
+  weight: 8
+  dexEntry: "When their brains, now divided in two, are thinking the same thoughts,
+    these Pok\xE9mon exhibit their maximum power."
+  sprite: {fileID: 21300000, guid: 20bd50693ccf9594684e70107ceac4d6, type: 3}
+  backSprite: {fileID: 21300000, guid: 7715d7e221a613e40ab558e082938f94, type: 3}
+  shinySprite: {fileID: 21300000, guid: caf904875ce47754fa3f2f159a376f61, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 16b7ab66cf684a740a27c4b115d4740c, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 5638b32c36af24841b712f3b8b9e28bf, type: 3}
+  type1: {fileID: 11400000, guid: 718f468b569515f42be9e985a9082465, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 11
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 1bce60e089bc29c44b4bbcc5e89bec8f, type: 2}
+  - {fileID: 11400000, guid: bcd2efc2393655343b0e0c7602798e4e, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: d69edbf99bf2689429be6e9343f72d05, type: 2}
+  baseHP: 65
+  baseAttack: 40
+  baseDefense: 50
+  baseSpeed: 30
+  baseSpecialAttack: 125
+  baseSpecialDefense: 60
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 2
+  EV_SpecialDefense: 0
+  baseEXP: 130
+  rareness: 100
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 9bbc701e58469624187348e382f53677, type: 2}
+    levelToEvolve: 41
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 40589a4e02d7b3847bc8e50d4212e3bb, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: fcf7b2a59248fe342ad157971138d17a, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: ec6769bc96a317247a6a1bbb153f90ec, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: dd5f72087eedb9d44a2ba78fc7f6569b, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: fcf7b2a59248fe342ad157971138d17a, type: 2}
+    level: 3
+  - move: {fileID: 11400000, guid: ec6769bc96a317247a6a1bbb153f90ec, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: dd5f72087eedb9d44a2ba78fc7f6569b, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 9fe3e343713bf9744b79faa05f4130f3, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: d0ff4947ecf7c4c4887fcffbe1bb2fe4, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: cc97392f8c47d6d43a7fe744875dfd4d, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 17b540db896190346af6a508b2a0c1ec, type: 2}
+    level: 24
+  - move: {fileID: 11400000, guid: 66d4e28149797dc43baee977de141bb4, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 74d2270e8d5047f47bdfca1fc219dded, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: f992e7a4e62a3b149bb36f3087193be4, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 23dbb7882c9ee7d43acda6d0c8a526ab, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: 943dd68f173614045a520526628a0d44, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: 7fb5a7f61000d8b4aa80f6d4e269826a, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: 3659785186860df46b7a35075d70daf1, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: 863a7782b05fce74fa2696d5988277ee, type: 2}
+    level: 53
+  eggMoves: []

@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 646-KeldeoPokemonData
+  m_EditorClassIdentifier: 
+  number: 647
+  name: Keldeo
+  internalName: KELDEO
+  kind: Colt
+  height: 1.4
+  weight: 48.5
+  dexEntry: It crosses the world, running over the surfaces of oceans and rivers.
+    It appears at scenic waterfronts.
+  sprite: {fileID: 21300000, guid: 3068158fc7cce614f8828ee04759dbe7, type: 3}
+  backSprite: {fileID: 21300000, guid: a5d2279563ad8a0439776580cedbb800, type: 3}
+  shinySprite: {fileID: 21300000, guid: 2dfd3b21b92c18648bc50fca3b532eec, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 415476c59860dcd428e3a25b9a61bf17, type: 3}
+  footprintSprite: {fileID: 21300000, guid: a43f4b107bd3e6f459a0814a4b4e63ec, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 60bba5c3467446d45a479ab6b6a6e82e, type: 2}
+  eggGroup1: 15
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: -1
+  standardAbilities:
+  - {fileID: 11400000, guid: 1b792af7225db7a438cc57b78ff11640, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 91
+  baseAttack: 72
+  baseDefense: 90
+  baseSpeed: 108
+  baseSpecialAttack: 129
+  baseSpecialDefense: 90
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 3
+  EV_SpecialDefense: 0
+  baseEXP: 5
+  rareness: 3
+  baseHappiness: 35
+  stepsToHatch: 20655
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 0c17539c29d9692498e809a6276dd991, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 50ced63224687ad479604e56abd307b0, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: b47841f8439c41b43b9d6fb0c7847197, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: f277acd4ff10f914a97ec332c912d36c, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 947b0dcc26e24574086cf7ec4b0e080d, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 1160a28543f1b8646be03bfee46df347, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 5c9ce0ec67a7f9e48ae20db192d47848, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: 9887221a3a392a748b92ecd16cd5faf7, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: f59c4c13ab26fc54caae248bc7547b1f, type: 2}
+    level: 55
+  - move: {fileID: 11400000, guid: eef52d6b86c13c64aa26776c3453fe3b, type: 2}
+    level: 61
+  - move: {fileID: 11400000, guid: 4bdcb7db2207f9142b7706d59e466f28, type: 2}
+    level: 67
+  - move: {fileID: 11400000, guid: fe31ce936c3024c41aec13270912f9b2, type: 2}
+    level: 73
+  eggMoves: []

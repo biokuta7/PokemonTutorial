@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 424-DrifloonPokemonData
+  m_EditorClassIdentifier: 
+  number: 425
+  name: Drifloon
+  internalName: DRIFLOON
+  kind: Balloon
+  height: 0.4
+  weight: 1.2
+  dexEntry: "A Pok\xE9mon formed by the spirits of people and Pok\xE9mon. It loves
+    damp, humid seasons."
+  sprite: {fileID: 21300000, guid: 62a70141fd01a47409f6b91faa9d8d04, type: 3}
+  backSprite: {fileID: 21300000, guid: b1ae1d243340f2c4a935a08505ecf12c, type: 3}
+  shinySprite: {fileID: 21300000, guid: 2e5082e933576d84eae77eb9aa292339, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 300a94173f7bd9a4199d26a1a06e17b1, type: 3}
+  footprintSprite: {fileID: 21300000, guid: bce1813744a590a49a72f2225caf8b9c, type: 3}
+  type1: {fileID: 11400000, guid: 5eb27c1d76b3cc2439c818ac7325a0e5, type: 2}
+  type2: {fileID: 11400000, guid: 90bb1a57d841315478a74baa52e40ba4, type: 2}
+  eggGroup1: 11
+  eggGroup2: 0
+  growthRate: 5
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: bc75f9777f71b3d4b9a1fcaa50668d5f, type: 2}
+  - {fileID: 11400000, guid: be28f628a03da7e49a8a0e0265a767a6, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 6b2f02f4037390847b3ae924f9ec5225, type: 2}
+  baseHP: 90
+  baseAttack: 50
+  baseDefense: 34
+  baseSpeed: 70
+  baseSpecialAttack: 60
+  baseSpecialDefense: 44
+  EV_HP: 1
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 70
+  rareness: 125
+  baseHappiness: 70
+  stepsToHatch: 7905
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 39e782bdbd16d6c4394ca013b020f95b, type: 2}
+    levelToEvolve: 28
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: fff44a669961e0b4fb6e9a98cd61b6b8, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 0836f4a044031c4439650d9b3380ce83, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: b1634127e25b9b64aad2d055f4d0ed9a, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 4abf7d172bbaeba4293580ddddb47f6f, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 045af626945e212499f0e9a28c180d66, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: f1e99a84c358af64cab862404dc78a61, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: ff3913788b628f54baa7ca440e7aca98, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 7103c1098d734074f9a1592d89f19c44, type: 2}
+    level: 27
+  - move: {fileID: 11400000, guid: b3b0dd4dfe9ef9d4ba5dd8a6a2378381, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: 896336ca57ccd0a478ad94a85479e278, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: 59b2981bccec05f4a892993209db6bbb, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: b54451c499c3fc24aade1add5a757d05, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: c93cc4f4568f0084b9fb39e135243cd5, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: c04069573dd5ad143b9999bab5f1cbfa, type: 2}
+    level: 50
+  eggMoves:
+  - {fileID: 11400000, guid: 903b5ee462226ab47b3026d6ace38c5d, type: 2}
+  - {fileID: 11400000, guid: 4504b3918cd63f24d8480103613a3eb7, type: 2}
+  - {fileID: 11400000, guid: 45d2e1dc1190a474490fd19bf8a24b39, type: 2}
+  - {fileID: 11400000, guid: 6fb23c01ca89abf4fa4c0bc1e4ea6bdb, type: 2}
+  - {fileID: 11400000, guid: 4965fe24e4d71994c83ce7f0c95a9d7a, type: 2}
+  - {fileID: 11400000, guid: 58aa3d592b28f5e42a4586453743ccdb, type: 2}
+  - {fileID: 11400000, guid: 1683302a221d16c45a514c8db81ec734, type: 2}
+  - {fileID: 11400000, guid: fdcea9f0752a07242baa0c957d7097af, type: 2}
+  - {fileID: 11400000, guid: af83c7b9a7a8d4540b0ed28091bcbcf5, type: 2}

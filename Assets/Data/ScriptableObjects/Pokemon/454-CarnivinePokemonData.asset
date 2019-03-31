@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 454-CarnivinePokemonData
+  m_EditorClassIdentifier: 
+  number: 455
+  name: Carnivine
+  internalName: CARNIVINE
+  kind: Bug Catcher
+  height: 1.4
+  weight: 27
+  dexEntry: It attracts prey with its sweet-smelling saliva, then chomps down. It
+    takes a whole day to eat prey.
+  sprite: {fileID: 21300000, guid: b1e2c24889d4a47429420ccd4fffc5d8, type: 3}
+  backSprite: {fileID: 21300000, guid: 66a9700e6799f904f91683b6cdfe7cf3, type: 3}
+  shinySprite: {fileID: 21300000, guid: 6a654ee3bf07c6540a8e56f87e402437, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 6e899219c09725f49b52720d24a53862, type: 3}
+  footprintSprite: {fileID: 21300000, guid: f3935dcddc071e04bb99af814e7a0ee2, type: 3}
+  type1: {fileID: 11400000, guid: 9ed7dc1c4ee6bf747b182dc2eaf16337, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 7
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 5591a465327adc24089f3b21835f2487, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 74
+  baseAttack: 100
+  baseDefense: 72
+  baseSpeed: 46
+  baseSpecialAttack: 90
+  baseSpecialDefense: 72
+  EV_HP: 0
+  EV_Attack: 2
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 159
+  rareness: 200
+  baseHappiness: 70
+  stepsToHatch: 6630
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: c272b86c2496cdb4e894635816948c2d, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: a2bc558341f8e55459fbed9bfee7482b, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 463c36a9034021d4bb4de1f732963438, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 05690026fb024824db2ad77c5245df16, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: c163dfa522d04f94d9ac8124bf7d1ec1, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+    level: 27
+  - move: {fileID: 11400000, guid: 2d240287eb7bee74b85fa7a5a10bb30f, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: ff3913788b628f54baa7ca440e7aca98, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 896336ca57ccd0a478ad94a85479e278, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: b3b0dd4dfe9ef9d4ba5dd8a6a2378381, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: bf78aed5ac7343848b51499fad2ba6f8, type: 2}
+    level: 47
+  - move: {fileID: 11400000, guid: b6923d67132158f4cad83069c787aacb, type: 2}
+    level: 51
+  eggMoves:
+  - {fileID: 11400000, guid: d0032eb960b8d524798fb954ea731315, type: 2}
+  - {fileID: 11400000, guid: 9fe365d30820e2747a1727bb6447555b, type: 2}
+  - {fileID: 11400000, guid: a348e0502b2529145aaaa410f8e3880f, type: 2}
+  - {fileID: 11400000, guid: 60251021589440c40b96c5308d70e6be, type: 2}
+  - {fileID: 11400000, guid: 2de7b984c95eee8419a7f5aab4e3bfd9, type: 2}
+  - {fileID: 11400000, guid: 3bac1848939bf8549835d68f3be23289, type: 2}
+  - {fileID: 11400000, guid: 1a0603d08aec3344bb06836eb047c05c, type: 2}
+  - {fileID: 11400000, guid: 6db871796f983fe4cb33a054bb5c4462, type: 2}
+  - {fileID: 11400000, guid: 821e4ffa6d02b364b88e8bf9bc74093c, type: 2}
+  - {fileID: 11400000, guid: bf883db29c15eab4cbe5f9f2b382655a, type: 2}
+  - {fileID: 11400000, guid: da061361f80b8be41a2caf2d55f7a5ac, type: 2}

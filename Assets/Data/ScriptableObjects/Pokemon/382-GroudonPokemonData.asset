@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 382-GroudonPokemonData
+  m_EditorClassIdentifier: 
+  number: 383
+  name: Groudon
+  internalName: GROUDON
+  kind: Continent
+  height: 3.5
+  weight: 950
+  dexEntry: Groudon has appeared in mythology as the creator of the land. It sleeps
+    in magma underground and is said to make volcanoes erupt on awakening.
+  sprite: {fileID: 21300000, guid: f17ad1f71713ad54c8a6d8071dab3f45, type: 3}
+  backSprite: {fileID: 21300000, guid: 8191dce242e44954d90fc355c8ff4dfc, type: 3}
+  shinySprite: {fileID: 21300000, guid: f444298bb5664314fa46052979d1a4ce, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 3e636b9590ef97a4ea03880633fb302d, type: 3}
+  footprintSprite: {fileID: 21300000, guid: bcab6473fe4cecd43abb5d07126e19a6, type: 3}
+  type1: {fileID: 11400000, guid: 2aef90cd8ab7add4ead9fdc156318a32, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 15
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: -1
+  standardAbilities:
+  - {fileID: 11400000, guid: 4f6e3c7b6a1b6d54d9214be985111eae, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 100
+  baseAttack: 150
+  baseDefense: 140
+  baseSpeed: 90
+  baseSpecialAttack: 100
+  baseSpecialDefense: 90
+  EV_HP: 0
+  EV_Attack: 3
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 302
+  rareness: 5
+  baseHappiness: 0
+  stepsToHatch: 30855
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4dfa80e8978525c488cbd9c827a66af7, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 206d073f613428f428074167c47c813d, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: fe5a83fc6520a1b4cae23f0fa580501f, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 7b14c654ccf062a45b54aa55c85ac600, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 6ca000a6aa650d243b1e634a9044d765, type: 2}
+    level: 30
+  - move: {fileID: 11400000, guid: 5d28992b9be13a341b391f0dd3d4a986, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: 30694025d0c13dd4c896a65d19651c78, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: e7f1e1ce5ede6b64783a700c5b31a348, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: 824d8c4521b674b4bbedc9a422007b40, type: 2}
+    level: 60
+  - move: {fileID: 11400000, guid: e51e0c804527e4045ae2c022bbad06ca, type: 2}
+    level: 65
+  - move: {fileID: 11400000, guid: b08d8d6945d0819419892e4b757cdad8, type: 2}
+    level: 75
+  - move: {fileID: 11400000, guid: e4f79be0bd7dfa943bad2da0d45cad51, type: 2}
+    level: 80
+  - move: {fileID: 11400000, guid: 3537201e6b45f8e4f9efff4c48a8f450, type: 2}
+    level: 90
+  eggMoves: []

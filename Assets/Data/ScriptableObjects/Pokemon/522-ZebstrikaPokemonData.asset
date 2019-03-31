@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 522-ZebstrikaPokemonData
+  m_EditorClassIdentifier: 
+  number: 523
+  name: Zebstrika
+  internalName: ZEBSTRIKA
+  kind: Thunderbolt
+  height: 1.6
+  weight: 79.5
+  dexEntry: "This ill-tempered Pok\xE9mon is dangerous because when it's angry, it
+    shoots lightning from its mane in all directions."
+  sprite: {fileID: 21300000, guid: 724b9bd4cc0f22e4589ceba28fc0fde4, type: 3}
+  backSprite: {fileID: 21300000, guid: fb24288a17ae9ae4d985d1637acf8398, type: 3}
+  shinySprite: {fileID: 21300000, guid: a11903e71a1f79946a710cdd20ade006, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 45f809ec0c0ff75449c3525a3e2077a6, type: 3}
+  footprintSprite: {fileID: 21300000, guid: aa67a9ed19391364fa6fea750e00e3ad, type: 3}
+  type1: {fileID: 11400000, guid: 826864d94ec7c8c4a8e95b6615b2eff3, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: de9a8da1e63cb0c48adb6252779b3873, type: 2}
+  - {fileID: 11400000, guid: fee61c23a61d466499af0543d441ff1b, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: bc5e54ec57025bd45b80281d3f4ea8fb, type: 2}
+  baseHP: 75
+  baseAttack: 100
+  baseDefense: 63
+  baseSpeed: 116
+  baseSpecialAttack: 80
+  baseSpecialDefense: 63
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 2
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 174
+  rareness: 75
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: d5f2e90bd85630a43bdd31934847cdc5, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 90e9a9d7356e7c84ea9190b7ff0535b1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 75e21a4edea0b024bbc8676017f9a5fe, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 7475d027fb16bda4bb60e048a4a74faa, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 90e9a9d7356e7c84ea9190b7ff0535b1, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 75e21a4edea0b024bbc8676017f9a5fe, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 95e14b9bb06c45943aa7f521fd3c4464, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 7475d027fb16bda4bb60e048a4a74faa, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: e39a29e64e5f26547aacf274c6e2fc12, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: beb00d8d0b8532343998216e2e7835b4, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 2f7d6ab7cd0e52442adcc2fa35de98c8, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: bb3904f7307498445959529de2390f9f, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 3453f1ab4cf459a418c38964bff1630f, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: be34364e25147244a8ac2f595c7fe75b, type: 2}
+    level: 47
+  - move: {fileID: 11400000, guid: 5a170aa8024c80246991a18e353e044f, type: 2}
+    level: 53
+  eggMoves: []

@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 558-ScraggyPokemonData
+  m_EditorClassIdentifier: 
+  number: 559
+  name: Scraggy
+  internalName: SCRAGGY
+  kind: Shedding
+  height: 0.6
+  weight: 11.8
+  dexEntry: It immediately headbutts anyone that makes eye contact with it. Its skull
+    is massively thick.
+  sprite: {fileID: 21300000, guid: 55487e079ab2e6e429b741e01c4b4da3, type: 3}
+  backSprite: {fileID: 21300000, guid: 76d9999dab56e7446a0b44d6f26ba891, type: 3}
+  shinySprite: {fileID: 21300000, guid: c4028c50e5951934999fa1b70625e89d, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: ce00ddcbf89c83b47bfe36d7b3fb9fab, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 2a30d1ad3f11773419bbe379dbd8decb, type: 3}
+  type1: {fileID: 11400000, guid: 5a37c1bbebd881b42bd5fab995e54689, type: 2}
+  type2: {fileID: 11400000, guid: 60bba5c3467446d45a479ab6b6a6e82e, type: 2}
+  eggGroup1: 5
+  eggGroup2: 14
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 0f81637a6efd5594f91922de5f257781, type: 2}
+  - {fileID: 11400000, guid: 425dd3aa2f93551499ffcf0fd44faf50, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 4d2c363492d6553449a69e6b63a750e6, type: 2}
+  baseHP: 50
+  baseAttack: 75
+  baseDefense: 70
+  baseSpeed: 48
+  baseSpecialAttack: 35
+  baseSpecialDefense: 70
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 70
+  rareness: 180
+  baseHappiness: 35
+  stepsToHatch: 4080
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 4ae6475648b1b0d4fad277c54465403c, type: 2}
+    levelToEvolve: 39
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b230703886b02f14ba5cca7969ba17f8, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9f99cdcaa64669e41a2a8da39f981b55, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: f3d560a7d1edced43965433b7691eaf1, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: 2da8c21f08cbc164da993e01dc3a0391, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: 87e77352da264dc46a1998053b28a1c2, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 045af626945e212499f0e9a28c180d66, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: 3206b805bebe41a479e48d61149567c3, type: 2}
+    level: 27
+  - move: {fileID: 11400000, guid: 7b2016b6671c1b34e9e6716a7044e541, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 206d073f613428f428074167c47c813d, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+    level: 38
+  - move: {fileID: 11400000, guid: c4d5c387cde8dbd4f9a06001a925ec08, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: 8fa8b734d4bf3c648b9af24365b29712, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: fba2738cccebc354e8a6c90b07df60f5, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 49da2f892c8edfb4ba41bad44868441a, type: 2}
+    level: 53
+  eggMoves:
+  - {fileID: 11400000, guid: b54451c499c3fc24aade1add5a757d05, type: 2}
+  - {fileID: 11400000, guid: 886cc954c2a8d6546abe10ac0f64a80c, type: 2}
+  - {fileID: 11400000, guid: 16531673f7df2c1428a3eda3a0a5e5b6, type: 2}
+  - {fileID: 11400000, guid: 6a19de109a1bddf4d99a984783c518a3, type: 2}
+  - {fileID: 11400000, guid: 29dd5da64c2172f4d92cc1419277caf2, type: 2}
+  - {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+  - {fileID: 11400000, guid: 02d284bddcaccd84c946ab544f218315, type: 2}
+  - {fileID: 11400000, guid: 43082462e0b502849b59c6366460cef8, type: 2}
+  - {fileID: 11400000, guid: 8ff24dd6627d3454bb87045584b979d9, type: 2}
+  - {fileID: 11400000, guid: ad91c274fe4e2f14ca79d36969420c69, type: 2}
+  - {fileID: 11400000, guid: a14c1abb33c849c40b2bc2db3133d367, type: 2}

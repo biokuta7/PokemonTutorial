@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 563-TirtougaPokemonData
+  m_EditorClassIdentifier: 
+  number: 564
+  name: Tirtouga
+  internalName: TIRTOUGA
+  kind: Prototurtle
+  height: 0.7
+  weight: 16.5
+  dexEntry: "About 100 million years ago, these Pok\xE9mon swam in oceans. It is thought
+    they also went on land to attack prey."
+  sprite: {fileID: 21300000, guid: 785d3969b749b4444a65c0c004de3659, type: 3}
+  backSprite: {fileID: 21300000, guid: fbd2e6d217ee9fc4db924a83965ce84d, type: 3}
+  shinySprite: {fileID: 21300000, guid: 260fc4d6da1204a4cb78f5ba77ca3a0d, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: fd1e76d90416fe84798764f6470c2ef6, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 405fbce8a6534b14ea3f9be35e289ed6, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 865c5118b1a0e3b4d895cfe37b3b2aa9, type: 2}
+  eggGroup1: 2
+  eggGroup2: 9
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.125
+  standardAbilities:
+  - {fileID: 11400000, guid: 334fca0b58a403445b573684a41d5bef, type: 2}
+  - {fileID: 11400000, guid: 8822aaa86cfc2f0408aaabea80029644, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 56397a6e68134a6409d13eb81f2d8d2c, type: 2}
+  baseHP: 54
+  baseAttack: 78
+  baseDefense: 103
+  baseSpeed: 22
+  baseSpecialAttack: 53
+  baseSpecialDefense: 45
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 1
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 71
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 7905
+  evolutions:
+  - resultant: {fileID: 11400000, guid: bfeb31a2abe6cf046b7ffdddd85cc27b, type: 2}
+    levelToEvolve: 37
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 33d96fe56c3fefd4abee4fdd115ab776, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bd3bc6a39eb464442816bc9f731ee5c1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3b8f4014739fbae4d84fae04eb5099f2, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: ec6769bc96a317247a6a1bbb153f90ec, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 79c63ba594520644cbecc00f726ef040, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 0c17539c29d9692498e809a6276dd991, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 30694025d0c13dd4c896a65d19651c78, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 11ff7da7c616f1741b88955427548f6f, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 5d1eca6964fbf79449b447b0f905ef42, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 94562fdf9a1977c4f9b617b8eef1a08b, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: fd48eadb1eda86c45b74371631ca93dd, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: ef486201c14d4d847b99d8f8c4fd9b53, type: 2}
+    level: 38
+  - move: {fileID: 11400000, guid: 1160a28543f1b8646be03bfee46df347, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 3e74825e213db2f46aa158ecff87166a, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: 3ba17b56df8a7214e8e456be13d519fb, type: 2}
+    level: 48
+  - move: {fileID: 11400000, guid: 4bdcb7db2207f9142b7706d59e466f28, type: 2}
+    level: 51
+  eggMoves:
+  - {fileID: 11400000, guid: 33d96fe56c3fefd4abee4fdd115ab776, type: 2}
+  - {fileID: 11400000, guid: 903b5ee462226ab47b3026d6ace38c5d, type: 2}
+  - {fileID: 11400000, guid: ab4b503440591f742bf63c1693c6ee27, type: 2}
+  - {fileID: 11400000, guid: a5bdded8b500614418098e7d3258784b, type: 2}
+  - {fileID: 11400000, guid: aa3899441c43934478c93384796e9a8c, type: 2}
+  - {fileID: 11400000, guid: e867937231e5b964385d7ad80fb74704, type: 2}
+  - {fileID: 11400000, guid: 1a0603d08aec3344bb06836eb047c05c, type: 2}
+  - {fileID: 11400000, guid: 0daaaf2b724e2e34f893d673a8ee7a4e, type: 2}
+  - {fileID: 11400000, guid: 4af89848b3b64474187dbde56d3a206c, type: 2}

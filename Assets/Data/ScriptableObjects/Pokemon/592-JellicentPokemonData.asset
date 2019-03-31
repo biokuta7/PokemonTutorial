@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 592-JellicentPokemonData
+  m_EditorClassIdentifier: 
+  number: 593
+  name: Jellicent
+  internalName: JELLICENT
+  kind: Floating
+  height: 2.2
+  weight: 135
+  dexEntry: They propel themselves by expelling absorbed seawater from their bodies.
+    Their favorite food is life energy.
+  sprite: {fileID: 21300000, guid: f63d16319b74f7d4bb6af6ac84c6b628, type: 3}
+  backSprite: {fileID: 21300000, guid: 199244340a33b6b4b829156f7d2fe7fd, type: 3}
+  shinySprite: {fileID: 21300000, guid: 29d71ad36a0803e498065230b1cdba35, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 097a5e922000b4f42a350ad2c81ffdcf, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 585033e56ce70ff43a265fe8801b8e22, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 5eb27c1d76b3cc2439c818ac7325a0e5, type: 2}
+  eggGroup1: 11
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 274b20460d7fa184ca1fdc06cf5d3c74, type: 2}
+  - {fileID: 11400000, guid: 5dcbc829c0fc81442b8946990d013956, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: f18f8b57ef77a1d45af3440d646903c7, type: 2}
+  baseHP: 100
+  baseAttack: 60
+  baseDefense: 70
+  baseSpeed: 60
+  baseSpecialAttack: 85
+  baseSpecialDefense: 105
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 2
+  baseEXP: 168
+  rareness: 60
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 03d0cb1d5358f9449ad7d06d9e981398, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e1b13bbff45ac2c4d931b26b7167b481, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 51676f5ca5c33f3488bef6bd69f42876, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: a62334014ffe32f47b6cd09cbe7059c4, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 51676f5ca5c33f3488bef6bd69f42876, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: a62334014ffe32f47b6cd09cbe7059c4, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: b47841f8439c41b43b9d6fb0c7847197, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 17b540db896190346af6a508b2a0c1ec, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 0daaaf2b724e2e34f893d673a8ee7a4e, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: f1e99a84c358af64cab862404dc78a61, type: 2}
+    level: 27
+  - move: {fileID: 11400000, guid: 5d1eca6964fbf79449b447b0f905ef42, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: 3ba17b56df8a7214e8e456be13d519fb, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 7103c1098d734074f9a1592d89f19c44, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: 4bdcb7db2207f9142b7706d59e466f28, type: 2}
+    level: 53
+  - move: {fileID: 11400000, guid: bf78aed5ac7343848b51499fad2ba6f8, type: 2}
+    level: 61
+  - move: {fileID: 11400000, guid: 338ece30293ccce479e2e9baebcd5c47, type: 2}
+    level: 69
+  eggMoves: []

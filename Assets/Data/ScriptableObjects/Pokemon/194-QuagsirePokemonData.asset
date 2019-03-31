@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 194-QuagsirePokemonData
+  m_EditorClassIdentifier: 
+  number: 195
+  name: Quagsire
+  internalName: QUAGSIRE
+  kind: Water Fish
+  height: 1.4
+  weight: 75
+  dexEntry: A Quagsire hunts by leaving its mouth wide open in water and waiting for
+    its prey to blunder in. Because it doesn't move, it does not get very hungry.
+  sprite: {fileID: 21300000, guid: 52a51db4baf9df443a87e56787593571, type: 3}
+  backSprite: {fileID: 21300000, guid: cf263c756bc8f644a9db5f273cf6a3f6, type: 3}
+  shinySprite: {fileID: 21300000, guid: ddeb7f59515760045ba7e5c45a6d5fa6, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: ed5c303d84f7f3f41bebfe10327f9537, type: 3}
+  footprintSprite: {fileID: 21300000, guid: b979444e1fb568d408216b16dd89856d, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 2aef90cd8ab7add4ead9fdc156318a32, type: 2}
+  eggGroup1: 2
+  eggGroup2: 5
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: f18f8b57ef77a1d45af3440d646903c7, type: 2}
+  - {fileID: 11400000, guid: 274b20460d7fa184ca1fdc06cf5d3c74, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: a6501e11b224b31439b52b334ea8647d, type: 2}
+  baseHP: 95
+  baseAttack: 85
+  baseDefense: 85
+  baseSpeed: 35
+  baseSpecialAttack: 65
+  baseSpecialDefense: 65
+  EV_HP: 2
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 151
+  rareness: 90
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 3b8f4014739fbae4d84fae04eb5099f2, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 90e9a9d7356e7c84ea9190b7ff0535b1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: dee27cd0fdcd79240b0663c357831a95, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: dee27cd0fdcd79240b0663c357831a95, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 4dfa80e8978525c488cbd9c827a66af7, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 1a0603d08aec3344bb06836eb047c05c, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 497f9a160f072f740959d8bd6ad5508e, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: b54451c499c3fc24aade1add5a757d05, type: 2}
+    level: 24
+  - move: {fileID: 11400000, guid: 11851d64298ab6144aa7129575ae7364, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 5d28992b9be13a341b391f0dd3d4a986, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 3ba17b56df8a7214e8e456be13d519fb, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 424e9656e1d9e8a40b980b3111eb709e, type: 2}
+    level: 48
+  - move: {fileID: 11400000, guid: 58aa3d592b28f5e42a4586453743ccdb, type: 2}
+    level: 48
+  - move: {fileID: 11400000, guid: 70ea7f19b00e56d49a0fe52d49d2fd44, type: 2}
+    level: 53
+  eggMoves: []

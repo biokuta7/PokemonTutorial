@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 536-SeismitoadPokemonData
+  m_EditorClassIdentifier: 
+  number: 537
+  name: Seismitoad
+  internalName: SEISMITOAD
+  kind: Vibration
+  height: 1.5
+  weight: 62
+  dexEntry: It increases the power of its punches by vibrating the bumps on its fists.
+    It can turn a boulder to rubble with one punch.
+  sprite: {fileID: 21300000, guid: a409b6dc75beae34083adf72a3cd899a, type: 3}
+  backSprite: {fileID: 21300000, guid: cd314f6684a7ca24199b221ef5d81110, type: 3}
+  shinySprite: {fileID: 21300000, guid: 0846a81c87498c84ea86195721cc32ff, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 52d958763b88e0943aabd37d47188d1e, type: 3}
+  footprintSprite: {fileID: 21300000, guid: ab1ed1adbd5e69945903f2c2c2322336, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 2aef90cd8ab7add4ead9fdc156318a32, type: 2}
+  eggGroup1: 2
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 56397a6e68134a6409d13eb81f2d8d2c, type: 2}
+  - {fileID: 11400000, guid: 492785b025b2e2246a588392ce67b7c0, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 274b20460d7fa184ca1fdc06cf5d3c74, type: 2}
+  baseHP: 105
+  baseAttack: 85
+  baseDefense: 75
+  baseSpeed: 74
+  baseSpecialAttack: 85
+  baseSpecialDefense: 75
+  EV_HP: 3
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 225
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 03d0cb1d5358f9449ad7d06d9e981398, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 49df1d5643c16e94e8a7607e0d4cb127, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3bbb861f40413cc49ba63bbc7d2599a8, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3b66f179cf005884794cce99d9e44197, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3bbb861f40413cc49ba63bbc7d2599a8, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 3b66f179cf005884794cce99d9e44197, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: b47841f8439c41b43b9d6fb0c7847197, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: 4dfa80e8978525c488cbd9c827a66af7, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: ff3996eab3f07c44785b553c5f7b0662, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: feef32ab21b065f4aae9bbf151f180c9, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: 70ea7f19b00e56d49a0fe52d49d2fd44, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 3ba17b56df8a7214e8e456be13d519fb, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: a9cb34e1f0983c24aa63b6ee303bb1ed, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: ab4b503440591f742bf63c1693c6ee27, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: 29dd5da64c2172f4d92cc1419277caf2, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: b70d0d5cdb44ece4d969634de7ad2d3c, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 4bdcb7db2207f9142b7706d59e466f28, type: 2}
+    level: 53
+  - move: {fileID: 11400000, guid: 742025f9f24a09946bae3d0cdb215512, type: 2}
+    level: 59
+  eggMoves: []

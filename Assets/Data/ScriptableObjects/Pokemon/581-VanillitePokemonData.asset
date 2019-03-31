@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 581-VanillitePokemonData
+  m_EditorClassIdentifier: 
+  number: 582
+  name: Vanillite
+  internalName: VANILLITE
+  kind: Fresh Snow
+  height: 0.4
+  weight: 5.7
+  dexEntry: "This Pok\xE9mon formed from icicles bathed in energy from the morning
+    sun. It sleeps buried in snow."
+  sprite: {fileID: 21300000, guid: 8faa7412a40d80f4ca9a69cb4bb7115d, type: 3}
+  backSprite: {fileID: 21300000, guid: 2e096679fe06fad45a4fdc344e1e4f3c, type: 3}
+  shinySprite: {fileID: 21300000, guid: 883277a836a1aaa4f898101b8990f16d, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 5b94559c36764624c9b8579fa04e7f24, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 87384073e865cdf4887d288e59e1f2a6, type: 3}
+  type1: {fileID: 11400000, guid: 38a14f4c97dc09046a4a4f9f7bdade6e, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 10
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: f19b04f3b786b6d4cb06e5be697a87a0, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 631386df5bfe4a44b87d6c9f3ec414eb, type: 2}
+  baseHP: 36
+  baseAttack: 50
+  baseDefense: 50
+  baseSpeed: 44
+  baseSpecialAttack: 65
+  baseSpecialDefense: 60
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 1
+  EV_SpecialDefense: 0
+  baseEXP: 61
+  rareness: 255
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 4ff0bbdf6b2c6dd478377f35cae6d5c7, type: 2}
+    levelToEvolve: 35
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: b7afee88591cb8041ba9bde2532f8312, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: feef32ab21b065f4aae9bbf151f180c9, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: b54112bb46bdcb342b701dde2aed4ef4, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 424e9656e1d9e8a40b980b3111eb709e, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: 981b3918fd4c7234e92fcd25312715ae, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 6d25dd2274a273a4f97d7cc3c2c084f3, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: c7dabb21d70139444bd904d1e47f66a3, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: bd34bba16b3aa9646828738f256798c3, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 9a8a22dc71b500646b63bcefb84980fc, type: 2}
+    level: 35
+  - move: {fileID: 11400000, guid: ba31b036da1e30c489136127091ad4f1, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: 7ef0a78f2ac48a94984b2cac732f0951, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: 7b20094791067584392cb9404ff2c0ab, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 9dbb1a05683b8034ca699377dca570d4, type: 2}
+    level: 53
+  eggMoves:
+  - {fileID: 11400000, guid: 4798cf9b23b79124f96b077d9864d83e, type: 2}
+  - {fileID: 11400000, guid: 748d6f7306d57e04a8dafa2546fca662, type: 2}
+  - {fileID: 11400000, guid: fd5957dceb3eed242bb7108cbeca5745, type: 2}
+  - {fileID: 11400000, guid: a5bdded8b500614418098e7d3258784b, type: 2}
+  - {fileID: 11400000, guid: e8c2f975a1a07494e8512a4aa254744c, type: 2}
+  - {fileID: 11400000, guid: 9d4a14f02a117a44b9913b77b6f91470, type: 2}
+  - {fileID: 11400000, guid: 40d2e39e14d19834e9e6089cb596cdc7, type: 2}
+  - {fileID: 11400000, guid: 0daaaf2b724e2e34f893d673a8ee7a4e, type: 2}

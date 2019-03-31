@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 362-SphealPokemonData
+  m_EditorClassIdentifier: 
+  number: 363
+  name: Spheal
+  internalName: SPHEAL
+  kind: Clap
+  height: 0.8
+  weight: 39.5
+  dexEntry: It is completely covered with plushy fur. As a result, it never feels
+    the cold even when it is rolling about on ice floes or diving in the sea.
+  sprite: {fileID: 21300000, guid: 6d0b9c83b9ebdd845a1ac544213fd074, type: 3}
+  backSprite: {fileID: 21300000, guid: aa69a22a5dd002246a8636f1afb082fa, type: 3}
+  shinySprite: {fileID: 21300000, guid: 5ee7ce4a66aa25f49af99c1ebd70d2ea, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 132a513a93029304a9b0ae50fe0e6bde, type: 3}
+  footprintSprite: {fileID: 21300000, guid: b15c2a656cf803c49b3d01bdf8e23b92, type: 3}
+  type1: {fileID: 11400000, guid: 38a14f4c97dc09046a4a4f9f7bdade6e, type: 2}
+  type2: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  eggGroup1: 2
+  eggGroup2: 5
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 5370a5cddfbfa4d4396bfd64d5065c3a, type: 2}
+  - {fileID: 11400000, guid: f19b04f3b786b6d4cb06e5be697a87a0, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 79ec5a44ce26f2541a05456e4aa36662, type: 2}
+  baseHP: 70
+  baseAttack: 40
+  baseDefense: 50
+  baseSpeed: 25
+  baseSpecialAttack: 55
+  baseSpecialDefense: 50
+  EV_HP: 1
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 58
+  rareness: 255
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 61a8cc808f45712498f0d392d820bdc1, type: 2}
+    levelToEvolve: 32
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 9718332accb9dd4438b46ad9a022602e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 40d2e39e14d19834e9e6089cb596cdc7, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 49df1d5643c16e94e8a7607e0d4cb127, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3b8f4014739fbae4d84fae04eb5099f2, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 135034a951a65894fb86a5f232b51764, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: ee88dd11bcf65524cbe81e055ede7970, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 903b5ee462226ab47b3026d6ace38c5d, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 6b4e721b21197d343b3775779d921bb2, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: ba31b036da1e30c489136127091ad4f1, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 6ca000a6aa650d243b1e634a9044d765, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: ad3d5dd2b0bd4844b89d38058ec1336e, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 7b20094791067584392cb9404ff2c0ab, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: 9dbb1a05683b8034ca699377dca570d4, type: 2}
+    level: 49
+  eggMoves:
+  - {fileID: 11400000, guid: ff3996eab3f07c44785b553c5f7b0662, type: 2}
+  - {fileID: 11400000, guid: fd48eadb1eda86c45b74371631ca93dd, type: 2}
+  - {fileID: 11400000, guid: b08d8d6945d0819419892e4b757cdad8, type: 2}
+  - {fileID: 11400000, guid: ec6769bc96a317247a6a1bbb153f90ec, type: 2}
+  - {fileID: 11400000, guid: 7dba8b22673833342a50075386bcf896, type: 2}
+  - {fileID: 11400000, guid: e00c2e5151380af4f86149e04650bb42, type: 2}
+  - {fileID: 11400000, guid: 896336ca57ccd0a478ad94a85479e278, type: 2}
+  - {fileID: 11400000, guid: ff3913788b628f54baa7ca440e7aca98, type: 2}
+  - {fileID: 11400000, guid: b3b0dd4dfe9ef9d4ba5dd8a6a2378381, type: 2}
+  - {fileID: 11400000, guid: 0daaaf2b724e2e34f893d673a8ee7a4e, type: 2}
+  - {fileID: 11400000, guid: e1b13bbff45ac2c4d931b26b7167b481, type: 2}
+  - {fileID: 11400000, guid: 11851d64298ab6144aa7129575ae7364, type: 2}

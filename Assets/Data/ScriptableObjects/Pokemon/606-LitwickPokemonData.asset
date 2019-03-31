@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 606-LitwickPokemonData
+  m_EditorClassIdentifier: 
+  number: 607
+  name: Litwick
+  internalName: LITWICK
+  kind: Candle
+  height: 0.3
+  weight: 3.1
+  dexEntry: While shining a light and pretending to be a guide, it leeches off the
+    life force of any who follow it.
+  sprite: {fileID: 21300000, guid: 006973d07726f12468d3690fcd3dd229, type: 3}
+  backSprite: {fileID: 21300000, guid: ea4b9fc322facad47a0f48f06746c5fa, type: 3}
+  shinySprite: {fileID: 21300000, guid: c6c512163f4f6ea4b8fb938d17478110, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 130e83daee803c244958926fe05e5e45, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 2166be1da1558ed40ac4074bfc44bf30, type: 3}
+  type1: {fileID: 11400000, guid: 5eb27c1d76b3cc2439c818ac7325a0e5, type: 2}
+  type2: {fileID: 11400000, guid: e120886a2aede3b4089e217b177a6111, type: 2}
+  eggGroup1: 11
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 06bd162fe9018664b8c322bdd5564793, type: 2}
+  - {fileID: 11400000, guid: 16fb63eb3d512b146a1af1cbea909609, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: bfb130f03911f054b87b00e2d273dfde, type: 2}
+  baseHP: 50
+  baseAttack: 30
+  baseDefense: 55
+  baseSpeed: 20
+  baseSpecialAttack: 65
+  baseSpecialDefense: 55
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 1
+  EV_SpecialDefense: 0
+  baseEXP: 55
+  rareness: 190
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: c94392fecddf70146bf81aa4477a82a1, type: 2}
+    levelToEvolve: 41
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 62339e29a8fb98e4da4f46c83137d8b8, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 0836f4a044031c4439650d9b3380ce83, type: 2}
+    level: 3
+  - move: {fileID: 11400000, guid: 7977c32ff901d584f8f33bf322b0bd77, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 483f4b439f7e8854bb1f26f6dfd32857, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 30e9bccee0b2ceb4cb9ad6b51e66e479, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: a62334014ffe32f47b6cd09cbe7059c4, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: df888292889fed84f92d9073d449b5a6, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: bf4aeedaebd961648b2a1d639d517a4e, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: fd5957dceb3eed242bb7108cbeca5745, type: 2}
+    level: 24
+  - move: {fileID: 11400000, guid: 7103c1098d734074f9a1592d89f19c44, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: fdcea9f0752a07242baa0c957d7097af, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 7ba7b62010793334ea3c22704bdc66a5, type: 2}
+    level: 38
+  - move: {fileID: 11400000, guid: fd48eadb1eda86c45b74371631ca93dd, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: 59b2981bccec05f4a892993209db6bbb, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 23dbb7882c9ee7d43acda6d0c8a526ab, type: 2}
+    level: 55
+  - move: {fileID: 11400000, guid: 99000841e19bf3d44b75591d78c4fb0a, type: 2}
+    level: 61
+  eggMoves:
+  - {fileID: 11400000, guid: a9cb34e1f0983c24aa63b6ee303bb1ed, type: 2}
+  - {fileID: 11400000, guid: bd34bba16b3aa9646828738f256798c3, type: 2}
+  - {fileID: 11400000, guid: 08492303b86c9254c97e0aea47940218, type: 2}
+  - {fileID: 11400000, guid: 4504b3918cd63f24d8480103613a3eb7, type: 2}
+  - {fileID: 11400000, guid: 9f44f4d05fd57b74b9b026bf9776c7e7, type: 2}
+  - {fileID: 11400000, guid: 58aa3d592b28f5e42a4586453743ccdb, type: 2}
+  - {fileID: 11400000, guid: 416f32e47c994ef4c96231fcc1564e92, type: 2}

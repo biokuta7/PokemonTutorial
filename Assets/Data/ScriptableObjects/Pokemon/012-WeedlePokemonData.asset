@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -30,11 +31,11 @@ MonoBehaviour:
   eggGroup1: 3
   eggGroup2: 0
   growthRate: 2
-  habitat: 1
+  habitat: 0
   femaleRatio: 0.5
   standardAbilities:
-  - {fileID: 11400000, guid: 3eb7cadf8e649194a8522410952813e9, type: 2}
-  hiddenAbility: {fileID: 11400000, guid: 9cfbcbfefcb3e7c4e8cbc8fcac297894, type: 2}
+  - {fileID: 11400000, guid: 9de9baf65f689714e8468ad3e739653d, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: f0cedf399fe0ab54eaf74b1308628228, type: 2}
   baseHP: 40
   baseAttack: 35
   baseDefense: 30
@@ -52,15 +53,15 @@ MonoBehaviour:
   baseHappiness: 70
   stepsToHatch: 4080
   evolutions:
-  - resultant: {fileID: 11400000, guid: ec2df2a2a71ae7f4a99db84fe7e01fb7, type: 2}
+  - resultant: {fileID: 11400000, guid: 02601c795bc6cbd4aa16364b85940efa, type: 2}
     levelToEvolve: 7
     itemToEvolve: {fileID: 0}
     evolutionType: 0
   learnedMoves:
-  - move: {fileID: 11400000, guid: 1971798c31d0c6c49bcb6964f461504c, type: 2}
+  - move: {fileID: 11400000, guid: d306605b81c7124478801e53ad3ea1ab, type: 2}
     level: 1
-  - move: {fileID: 11400000, guid: 138a9ee92b0cd2f42a63b8dd9d173fda, type: 2}
+  - move: {fileID: 11400000, guid: 2fe3950103ea0724e91849015d667f03, type: 2}
     level: 1
-  - move: {fileID: 11400000, guid: c6fdbee4368ca7445945fbf219ebf1af, type: 2}
+  - move: {fileID: 11400000, guid: 29fbd58668c00724ba080e3514e4e713, type: 2}
     level: 15
   eggMoves: []

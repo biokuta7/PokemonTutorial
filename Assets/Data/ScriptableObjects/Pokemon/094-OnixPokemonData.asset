@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -32,9 +33,9 @@ MonoBehaviour:
   habitat: 0
   femaleRatio: 0.5
   standardAbilities:
-  - {fileID: 11400000, guid: 00e1f10d9cffccb4ab8c323ea3e99ec7, type: 2}
-  - {fileID: 11400000, guid: 27b667b235a8b9d4ba798e109a4ee552, type: 2}
-  hiddenAbility: {fileID: 11400000, guid: c57067766d652e842abf82eb3ed40636, type: 2}
+  - {fileID: 11400000, guid: eaeb02f426f4fb040a995a3ac538cd8b, type: 2}
+  - {fileID: 11400000, guid: 8822aaa86cfc2f0408aaabea80029644, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 631386df5bfe4a44b87d6c9f3ec414eb, type: 2}
   baseHP: 35
   baseAttack: 45
   baseDefense: 160
@@ -53,54 +54,54 @@ MonoBehaviour:
   stepsToHatch: 6630
   evolutions: []
   learnedMoves:
-  - move: {fileID: 11400000, guid: 1e210b22ceaee9948b6decf539e8861e, type: 2}
+  - move: {fileID: 11400000, guid: dee27cd0fdcd79240b0663c357831a95, type: 2}
     level: 1
-  - move: {fileID: 11400000, guid: a347a47023c98104a9b91b22b6915649, type: 2}
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
     level: 1
-  - move: {fileID: 11400000, guid: 5841efc3a5903d4469d2a705c67b9e50, type: 2}
+  - move: {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
     level: 1
-  - move: {fileID: 11400000, guid: d0b47c0f51ff47243bb8a16e2221d237, type: 2}
+  - move: {fileID: 11400000, guid: c272b86c2496cdb4e894635816948c2d, type: 2}
     level: 1
-  - move: {fileID: 11400000, guid: a6b14a9fb6b0f524b9ee30824a8c0c74, type: 2}
+  - move: {fileID: 11400000, guid: fd48eadb1eda86c45b74371631ca93dd, type: 2}
     level: 4
-  - move: {fileID: 11400000, guid: 5c74eb4e36d6ac44d8e9cb4f1c013828, type: 2}
+  - move: {fileID: 11400000, guid: e867937231e5b964385d7ad80fb74704, type: 2}
     level: 7
-  - move: {fileID: 11400000, guid: c03f9decacc5dbc41881b5d92f4b1e01, type: 2}
+  - move: {fileID: 11400000, guid: 51cd5e9f281e33f4b92b77f2c727e4b1, type: 2}
     level: 10
-  - move: {fileID: 11400000, guid: 19d7356c19599fe4f89c8a77f8bcadd6, type: 2}
+  - move: {fileID: 11400000, guid: 32433de61b22a4547a4e2386f6bc82fb, type: 2}
     level: 13
-  - move: {fileID: 11400000, guid: d41088472d0ea8c4f89a43b255023857, type: 2}
+  - move: {fileID: 11400000, guid: 4773ef6422b4dba42bf480860c4f42cc, type: 2}
     level: 16
-  - move: {fileID: 11400000, guid: 7378ea1b548a6124cb7a40089d185302, type: 2}
+  - move: {fileID: 11400000, guid: 0c453dd0f84b22743bf12e51a2c086e4, type: 2}
     level: 19
-  - move: {fileID: 11400000, guid: 56e335d5820d1ef47bf4ea3b782076ed, type: 2}
+  - move: {fileID: 11400000, guid: 94562fdf9a1977c4f9b617b8eef1a08b, type: 2}
     level: 22
-  - move: {fileID: 11400000, guid: ca6dbeef436eaed48a6fcdd9a186aa69, type: 2}
+  - move: {fileID: 11400000, guid: f1751b5ec96b0424e90af98f8405703d, type: 2}
     level: 25
-  - move: {fileID: 11400000, guid: 1c4b2c2d13b06f848b74034a44e8b9cc, type: 2}
+  - move: {fileID: 11400000, guid: 1a0603d08aec3344bb06836eb047c05c, type: 2}
     level: 28
-  - move: {fileID: 11400000, guid: 097cc0b905dba264ca9cf995c8f6812b, type: 2}
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
     level: 31
-  - move: {fileID: 11400000, guid: 53ca3c433ef7211459b99ef6012409d7, type: 2}
+  - move: {fileID: 11400000, guid: 3e74825e213db2f46aa158ecff87166a, type: 2}
     level: 34
-  - move: {fileID: 11400000, guid: d376a759ce50fef42aedf82871307efb, type: 2}
+  - move: {fileID: 11400000, guid: f1659f14b4256c24b841abb2a7c91606, type: 2}
     level: 37
-  - move: {fileID: 11400000, guid: 26cb3972d02a06e468e349c9ec32588b, type: 2}
+  - move: {fileID: 11400000, guid: 840bfbc637572204e89aa45543ac969b, type: 2}
     level: 40
-  - move: {fileID: 11400000, guid: 43b1c326a8cb65349a4e467c6269287e, type: 2}
+  - move: {fileID: 11400000, guid: 0aad7ec6cb4a92745a61b010d146746b, type: 2}
     level: 43
-  - move: {fileID: 11400000, guid: cd7571602d978d14dbb315327fc25969, type: 2}
+  - move: {fileID: 11400000, guid: ff0c05434e0850d4b88635587821b7f9, type: 2}
     level: 46
-  - move: {fileID: 11400000, guid: 52e370b858c7f7d438275166a3b9ff29, type: 2}
+  - move: {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
     level: 49
-  - move: {fileID: 11400000, guid: ed0ca041683d5f54895602f3b087c311, type: 2}
+  - move: {fileID: 11400000, guid: 7f3e701f581e25848b130cae41131378, type: 2}
     level: 52
   eggMoves:
-  - {fileID: 11400000, guid: 3860011efc876d548a49a016f5c4e7c0, type: 2}
-  - {fileID: 11400000, guid: e84ca13ff82cd0046a8a71f421158604, type: 2}
-  - {fileID: 11400000, guid: 1e068dd08d60376468b716a9552e8624, type: 2}
-  - {fileID: 11400000, guid: 2e25019dee34d414492074bff19ec780, type: 2}
-  - {fileID: 11400000, guid: 41c0ef7e9322c0c41a81a0ed70689985, type: 2}
-  - {fileID: 11400000, guid: 53e121dbd6751ad46a0bee55dbee5ecd, type: 2}
-  - {fileID: 11400000, guid: 8972526332a5b3a4681f553f7e9ebcbe, type: 2}
-  - {fileID: 11400000, guid: d41088472d0ea8c4f89a43b255023857, type: 2}
+  - {fileID: 11400000, guid: 2e15374810494ec4d90f20ee3b5afdbe, type: 2}
+  - {fileID: 11400000, guid: 9718332accb9dd4438b46ad9a022602e, type: 2}
+  - {fileID: 11400000, guid: ab4b503440591f742bf63c1693c6ee27, type: 2}
+  - {fileID: 11400000, guid: c24e608ede5552044974bb1114a3af17, type: 2}
+  - {fileID: 11400000, guid: 49d5da56e08edc84bbd0872e20b1d121, type: 2}
+  - {fileID: 11400000, guid: 8fa8b734d4bf3c648b9af24365b29712, type: 2}
+  - {fileID: 11400000, guid: ec6769bc96a317247a6a1bbb153f90ec, type: 2}
+  - {fileID: 11400000, guid: 4773ef6422b4dba42bf480860c4f42cc, type: 2}

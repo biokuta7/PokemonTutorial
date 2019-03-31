@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 327-TrapinchPokemonData
+  m_EditorClassIdentifier: 
+  number: 328
+  name: Trapinch
+  internalName: TRAPINCH
+  kind: Ant Pit
+  height: 0.7
+  weight: 15
+  dexEntry: Its big jaws crunch through boulders. Because its head is so big, it has
+    a hard time getting back upright if it tips over onto its back.
+  sprite: {fileID: 21300000, guid: 0d4c48faf52ffdc45a5b538604caba4b, type: 3}
+  backSprite: {fileID: 21300000, guid: 822af92c154437b4185259bccd221f2a, type: 3}
+  shinySprite: {fileID: 21300000, guid: 053998842b0ab704295b3d8c0ad1d460, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 1cd6efcb19935d94fb6a413505d2bda8, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 1047164f99866074aa47a16766db522d, type: 3}
+  type1: {fileID: 11400000, guid: 2aef90cd8ab7add4ead9fdc156318a32, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 3
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: ed298f78e600b3e429826881bdc0065c, type: 2}
+  - {fileID: 11400000, guid: d7557d9c0358c02408aa4d36cafe8906, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: ff9707f0509fe71419680a601a505ebe, type: 2}
+  baseHP: 45
+  baseAttack: 100
+  baseDefense: 45
+  baseSpeed: 10
+  baseSpecialAttack: 45
+  baseSpecialDefense: 45
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 58
+  rareness: 255
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 74940c4ce81d20e4b849b13879c47772, type: 2}
+    levelToEvolve: 35
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 9f99cdcaa64669e41a2a8da39f981b55, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: f1659f14b4256c24b841abb2a7c91606, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 6a425af601896ff48bd142db36a82669, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 33d96fe56c3fefd4abee4fdd115ab776, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: f50dadd193e8fb947b3cecc59f5ca9c6, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 3e74825e213db2f46aa158ecff87166a, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 0aad7ec6cb4a92745a61b010d146746b, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: e51e0c804527e4045ae2c022bbad06ca, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: 7f3e701f581e25848b130cae41131378, type: 2}
+    level: 44
+  - move: {fileID: 11400000, guid: 931a6239501d867458263239c17a188b, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 5d28992b9be13a341b391f0dd3d4a986, type: 2}
+    level: 55
+  - move: {fileID: 11400000, guid: efce0155d8efb2e4d846129c30b3961f, type: 2}
+    level: 61
+  - move: {fileID: 11400000, guid: e57bc132b940120468c55968e0807e59, type: 2}
+    level: 67
+  - move: {fileID: 11400000, guid: b08d8d6945d0819419892e4b757cdad8, type: 2}
+    level: 73
+  eggMoves:
+  - {fileID: 11400000, guid: 29fbd58668c00724ba080e3514e4e713, type: 2}
+  - {fileID: 11400000, guid: e51e0c804527e4045ae2c022bbad06ca, type: 2}
+  - {fileID: 11400000, guid: 9f44f4d05fd57b74b9b026bf9776c7e7, type: 2}
+  - {fileID: 11400000, guid: ab4b503440591f742bf63c1693c6ee27, type: 2}
+  - {fileID: 11400000, guid: 4abf7d172bbaeba4293580ddddb47f6f, type: 2}
+  - {fileID: 11400000, guid: fa647d901ccdd0247a78d3959bbce436, type: 2}
+  - {fileID: 11400000, guid: b1634127e25b9b64aad2d055f4d0ed9a, type: 2}
+  - {fileID: 11400000, guid: 4dfa80e8978525c488cbd9c827a66af7, type: 2}
+  - {fileID: 11400000, guid: d5f2e90bd85630a43bdd31934847cdc5, type: 2}
+  - {fileID: 11400000, guid: 7dba8b22673833342a50075386bcf896, type: 2}

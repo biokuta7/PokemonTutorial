@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 491-ShayminPokemonData
+  m_EditorClassIdentifier: 
+  number: 492
+  name: Shaymin
+  internalName: SHAYMIN
+  kind: Gratitude
+  height: 0.2
+  weight: 2.1
+  dexEntry: It lives in flower patches and avoids detection by curling up to look
+    like a flowering plant.
+  sprite: {fileID: 21300000, guid: 968e3313467d0f648a470a253564b175, type: 3}
+  backSprite: {fileID: 21300000, guid: adc8f688f4c77594db6c2d32beb37647, type: 3}
+  shinySprite: {fileID: 21300000, guid: d882ec78a9ab5b74594240e3388953d2, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 84f3e80f20038fd4995ff0dda7b06d54, type: 3}
+  footprintSprite: {fileID: 21300000, guid: dd70d37ad0a501e48bd98d971aff5f19, type: 3}
+  type1: {fileID: 11400000, guid: 9ed7dc1c4ee6bf747b182dc2eaf16337, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 15
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: -1
+  standardAbilities:
+  - {fileID: 11400000, guid: b5db5834bd2343441a26e1e130053781, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 100
+  baseAttack: 100
+  baseDefense: 100
+  baseSpeed: 100
+  baseSpecialAttack: 100
+  baseSpecialDefense: 100
+  EV_HP: 3
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 270
+  rareness: 45
+  baseHappiness: 100
+  stepsToHatch: 30855
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: a2bc558341f8e55459fbed9bfee7482b, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 60251021589440c40b96c5308d70e6be, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: a348e0502b2529145aaaa410f8e3880f, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: bf883db29c15eab4cbe5f9f2b382655a, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 05690026fb024824db2ad77c5245df16, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 9d4a14f02a117a44b9913b77b6f91470, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: da061361f80b8be41a2caf2d55f7a5ac, type: 2}
+    level: 55
+  - move: {fileID: 11400000, guid: 4d6c066a4b7fdcc40ae1addf8fa93fe4, type: 2}
+    level: 64
+  - move: {fileID: 11400000, guid: 8998edf4d2f21d044b2a030f300f2fe4, type: 2}
+    level: 73
+  - move: {fileID: 11400000, guid: 79ff70b8768186845b6efa8a8ab2c39a, type: 2}
+    level: 82
+  - move: {fileID: 11400000, guid: b5a4221bc5e319841b4a778de8d00787, type: 2}
+    level: 91
+  - move: {fileID: 11400000, guid: 12627964b600fb7459598374e9c9fec3, type: 2}
+    level: 100
+  eggMoves: []

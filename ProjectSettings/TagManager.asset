@@ -18,9 +18,9 @@ TagManager:
   - PostProcessing
   - Collidable
   - NonCollidable
-  - 
-  - 
-  - 
+  - Battle
+  - Entity
+  - Player
   - 
   - 
   - 

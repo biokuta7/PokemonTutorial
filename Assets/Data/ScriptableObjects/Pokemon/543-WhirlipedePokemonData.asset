@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 543-WhirlipedePokemonData
+  m_EditorClassIdentifier: 
+  number: 544
+  name: Whirlipede
+  internalName: WHIRLIPEDE
+  kind: Curlipede
+  height: 1.2
+  weight: 58.5
+  dexEntry: It is usually motionless, but when attacked, it rotates at high speed
+    and then crashes into its opponent.
+  sprite: {fileID: 21300000, guid: a5b8cdf981eff8d4f9f79157a865fa55, type: 3}
+  backSprite: {fileID: 21300000, guid: daf4a605b95189243ac45ce08e31154a, type: 3}
+  shinySprite: {fileID: 21300000, guid: c4c355bc4145dc7479f088a42ca3206a, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 78c80c25ffcb3544c8ca6a64cb32869f, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 45637e3113cb85e4ca82d06327d060d4, type: 3}
+  type1: {fileID: 11400000, guid: 79eb8f30cbe188e4f8a36dafd71ebdee, type: 2}
+  type2: {fileID: 11400000, guid: 5c263d07fc626544cae866e79835f9fd, type: 2}
+  eggGroup1: 3
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: aa741ab2d81e343488784bf677d21166, type: 2}
+  - {fileID: 11400000, guid: 3061775df8197ad4c8e4d3bc7de08339, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 850d457e7f9ec4d408cc419ca7e9a66d, type: 2}
+  baseHP: 40
+  baseAttack: 55
+  baseDefense: 99
+  baseSpeed: 47
+  baseSpecialAttack: 40
+  baseSpecialDefense: 79
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 2
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 126
+  rareness: 120
+  baseHappiness: 70
+  stepsToHatch: 4080
+  evolutions:
+  - resultant: {fileID: 11400000, guid: b1ea6fdbb06751f498418957be7ede05, type: 2}
+    levelToEvolve: 30
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 9718332accb9dd4438b46ad9a022602e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: ec6769bc96a317247a6a1bbb153f90ec, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d306605b81c7124478801e53ad3ea1ab, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d306605b81c7124478801e53ad3ea1ab, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: 79c63ba594520644cbecc00f726ef040, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: f30c768b5377a2241918bea01c597071, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: a5bdded8b500614418098e7d3258784b, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 29fbd58668c00724ba080e3514e4e713, type: 2}
+    level: 23
+  - move: {fileID: 11400000, guid: 24f930d685f641f4f84e81cb91e6e849, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 3453f1ab4cf459a418c38964bff1630f, type: 2}
+    level: 32
+  - move: {fileID: 11400000, guid: 8739d312e54cd144c8fc4bb502e11d5b, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: 4b3a585e894cee04a9d1bb18f18e61d3, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: 8fa8b734d4bf3c648b9af24365b29712, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+    level: 50
+  eggMoves: []

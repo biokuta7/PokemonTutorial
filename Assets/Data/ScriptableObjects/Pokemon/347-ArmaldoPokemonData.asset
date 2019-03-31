@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 347-ArmaldoPokemonData
+  m_EditorClassIdentifier: 
+  number: 348
+  name: Armaldo
+  internalName: ARMALDO
+  kind: Plate
+  height: 1.5
+  weight: 68.2
+  dexEntry: Armaldo usually lives on land. However, when it hunts for prey, it dives
+    beneath the ocean. It swims around using its two large wings.
+  sprite: {fileID: 21300000, guid: ed4dd6e635e405f4fa60761909ba83df, type: 3}
+  backSprite: {fileID: 21300000, guid: 28399deda1a554d4ab085e706bc78f3a, type: 3}
+  shinySprite: {fileID: 21300000, guid: 0556695e94597b941b63353eed6d9b1e, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: de7b44fa0d651ce4caa78d83321e4b46, type: 3}
+  footprintSprite: {fileID: 21300000, guid: c9bab269c6009bd4195d6f3e3b367a53, type: 3}
+  type1: {fileID: 11400000, guid: 865c5118b1a0e3b4d895cfe37b3b2aa9, type: 2}
+  type2: {fileID: 11400000, guid: 79eb8f30cbe188e4f8a36dafd71ebdee, type: 2}
+  eggGroup1: 9
+  eggGroup2: 0
+  growthRate: 0
+  habitat: 0
+  femaleRatio: 0.125
+  standardAbilities:
+  - {fileID: 11400000, guid: fdb1155753e6d8543abc81fa2cb29297, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 56397a6e68134a6409d13eb81f2d8d2c, type: 2}
+  baseHP: 75
+  baseAttack: 125
+  baseDefense: 100
+  baseSpeed: 45
+  baseSpecialAttack: 70
+  baseSpecialDefense: 80
+  EV_HP: 0
+  EV_Attack: 2
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 173
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 7905
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: c8ad6b6cc523bd940b14ff75aa9ba40e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 96a6cb8d0b1389b42830b8eb32f21683, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: dee27cd0fdcd79240b0663c357831a95, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3b8f4014739fbae4d84fae04eb5099f2, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: dee27cd0fdcd79240b0663c357831a95, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 3b8f4014739fbae4d84fae04eb5099f2, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: 20511dc028bdeb84185f09366190df6d, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 79c63ba594520644cbecc00f726ef040, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 30694025d0c13dd4c896a65d19651c78, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: fa647d901ccdd0247a78d3959bbce436, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: b5cb4834e72f9064abecca08c734899b, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: 49d5da56e08edc84bbd0872e20b1d121, type: 2}
+    level: 55
+  - move: {fileID: 11400000, guid: 9f71b97ffe2773a40bc74a4b4c1b2a03, type: 2}
+    level: 67
+  - move: {fileID: 11400000, guid: b41f0ba60c27a6a459db2860ce5cf946, type: 2}
+    level: 73
+  eggMoves: []

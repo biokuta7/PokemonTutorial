@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 513-SimisearPokemonData
+  m_EditorClassIdentifier: 
+  number: 514
+  name: Simisear
+  internalName: SIMISEAR
+  kind: Ember
+  height: 1
+  weight: 28
+  dexEntry: A flame burns inside its body. It scatters embers from its head and tail
+    to sear its opponents.
+  sprite: {fileID: 21300000, guid: b09eb109715f8814080bf0385d0aeecb, type: 3}
+  backSprite: {fileID: 21300000, guid: 2a4f281301a98374092dedc6ec8393d7, type: 3}
+  shinySprite: {fileID: 21300000, guid: ee1ad766a1f3c1440807a99e16e6ee66, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 82935963b56c7174f8303279e021fd2e, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 671ac214d698c19418cfe93dbbe4ae21, type: 3}
+  type1: {fileID: 11400000, guid: e120886a2aede3b4089e217b177a6111, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.125
+  standardAbilities:
+  - {fileID: 11400000, guid: 0d8dec51d6d249449a421504145b2a85, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 1dc5ee67c2e1b984fb603949c1781c71, type: 2}
+  baseHP: 75
+  baseAttack: 98
+  baseDefense: 63
+  baseSpeed: 101
+  baseSpecialAttack: 98
+  baseSpecialDefense: 63
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 2
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 174
+  rareness: 75
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: dcd976db8573291419557ed6b9d18e1f, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: fb9cbbcc0dcb76f4a8254e7141042569, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: bf4aeedaebd961648b2a1d639d517a4e, type: 2}
+    level: 1
+  eggMoves: []

@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 643-ZekromPokemonData
+  m_EditorClassIdentifier: 
+  number: 644
+  name: Zekrom
+  internalName: ZEKROM
+  kind: Deep Black
+  height: 2.9
+  weight: 345
+  dexEntry: "This Pok\xE9mon appears in legends. In its tail, it has a giant generator
+    that creates electricity."
+  sprite: {fileID: 21300000, guid: 854bf14e0d84d0649b58b8aa1b07a8a7, type: 3}
+  backSprite: {fileID: 21300000, guid: b426ba730cbf8b941a65dee1c8994a4c, type: 3}
+  shinySprite: {fileID: 21300000, guid: 11a31d7b45c50b041b62dc83e4b17887, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: c82297f78488d9f4dabd3ad49db474cc, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 81630d243155df546a3beac0ae0b3f93, type: 3}
+  type1: {fileID: 11400000, guid: a50e8df2c05bf734c9f408b06361f74e, type: 2}
+  type2: {fileID: 11400000, guid: 826864d94ec7c8c4a8e95b6615b2eff3, type: 2}
+  eggGroup1: 15
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: -1
+  standardAbilities:
+  - {fileID: 11400000, guid: b2b1c05a07c1d174e92a91ef7e0f6f7e, type: 2}
+  hiddenAbility: {fileID: 0}
+  baseHP: 100
+  baseAttack: 150
+  baseDefense: 120
+  baseSpeed: 90
+  baseSpecialAttack: 120
+  baseSpecialDefense: 100
+  EV_HP: 0
+  EV_Attack: 3
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 50
+  rareness: 45
+  baseHappiness: 0
+  stepsToHatch: 30855
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: f7a872a200b369f4595344bb39526604, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 30c2e672cc93cd44d983f46e72bb67eb, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: fd5957dceb3eed242bb7108cbeca5745, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 30694025d0c13dd4c896a65d19651c78, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 2e5f1320b45908f44ada7582573559d8, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: f1751b5ec96b0424e90af98f8405703d, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: b5cb4834e72f9064abecca08c734899b, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: a14c1abb33c849c40b2bc2db3133d367, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: f800e8e066983b24a96c0ea61ae042ab, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: bc908f5b29ffbdf449ead18d33c8810b, type: 2}
+    level: 54
+  - move: {fileID: 11400000, guid: fd5957dceb3eed242bb7108cbeca5745, type: 2}
+    level: 64
+  - move: {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+    level: 71
+  - move: {fileID: 11400000, guid: 8804ac16ee7916b4e8a9c838c3bad87c, type: 2}
+    level: 78
+  - move: {fileID: 11400000, guid: 4e5c129cdc82eab41b3c7170d5fb9eb6, type: 2}
+    level: 85
+  - move: {fileID: 11400000, guid: 742025f9f24a09946bae3d0cdb215512, type: 2}
+    level: 92
+  - move: {fileID: 11400000, guid: 3ffa1ad5ee76dbe4ca707a963be9f6fd, type: 2}
+    level: 100
+  eggMoves: []

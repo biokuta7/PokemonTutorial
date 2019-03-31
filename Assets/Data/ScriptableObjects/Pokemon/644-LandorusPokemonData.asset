@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 644-LandorusPokemonData
+  m_EditorClassIdentifier: 
+  number: 645
+  name: Landorus
+  internalName: LANDORUS
+  kind: Abundance
+  height: 1.5
+  weight: 68
+  dexEntry: The energy that comes pouring from its tail increases the nutrition in
+    the soil, making crops grow to great size.
+  sprite: {fileID: 21300000, guid: 2cd6f80c718ee2b46b0630059af5c716, type: 3}
+  backSprite: {fileID: 21300000, guid: 03823629381fba747a11c88ea9e1bddb, type: 3}
+  shinySprite: {fileID: 21300000, guid: 814a38ef935396c4e92c9c5aec6da303, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: ed87bb118558ccb4d9e85a3f2450c3f6, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 9f533442bf088a84299cb27eb2f9cbc5, type: 3}
+  type1: {fileID: 11400000, guid: 2aef90cd8ab7add4ead9fdc156318a32, type: 2}
+  type2: {fileID: 11400000, guid: 90bb1a57d841315478a74baa52e40ba4, type: 2}
+  eggGroup1: 15
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: 0
+  standardAbilities:
+  - {fileID: 11400000, guid: 9c2760b8ced6cbd49924f41e47871529, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: ff9707f0509fe71419680a601a505ebe, type: 2}
+  baseHP: 89
+  baseAttack: 125
+  baseDefense: 90
+  baseSpeed: 101
+  baseSpecialAttack: 115
+  baseSpecialDefense: 80
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 3
+  EV_SpecialDefense: 0
+  baseEXP: 14
+  rareness: 3
+  baseHappiness: 90
+  stepsToHatch: 30855
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 2e15374810494ec4d90f20ee3b5afdbe, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4dfa80e8978525c488cbd9c827a66af7, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 32433de61b22a4547a4e2386f6bc82fb, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: fd5957dceb3eed242bb7108cbeca5745, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: 9f0ed801ebf215b408a59d455939ce03, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: f50dadd193e8fb947b3cecc59f5ca9c6, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: e867937231e5b964385d7ad80fb74704, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 95a576a0b079fff4d9459736640d5c82, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 9887221a3a392a748b92ecd16cd5faf7, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: e51e0c804527e4045ae2c022bbad06ca, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: 3e74825e213db2f46aa158ecff87166a, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 5d28992b9be13a341b391f0dd3d4a986, type: 2}
+    level: 55
+  - move: {fileID: 11400000, guid: 7f3e701f581e25848b130cae41131378, type: 2}
+    level: 61
+  - move: {fileID: 11400000, guid: b08d8d6945d0819419892e4b757cdad8, type: 2}
+    level: 67
+  - move: {fileID: 11400000, guid: ff0c05434e0850d4b88635587821b7f9, type: 2}
+    level: 73
+  - move: {fileID: 11400000, guid: 7b14c654ccf062a45b54aa55c85ac600, type: 2}
+    level: 79
+  - move: {fileID: 11400000, guid: 4e5c129cdc82eab41b3c7170d5fb9eb6, type: 2}
+    level: 85
+  eggMoves: []

@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 636-VolcaronaPokemonData
+  m_EditorClassIdentifier: 
+  number: 637
+  name: Volcarona
+  internalName: VOLCARONA
+  kind: Sun
+  height: 1.6
+  weight: 46
+  dexEntry: A sea of fire engulfs the surroundings of their battles, since they use
+    their six wings to scatter their ember scales.
+  sprite: {fileID: 21300000, guid: 1a4dc9e24d4b0cf47bbb1e516de91846, type: 3}
+  backSprite: {fileID: 21300000, guid: 564466b72cd8d5446bded76adad8cb76, type: 3}
+  shinySprite: {fileID: 21300000, guid: 391249dea340b2749bc07225a5eb59cd, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 7be4c96a19d245844b278635d442c3a8, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 3fd1914ce48afc743abfb1f3de414c5f, type: 3}
+  type1: {fileID: 11400000, guid: 79eb8f30cbe188e4f8a36dafd71ebdee, type: 2}
+  type2: {fileID: 11400000, guid: e120886a2aede3b4089e217b177a6111, type: 2}
+  eggGroup1: 3
+  eggGroup2: 0
+  growthRate: 4
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 16fb63eb3d512b146a1af1cbea909609, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 3061775df8197ad4c8e4d3bc7de08339, type: 2}
+  baseHP: 85
+  baseAttack: 60
+  baseDefense: 65
+  baseSpeed: 100
+  baseSpecialAttack: 135
+  baseSpecialDefense: 105
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 3
+  EV_SpecialDefense: 0
+  baseEXP: 248
+  rareness: 15
+  baseHappiness: 70
+  stepsToHatch: 10455
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 62339e29a8fb98e4da4f46c83137d8b8, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 2fe3950103ea0724e91849015d667f03, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 180cba9a94eacce4f8a89e10042e409b, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b1634127e25b9b64aad2d055f4d0ed9a, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 180cba9a94eacce4f8a89e10042e409b, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: b1634127e25b9b64aad2d055f4d0ed9a, type: 2}
+    level: 20
+  - move: {fileID: 11400000, guid: 483f4b439f7e8854bb1f26f6dfd32857, type: 2}
+    level: 30
+  - move: {fileID: 11400000, guid: c761759381cf557488626838e074d491, type: 2}
+    level: 40
+  - move: {fileID: 11400000, guid: 6abbf14dc28487942887c4d09bd55f32, type: 2}
+    level: 50
+  - move: {fileID: 11400000, guid: 9f04dc7fb76f9754da0aaee54270d75f, type: 2}
+    level: 59
+  - move: {fileID: 11400000, guid: 416f32e47c994ef4c96231fcc1564e92, type: 2}
+    level: 60
+  - move: {fileID: 11400000, guid: c61f1cdb129e61946b377260cd297708, type: 2}
+    level: 70
+  - move: {fileID: 11400000, guid: 2de7b984c95eee8419a7f5aab4e3bfd9, type: 2}
+    level: 80
+  - move: {fileID: 11400000, guid: 73f3c456765070b40b93e41c4e2a385e, type: 2}
+    level: 90
+  - move: {fileID: 11400000, guid: be29ee772e9b4604e8f3325b2e098b0f, type: 2}
+    level: 100
+  eggMoves: []

@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 192-YanmaPokemonData
+  m_EditorClassIdentifier: 
+  number: 193
+  name: Yanma
+  internalName: YANMA
+  kind: Clear Wing
+  height: 1.2
+  weight: 38
+  dexEntry: It can see 360 degrees without moving its eyes. It is a great flier capable
+    of making sudden stops and turning midair to quickly chase down targeted prey.
+  sprite: {fileID: 21300000, guid: 80908a70a52c34d438d09500a51c7f78, type: 3}
+  backSprite: {fileID: 21300000, guid: 5a5c955189b5787488a829e43ab89ca0, type: 3}
+  shinySprite: {fileID: 21300000, guid: dfb43c5641392444eb8df2a79a140c8d, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 6caa57fc7d8e2a14dbe80cb2c867be99, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 79fac39197666b443bb656a2f7e908fe, type: 3}
+  type1: {fileID: 11400000, guid: 79eb8f30cbe188e4f8a36dafd71ebdee, type: 2}
+  type2: {fileID: 11400000, guid: 90bb1a57d841315478a74baa52e40ba4, type: 2}
+  eggGroup1: 3
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 0c9d1676ff9200c4ba84daff3c548563, type: 2}
+  - {fileID: 11400000, guid: d0651c3ae9895784895b4ce5d0af603c, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: f2de2423ca550594aade218885cbb0ff, type: 2}
+  baseHP: 65
+  baseAttack: 65
+  baseDefense: 45
+  baseSpeed: 95
+  baseSpecialAttack: 75
+  baseSpecialDefense: 45
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 1
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 78
+  rareness: 75
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: cfd93b7c0d975cb4d8630d561a4ffe21, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d5f2e90bd85630a43bdd31934847cdc5, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: 56e5520611331d1449233d80d090ed7d, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: aa1d0806244b86747a0e614f88d70d93, type: 2}
+    level: 14
+  - move: {fileID: 11400000, guid: 16531673f7df2c1428a3eda3a0a5e5b6, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: 3bbb861f40413cc49ba63bbc7d2599a8, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: feef32ab21b065f4aae9bbf151f180c9, type: 2}
+    level: 27
+  - move: {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+    level: 30
+  - move: {fileID: 11400000, guid: 30694025d0c13dd4c896a65d19651c78, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 1683302a221d16c45a514c8db81ec734, type: 2}
+    level: 38
+  - move: {fileID: 11400000, guid: 5fcb722ef02a1bc4ca97936ea61cc6bb, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: 494af4edebad3e04d9d52a84f4dcef70, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: 20ed064aef73d8f418cbe4597b1a4293, type: 2}
+    level: 54
+  - move: {fileID: 11400000, guid: c61f1cdb129e61946b377260cd297708, type: 2}
+    level: 57
+  eggMoves:
+  - {fileID: 11400000, guid: a2916b5f6ff96354d832711d24c605dc, type: 2}
+  - {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+  - {fileID: 11400000, guid: efce0155d8efb2e4d846129c30b3961f, type: 2}
+  - {fileID: 11400000, guid: 180cba9a94eacce4f8a89e10042e409b, type: 2}
+  - {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+  - {fileID: 11400000, guid: 8880b7ca31d4f794da5ad4a591a4d876, type: 2}
+  - {fileID: 11400000, guid: fdf3641947fef19439d1589e4b70cb3e, type: 2}
+  - {fileID: 11400000, guid: 7dba8b22673833342a50075386bcf896, type: 2}
+  - {fileID: 11400000, guid: 6abbf14dc28487942887c4d09bd55f32, type: 2}
+  - {fileID: 11400000, guid: c761759381cf557488626838e074d491, type: 2}

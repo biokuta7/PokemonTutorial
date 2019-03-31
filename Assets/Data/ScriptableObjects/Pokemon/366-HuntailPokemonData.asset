@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 366-HuntailPokemonData
+  m_EditorClassIdentifier: 
+  number: 367
+  name: Huntail
+  internalName: HUNTAIL
+  kind: Deep Sea
+  height: 1.7
+  weight: 27
+  dexEntry: To withstand the crushing pressure of water deep under the sea, its spine
+    is very thick and sturdy. Its tail, which is shaped like a small fish, has eyes
+    that light up.
+  sprite: {fileID: 21300000, guid: 7f158e436b8000d4f9581f51ad5f422b, type: 3}
+  backSprite: {fileID: 21300000, guid: 14c2c41a01a348b4f8ea77b901fd8d4b, type: 3}
+  shinySprite: {fileID: 21300000, guid: d50e6a26f5a1c934aba4db6cf52529cf, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 8093e2eece6c5ab4fb67a63bdf412870, type: 3}
+  footprintSprite: {fileID: 21300000, guid: d51005a0109f7e64d9169857ad3d4ce7, type: 3}
+  type1: {fileID: 11400000, guid: f79cc5e3223419c46b6882fc17ed5e07, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 2
+  eggGroup2: 0
+  growthRate: 0
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: 56397a6e68134a6409d13eb81f2d8d2c, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: f9c2b76b8598fca4586dbff3234cf9ea, type: 2}
+  baseHP: 55
+  baseAttack: 104
+  baseDefense: 105
+  baseSpeed: 52
+  baseSpecialAttack: 94
+  baseSpecialDefense: 75
+  EV_HP: 0
+  EV_Attack: 1
+  EV_Defense: 1
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 170
+  rareness: 60
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4af89848b3b64474187dbde56d3a206c, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6ae18c6d076aae744b3ae61273a13157, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 0daaaf2b724e2e34f893d673a8ee7a4e, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 206d073f613428f428074167c47c813d, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: babc9d06ca5ac9e45bc97f25fd964b7a, type: 2}
+    level: 24
+  - move: {fileID: 11400000, guid: 5d1eca6964fbf79449b447b0f905ef42, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: c93cc4f4568f0084b9fb39e135243cd5, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 31cbd4778222ad04ba021a5ffa9d73af, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: e7ab8f7edcfe6ac4d99e9ffae89a04aa, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: 1160a28543f1b8646be03bfee46df347, type: 2}
+    level: 46
+  - move: {fileID: 11400000, guid: 4bdcb7db2207f9142b7706d59e466f28, type: 2}
+    level: 51
+  eggMoves: []

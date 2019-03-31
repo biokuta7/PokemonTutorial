@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 408-RampardosPokemonData
+  m_EditorClassIdentifier: 
+  number: 409
+  name: Rampardos
+  internalName: RAMPARDOS
+  kind: Head Butt
+  height: 1.6
+  weight: 102.5
+  dexEntry: Its powerful head butt has enough power to shatter even the most durable
+    things upon impact.
+  sprite: {fileID: 21300000, guid: 73b5925d6adb8ee48b4a75b9b3ebe779, type: 3}
+  backSprite: {fileID: 21300000, guid: 541acc3cd2accba40bee36caea74b884, type: 3}
+  shinySprite: {fileID: 21300000, guid: 056392d3ddce2f04fa82e6c978b78f2c, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 5958504b4eda26f4f854ee0612d75247, type: 3}
+  footprintSprite: {fileID: 21300000, guid: c79026f6c7f79aa4986edd773394ac87, type: 3}
+  type1: {fileID: 11400000, guid: 865c5118b1a0e3b4d895cfe37b3b2aa9, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 1
+  eggGroup2: 0
+  growthRate: 0
+  habitat: 0
+  femaleRatio: 0.125
+  standardAbilities:
+  - {fileID: 11400000, guid: e46cd10bf7de372419e2f0a16c7960f0, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: ff9707f0509fe71419680a601a505ebe, type: 2}
+  baseHP: 97
+  baseAttack: 165
+  baseDefense: 60
+  baseSpeed: 58
+  baseSpecialAttack: 65
+  baseSpecialDefense: 50
+  EV_HP: 0
+  EV_Attack: 2
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 173
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 7905
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: f3d560a7d1edced43965433b7691eaf1, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: e9151e2c70bb13c408648d987cb9c3fc, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4abf7d172bbaeba4293580ddddb47f6f, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 206d073f613428f428074167c47c813d, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: 41cf6d21b7400bd449aa635fccdb09d0, type: 2}
+    level: 24
+  - move: {fileID: 11400000, guid: 3206b805bebe41a479e48d61149567c3, type: 2}
+    level: 28
+  - move: {fileID: 11400000, guid: 74d2270e8d5047f47bdfca1fc219dded, type: 2}
+    level: 30
+  - move: {fileID: 11400000, guid: 30694025d0c13dd4c896a65d19651c78, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: a14c1abb33c849c40b2bc2db3133d367, type: 2}
+    level: 43
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 51
+  - move: {fileID: 11400000, guid: 49da2f892c8edfb4ba41bad44868441a, type: 2}
+    level: 58
+  eggMoves: []

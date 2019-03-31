@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 461-MagnezonePokemonData
+  m_EditorClassIdentifier: 
+  number: 462
+  name: Magnezone
+  internalName: MAGNEZONE
+  kind: Magnet Area
+  height: 1.2
+  weight: 180
+  dexEntry: It evolved from exposure to a special magnetic field. Three units generate
+    magnetism.
+  sprite: {fileID: 21300000, guid: 2d7928f3b1810c4479a5575ab01f109c, type: 3}
+  backSprite: {fileID: 21300000, guid: 85c7bde31e7150249ac579d1cad902d2, type: 3}
+  shinySprite: {fileID: 21300000, guid: d21f6a2b1b8ad2a4f95d14bf1670eef9, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 55519294acd9cd943ad4fa476a5e5b09, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 20ef744b8b71ae043b5494bf6d51dac5, type: 3}
+  type1: {fileID: 11400000, guid: 826864d94ec7c8c4a8e95b6615b2eff3, type: 2}
+  type2: {fileID: 11400000, guid: e19d9d0db9bfb304f86f2be1b2cbcd6e, type: 2}
+  eggGroup1: 10
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: -1
+  standardAbilities:
+  - {fileID: 11400000, guid: 099103add6cc33b42b02cf7f1973cd48, type: 2}
+  - {fileID: 11400000, guid: 8822aaa86cfc2f0408aaabea80029644, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 5927c1c6a42cdb140b0ee9f51cc1d814, type: 2}
+  baseHP: 70
+  baseAttack: 70
+  baseDefense: 115
+  baseSpeed: 60
+  baseSpecialAttack: 130
+  baseSpecialDefense: 90
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 3
+  EV_SpecialDefense: 0
+  baseEXP: 241
+  rareness: 30
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 7ef0a78f2ac48a94984b2cac732f0951, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 5ff32fd3e0ccd2143a5d76e35f416dfb, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3bbb861f40413cc49ba63bbc7d2599a8, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: b38abe15a5a03c344b556ae4ef7c99ea, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: aa1d0806244b86747a0e614f88d70d93, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 3bbb861f40413cc49ba63bbc7d2599a8, type: 2}
+    level: 4
+  - move: {fileID: 11400000, guid: b38abe15a5a03c344b556ae4ef7c99ea, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: aa1d0806244b86747a0e614f88d70d93, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 7475d027fb16bda4bb60e048a4a74faa, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: fb67747a5d01e374ba67cd67102f3719, type: 2}
+    level: 18
+  - move: {fileID: 11400000, guid: beb00d8d0b8532343998216e2e7835b4, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: c7dabb21d70139444bd904d1e47f66a3, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: 9064c27f2e3736249bec03fe438c3daf, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: b1a63ad3022d7e14991820e3f31f762e, type: 2}
+    level: 34
+  - move: {fileID: 11400000, guid: c981b703c64607144b99d1975327fa12, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: bb3904f7307498445959529de2390f9f, type: 2}
+    level: 51
+  - move: {fileID: 11400000, guid: 348a733884d7e6943acc894872975359, type: 2}
+    level: 56
+  eggMoves: []

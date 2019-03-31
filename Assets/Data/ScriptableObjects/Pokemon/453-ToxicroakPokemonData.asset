@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 453-ToxicroakPokemonData
+  m_EditorClassIdentifier: 
+  number: 454
+  name: Toxicroak
+  internalName: TOXICROAK
+  kind: Toxic Mouth
+  height: 1.3
+  weight: 44.4
+  dexEntry: Its knuckle claws secrete a toxin so vile that even a scratch could prove
+    fatal.
+  sprite: {fileID: 21300000, guid: 21fef5d750210d148b5e5c29fa8555af, type: 3}
+  backSprite: {fileID: 21300000, guid: 1dce7cb69b630404599b024ebda762a4, type: 3}
+  shinySprite: {fileID: 21300000, guid: 421a226c90c02de468b8aa77550a7747, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 197559a0e6b34944a8cc88c49d115c0c, type: 3}
+  footprintSprite: {fileID: 21300000, guid: db97ef2ac97c7fd4f911532203fa427b, type: 3}
+  type1: {fileID: 11400000, guid: 5c263d07fc626544cae866e79835f9fd, type: 2}
+  type2: {fileID: 11400000, guid: 60bba5c3467446d45a479ab6b6a6e82e, type: 2}
+  eggGroup1: 8
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: b0d6392cd3b653b49b81c7f41cea03a1, type: 2}
+  - {fileID: 11400000, guid: e8cb8580c3ec03e4b986501bef1325e8, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 492785b025b2e2246a588392ce67b7c0, type: 2}
+  baseHP: 83
+  baseAttack: 106
+  baseDefense: 65
+  baseSpeed: 85
+  baseSpecialAttack: 86
+  baseSpecialDefense: 65
+  EV_HP: 0
+  EV_Attack: 2
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 172
+  rareness: 75
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: bae05104322366b45818eaf04bf09068, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6a425af601896ff48bd142db36a82669, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: d306605b81c7124478801e53ad3ea1ab, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6a425af601896ff48bd142db36a82669, type: 2}
+    level: 3
+  - move: {fileID: 11400000, guid: d306605b81c7124478801e53ad3ea1ab, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: 6d25dd2274a273a4f97d7cc3c2c084f3, type: 2}
+    level: 10
+  - move: {fileID: 11400000, guid: e912fe3e20447694e8cd77e19b735631, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 93cec86c9fffb8a4c80955b73b94772d, type: 2}
+    level: 17
+  - move: {fileID: 11400000, guid: b0c5817ec469b4f44a3f7ef399a96c62, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: 2da8c21f08cbc164da993e01dc3a0391, type: 2}
+    level: 24
+  - move: {fileID: 11400000, guid: 497f9a160f072f740959d8bd6ad5508e, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: 18d2b07fd9a5ed740902b65b48c67a90, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 24f930d685f641f4f84e81cb91e6e849, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 7a147e057063b224a86c668c0f0c8579, type: 2}
+    level: 41
+  - move: {fileID: 11400000, guid: f79d836c63afaf245bae1d57829db1e6, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: a5573eee2ac81ae4ca79fab022a0aa11, type: 2}
+    level: 54
+  - move: {fileID: 11400000, guid: 04d33f3b315de81448190b591cc3a535, type: 2}
+    level: 62
+  eggMoves: []

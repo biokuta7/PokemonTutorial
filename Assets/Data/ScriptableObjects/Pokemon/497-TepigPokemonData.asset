@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 497-TepigPokemonData
+  m_EditorClassIdentifier: 
+  number: 498
+  name: Tepig
+  internalName: TEPIG
+  kind: Fire Pig
+  height: 0.5
+  weight: 9.9
+  dexEntry: It blows fire through its nose. When it catches a cold, the fire becomes
+    pitch-black smoke instead.
+  sprite: {fileID: 21300000, guid: 78332039cf7487749b9aba793c56671c, type: 3}
+  backSprite: {fileID: 21300000, guid: 8bd8045798108ad4d945e8acb3764177, type: 3}
+  shinySprite: {fileID: 21300000, guid: 8a4025a34c17eef4aa19a276c03db44c, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 7a8e17eda6b9f0442a976713dd9afc4d, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 5e256b64966ea3a4db2ed2929bd93e1d, type: 3}
+  type1: {fileID: 11400000, guid: e120886a2aede3b4089e217b177a6111, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: 0.125
+  standardAbilities:
+  - {fileID: 11400000, guid: 1dc5ee67c2e1b984fb603949c1781c71, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 5370a5cddfbfa4d4396bfd64d5065c3a, type: 2}
+  baseHP: 65
+  baseAttack: 63
+  baseDefense: 45
+  baseSpeed: 45
+  baseSpecialAttack: 45
+  baseSpecialDefense: 45
+  EV_HP: 1
+  EV_Attack: 0
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 28
+  rareness: 45
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: bdb929b2e26b9224cac2cdcef07d79f8, type: 2}
+    levelToEvolve: 17
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 4f13a465194ddb6419275a3bf7ea84d9, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 90e9a9d7356e7c84ea9190b7ff0535b1, type: 2}
+    level: 3
+  - move: {fileID: 11400000, guid: 62339e29a8fb98e4da4f46c83137d8b8, type: 2}
+    level: 7
+  - move: {fileID: 11400000, guid: f8e0359e915e43e4abfa7d0500c94d43, type: 2}
+    level: 9
+  - move: {fileID: 11400000, guid: 9718332accb9dd4438b46ad9a022602e, type: 2}
+    level: 13
+  - move: {fileID: 11400000, guid: e39a29e64e5f26547aacf274c6e2fc12, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 7977c32ff901d584f8f33bf322b0bd77, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: ec6769bc96a317247a6a1bbb153f90ec, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: 145edd79752d45844ad9be0f0190f636, type: 2}
+    level: 25
+  - move: {fileID: 11400000, guid: fec68cea55d0ac14b85a18d9666b9d17, type: 2}
+    level: 27
+  - move: {fileID: 11400000, guid: 41cf6d21b7400bd449aa635fccdb09d0, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: d64bedf5e2f4a984eb292a639e253040, type: 2}
+    level: 33
+  - move: {fileID: 11400000, guid: 49da2f892c8edfb4ba41bad44868441a, type: 2}
+    level: 37
+  - move: {fileID: 11400000, guid: c4e8c740e55faed46ab0712cbaa03682, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: 0e44d2036717f484ca028db9c5dd3c64, type: 2}
+    level: 43
+  eggMoves:
+  - {fileID: 11400000, guid: 903b5ee462226ab47b3026d6ace38c5d, type: 2}
+  - {fileID: 11400000, guid: 742c70de3a7643945a25b26139959535, type: 2}
+  - {fileID: 11400000, guid: fd48eadb1eda86c45b74371631ca93dd, type: 2}
+  - {fileID: 11400000, guid: 74d2270e8d5047f47bdfca1fc219dded, type: 2}
+  - {fileID: 11400000, guid: c24e608ede5552044974bb1114a3af17, type: 2}
+  - {fileID: 11400000, guid: 929dd1fa550cc024f9a5897d6685bdcf, type: 2}
+  - {fileID: 11400000, guid: e00c2e5151380af4f86149e04650bb42, type: 2}
+  - {fileID: 11400000, guid: e57bc132b940120468c55968e0807e59, type: 2}
+  - {fileID: 11400000, guid: 5a170aa8024c80246991a18e353e044f, type: 2}
+  - {fileID: 11400000, guid: 11851d64298ab6144aa7129575ae7364, type: 2}

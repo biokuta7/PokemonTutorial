@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 598-KlinkPokemonData
+  m_EditorClassIdentifier: 
+  number: 599
+  name: Klink
+  internalName: KLINK
+  kind: Gear
+  height: 0.3
+  weight: 21
+  dexEntry: Interlocking two bodies and spinning around generates the energy they
+    need to live.
+  sprite: {fileID: 21300000, guid: cad55ed6f72de2242bf9a451687eb0fb, type: 3}
+  backSprite: {fileID: 21300000, guid: f62d4fa29dd1ad64f99a1cd3801d3862, type: 3}
+  shinySprite: {fileID: 21300000, guid: 73b99187736b8ee48800c16d6d0570f4, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: b4b3744ad104cf645bb93deed8bd26dd, type: 3}
+  footprintSprite: {fileID: 21300000, guid: 5c868b1b5fc389543b2f05f14a2859a0, type: 3}
+  type1: {fileID: 11400000, guid: e19d9d0db9bfb304f86f2be1b2cbcd6e, type: 2}
+  type2: {fileID: 11400000, guid: 190d3742d54cb0246b1df8bee29f26d1, type: 2}
+  eggGroup1: 10
+  eggGroup2: 0
+  growthRate: 3
+  habitat: 0
+  femaleRatio: -1
+  standardAbilities:
+  - {fileID: 11400000, guid: 592d10e5db3b39d4a99a48f4626f55e6, type: 2}
+  - {fileID: 11400000, guid: 94813200f74c05146ba1648fc81f29ae, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: 0d405b7112150654b82b08b766ecc938, type: 2}
+  baseHP: 40
+  baseAttack: 55
+  baseDefense: 70
+  baseSpeed: 30
+  baseSpecialAttack: 45
+  baseSpecialDefense: 60
+  EV_HP: 0
+  EV_Attack: 0
+  EV_Defense: 1
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 60
+  rareness: 130
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions:
+  - resultant: {fileID: 11400000, guid: 12c280c53b1357342ae2025d4b9820e9, type: 2}
+    levelToEvolve: 38
+    itemToEvolve: {fileID: 0}
+    evolutionType: 0
+  learnedMoves:
+  - move: {fileID: 11400000, guid: 559b4415730b8cb47a952877dc8bcb6f, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 75e21a4edea0b024bbc8676017f9a5fe, type: 2}
+    level: 6
+  - move: {fileID: 11400000, guid: b38abe15a5a03c344b556ae4ef7c99ea, type: 2}
+    level: 11
+  - move: {fileID: 11400000, guid: 3b7cdb3cafd194e4196c47c280efa807, type: 2}
+    level: 16
+  - move: {fileID: 11400000, guid: c272b86c2496cdb4e894635816948c2d, type: 2}
+    level: 21
+  - move: {fileID: 11400000, guid: d7d0314a15b8bfd4da4dbf6da5bc35e8, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: 4798cf9b23b79124f96b077d9864d83e, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: c7dabb21d70139444bd904d1e47f66a3, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: ac2de42e6f7dbf548bcf8d3e9ae917c3, type: 2}
+    level: 39
+  - move: {fileID: 11400000, guid: bb3904f7307498445959529de2390f9f, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: 9064c27f2e3736249bec03fe438c3daf, type: 2}
+    level: 45
+  - move: {fileID: 11400000, guid: 2ab2a455b63697347b3559803192474a, type: 2}
+    level: 48
+  - move: {fileID: 11400000, guid: 348a733884d7e6943acc894872975359, type: 2}
+    level: 51
+  - move: {fileID: 11400000, guid: e99899b1534140e47a270201d1684d22, type: 2}
+    level: 54
+  - move: {fileID: 11400000, guid: 931a6239501d867458263239c17a188b, type: 2}
+    level: 57
+  eggMoves: []

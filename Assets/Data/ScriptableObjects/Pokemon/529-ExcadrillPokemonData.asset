@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31e53d4856e5eb8488ff490a7472d441, type: 3}
+  m_Name: 529-ExcadrillPokemonData
+  m_EditorClassIdentifier: 
+  number: 530
+  name: Excadrill
+  internalName: EXCADRILL
+  kind: Subterrene
+  height: 0.7
+  weight: 40.4
+  dexEntry: More than 300 feet below the surface, they build mazelike nests. Their
+    activity can be destructive to subway tunnels.
+  sprite: {fileID: 21300000, guid: febcdd809a44e96419d930ab97aa4628, type: 3}
+  backSprite: {fileID: 21300000, guid: a2e4c20ccceadcb41b346fbbab34ccc4, type: 3}
+  shinySprite: {fileID: 21300000, guid: f0110eababf26004eb0d8443e404cc80, type: 3}
+  shinyBackSprite: {fileID: 21300000, guid: 418a7e8de2ce17b4fad99e3d218cb62a, type: 3}
+  footprintSprite: {fileID: 21300000, guid: a23674934b0c9694ebb5607d3223c76a, type: 3}
+  type1: {fileID: 11400000, guid: 2aef90cd8ab7add4ead9fdc156318a32, type: 2}
+  type2: {fileID: 11400000, guid: e19d9d0db9bfb304f86f2be1b2cbcd6e, type: 2}
+  eggGroup1: 5
+  eggGroup2: 0
+  growthRate: 2
+  habitat: 0
+  femaleRatio: 0.5
+  standardAbilities:
+  - {fileID: 11400000, guid: caef24a3641fd3e45830048b0db1eb89, type: 2}
+  - {fileID: 11400000, guid: 9c2760b8ced6cbd49924f41e47871529, type: 2}
+  hiddenAbility: {fileID: 11400000, guid: e46cd10bf7de372419e2f0a16c7960f0, type: 2}
+  baseHP: 110
+  baseAttack: 135
+  baseDefense: 60
+  baseSpeed: 88
+  baseSpecialAttack: 50
+  baseSpecialDefense: 65
+  EV_HP: 0
+  EV_Attack: 2
+  EV_Defense: 0
+  EV_Speed: 0
+  EV_SpecialAttack: 0
+  EV_SpecialDefense: 0
+  baseEXP: 178
+  rareness: 60
+  baseHappiness: 70
+  stepsToHatch: 5355
+  evolutions: []
+  learnedMoves:
+  - move: {fileID: 11400000, guid: c8ad6b6cc523bd940b14ff75aa9ba40e, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: dee27cd0fdcd79240b0663c357831a95, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 5df38effff9669e49a43e3d459847a64, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 6a425af601896ff48bd142db36a82669, type: 2}
+    level: 1
+  - move: {fileID: 11400000, guid: 5df38effff9669e49a43e3d459847a64, type: 2}
+    level: 5
+  - move: {fileID: 11400000, guid: 6a425af601896ff48bd142db36a82669, type: 2}
+    level: 8
+  - move: {fileID: 11400000, guid: fb9cbbcc0dcb76f4a8254e7141042569, type: 2}
+    level: 12
+  - move: {fileID: 11400000, guid: 20511dc028bdeb84185f09366190df6d, type: 2}
+    level: 15
+  - move: {fileID: 11400000, guid: 0aad7ec6cb4a92745a61b010d146746b, type: 2}
+    level: 19
+  - move: {fileID: 11400000, guid: a99d53165092a2a41ad55531613c3d1f, type: 2}
+    level: 22
+  - move: {fileID: 11400000, guid: b5cb4834e72f9064abecca08c734899b, type: 2}
+    level: 26
+  - move: {fileID: 11400000, guid: 3e74825e213db2f46aa158ecff87166a, type: 2}
+    level: 29
+  - move: {fileID: 11400000, guid: cc47f48611a2dcb4980c8f18bde23c2d, type: 2}
+    level: 31
+  - move: {fileID: 11400000, guid: 5d28992b9be13a341b391f0dd3d4a986, type: 2}
+    level: 36
+  - move: {fileID: 11400000, guid: 9887221a3a392a748b92ecd16cd5faf7, type: 2}
+    level: 42
+  - move: {fileID: 11400000, guid: 7f3e701f581e25848b130cae41131378, type: 2}
+    level: 49
+  - move: {fileID: 11400000, guid: ec273af42ad22c645a37c5b5fab3e244, type: 2}
+    level: 55
+  - move: {fileID: 11400000, guid: b08d8d6945d0819419892e4b757cdad8, type: 2}
+    level: 62
+  eggMoves: []
