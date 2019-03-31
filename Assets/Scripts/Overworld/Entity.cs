@@ -11,15 +11,17 @@ public enum Direction
     NONE
 }
 
+[RequireComponent(typeof(SpriteRenderer))]
+[RequireComponent(typeof(SpriteRenderer))]
 public class Entity : MonoBehaviour
 {
 
-    public enum EntityCommands
+    public enum EntityCommand
     {
-        LOOKDOWN,
-        LOOKLEFT,
-        LOOKRIGHT,
-        LOOKUP,
+        FACEDOWN,
+        FACELEFT,
+        FACERIGHT,
+        FACEUP,
         MOVEDOWN,
         MOVELEFT,
         MOVERIGHT,
@@ -37,16 +39,17 @@ public class Entity : MonoBehaviour
 
     protected bool isMoving = false;
 
+    [Header("If stopped, don't increment movement to next.")]
+    public bool deterministicMovement = true;
+
     bool leftFoot = false;
 
-    [Header("Neutral, Left Stride, Right Stride")]
-    public Sprite[] northSprites;
-    public Sprite[] eastSprites;
-    public Sprite[] southSprites;
+    public EntitySpriteData entitySpriteData;
 
     private Sprite[] spritesInUse;
 
     SpriteRenderer spriteRenderer;
+    BoxCollider2D boxCollider;
 
     public LayerMask collidableLayerMask;
     public LayerMask nonCollidableLayerMask;
@@ -56,9 +59,8 @@ public class Entity : MonoBehaviour
     public virtual void Start()
     {
 
-        Debug.Log("Fired");
-
         spriteRenderer = GetComponent<SpriteRenderer>();
+        boxCollider = GetComponent<BoxCollider2D>();
         pokemonGameManager = PokemonGameManager.instance;
         FaceDown();
 
@@ -71,31 +73,31 @@ public class Entity : MonoBehaviour
     }
 
     
-
-    public void FaceDirection(Direction d)
+    public void ExecuteCommand(EntityCommand command, int value = 1)
     {
-        direction = d;
-        index = 0;
-        switch (direction)
+        switch(command)
         {
-            case Direction.NORTH:
-                spritesInUse = northSprites;
-                break;
-            case Direction.SOUTH:
-                spritesInUse = southSprites;
-                break;
-            case Direction.EAST:
-                spriteRenderer.flipX = false;
-                spritesInUse = eastSprites;
-                break;
-            case Direction.WEST:
-                spriteRenderer.flipX = true;
-                spritesInUse = eastSprites;
-                break;
+            case EntityCommand.FACEDOWN:
+                FaceDown(); break;
+            case EntityCommand.FACELEFT:
+                FaceLeft(); break;
+            case EntityCommand.FACERIGHT:
+                FaceRight(); break;
+            case EntityCommand.FACEUP:
+                FaceUp(); break;
+            case EntityCommand.MOVEDOWN:
+                MoveDown(value); break;
+            case EntityCommand.MOVELEFT:
+                MoveLeft(value); break;
+            case EntityCommand.MOVERIGHT:
+                MoveRight(value); break;
+            case EntityCommand.MOVEUP:
+                MoveUp(value); break;
             default:
                 break;
         }
     }
+    
 
     public void FaceUp() { FaceDirection(Direction.NORTH); }
     public void FaceDown() { FaceDirection(Direction.SOUTH); }
@@ -112,6 +114,31 @@ public class Entity : MonoBehaviour
         stopped = true;
     }
 
+    public void FaceDirection(Direction d)
+    {
+        direction = d;
+        index = 0;
+        switch (direction)
+        {
+            case Direction.NORTH:
+                spritesInUse = entitySpriteData.northSprites;
+                break;
+            case Direction.SOUTH:
+                spritesInUse = entitySpriteData.southSprites;
+                break;
+            case Direction.EAST:
+                spriteRenderer.flipX = false;
+                spritesInUse = entitySpriteData.eastSprites;
+                break;
+            case Direction.WEST:
+                spriteRenderer.flipX = true;
+                spritesInUse = entitySpriteData.eastSprites;
+                break;
+            default:
+                break;
+        }
+    }
+
     public void MoveInDirection(Direction d, int times = 1)
     {
         //StopAllCoroutines();
@@ -122,19 +149,34 @@ public class Entity : MonoBehaviour
     {
         isMoving = true;
         FaceDirection(d);
+        int t = 0;
 
-        for (int t = 0; t < times; t++)
+        while (t < times)
         {
 
-            if(CheckForthTile() || stopped) {
-                stopped = false;
-                break;
+            if (deterministicMovement)
+            {
+                while (CheckForthTile() || stopped)
+                {
+                    stopped = false;
+
+                    yield return null;
+                }
+            } else
+            {
+                if (CheckForthTile() || stopped)
+                {
+                    stopped = false;
+                    break;
+                }
             }
 
             leftFoot = !leftFoot;
 
             Vector3 startingPosition = transform.position;
             Vector3 targetPositionOffset = Direction2Vector(direction);
+
+            
 
             for (int i = 0; i < 16; i+=movespeed)
             {
@@ -147,14 +189,22 @@ public class Entity : MonoBehaviour
                     index = 0;
                 }
 
-                transform.position = startingPosition + Vector3.Lerp(Vector3.zero, targetPositionOffset, i / 16f);
+                Vector3 offset = Vector3.Lerp(Vector3.zero, targetPositionOffset, i / 16f);
+                Vector3 inverseOffset = Vector3.Lerp(targetPositionOffset, Vector3.zero, i / 16f);
+
+                transform.position = startingPosition + offset;
+
+                boxCollider.offset = inverseOffset;
+
                 yield return new WaitForEndOfFrame();
             }
 
             transform.position = startingPosition + targetPositionOffset;
-
+            boxCollider.offset = Vector2.zero;
 
             CheckCurrentTile();
+
+            t++;
 
             yield return null;
         }
@@ -203,6 +253,7 @@ public class Entity : MonoBehaviour
     private void Animation()
     {
         spriteRenderer.sprite = spritesInUse[index];
+        spriteRenderer.sortingOrder = -Mathf.RoundToInt(transform.position.y);
     }
 
     public static Vector3 Direction2Vector(Direction d)

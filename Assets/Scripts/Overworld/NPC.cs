@@ -12,12 +12,20 @@ public class NPC : Entity
         RANDOM,
         CUSTOM
     }
-
     
-
     public NPC_Behavior behavior;
 
-    
+    [System.Serializable]
+    public class NPC_Command
+    {
+        public EntityCommand command;
+        public int value = 1;
+    }
+
+    public float baseWaitTimeBetweenActions = 2.0f;
+
+    public NPC_Command[] customCommands;
+    public bool customLoop;
 
     public override void Start()
     {
@@ -25,6 +33,9 @@ public class NPC : Entity
         if (behavior.Equals(NPC_Behavior.RANDOM))
         {
             StartCoroutine(RandomMovement());
+        } else if(behavior.Equals(NPC_Behavior.CUSTOM))
+        {
+            StartCoroutine(CustomMovement());
         }
     }
 
@@ -36,9 +47,28 @@ public class NPC : Entity
 
             MoveInDirection((Direction)r);
 
-            yield return new WaitForSeconds(3.0f);
+            yield return new WaitForSeconds(baseWaitTimeBetweenActions);
         }
     }
-    
+
+    private IEnumerator CustomMovement()
+    {
+        do
+        {
+            for (int i = 0; i < customCommands.Length; i++)
+            {
+                NPC_Command npcCommand = customCommands[i];
+
+                ExecuteCommand(npcCommand.command, npcCommand.value);
+
+                while(isMoving)
+                {
+                    yield return null;
+                }
+
+                yield return new WaitForSeconds(baseWaitTimeBetweenActions);
+            }
+        } while (customLoop);
+    }
 
 }

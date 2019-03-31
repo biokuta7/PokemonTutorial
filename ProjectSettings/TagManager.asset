@@ -58,9 +58,6 @@ TagManager:
   - name: FG2
     uniqueID: 204779863
     locked: 0
-  - name: FG3
-    uniqueID: 4071159343
-    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

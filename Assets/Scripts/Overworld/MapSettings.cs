@@ -20,6 +20,8 @@ public class MapSettings : MonoBehaviour
     public Encounter[] waterEncounters;
     public Encounter[] randomEncounters;
 
+    public bool encountersOn = true;
+
     [Range(0f, .20f)]
     public float grassEncounterChance = .15f;
     [Range(0f, .20f)]
@@ -36,6 +38,8 @@ public class MapSettings : MonoBehaviour
 
     public bool OnGrassShake()
     {
+
+        if(!encountersOn) { return false; }
 
         if(Random.Range(0f,1f) > grassEncounterChance)
         {

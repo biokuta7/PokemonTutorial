@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec55ecf0ed3c5ad4b95c2c28a6862987, type: 3}
+  m_Name: TrainerRedSprite
+  m_EditorClassIdentifier: 
+  northSprites:
+  - {fileID: 21300024, guid: fd689a4413a0aed42b888f5076da9653, type: 3}
+  - {fileID: 21300026, guid: fd689a4413a0aed42b888f5076da9653, type: 3}
+  - {fileID: 21300030, guid: fd689a4413a0aed42b888f5076da9653, type: 3}
+  eastSprites:
+  - {fileID: 21300016, guid: fd689a4413a0aed42b888f5076da9653, type: 3}
+  - {fileID: 21300018, guid: fd689a4413a0aed42b888f5076da9653, type: 3}
+  - {fileID: 21300022, guid: fd689a4413a0aed42b888f5076da9653, type: 3}
+  southSprites:
+  - {fileID: 21300000, guid: fd689a4413a0aed42b888f5076da9653, type: 3}
+  - {fileID: 21300002, guid: fd689a4413a0aed42b888f5076da9653, type: 3}
+  - {fileID: 21300006, guid: fd689a4413a0aed42b888f5076da9653, type: 3}
