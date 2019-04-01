@@ -2,10 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NPC : Entity
+public class NPC : Entity, IInteractable
 {
-
-
     public enum NPC_Behavior
     {
         STATIC,
@@ -24,8 +22,12 @@ public class NPC : Entity
 
     public float baseWaitTimeBetweenActions = 2.0f;
 
+    public Dialogue dialogue;
+
     public NPC_Command[] customCommands;
     public bool customLoop;
+
+    
 
     public override void Start()
     {
@@ -46,7 +48,10 @@ public class NPC : Entity
             int r = Random.Range(0, 3);
 
             MoveInDirection((Direction)r);
-
+            while (isMoving)
+            {
+                yield return null;
+            }
             yield return new WaitForSeconds(baseWaitTimeBetweenActions);
         }
     }
@@ -69,6 +74,28 @@ public class NPC : Entity
                 yield return new WaitForSeconds(baseWaitTimeBetweenActions);
             }
         } while (customLoop);
+    }
+    
+    public void OnInteract()
+    {
+        StartCoroutine(StartDialogueCoroutine());
+    }
+    
+    private IEnumerator StartDialogueCoroutine()
+    {
+        Direction d = direction;
+        FacePlayer();
+        StopMovement();
+
+        pokemonGameManager.StartDialogue(dialogue);
+
+        while(DialogueManager.instance.IsDialogueDisplayed())
+        {
+            yield return null;
+        }
+        FaceDirection(d);
+        StartMovement();
+
     }
 
 }

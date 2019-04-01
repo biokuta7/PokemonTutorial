@@ -173,11 +173,11 @@ public class Battle : MonoBehaviour {
 
         dialogueManager.AddDialogue(attacker.GetName() + " used " + move.name + "!");
 
-        yield return StartCoroutine(WaitForCaughtUpText());
+        yield return StartCoroutine(dialogueManager.WaitForCaughtUpText());
 
         if (move.accuracy > 0 && accuracyCheck > move.accuracy)
         {
-            yield return StartCoroutine(WaitForCaughtUpTextAndInput());
+            yield return StartCoroutine(dialogueManager.WaitForCaughtUpTextAndInput());
             dialogueManager.AddDialogue("But it missed!");
             yield break;
         }
@@ -222,7 +222,7 @@ public class Battle : MonoBehaviour {
 
         if(damage <= 0)
         {
-            yield return StartCoroutine(WaitForCaughtUpTextAndInput());
+            yield return StartCoroutine(dialogueManager.WaitForCaughtUpTextAndInput());
             dialogueManager.AddDialogue("It didn't effect " + defender.name + "...");
             yield break;
         }
@@ -230,9 +230,9 @@ public class Battle : MonoBehaviour {
 
         yield return StartCoroutine(defender.ModHPCoroutine(-damage));
 
-        if (criticalHappened) { yield return StartCoroutine(WaitForCaughtUpTextAndInput()); dialogueManager.AddDialogue("Critical hit!"); }
-        if (typeEffectiveness > 1.0f) { yield return StartCoroutine(WaitForCaughtUpTextAndInput()); dialogueManager.AddDialogue("It was super effective!"); }
-        if (typeEffectiveness < 1.0f) { yield return StartCoroutine(WaitForCaughtUpTextAndInput()); dialogueManager.AddDialogue("It wasn't very effective..."); }
+        if (criticalHappened) { yield return StartCoroutine(dialogueManager.WaitForCaughtUpTextAndInput()); dialogueManager.AddDialogue("Critical hit!"); }
+        if (typeEffectiveness > 1.0f) { yield return StartCoroutine(dialogueManager.WaitForCaughtUpTextAndInput()); dialogueManager.AddDialogue("It was super effective!"); }
+        if (typeEffectiveness < 1.0f) { yield return StartCoroutine(dialogueManager.WaitForCaughtUpTextAndInput()); dialogueManager.AddDialogue("It wasn't very effective..."); }
 
 
         dialogueManager.DisplayNextSentence();
@@ -309,7 +309,7 @@ public class Battle : MonoBehaviour {
             int exp = ExperienceCalculation(allyPokemon, foePokemon);
 
             dialogueManager.AddDialogue(allyPokemon.GetName() + " gained " + exp + " experience points!");
-            yield return StartCoroutine(WaitForCaughtUpTextAndInput());
+            yield return StartCoroutine(dialogueManager.WaitForCaughtUpTextAndInput());
             yield return StartCoroutine(allyPokemon.ModXPCoroutine(exp));
 
         }
@@ -336,16 +336,6 @@ public class Battle : MonoBehaviour {
 
     }
 
-    private IEnumerator WaitForCaughtUpText()
-    {
-        while (!dialogueManager.AllCaughtUp())
-            yield return null;
-    }
-
-    private IEnumerator WaitForCaughtUpTextAndInput()
-    {
-        while (!Input.GetButtonDown("Fire1") || !dialogueManager.AllCaughtUp())
-            yield return null;
-    }
+    
 
 }

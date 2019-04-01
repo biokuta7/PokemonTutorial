@@ -23,7 +23,7 @@ public class Portal : MonoBehaviour
 
         Gizmos.color = Color.red;
         Gizmos.DrawLine(transform.position, target.transform.position);
-        Gizmos.DrawCube(transform.position, Vector3.one);
+        Gizmos.DrawWireCube(transform.position, Vector3.one);
 
     }
 

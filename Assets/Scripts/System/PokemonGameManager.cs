@@ -26,6 +26,7 @@ public class PokemonGameManager : MonoBehaviour
     private Color defaultTransitionColor;
 
     private PlayerController player;
+    private DialogueManager dialogueManager;
 
     private void Awake()
     {
@@ -35,10 +36,11 @@ public class PokemonGameManager : MonoBehaviour
     private void Start()
     {
         battle = Battle.instance;
+        player = PlayerController.instance;
+        dialogueManager = DialogueManager.instance;
         transitionMaterial = pixelPerfectCamera.GetComponent<RenderTextureToScreen>().TransitionMaterial;
         transitionMaterial.SetFloat("_Cutoff", 0f);
         defaultTransitionColor = transitionMaterial.color;
-        player = PlayerController.instance;
     }
 
     public void TraversePortal(Portal start)
@@ -55,7 +57,7 @@ public class PokemonGameManager : MonoBehaviour
         start.OnEntered();
         
         yield return StartCoroutine(Fade(true));
-
+        player.SetRunning(false);
         player.transform.position = destination.transform.position;
         player.FaceDirection(destination.facingDirectionExit);
         yield return StartCoroutine(Fade(false));
@@ -142,10 +144,37 @@ public class PokemonGameManager : MonoBehaviour
 
         battleCamera.enabled = false;
         overworld.SetActive(true);
+        dialogueManager.SetDisplay(false);
+
+        player.StartMovement();
 
         yield return StartCoroutine(Fade(false));
 
         gameState = GameState.OVERWORLD;
+    }
+
+    public void StartDialogue(Dialogue d)
+    {
+        StartCoroutine(DialogueCoroutine(d));
+    }
+
+    IEnumerator DialogueCoroutine(Dialogue d)
+    {
+        dialogueManager.ClearDialogue();
+        dialogueManager.AddDialogue(d);
+        
+        gameState = GameState.CUTSCENE;
+
+
+
+        dialogueManager.DisplayNextSentence();
+
+        yield return dialogueManager.WaitForCaughtUpTextAndInput();
+
+        gameState = GameState.OVERWORLD;
+
+        dialogueManager.SetDisplay(false);
+
     }
 
 }

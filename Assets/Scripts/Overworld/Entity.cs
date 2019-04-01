@@ -22,19 +22,21 @@ public class Entity : MonoBehaviour
         FACELEFT,
         FACERIGHT,
         FACEUP,
+        FACEPLAYER,
         MOVEDOWN,
         MOVELEFT,
         MOVERIGHT,
-        MOVEUP
+        MOVEUP,
+        MOVEFORWARD,
+        MOVETOWARDSPLAYER
     }
 
-    Direction direction;
+    protected Direction direction;
 
     int index = 0;
 
     public int movespeed = 1;
-
-    protected bool running = false;
+    
     bool stopped = false;
 
     protected bool isMoving = false;
@@ -69,7 +71,6 @@ public class Entity : MonoBehaviour
     public virtual void Update()
     {
         Animation();
-        
     }
 
     
@@ -85,6 +86,8 @@ public class Entity : MonoBehaviour
                 FaceRight(); break;
             case EntityCommand.FACEUP:
                 FaceUp(); break;
+            case EntityCommand.FACEPLAYER:
+                FacePlayer(); break;
             case EntityCommand.MOVEDOWN:
                 MoveDown(value); break;
             case EntityCommand.MOVELEFT:
@@ -93,6 +96,10 @@ public class Entity : MonoBehaviour
                 MoveRight(value); break;
             case EntityCommand.MOVEUP:
                 MoveUp(value); break;
+            case EntityCommand.MOVEFORWARD:
+                MoveForward(value); break;
+            case EntityCommand.MOVETOWARDSPLAYER:
+                MoveTowardsPlayer(value); break;
             default:
                 break;
         }
@@ -103,41 +110,81 @@ public class Entity : MonoBehaviour
     public void FaceDown() { FaceDirection(Direction.SOUTH); }
     public void FaceLeft() { FaceDirection(Direction.WEST); }
     public void FaceRight() { FaceDirection(Direction.EAST); }
+    public void FacePlayer()
+    {
+        Vector3 difference = PlayerController.instance.transform.position - transform.position;
+        
+        bool x = Mathf.Abs(difference.x) > Mathf.Abs(difference.y);
+
+        bool negative = (x ? Mathf.Sign(difference.x) : Mathf.Sign(difference.y)) < 0;
+
+        if(x)
+        {
+            if(negative) {
+                FaceLeft();
+            } else {
+                FaceRight();
+            }
+        } else
+        {
+            if (negative) {
+                FaceDown();
+            } else {
+                FaceUp();
+            }
+        }
+
+    }
 
     public void MoveUp(int times = 1) { MoveInDirection(Direction.NORTH, times); }
     public void MoveDown(int times = 1) { MoveInDirection(Direction.SOUTH, times); }
     public void MoveLeft(int times = 1) { MoveInDirection(Direction.WEST, times); }
     public void MoveRight(int times = 1) { MoveInDirection(Direction.EAST, times); }
+    public void MoveForward(int times = 1) { MoveInDirection(direction, times); }
+    public void MoveTowardsPlayer(int times = 1) { FacePlayer(); MoveForward(times); }
 
     public void StopMovement()
     {
         stopped = true;
     }
 
+    public void StartMovement()
+    {
+        stopped = false;
+    }
+
     public void FaceDirection(Direction d)
     {
-        direction = d;
-        index = 0;
-        switch (direction)
+
+        if (!stopped)
         {
-            case Direction.NORTH:
-                spritesInUse = entitySpriteData.northSprites;
-                break;
-            case Direction.SOUTH:
-                spritesInUse = entitySpriteData.southSprites;
-                break;
-            case Direction.EAST:
-                spriteRenderer.flipX = false;
-                spritesInUse = entitySpriteData.eastSprites;
-                break;
-            case Direction.WEST:
-                spriteRenderer.flipX = true;
-                spritesInUse = entitySpriteData.eastSprites;
-                break;
-            default:
-                break;
+            direction = d;
+            index = 0;
+            switch (direction)
+            {
+                case Direction.NORTH:
+                    spritesInUse = entitySpriteData.northSprites;
+                    break;
+                case Direction.SOUTH:
+                    spritesInUse = entitySpriteData.southSprites;
+                    break;
+                case Direction.EAST:
+                    spriteRenderer.flipX = false;
+                    spritesInUse = entitySpriteData.eastSprites;
+                    break;
+                case Direction.WEST:
+                    spriteRenderer.flipX = true;
+                    spritesInUse = entitySpriteData.eastSprites;
+                    break;
+                default:
+                    break;
+            }
         }
     }
+
+
+    public void InitSprites()
+    { FaceDirection(direction); }
 
     public void MoveInDirection(Direction d, int times = 1)
     {
@@ -158,15 +205,12 @@ public class Entity : MonoBehaviour
             {
                 while (CheckForthTile() || stopped)
                 {
-                    stopped = false;
-
                     yield return null;
                 }
             } else
             {
                 if (CheckForthTile() || stopped)
                 {
-                    stopped = false;
                     break;
                 }
             }
@@ -231,7 +275,7 @@ public class Entity : MonoBehaviour
         return false;
     }
 
-    public virtual bool CheckForthTile()
+    public virtual Collider2D CheckForthTile()
     {
 
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Direction2Vector(direction), 1.0f, collidableLayerMask.value);
@@ -242,15 +286,15 @@ public class Entity : MonoBehaviour
         {
             if (hit.distance < 1.0f)
             {
-                return true;
+                return collider;
             }
         }
 
-        return false;
+        return null;
 
     }
 
-    private void Animation()
+    protected void Animation()
     {
         spriteRenderer.sprite = spritesInUse[index];
         spriteRenderer.sortingOrder = -Mathf.RoundToInt(transform.position.y);

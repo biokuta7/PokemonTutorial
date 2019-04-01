@@ -7,8 +7,11 @@ public class PlayerController : Entity
 {
     
     bool swimming = false;
-    
+    bool running = false;
     public static PlayerController instance;
+
+    public EntitySpriteData walkingSpriteData;
+    public EntitySpriteData runningSpriteData;
 
     private void Awake()
     {
@@ -23,6 +26,14 @@ public class PlayerController : Entity
         {
             GatherInput();
         }
+
+        Tick();
+
+    }
+
+    public void SetRunning(bool r)
+    {
+        running = r;
     }
 
     private void GatherInput()
@@ -42,22 +53,40 @@ public class PlayerController : Entity
         else if (y < 0)
         { MoveDown(); }
         
+
+        if(Input.GetButtonDown("Fire1"))
+        {
+            Interact();
+        }
+        
+    }
+
+    private void Tick()
+    {
+
+        if (running && isMoving)
+        {
+            entitySpriteData = runningSpriteData;
+            movespeed = 2;
+            InitSprites();
+        }
+        else
+        {
+            entitySpriteData = walkingSpriteData;
+            movespeed = 1;
+            InitSprites();
+        }
+        
     }
 
     public override bool CheckCurrentTile()
     {
+
+        base.CheckCurrentTile();
+
         Collider2D collider = Physics2D.OverlapBox(transform.position, new Vector2(.1f, .1f), 0, nonCollidableLayerMask.value);
         if (collider != null)
         {
-            if (collider.CompareTag("Grass"))
-            {
-                if (MapSettings.instance.OnGrassShake())
-                {
-                    StopMovement();
-                }
-                ParticleSystemPooler.instance.SpawnParticleSystem("ShakingGrass", transform.position);
-                return true;
-            }
 
             Portal p = collider.GetComponent<Portal>();
 
@@ -71,5 +100,18 @@ public class PlayerController : Entity
         return false;
     }
 
+    private void Interact()
+    {
+        Collider2D c = CheckForthTile();
+        
+        if (c != null)
+        {
+            IInteractable interactable = c.GetComponent<IInteractable>();
+            if (interactable != null)
+            {
+                interactable.OnInteract();
+            }
+        }
+    }
 
 }
