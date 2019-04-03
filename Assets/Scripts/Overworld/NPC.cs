@@ -27,7 +27,7 @@ public class NPC : Entity, IInteractable
     public NPC_Command[] customCommands;
     public bool customLoop;
 
-    
+    public string colorString = "black";
 
     public override void Start()
     {
@@ -83,11 +83,12 @@ public class NPC : Entity, IInteractable
     
     private IEnumerator StartDialogueCoroutine()
     {
+        
         Direction d = direction;
         FacePlayer();
         StopMovement();
-
-        pokemonGameManager.StartDialogue(dialogue);
+        
+        pokemonGameManager.StartDialogue(dialogue, colorString);
 
         while(DialogueManager.instance.IsDialogueDisplayed())
         {

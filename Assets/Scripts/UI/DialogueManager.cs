@@ -18,6 +18,8 @@ public class DialogueManager : MonoBehaviour
 
     public static DialogueManager instance;
 
+    private string colorString = "black";
+
     private void Awake()
     {
         instance = this;
@@ -28,6 +30,16 @@ public class DialogueManager : MonoBehaviour
         SetDisplay(false);
         sentences = new Queue<string>();
         dialogueText.text = "";
+    }
+
+    public void SetColor(string cs)
+    {
+        if (cs == "")
+        { colorString = "black"; }
+        else
+        {
+            colorString = cs;
+        }
     }
 
     public void SetDisplay(bool on = true)
@@ -119,19 +131,16 @@ public class DialogueManager : MonoBehaviour
     IEnumerator DialogueRead(string target)
     {
         currentlyReadingDialogue = true;
-        dialogueText.text = "";
-        foreach (char letter in target.ToCharArray())
+
+        Debug.Log(colorString);
+
+        for (int i = 0; i < target.Length+1; i++)
         {
 
-            dialogueText.text += letter;
-            if (!letter.Equals('.'))
-            {
-                yield return new WaitForSeconds(timeBetweenCharacters);
-            }
-            else
-            {
-                yield return new WaitForSeconds(.1f);
-            }
+            dialogueText.text = "<color=" + colorString + ">" + target.Substring(0, i) + "</color><color=clear>" + target.Substring(i) + "</color>";
+
+            yield return new WaitForSeconds(timeBetweenCharacters);
+            
         }
         currentlyReadingDialogue = false;
     }

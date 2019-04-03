@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Grass
   - Water
+  - ReEnterLand
+  - JumpableCliffSouth
   layers:
   - Default
   - TransparentFX
@@ -21,8 +23,8 @@ TagManager:
   - Battle
   - Entity
   - Player
-  - 
-  - 
+  - ReEnterLand
+  - JumpableCliff
   - 
   - 
   - 

@@ -9,20 +9,21 @@ public class Battle : MonoBehaviour {
         new Color32(192,192,0,255),
         new Color32(255,64,64,255)
     };
-
-    public Text dialogueBoxText;
-
-    [Space(2)]
+    
+    [Space(20)]
 
     public Sprite[] genderSprites;
     public Sprite[] statusSprites;
 
 
-    [Space(2)]
+    [Space(20)]
 
     public Pokemon allyPokemon;
     public Pokemon foePokemon;
 
+    [Space(20)]
+
+    public GameObject foeParent;
     public Text foeNameText;
     public Text foeLevelText;
     public Image foeSprite;
@@ -33,8 +34,9 @@ public class Battle : MonoBehaviour {
 
     private Image foeHPSliderBar;
 
-    [Space(2)]
+    [Space(20)]
 
+    public GameObject allyParent;
     public Text allyNameText;
     public Text allyLevelText;
     public Text allyHealthText;
@@ -46,7 +48,7 @@ public class Battle : MonoBehaviour {
 
     private Image allyHPSliderBar;
 
-    [Space(2)]
+    [Space(20)]
 
 
     public static Battle instance;
@@ -63,7 +65,6 @@ public class Battle : MonoBehaviour {
         dialogueManager = DialogueManager.instance;
         foeHPSliderBar = foeHPSlider.GetComponentInChildren<Image>();
         allyHPSliderBar = allyHPSlider.GetComponentInChildren<Image>();
-        allyPokemon.InitPokemon();
     }
 
     private void Update()
@@ -261,10 +262,23 @@ public class Battle : MonoBehaviour {
 
     IEnumerator BattleHandler()
     {
+
+        allyPokemon = Player.instance.party.GetFirstNonFaintedPokemon();
+
         dialogueManager.ClearDialogue();
         dialogueManager.AddDialogue("Foe " + foePokemon.GetName() + " wants to battle!");
-        dialogueManager.DisplayNextSentence();
         
+
+        for (int i = 500; i >= 0; i-=10) {
+
+            foeParent.transform.localPosition = new Vector3(-i, 96, 0);
+            allyParent.transform.localPosition = new Vector3(i, -32, 0);
+            yield return null;
+        }
+
+        dialogueManager.DisplayNextSentence();
+
+
         while (!allyPokemon.CheckForDeath() && !foePokemon.CheckForDeath())
         {
             int foeRand = Random.Range(0, 4);

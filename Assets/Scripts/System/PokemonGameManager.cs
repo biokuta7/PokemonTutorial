@@ -66,7 +66,7 @@ public class PokemonGameManager : MonoBehaviour
 
         destination.OnExited();
 
-        yield return new WaitForSeconds(1.0f);
+        yield return new WaitForSeconds(.1f);
 
         gameState = GameState.OVERWORLD;
     }
@@ -78,6 +78,8 @@ public class PokemonGameManager : MonoBehaviour
 
     private IEnumerator StartWildBattleCoroutine(PokemonData pokemon, int level)
     {
+        if(gameState != GameState.OVERWORLD)
+        { yield break; }
 
         gameState = GameState.BATTLE;
 
@@ -85,7 +87,7 @@ public class PokemonGameManager : MonoBehaviour
 
 
         battleCamera.enabled = true;
-        overworld.SetActive(false);
+        //overworld.SetActive(false);
         battle.foePokemon.pokemonData = pokemon;
         battle.foePokemon.level = level;
         battle.InitWildBattle();
@@ -118,7 +120,7 @@ public class PokemonGameManager : MonoBehaviour
 
         yield return new WaitForSeconds(.2f);
 
-        int smoothness = 20;
+        int smoothness = 30;
         
         for (int i = 0; i < smoothness; i++)
         {
@@ -143,7 +145,7 @@ public class PokemonGameManager : MonoBehaviour
         yield return StartCoroutine(Fade(true));
 
         battleCamera.enabled = false;
-        overworld.SetActive(true);
+        //overworld.SetActive(true);
         dialogueManager.SetDisplay(false);
 
         player.StartMovement();
@@ -153,13 +155,14 @@ public class PokemonGameManager : MonoBehaviour
         gameState = GameState.OVERWORLD;
     }
 
-    public void StartDialogue(Dialogue d)
+    public void StartDialogue(Dialogue d, string colorString = "")
     {
-        StartCoroutine(DialogueCoroutine(d));
+        StartCoroutine(DialogueCoroutine(d, colorString));
     }
 
-    IEnumerator DialogueCoroutine(Dialogue d)
+    IEnumerator DialogueCoroutine(Dialogue d, string colorString = "")
     {
+        dialogueManager.SetColor(colorString);
         dialogueManager.ClearDialogue();
         dialogueManager.AddDialogue(d);
         

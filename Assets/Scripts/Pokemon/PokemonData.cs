@@ -123,6 +123,7 @@ public class PokemonData : ScriptableObject {
     public int stepsToHatch;
 
 
+
     public List<Evolution> evolutions;
     public List<LearnedMove> learnedMoves;
     public List<MoveData> eggMoves;

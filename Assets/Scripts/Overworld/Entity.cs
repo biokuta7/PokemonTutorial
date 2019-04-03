@@ -36,10 +36,14 @@ public class Entity : MonoBehaviour
     int index = 0;
 
     public int movespeed = 1;
-    
+
+    public bool setSortOrder = false;
+
     bool stopped = false;
 
     protected bool isMoving = false;
+    protected bool isAirborne = false;
+    protected bool collisionEnabled = true;
 
     [Header("If stopped, don't increment movement to next.")]
     public bool deterministicMovement = true;
@@ -47,6 +51,7 @@ public class Entity : MonoBehaviour
     bool leftFoot = false;
 
     public EntitySpriteData entitySpriteData;
+    public SpriteRenderer dropShadowRenderer;
 
     private Sprite[] spritesInUse;
 
@@ -60,7 +65,7 @@ public class Entity : MonoBehaviour
 
     public virtual void Start()
     {
-
+        if(dropShadowRenderer!=null) { dropShadowRenderer.enabled = false; }
         spriteRenderer = GetComponent<SpriteRenderer>();
         boxCollider = GetComponent<BoxCollider2D>();
         pokemonGameManager = PokemonGameManager.instance;
@@ -136,12 +141,12 @@ public class Entity : MonoBehaviour
 
     }
 
-    public void MoveUp(int times = 1) { MoveInDirection(Direction.NORTH, times); }
-    public void MoveDown(int times = 1) { MoveInDirection(Direction.SOUTH, times); }
-    public void MoveLeft(int times = 1) { MoveInDirection(Direction.WEST, times); }
-    public void MoveRight(int times = 1) { MoveInDirection(Direction.EAST, times); }
-    public void MoveForward(int times = 1) { MoveInDirection(direction, times); }
-    public void MoveTowardsPlayer(int times = 1) { FacePlayer(); MoveForward(times); }
+    public void MoveUp(int times = 1, bool jump = false) { MoveInDirection(Direction.NORTH, times, jump); }
+    public void MoveDown(int times = 1, bool jump = false) { MoveInDirection(Direction.SOUTH, times, jump); }
+    public void MoveLeft(int times = 1, bool jump = false) { MoveInDirection(Direction.WEST, times, jump); }
+    public void MoveRight(int times = 1, bool jump = false) { MoveInDirection(Direction.EAST, times, jump); }
+    public void MoveForward(int times = 1, bool jump = false) { MoveInDirection(direction, times, jump); }
+    public void MoveTowardsPlayer(int times = 1, bool jump = false) { FacePlayer(); MoveForward(times, jump); }
 
     public void StopMovement()
     {
@@ -151,6 +156,11 @@ public class Entity : MonoBehaviour
     public void StartMovement()
     {
         stopped = false;
+    }
+
+    public void SetCollision(bool c)
+    {
+        collisionEnabled = c;
     }
 
     public void FaceDirection(Direction d)
@@ -186,20 +196,35 @@ public class Entity : MonoBehaviour
     public void InitSprites()
     { FaceDirection(direction); }
 
-    public void MoveInDirection(Direction d, int times = 1)
+    public void MoveInDirection(Direction d, int times = 1, bool jump = false)
     {
         //StopAllCoroutines();
-        StartCoroutine(MoveInDirectionCoroutine(d, times));
+        StartCoroutine(MoveInDirectionCoroutine(d, times, jump));
     }
 
-    public IEnumerator MoveInDirectionCoroutine(Direction d, int times = 1)
+    public IEnumerator MoveInDirectionCoroutine(Direction d, int times = 1, bool jump = false)
     {
         isMoving = true;
+
+        if (jump) {
+            isAirborne = true;
+            if(dropShadowRenderer != null) { dropShadowRenderer.enabled = true; }
+        }
+
         FaceDirection(d);
         int t = 0;
 
+        bool upJump = false;
+        
+        int macroIndex = 0;
+
+        int totalHalfLife = times * 8;
+
+        int height = 16;
+
         while (t < times)
         {
+            upJump = !upJump;
 
             if (deterministicMovement)
             {
@@ -219,11 +244,11 @@ public class Entity : MonoBehaviour
 
             Vector3 startingPosition = transform.position;
             Vector3 targetPositionOffset = Direction2Vector(direction);
-
             
-
             for (int i = 0; i < 16; i+=movespeed)
             {
+
+                macroIndex++;
 
                 if(i>4 && i<12)
                 {
@@ -236,9 +261,20 @@ public class Entity : MonoBehaviour
                 Vector3 offset = Vector3.Lerp(Vector3.zero, targetPositionOffset, i / 16f);
                 Vector3 inverseOffset = Vector3.Lerp(targetPositionOffset, Vector3.zero, i / 16f);
 
-                transform.position = startingPosition + offset;
+                //JUMP
+                //int jumpY = 8-Mathf.Abs(i-8);//upJump ? i : 16 - i;
 
-                boxCollider.offset = inverseOffset;
+                int jumpLerpFactor = totalHalfLife-Mathf.Abs(macroIndex - totalHalfLife);
+
+                int jumpY = (int) Mathf.Lerp(0, height, jumpLerpFactor / (totalHalfLife * 2f));
+
+                Vector3 jumpVector = (jump ? Vector3.down * jumpY / 16f : Vector3.zero);
+
+                transform.position = startingPosition + offset + (jump? Vector3.up * jumpY/16f : Vector3.zero);
+
+                boxCollider.offset = inverseOffset + jumpVector;
+
+                if (dropShadowRenderer != null) { dropShadowRenderer.transform.localPosition = jumpVector; }
 
                 yield return new WaitForEndOfFrame();
             }
@@ -254,6 +290,8 @@ public class Entity : MonoBehaviour
         }
 
         isMoving = false;
+        isAirborne = false;
+        if (dropShadowRenderer != null) { dropShadowRenderer.enabled = false; }
     }
 
     public virtual bool CheckCurrentTile()
@@ -263,10 +301,6 @@ public class Entity : MonoBehaviour
         {
             if(collider.CompareTag("Grass"))
             {
-                if(MapSettings.instance.OnGrassShake())
-                {
-                    StopMovement();
-                }
                 ParticleSystemPooler.instance.SpawnParticleSystem("ShakingGrass", transform.position);
                 return true;
             }
@@ -277,6 +311,8 @@ public class Entity : MonoBehaviour
 
     public virtual Collider2D CheckForthTile()
     {
+
+        if(!collisionEnabled) { return null; }
 
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Direction2Vector(direction), 1.0f, collidableLayerMask.value);
 
@@ -297,7 +333,9 @@ public class Entity : MonoBehaviour
     protected void Animation()
     {
         spriteRenderer.sprite = spritesInUse[index];
-        spriteRenderer.sortingOrder = -Mathf.RoundToInt(transform.position.y);
+        if (!setSortOrder) {
+            spriteRenderer.sortingOrder = -Mathf.RoundToInt(transform.position.y);
+        }
     }
 
     public static Vector3 Direction2Vector(Direction d)

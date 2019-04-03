@@ -34,27 +34,45 @@ public class MapSettings : MonoBehaviour
         instance = this;
     }
 
-    
 
-    public bool OnGrassShake()
+
+    public bool TryGrassEncounter()
+    {
+        return TryEncounter(grassEncounters, grassEncounterChance);
+    }
+
+    public bool TryWaterEncounter()
+    {
+        return TryEncounter(waterEncounters, waterEncounterChance);
+    }
+
+    public bool TryRandomEncounter()
+    {
+        return TryEncounter(randomEncounters, randomEncounterChance);
+    }
+
+    private bool TryEncounter(Encounter[] encounters, float encounterChance)
     {
 
-        if(!encountersOn) { return false; }
+        if(encounters.Length <= 0) { return false; }
 
-        if(Random.Range(0f,1f) > grassEncounterChance)
+        if (!encountersOn) { return false; }
+
+        if (Random.Range(0f, 1f) > encounterChance)
         {
             return false;
         }
 
         int r = Random.Range(0, 100);
 
-        foreach(Encounter e in grassEncounters)
+        foreach (Encounter e in encounters)
         {
-            if(r > e.percentageChance)
+            if (r > e.percentageChance)
             {
                 r -= e.percentageChance;
                 continue;
-            } else
+            }
+            else
             {
                 int level = Random.Range(e.minLevel, e.maxLevel);
                 Debug.Log("A wild " + e.pokemonData.name + " appeared! LVL " + level);
