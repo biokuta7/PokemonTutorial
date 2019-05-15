@@ -12,13 +12,18 @@ public class PokemonParty
     {
         foreach (Pokemon p in pokemons)
         {
-            if (p != null && !p.status.Equals(Status.FAINTED))
+            if (p != null && !p.CheckForDeath())
             {
                 return p;
             }
         }
 
         return null;
+    }
+
+    public bool HasUsablePokemon()
+    {
+        return (GetFirstNonFaintedPokemon() != null);
     }
 
     public void InitParty()
@@ -42,5 +47,7 @@ public class PokemonTrainer : MonoBehaviour
     {
         party.InitParty();
     }
+
+
 
 }

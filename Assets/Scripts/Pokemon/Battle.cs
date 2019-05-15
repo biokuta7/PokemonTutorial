@@ -24,6 +24,7 @@ public class Battle : MonoBehaviour {
     [Space(20)]
 
     public GameObject foeParent;
+    public GameObject foePokemonParent;
     public Text foeNameText;
     public Text foeLevelText;
     public Image foeSprite;
@@ -37,6 +38,7 @@ public class Battle : MonoBehaviour {
     [Space(20)]
 
     public GameObject allyParent;
+    public GameObject allyPokemonParent;
     public Text allyNameText;
     public Text allyLevelText;
     public Text allyHealthText;
@@ -83,8 +85,23 @@ public class Battle : MonoBehaviour {
     {
         //FOE
 
-        float foeHPRatio = foePokemon.GetHPRatio();
-        foeHPSlider.value = foeHPRatio;
+        
+        foeHPSlider.minValue = 0;
+        foeHPSlider.maxValue = foePokemon.HP;
+        //foeHPSlider.value = foePokemon.currentHP;
+
+        if(foeHPSlider.value != foePokemon.currentHP)
+        {
+            foeHPSlider.value = Mathf.RoundToInt(foeHPSlider.value + Mathf.Sign(foePokemon.currentHP - foeHPSlider.value));
+
+            if (Mathf.Abs(foePokemon.currentHP - foeHPSlider.value) < 3)
+            {
+                foeHPSlider.value = foePokemon.currentHP;
+            }
+
+        }
+
+        float foeHPRatio = foeHPSlider.value / foePokemon.HP;
 
         if (foeHPRatio > .5f)
         {
@@ -115,12 +132,28 @@ public class Battle : MonoBehaviour {
             else { foeStatusSprite.enabled = false; }
             
         }
+        
         //ALLY
 
         allyHealthText.text = allyPokemon.currentHP + "/" + allyPokemon.HP;
 
-        float allyHPRatio = allyPokemon.GetHPRatio();
-        allyHPSlider.value = allyHPRatio;
+        
+        allyHPSlider.minValue = 0;
+        allyHPSlider.maxValue = allyPokemon.HP;
+        //allyHPSlider.value = allyPokemon.currentHP;
+
+        if (allyHPSlider.value != allyPokemon.currentHP)
+        {
+            allyHPSlider.value = allyHPSlider.value + Mathf.Sign(allyPokemon.currentHP - allyHPSlider.value);
+
+            if(Mathf.Abs(allyPokemon.currentHP - allyHPSlider.value) < 3)
+            {
+                allyHPSlider.value = allyPokemon.currentHP;
+            }
+
+        }
+
+        float allyHPRatio = allyHPSlider.value / allyPokemon.HP;
 
         if (allyHPRatio > .5f)
         {
@@ -150,7 +183,9 @@ public class Battle : MonoBehaviour {
             { allyStatusSprite.enabled = true; allyStatusSprite.sprite = statusSprites[(int)allyPokemon.status]; }
             else { allyStatusSprite.enabled = false; }
 
-            allyXPSlider.value = allyPokemon.GetXPRatio();
+            allyXPSlider.minValue = allyPokemon.GetXPMin();
+            allyXPSlider.maxValue = allyPokemon.GetXPMax();
+            allyXPSlider.value = allyPokemon.XP;
             
         }
 
@@ -165,8 +200,6 @@ public class Battle : MonoBehaviour {
 
     public IEnumerator SingleAttack(Pokemon attacker, Pokemon defender, MoveInSet moveInSet)
     {
-
-        
 
         float accuracyCheck = Random.Range(0,100f);
 
@@ -224,12 +257,13 @@ public class Battle : MonoBehaviour {
         if(damage <= 0)
         {
             yield return StartCoroutine(dialogueManager.WaitForCaughtUpTextAndInput());
-            dialogueManager.AddDialogue("It didn't effect " + defender.name + "...");
+            dialogueManager.AddDialogue("It didn't effect " + defender.GetName() + "...");
             yield break;
         }
 
 
-        yield return StartCoroutine(defender.ModHPCoroutine(-damage));
+        defender.ModHP(-damage);
+        yield return StartCoroutine(WaitForBarsToLoad());
 
         if (criticalHappened) { yield return StartCoroutine(dialogueManager.WaitForCaughtUpTextAndInput()); dialogueManager.AddDialogue("Critical hit!"); }
         if (typeEffectiveness > 1.0f) { yield return StartCoroutine(dialogueManager.WaitForCaughtUpTextAndInput()); dialogueManager.AddDialogue("It was super effective!"); }
@@ -238,6 +272,24 @@ public class Battle : MonoBehaviour {
 
         dialogueManager.DisplayNextSentence();
 
+
+    }
+    
+    private IEnumerator WaitForBarsToLoad()
+    {
+
+        while(
+            Mathf.Abs(allyHPSlider.value - allyPokemon.currentHP) > 1 ||
+            Mathf.Abs(allyXPSlider.value - allyPokemon.XP) > 1 ||
+            Mathf.Abs(foeHPSlider.value - foePokemon.currentHP) > 1)
+        {
+
+            Debug.Log("HP@" + allyHPSlider.value + " " + allyPokemon.currentHP);
+            Debug.Log("XP@" + allyXPSlider.value + " " + allyPokemon.XP);
+            Debug.Log("ENEMY HP@" + foeHPSlider.value + " " + foePokemon.currentHP);
+
+            yield return null;
+        }
 
     }
 
@@ -262,91 +314,163 @@ public class Battle : MonoBehaviour {
 
     IEnumerator BattleHandler()
     {
-
-        allyPokemon = Player.instance.party.GetFirstNonFaintedPokemon();
-
-        dialogueManager.ClearDialogue();
-        dialogueManager.AddDialogue("Foe " + foePokemon.GetName() + " wants to battle!");
         
+        allyPokemon = Player.instance.party.GetFirstNonFaintedPokemon();
+        allyHPSlider.value = allyPokemon.HP;
+        dialogueManager.ClearDialogue();
+        
+        dialogueManager.AddDialogue("Foe " + foePokemon.GetName() + " wants to battle!");
 
-        for (int i = 500; i >= 0; i-=10) {
-
-            foeParent.transform.localPosition = new Vector3(-i, 96, 0);
-            allyParent.transform.localPosition = new Vector3(i, -32, 0);
-            yield return null;
-        }
+        allyParent.transform.localPosition = new Vector3(600, -32, 0);
 
         dialogueManager.DisplayNextSentence();
 
+        foePokemonParent.transform.localPosition = Vector3.zero;
 
-        while (!allyPokemon.CheckForDeath() && !foePokemon.CheckForDeath())
+        for (int i = 600; i >= 0; i-=10) {
+
+            foeParent.transform.localPosition = new Vector3(-i, 96, 0);
+            yield return null;
+        }
+
+        bool partyDead = false;
+
+        while (Player.instance.party.HasUsablePokemon() && !foePokemon.CheckForDeath())
         {
-            int foeRand = Random.Range(0, 4);
-            int allyRand = Random.Range(0, 4);
 
-            Pokemon fasterPokemon;
-            Pokemon slowerPokemon;
+            bool allyDied = false;
+            bool foeDied = false;
 
-            if(allyPokemon.speed > foePokemon.speed)
+            allyParent.transform.localPosition = new Vector3(600, -32, 0);
+            allyPokemon = Player.instance.party.GetFirstNonFaintedPokemon();
+            dialogueManager.AddDialogue("Go, " + allyPokemon.GetName() + "!");
+
+            yield return dialogueManager.WaitForCaughtUpText();
+
+            allyPokemonParent.transform.localPosition = Vector3.zero;
+
+            for (int i = 500; i >= 0; i -= 10)
             {
-                fasterPokemon = allyPokemon;
-                slowerPokemon = foePokemon;
-            } else
-            {
-                fasterPokemon = foePokemon;
-                slowerPokemon = allyPokemon;
+                allyParent.transform.localPosition = new Vector3(i, -32, 0);
+                yield return null;
             }
 
-            yield return StartCoroutine(SingleAttack(fasterPokemon, slowerPokemon, foeRand));
-            
-            if (CheckIfEitherPokemonDied())
+            while (!allyPokemon.CheckForDeath() && !foePokemon.CheckForDeath())
             {
+                int foeRand = Random.Range(0, foePokemon.GetNumberOfMoves());
+                int allyRand = Random.Range(0, allyPokemon.GetNumberOfMoves());
+
+                Pokemon fasterPokemon;
+                Pokemon slowerPokemon;
+
+                if (allyPokemon.speed > foePokemon.speed)
+                {
+                    fasterPokemon = allyPokemon;
+                    slowerPokemon = foePokemon;
+                }
+                else
+                {
+                    fasterPokemon = foePokemon;
+                    slowerPokemon = allyPokemon;
+                }
+
+                yield return StartCoroutine(SingleAttack(fasterPokemon, slowerPokemon, foeRand));
+
                 
+
+                int check = CheckIfEitherPokemonDied();
+
+                if (check != 0)
+                {
+                    allyDied = (check == 1);
+                    foeDied = (check == 2);
+                    break;
+                }
+
+                yield return StartCoroutine(SingleAttack(slowerPokemon, fasterPokemon, allyRand));
+
+                check = CheckIfEitherPokemonDied();
+
+                if (check != 0)
+                {
+                    allyDied = (check == 1);
+                    foeDied = (check == 2);
+                    break;
+                }
+
+            }
+
+            if (foeDied)
+            {
+                int exp = ExperienceCalculation(allyPokemon, foePokemon);
+
+                yield return StartCoroutine(dialogueManager.WaitForCaughtUpTextAndInput());
+
+                for (int i = 0; i < 150; i += 10)
+                {
+                    foePokemonParent.transform.localPosition = new Vector3(0, -i, 0);
+                    yield return null;
+                }
+
+                dialogueManager.AddDialogue(foePokemon.GetName() + " fainted!");
+                yield return StartCoroutine(dialogueManager.WaitForCaughtUpTextAndInput());
+                dialogueManager.AddDialogue(allyPokemon.GetName() + " gained " + exp + " experience points!");
+                yield return StartCoroutine(dialogueManager.WaitForCaughtUpTextAndInput());
+                allyPokemon.ModXP(exp);
+                yield return StartCoroutine(WaitForBarsToLoad());
                 break;
             }
 
-            yield return StartCoroutine(SingleAttack(slowerPokemon, fasterPokemon, allyRand));
-            
-            if (CheckIfEitherPokemonDied())
+            if (allyDied)
             {
-                
-                break;
+
+                yield return StartCoroutine(dialogueManager.WaitForCaughtUpTextAndInput());
+
+                for (int i = 0; i < 150; i += 10)
+                {
+                    allyPokemonParent.transform.localPosition = new Vector3(0, -i, 0);
+                    yield return null;
+                }
+
+                dialogueManager.AddDialogue(allyPokemon.GetName() + " fainted!");
+                yield return StartCoroutine(dialogueManager.WaitForCaughtUpTextAndInput());
+                if(!Player.instance.party.HasUsablePokemon())
+                {
+                    partyDead = true;
+                }
             }
 
+        }
+
+        if(partyDead)
+        {
+            dialogueManager.AddDialogue(Player.instance.name + " is out of usable Pokemon!");
+            dialogueManager.AddDialogue(Player.instance.name + " blacked out!");
+            yield return StartCoroutine(dialogueManager.WaitForCaughtUpTextAndInput());
         }
 
         //dialogueManager.AddDialogue("BATTLE OVER");
-
         
-        if(foePokemon.CheckForDeath())
-        {
-            int exp = ExperienceCalculation(allyPokemon, foePokemon);
-
-            dialogueManager.AddDialogue(allyPokemon.GetName() + " gained " + exp + " experience points!");
-            yield return StartCoroutine(dialogueManager.WaitForCaughtUpTextAndInput());
-            yield return StartCoroutine(allyPokemon.ModXPCoroutine(exp));
-
-        }
-
         PokemonGameManager.instance.EndBattle();
     }
     
-
-    private bool CheckIfEitherPokemonDied()
+    /// <summary>
+    /// Returns 2 for foe death, 1 for player death, 0 for neither
+    /// </summary>
+    /// <returns></returns>
+    private int CheckIfEitherPokemonDied()
     {
         if(foePokemon.CheckForDeath())
         {
-            dialogueManager.AddDialogue(foePokemon.GetName() + " fainted!");
-            return true;
+            return 2;
         }
 
         if (allyPokemon.CheckForDeath())
         {
-            dialogueManager.AddDialogue(allyPokemon.GetName() + " fainted!");
-            return true;
+            return 1;
         }
 
-        return false;
+        return 0;
 
     }
 

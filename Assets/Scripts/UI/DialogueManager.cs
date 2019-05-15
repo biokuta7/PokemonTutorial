@@ -20,6 +20,11 @@ public class DialogueManager : MonoBehaviour
 
     private string colorString = "black";
 
+    public Text[] choiceTexts;
+    public Image choicer;
+    private int choice = 0;
+    
+
     private void Awake()
     {
         instance = this;
@@ -108,6 +113,7 @@ public class DialogueManager : MonoBehaviour
     public void ClearDialogue()
     {
         sentences.Clear();
+        dialogueText.text = "";
     }
 
     public void DisplayNextSentence()
@@ -131,8 +137,6 @@ public class DialogueManager : MonoBehaviour
     IEnumerator DialogueRead(string target)
     {
         currentlyReadingDialogue = true;
-
-        Debug.Log(colorString);
 
         for (int i = 0; i < target.Length+1; i++)
         {
@@ -168,6 +172,38 @@ public class DialogueManager : MonoBehaviour
     {
         while (!Input.GetButtonDown("Fire1") || !AllCaughtUp())
             yield return null;
+    }
+
+    //CHOICE
+    
+    public int StartChoice()
+    {
+        StartCoroutine(ChoiceEnumerator());
+        return choice;
+    }
+
+    public IEnumerator ChoiceEnumerator()
+    {
+        
+        if(Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            choice++;
+        }
+
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            choice--;
+        }
+
+        choice = Mathf.Clamp(choice, 0, 4);
+
+        choicer.transform.localPosition = new Vector3(48, 64 + (32 * choice), 0);
+
+        while (!Input.GetButtonDown("Fire1"))
+            yield return null;
+
+
+
     }
 
 }

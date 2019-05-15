@@ -85,7 +85,7 @@ public class PokemonGameManager : MonoBehaviour
 
         yield return StartCoroutine(Fade(true, true));
 
-
+        dialogueManager.SetColor("");
         battleCamera.enabled = true;
         //overworld.SetActive(false);
         battle.foePokemon.pokemonData = pokemon;

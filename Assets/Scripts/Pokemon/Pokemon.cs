@@ -111,7 +111,7 @@ public class NatureData
 }
 
 [System.Serializable]
-public class Pokemon : MonoBehaviour {
+public class Pokemon {
     
     public PokemonData pokemonData;
 
@@ -316,70 +316,36 @@ public class Pokemon : MonoBehaviour {
 
     public float GetHPRatio() { return (float)currentHP / HP; }
     public float GetXPRatio() { return (float)(XP - previousLevelXP) / (nextLevelXP - previousLevelXP); }
+    public float GetXPMin() { return (float)previousLevelXP; }
+    public float GetXPMax() { return (float)nextLevelXP; }
+
+    public int GetNumberOfMoves()
+    {
+        for(int i = 0; i < 4; i++)
+        {
+            if(moveset[i] == null || moveset[i].move == null)
+            {
+                return i;
+            }
+        }
+        return 4;
+    }
 
     public bool IsType(PokemonTypeData type)
     {
         return (type.Equals(pokemonData.type1) || type.Equals(pokemonData.type2));
     }
 
-    public void ModHP(int amount, bool instant = false)
+    public void ModHP(int amount)
     {
-        if (instant)
-            currentHP += amount;
-        else
-        {
-            StartCoroutine(ModHPCoroutine(amount));
-        }
-
-        currentHP = Mathf.Clamp(currentHP, 0, HP);
-
-    }
-
-    public IEnumerator ModHPCoroutine(int amount)
-    {
-        for(int i = 0; i < Mathf.Abs(amount); i++)
-        {
-            currentHP += (int)Mathf.Sign(amount);
-
-            if(currentHP>=HP || currentHP <= 0)
-            {
-                break;
-            } else
-            {
-                yield return new WaitForEndOfFrame();
-            }
-        }
+        currentHP = Mathf.Clamp(currentHP + amount, 0, HP);
     }
 
     public void ModXP(int amount, bool instant = false)
     {
         amount = Mathf.Abs(amount);
-        if (instant)
-        {
-            XP += amount; CheckForLevelUp();
-        }
-        else
-        {
-            StartCoroutine(ModXPCoroutine(amount));
-        }
-    }
-
-    public IEnumerator ModXPCoroutine(int amount)
-    {
-        for (int i = 0; i < amount; i++)
-        {
-            XP++;
-
-            if (CheckForLevelUp())
-            {
-                Debug.Log("LEVELUP!");
-            }
-
-            if (i % 100 == 0)
-            {
-                yield return new WaitForEndOfFrame();
-            }
-        }
+        XP += amount; CheckForLevelUp();
+        
     }
 
     public void AfflictStatus(Status s)
